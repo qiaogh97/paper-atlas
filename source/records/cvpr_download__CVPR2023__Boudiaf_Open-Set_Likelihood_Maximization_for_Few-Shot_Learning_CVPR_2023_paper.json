@@ -1,0 +1,69 @@
+{
+  "paper": "cvpr_download/CVPR2023/Boudiaf_Open-Set_Likelihood_Maximization_for_Few-Shot_Learning_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Open-Set Likelihood Maximization for Few-Shot Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "mini-ImageNet",
+      "role": "benchmark",
+      "anchor": "methodsontheFSOSRproblemonmini-ImageNetandtiered-ImageNet",
+      "line": 391
+    },
+    {
+      "name": "tiered-ImageNet",
+      "role": "benchmark",
+      "anchor": "oftransductivemethodsdependingonthesizeofthequerysetontiered-ImageNetinthe1-shotand5-shotsettings",
+      "line": 560
+    },
+    {
+      "name": "Caltech-UCSD Birds 200 (CUB)",
+      "role": "benchmark",
+      "anchor": "3finer-graineddatasets: theCaltech-UCSDBirds200[44]",
+      "line": 532
+    },
+    {
+      "name": "FGVC-Aircraft",
+      "role": "benchmark",
+      "anchor": "(CUB)dataset,with200classes,theFGVC-Aircraftdataset",
+      "line": 533
+    },
+    {
+      "name": "Fungi",
+      "role": "benchmark",
+      "anchor": "[25]with100classes,andtheFungiclassificationchallenge",
+      "line": 534
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "toanadditionalsetof10ImageNetpre-trainedmodelscov-",
+      "line": 519
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Acc",
+      "anchor": "(ii)Optimizationsteps Acc AUROC",
+      "line": 580
+    },
+    {
+      "name": "AUROC",
+      "anchor": "Westudytheclosed-set(accuracy)andopen-set(AUROC)performance",
+      "line": 559
+    },
+    {
+      "name": "AUPR",
+      "anchor": "AUPRwiththesecond-bestmethodcanbeobserved.",
+      "line": 596
+    },
+    {
+      "name": "Prec@0.9",
+      "anchor": "| Acc AUROC   | AUPR Prec@0.9 | Acc AUROC   | AUPR Prec@0.9 |",
+      "line": 398
+    }
+  ],
+  "notes": "mini-ImageNet(100类)与 tiered-ImageNet(608类)为标准 FSC 基准（同时其训练split用于 ResNet-12/Wide-ResNet 特征提取器训练，主导角色仍为测试基准，故仅记 benchmark）；CUB、FGVC-Aircraft、Fungi 为跨域细粒度评测基准（tiered->CUB/Aircraft/Fungi 场景）。ImageNet 单列为 pretrain：模型无关性实验另用 10 个 ImageNet 预训练模型（ResNet-50/ViT-B/16/Mixer-B/16）；Fig.4 中 checkpoint 标签还含 IN21k、LAION-400M、YFCC100M、IG-1B 等预训练语料，仅作模型标签描述，未单列。指标照抄表格原名：Acc（即 closed-set accuracy）、AUROC、AUPR、Prec@0.9（原文未展开其定义，疑为 precision@recall=0.9，按缩写保留）。正文提及附录/补充材料的额外实验（Wide-ResNet、更一般 open-set 采样、消融扩展），但本文件止于参考文献，无附录内容。全文为双栏 OCR 转录、空格缺失，名称字段中已恢复常规空格，锚点按文件原文逐字保留。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Boudiaf_Open-Set_Likelihood_Maximization_for_Few-Shot_Learning_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

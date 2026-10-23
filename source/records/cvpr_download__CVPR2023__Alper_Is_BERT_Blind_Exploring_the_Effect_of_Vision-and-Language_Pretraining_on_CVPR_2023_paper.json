@@ -1,0 +1,91 @@
+{
+  "paper": "cvpr_download/CVPR2023/Alper_Is_BERT_Blind_Exploring_the_Effect_of_Vision-and-Language_Pretraining_on_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Is BERT Blind? Exploring the Effect of Vision-and-Language Pretraining on Visual Language Understanding",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Brysbaert et al. concreteness dataset",
+      "role": "benchmark",
+      "anchor": "WetestourapproachonthedatasetintroducedbyBrys-",
+      "line": 329
+    },
+    {
+      "name": "Color Terms Dataset (CTD)",
+      "role": "benchmark",
+      "anchor": "TheColorTermsDataset(CTD)[6]provides",
+      "line": 405
+    },
+    {
+      "name": "Natural Color Dataset (NCD)",
+      "role": "benchmark",
+      "anchor": "Color Dataset (NCD) of fruit images [2] is a colorization",
+      "line": 409
+    },
+    {
+      "name": "ShapeIt",
+      "role": "benchmark",
+      "anchor": "We construct the ShapeIt bench-",
+      "line": 367
+    },
+    {
+      "name": "Comparative Question Completion dataset",
+      "role": "benchmark",
+      "anchor": "tiveQuestionCompletiondatasetintroducedby[71].",
+      "line": 444
+    },
+    {
+      "name": "Children’s Book Test (CBT)",
+      "role": "benchmark",
+      "anchor": "we use the Children’s Book Test (CBT) cloze dataset pro-",
+      "line": 438
+    },
+    {
+      "name": "IMDB movie review dataset",
+      "role": "benchmark",
+      "anchor": "moviereviewdatasetconsistingof50Kmoviereviewswith",
+      "line": 504
+    },
+    {
+      "name": "LAION",
+      "role": "other",
+      "anchor": "weprovideananalysisofreportingbiasintheLAION",
+      "line": 654
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Pearson correlation",
+      "anchor": "WereportabsolutevaluesofPearson,",
+      "line": 350
+    },
+    {
+      "name": "Spearman correlation",
+      "anchor": "| Spearman, | and Kendall |",
+      "line": 353
+    },
+    {
+      "name": "Kendall correlation",
+      "anchor": "| Spearman, | and Kendall |",
+      "line": 353
+    },
+    {
+      "name": "categorical accuracy",
+      "anchor": "Wereportcategoricalaccuracyofpre-",
+      "line": 408
+    },
+    {
+      "name": "R@1",
+      "anchor": "Wereportrecallatoneandfive(R@1,",
+      "line": 491
+    },
+    {
+      "name": "R@5",
+      "anchor": "R@5), measuring how often the ground truth answer is",
+      "line": 492
+    }
+  ],
+  "notes": "正文提及补充材料包含对 LAION 数据集(OpenCLIP 训练数据)的 reporting bias 分析,但该 markdown 全文只含正文与参考文献、不含补充材料,故 LAION 记为 other 且无法进一步核验附录用途。Brysbaert 具体性数据集论文未正式命名,按引文称谓记录(39,954 个英文 uni/bigram 人工具体性打分,实验仅用其中 14,562 个 unigram 名词做零样本测试)。ShapeIt 为作者自建形状关联基准(109 项,经用户研究构建),既为构建对象也是测试基准,按 benchmark 记。Comparative Question Completion dataset 实际测试用其 cities 子集(过滤后 825 题)。相关工作中的 GLUE 等仅用于排除,未计入。指标:Pearson/Spearman/Kendall 原文以绝对值报告,Table 1 中 OCR 后记为 |ρ|、|r_s|、|τ|(下标有损,未在原文展开);categorical accuracy 各任务统一以缩写 acc 报告,含按任务变体 acc CTD、acc NCD、acc(形状/情感)及按词性变体 acc V、acc N、acc P,视为同一指标未拆分;R@1/R@5 为 factual knowledge probing 的 recall@1/recall@5。全文存在 OCR 空格缺失,锚点照抄原文(含缺失空格、表格竖线与弯引号)。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Alper_Is_BERT_Blind_Exploring_the_Effect_of_Vision-and-Language_Pretraining_on_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

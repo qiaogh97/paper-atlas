@@ -1,0 +1,67 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_Making_Vision_Transformers_Efficient_From_a_Token_Sparsification_View_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Making Vision Transformers Efficient from A Token Sparsification View",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "trained on | the ImageNet | [13]",
+      "line": 296
+    },
+    {
+      "name": "ImageNet-1K",
+      "role": "pretrain",
+      "anchor": "Allthemodelsarepre-trainedonImageNet-1K.",
+      "line": 572
+    },
+    {
+      "name": "Kinetics-400",
+      "role": "benchmark",
+      "anchor": "ImageNet-1KandtrainedonKinetics-400[7].",
+      "line": 509
+    },
+    {
+      "name": "COCO 2017",
+      "role": "benchmark",
+      "anchor": "segmentationareconductedonCOCO2017[25].",
+      "line": 533
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Top-1 accuracy",
+      "anchor": "uation, the top-1 accuracy using a single crop is reported.",
+      "line": 321
+    },
+    {
+      "name": "FLOPs",
+      "anchor": "TheFLOPscomputationsofthispaperaremeasuredbyFv-",
+      "line": 323
+    },
+    {
+      "name": "Throughput",
+      "anchor": "Throughput is measured with the batch size of 128",
+      "line": 325
+    },
+    {
+      "name": "FPS",
+      "anchor": "arereported.SpeedisevaluatedbyFPS.",
+      "line": 575
+    },
+    {
+      "name": "AP^b",
+      "anchor": "APb 51.8 51.4 51.6",
+      "line": 608
+    },
+    {
+      "name": "AP^m",
+      "anchor": "APm  | APm  | APm  | FLOPs(G)",
+      "line": 547
+    }
+  ],
+  "notes": "全文为 OCR 转录，大量缺空格（如 ImageNet-1Kandtrainedon...），锚点均逐字保留原文形态。ImageNet 拆两条：作为图像分类主实验（DeiT/Swin 训练与评测）为 benchmark；ImageNet-1K 作为视频识别（Video Swin/Kinetics-400）与 COCO 检测骨干的预训练权重来源为 pretrain。COCO 2017 原文 OCR 无空格写作 COCO2017。指标方面：表格中 Top-1 准确率写作 Top-1Acc(%)；视频实验的 Speed 以 FPS 计；COCO 检测的上标记法被 OCR 拍平为 APb/APm（即 box AP 与 mask AP），Table 5 另含阈值/尺度变体 AP^b_50、AP^b_75、AP^b_s、AP^m_50、AP^m_75、AP^m_s，因 OCR 拍平无法逐字锚定故并入说明而不单列；Table 4 中 delta 为准确率差值（准确度差），非独立指标未单列。正文提及的 Supplementary A.3（LV-ViT 结果）、A.5、A.7 未包含在本全文文件内（文件止于参考文献），故无附录条目。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_Making_Vision_Transformers_Efficient_From_a_Token_Sparsification_View_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

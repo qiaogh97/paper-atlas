@@ -1,0 +1,97 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_RIAV-MVS_Recurrent-Indexing_an_Asymmetric_Volume_for_Multi-View_Stereo_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "RIAV-MVS: Recurrent-Indexing an Asymmetric Volume for Multi-View Stereo",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ScanNet",
+      "role": "benchmark",
+      "anchor": "ScanNet[15]usingtheofficialtrainingsplit.",
+      "line": 489
+    },
+    {
+      "name": "DTU",
+      "role": "benchmark",
+      "anchor": "Table5.3-viewvs.5-viewtrainingandtestingonDTU[27].",
+      "line": 618
+    },
+    {
+      "name": "7-Scenes",
+      "role": "benchmark",
+      "anchor": "Weselect13sequencesfrom7-Scenesforzero-shotgener-",
+      "line": 502
+    },
+    {
+      "name": "RGB-D Scenes V2",
+      "role": "benchmark",
+      "anchor": "Table2.Zero-shotgeneralizationfromScanNet[15]to7-scenes[20]andRGB-DScenesV2[32].Ourmethodsachievebettergeneraliza-",
+      "line": 561
+    }
+  ],
+  "metrics": [
+    {
+      "name": "abs-rel",
+      "anchor": "relativeerror(abs-rel), meanabsoluteerror(abs), squared",
+      "line": 528
+    },
+    {
+      "name": "abs",
+      "anchor": "meanabsoluteerror(abs)",
+      "line": 528
+    },
+    {
+      "name": "sq-rel",
+      "anchor": "relativeerror(sq-rel),rootmeansquareerrorinlinearscale",
+      "line": 529
+    },
+    {
+      "name": "rmse",
+      "anchor": "rootmeansquareerrorinlinearscale",
+      "line": 529
+    },
+    {
+      "name": "rmse-log",
+      "anchor": "(rmse) and log scale (rmse-log), and inlier ratios under",
+      "line": 530
+    },
+    {
+      "name": "δ<1.25",
+      "anchor": "thresholds of σ <1.25/1.252/1.253. Tab. 1 shows the re-",
+      "line": 531
+    },
+    {
+      "name": "δ<1.252",
+      "anchor": "abs-rel abs sq-rel rmse rmse-log δ<1.25 δ<1.252 abs-rel abs rmse",
+      "line": 537
+    },
+    {
+      "name": "δ<1.253",
+      "anchor": "metricsareδ <1.25/1.252/1.253. Here-FT denotesfinetunedon",
+      "line": 551
+    },
+    {
+      "name": "Time(fps)",
+      "anchor": "Time(fps) | Mem.(MB) | Param.(M)",
+      "line": 622
+    },
+    {
+      "name": "Mem.(MB)",
+      "anchor": "Time(fps) | Mem.(MB) | Param.(M)",
+      "line": 622
+    },
+    {
+      "name": "Param.(M)",
+      "anchor": "Time(fps) | Mem.(MB) | Param.(M)",
+      "line": 622
+    },
+    {
+      "name": "abs-err",
+      "anchor": "Theabs-errerrors(inmeters)areimposedonthedepthmapsforcomparison.",
+      "line": 611
+    }
+  ],
+  "notes": "四个数据集均为测试基准：ScanNet 与 DTU 为训练+测试的 within-dataset 主基准（ScanNet 用官方训练划分 279k 训练样本，DTU 27k 训练/1k 测试样本）；7-Scenes（选 13 条序列）与 RGB-D Scenes V2（选 8 条序列）仅作为 ScanNet 训练模型的零样本泛化测试基准，无预训练或构建来源角色。δ 阈值系列原论文为上标 δ<1.25/1.25²/1.25³，本 OCR 文本中上标被拉平为 1.252/1.253，名称按文件字面保留。Table 6 效率指标 Time(fps)/Mem.(MB)/Param.(M) 与 Fig.3 说明中的 abs-err（叠加在深度图上对比）一并计入。全文 OCR 普遍缺空格（如 RGB-DScenesV2），锚点按文件字面复制；无附录补充实验；相关工作提到的数据集（如 7-Scenes 引用[20]等）仅用于排除。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_RIAV-MVS_Recurrent-Indexing_an_Asymmetric_Volume_for_Multi-View_Stereo_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

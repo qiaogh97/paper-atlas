@@ -1,0 +1,46 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "TheexperimentisimplementedontheCIFAR-10dataset",
+      "line": 333
+    },
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "VGG-11 CIFAR-100 Direct 8 0.9 - FGSM 73.28 92.8766 94.7189 80.8952 84.2658",
+      "line": 550
+    },
+    {
+      "name": "CIFAR10-DVS",
+      "role": "benchmark",
+      "anchor": "VGG-11 CIFAR10-DVS Frame 10 0.9 - FGSM 77.00 59.5084 59.5607 48.4967 47.9275",
+      "line": 554
+    }
+  ],
+  "metrics": [
+    {
+      "name": "attack success rate",
+      "anchor": "ASR.isshortforattacksuccessrate.Forclarity,thebetterofthetwoattackresultsisbolded.",
+      "line": 557
+    },
+    {
+      "name": "Clean Acc.",
+      "anchor": "Clean\nArchitecture Dataset Input T λ TE Attack\nAcc. ASR. ASR. ASR. ASR.",
+      "line": 532
+    },
+    {
+      "name": "Shuffled Acc.",
+      "anchor": "In this section, we first show that the current high- Method Acc. Acc.",
+      "line": 284
+    }
+  ],
+  "notes": "三个数据集(CIFAR-10/CIFAR-100/CIFAR10-DVS)均为攻击评测的主实验基准(VGG-11、ResNet-17 模型的训练与攻击测试),故均为 benchmark;CIFAR-10 与 CIFAR10-DVS 另用于 4.1 节 spike shuffle 实验,仍属评测用途,不拆角色。指标 attack success rate 在表格中缩写为 ASR.,表 2 图注给出全称;Clean Acc./Shuffled Acc. 为表 1、表 2 表头,OCR 双栏转录将表头拆行,锚点用跨行连续子串覆盖其出现处。正文多处提及训练配置与消融详见 Appendix,但转录文本止于参考文献(末页 7906),附录内容未包含。markdown 转录存在双栏串行与空格缺失(OCR 痕迹),锚点均按原样逐字复制并已核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

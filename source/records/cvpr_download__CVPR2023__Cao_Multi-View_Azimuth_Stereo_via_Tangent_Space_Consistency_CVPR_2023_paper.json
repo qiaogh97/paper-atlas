@@ -1,0 +1,40 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Multi-View_Azimuth_Stereo_via_Tangent_Space_Consistency_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Multi-View Azimuth Stereo via Tangent Space Consistency",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DiLiGenT-MV",
+      "role": "benchmark",
+      "anchor": "DiLiGenT-MV [21] captures 20 views under 96 different",
+      "line": 437
+    },
+    {
+      "name": "multi-view polarization image dataset",
+      "role": "qualitative",
+      "anchor": "normalreconstructiononthemulti-viewpolarizationimage",
+      "line": 611
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Chamfer distance (CD)",
+      "anchor": "Table2.(Top)Chamferdistance(↓)and(Bottom)F-score(↑)[18,",
+      "line": 532
+    },
+    {
+      "name": "F-score",
+      "anchor": "error(MAE)fornormalaccuracy[41].ForCDandF-score,",
+      "line": 449
+    },
+    {
+      "name": "mean angular error (MAE)",
+      "anchor": "Table3. Meanangularerror(↓)ofrecoverednormalmaps[21],",
+      "line": 565
+    }
+  ],
+  "notes": "DiLiGenT-MV 为 Sec.4.1 主定量基准（Table 2 几何、Table 3 法向，15 视角优化/5 视角测试），记 benchmark。Sec.4.3 使用 Zhao et al. [7]（PANDORA，ECCV 2020）发布的 multi-view polarization image dataset，仅 Figure 11 定性比较、无定量指标，记 qualitative；原文未给该数据集独立命名，按论文写法照抄。Sec.4.2 对称光实验用自建旋转台拍摄数据（约 30 视角×5 图），未命名，不计入。指标共 3 个：Chamfer distance (CD)、F-score、mean angular error (MAE)，缩写均在原文展开。全文仅含正文与参考文献，无附录；相关工作中的数据集仅用于排除未收录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Multi-View_Azimuth_Stereo_via_Tangent_Space_Consistency_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,80 @@
+{
+  "paper": "cvpr_download/CVPR2023/Barath_Finding_Geometric_Models_by_Clustering_in_the_Consensus_Space_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Finding Geometric Models by Clustering in the Consensus Space",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "AdelaideRMF",
+      "role": "benchmark",
+      "anchor": "Two-viewmotionfittingistestedontheAdelaideRMFmo-",
+      "line": 516
+    },
+    {
+      "name": "Hopkins",
+      "role": "benchmark",
+      "anchor": "Motionsegmentationistestedon155videosoftheHopkins",
+      "line": 509
+    },
+    {
+      "name": "1DSfM",
+      "role": "benchmark",
+      "anchor": "We downloaded the 1DSfM dataset [64] and applied",
+      "line": 617
+    },
+    {
+      "name": "GLD-v1",
+      "role": "pretrain",
+      "anchor": "pre-trainedonGLD-v1dataset[39].Thenwe",
+      "line": 629
+    },
+    {
+      "name": "KITTI odometry",
+      "role": "benchmark",
+      "anchor": "tion4.2,wedownloadedtheKITTIodometrydataset[17],",
+      "line": 666
+    },
+    {
+      "name": "TbD",
+      "role": "benchmark",
+      "anchor": "The TbD dataset is simpler since it contains",
+      "line": 698
+    },
+    {
+      "name": "TbD-3D",
+      "role": "benchmark",
+      "anchor": "TheTbD-3Ddatasetismorechal-",
+      "line": 702
+    }
+  ],
+  "metrics": [
+    {
+      "name": "misclassification error (ME)",
+      "anchor": "error is the misclassification error (ME), i.e., the ratio of",
+      "line": 446
+    },
+    {
+      "name": "run-time (secs)",
+      "anchor": "theirstd.andtherun-times(secs)ontwo-viewmotionandhomography",
+      "line": 466
+    },
+    {
+      "name": "relative rotation ϵ_R and translation ϵ_t errors",
+      "anchor": "Relativerotationϵ andtranslationϵ errors(◦)on435k",
+      "line": 556
+    },
+    {
+      "name": "rotation ϵ_R and position ϵ_p errors",
+      "anchor": "RotationandpositionerrorsoftheglobalSfMimplemented",
+      "line": 576
+    },
+    {
+      "name": "accuracy (px)",
+      "anchor": "The avg. and std. accuracy (px) and run-time (secs) of",
+      "line": 655
+    }
+  ],
+  "notes": "OCR 转录存在空格缺失与上下标丢失，所有锚点按文件原文逐字照抄。AdelaideRMF 拆为单应(19 对)与两视图运动(19 对)两个子集用于表1，图3 定性场景亦取自该数据集，统一记 benchmark；Hopkins 155 序列做运动分割(表1)。1DSfM 用于相对位姿估计(表2，43.5 万图像对)与全局 SfM 重建(表3)。GLD-v1 仅作 ResNet-50(GeM 描述子)预训练，记 pretrain。KITTI odometry 用于广义相机位姿(表4，23190 帧对；表4 题注简称 KITTI dataset，与正文同一实验，未重复单列)。TbD 与 TbD-3D 为快速运动物体轨迹数据集(表5 的 Easy/Challenging 两栏)。ViennaCathedral 仅为 1DSfM 中图5 定性示例场景，未单列。指标：ME 为主指标；run-time 在表1/表5 报告；ϵ_R/ϵ_t 为相对旋转/平移角误差(度)；ϵ_R/ϵ_p 为 SfM 与广义相机位姿的旋转/位置误差(度/米)，名称中下标按正文公式 ϵ_R、ϵ_t、ϵ_p 补写；accuracy (px) 为表5 轨迹拟合误差(正文定义为到最近拟合线段的平均 L2 距离)。正文多处提及 supp.material，但本全文文件不含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Barath_Finding_Geometric_Models_by_Clustering_in_the_Consensus_Space_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

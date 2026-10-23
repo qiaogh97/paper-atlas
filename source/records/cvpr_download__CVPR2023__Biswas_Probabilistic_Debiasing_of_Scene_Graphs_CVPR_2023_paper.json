@@ -1,0 +1,45 @@
+{
+  "paper": "cvpr_download/CVPR2023/Biswas_Probabilistic_Debiasing_of_Scene_Graphs_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Probabilistic Debiasing of Scene Graphs",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Visual Genome",
+      "role": "benchmark",
+      "anchor": "databaseistheVisualGenome(VG)[13]andfromtheorig-",
+      "line": 473
+    },
+    {
+      "name": "GQA",
+      "role": "benchmark",
+      "anchor": "(2) GQA: GQA [10] is a refined dataset derived from",
+      "line": 481
+    }
+  ],
+  "metrics": [
+    {
+      "name": "R@K",
+      "anchor": "throughrecall(R@K)andmeanrecall(mR@K).R@Kof",
+      "line": 520
+    },
+    {
+      "name": "mR@K",
+      "anchor": "throughrecall(R@K)andmeanrecall(mR@K).R@Kof",
+      "line": 520
+    },
+    {
+      "name": "ZSR@100",
+      "anchor": "ZSR@100 |     | ZSmR@100",
+      "line": 590
+    },
+    {
+      "name": "ZSmR@100",
+      "anchor": "ZSR@100 |     | ZSmR@100",
+      "line": 590
+    }
+  ],
+  "notes": "VG 与 GQA 均为主实验测试基准（Sect. 6.1 'two datasets'），GQA 虽由 VG 图像精炼而来，但论文将其作为独立评测基准使用，未拆 construction 角色。R@K/mR@K 为未展开缩写（recall/mean recall @K），表中以 R@50/100、mR@50/100 变体报告；Table 2/3 表头拼作 MeanR@K、Table 5 表头拼作 Recall@K/MeanRecal@K（原文拼写如此），与 R@K/mR@K 为同一指标已归并。ZSR@100/ZSmR@100 为 Table 6 的 zero-shot recall 指标（对应 Sect. 7.2.4 分析）。IoU>=50% 仅作三元组匹配判据，未计为指标。附录仅以 supplementary material 形式被引用，未包含在本文件中。markdown 转录空格缺失（OCR 痕迹），全文无空格形式如 VisualGenome，锚点均按原样逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Biswas_Probabilistic_Debiasing_of_Scene_Graphs_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

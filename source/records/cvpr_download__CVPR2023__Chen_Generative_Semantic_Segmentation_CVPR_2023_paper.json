@@ -1,0 +1,80 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_Generative_Semantic_Segmentation_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "Generative Semantic Segmentation",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "Cityscapes",
+   "role": "benchmark",
+   "anchor": "Cityscapes[11] providespixel-levelannotationsfor19ob-"
+  },
+  {
+   "name": "ADE20K",
+   "role": "benchmark",
+   "anchor": "ADE20K[57] | isachallengingbenchmarkforsceneparsing"
+  },
+  {
+   "name": "MSeg",
+   "role": "benchmark",
+   "anchor": "Cross-domainsemanticsegmentationperformanceonMSegdatasettestsplit"
+  },
+  {
+   "name": "VOC",
+   "role": "benchmark",
+   "anchor": "Method Backbone Iteration VOC[16] Context[36] CamVid[1] WildDash[53] KITTI[18] ScanNet[12] h.mean"
+  },
+  {
+   "name": "Context",
+   "role": "benchmark",
+   "anchor": "Method Backbone Iteration VOC[16] Context[36] CamVid[1] WildDash[53] KITTI[18] ScanNet[12] h.mean"
+  },
+  {
+   "name": "CamVid",
+   "role": "benchmark",
+   "anchor": "Method Backbone Iteration VOC[16] Context[36] CamVid[1] WildDash[53] KITTI[18] ScanNet[12] h.mean"
+  },
+  {
+   "name": "WildDash",
+   "role": "benchmark",
+   "anchor": "Method Backbone Iteration VOC[16] Context[36] CamVid[1] WildDash[53] KITTI[18] ScanNet[12] h.mean"
+  },
+  {
+   "name": "KITTI",
+   "role": "benchmark",
+   "anchor": "Method Backbone Iteration VOC[16] Context[36] CamVid[1] WildDash[53] KITTI[18] ScanNet[12] h.mean"
+  },
+  {
+   "name": "ScanNet",
+   "role": "benchmark",
+   "anchor": "Method Backbone Iteration VOC[16] Context[36] CamVid[1] WildDash[53] KITTI[18] ScanNet[12] h.mean"
+  },
+  {
+   "name": "ImageNet1K",
+   "role": "pretrain",
+   "anchor": "trainedonImageNet1K[13]while“22K”meanspretrainedon"
+  },
+  {
+   "name": "ImageNet22K",
+   "role": "pretrain",
+   "anchor": "meanspretrainedon\nImageNet22K[13]."
+  }
+ ],
+ "metrics": [
+  {
+   "name": "mIoU",
+   "anchor": "(mIoU)andpixel-levelaccuracy(mAcc)arereportedforall"
+  },
+  {
+   "name": "mAcc",
+   "anchor": "(mIoU)andpixel-levelaccuracy(mAcc)arereportedforall"
+  },
+  {
+   "name": "h. mean",
+   "anchor": "Cross-domainsemanticsegmentationperformanceonMSegdatasettestsplit. “h. mean”istheharmonicmean[26]"
+  }
+ ],
+ "notes": "Cityscapes/ADE20K 为单域语义分割主基准(Table 1-5 消融与对比,均用 val split);MSeg 为跨域基准(Table 6,train split 训练、test split 跨域评测),Table 7 将 MSeg 学到的 maskige 迁回 Cityscapes val。VOC、Context、CamVid、WildDash、KITTI、ScanNet 为 MSeg 跨域测试协议(Table 6)的六个组成评测域,按表头缩写照抄(Context 即 PASCAL Context,VOC 即 PASCAL VOC,原文未展开全名)。ImageNet1K/ImageNet22K 为 backbone 预训练数据(Table 4/5 “1K/22K”列),非评测基准。指标 mIoU/mAcc 原文即缩写形式(mean Intersection over Union / pixel-level accuracy 未单独展开);h. mean 为 MSeg 协议的 harmonic mean。GPU hours 训练时间成本(Table 1/2)未计入指标。定性图 Figure 4/5/6 亦在 Cityscapes/ADE20K 上展示,不单列 qualitative 角色。引言/相关工作中的 DALL·E 300M open-image dataset、face parts、Chest X-ray 等仅为背景,未计入。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Generative_Semantic_Segmentation_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

@@ -1,0 +1,123 @@
+{
+  "paper": "cvpr_download/CVPR2023/Asokan_Spider_GAN_Leveraging_Friendly_Neighbors_To_Accelerate_GAN_Training_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Spider GAN: Leveraging Friendly Neighbors to Accelerate GAN Training",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MNIST",
+      "role": "benchmark",
+      "anchor": "whenlearningMNISTimageswithFashion-MNISTasin-",
+      "line": 432
+    },
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "CIFAR-10,andUkiyo-EFacesdatasets.Thefirst",
+      "line": 511
+    },
+    {
+      "name": "Ukiyo-E Faces",
+      "role": "benchmark",
+      "anchor": "datasetssuchasMetFaces,Ukiyo-EFacesandAFHQ-Cats.",
+      "line": 69
+    },
+    {
+      "name": "MetFaces",
+      "role": "benchmark",
+      "anchor": "onsmalldatasets,specificallythe1024-MetFacesand1024-",
+      "line": 601
+    },
+    {
+      "name": "FFHQ",
+      "role": "benchmark",
+      "anchor": "Ukiyo-EFacesdatasets,andhigh-resolutionFFHQ.Wecon-",
+      "line": 602
+    },
+    {
+      "name": "AFHQ-Cats",
+      "role": "benchmark",
+      "anchor": "astate-of-the-artFIDof3.07onAFHQ-Cats,inafourthof",
+      "line": 575
+    },
+    {
+      "name": "MNIST",
+      "role": "other",
+      "anchor": "| MNIST |     | –   | –   |     | – 71.70 | 0.0535 | 21.83 | 68.87 | 0.0438 |     | 33.13 |",
+      "line": 526
+    },
+    {
+      "name": "CIFAR-10",
+      "role": "other",
+      "anchor": "transformingeitherCIFAR-10orCelebAtoUkiyo-EFaces",
+      "line": 478
+    },
+    {
+      "name": "Ukiyo-E Faces",
+      "role": "other",
+      "anchor": "| Ukiyo-E |     | 18.72 | 0.0122 | 19.35 | 67.80 | 0.0463 | 19.90 |     | –   | –   | –   |",
+      "line": 534
+    },
+    {
+      "name": "Fashion-MNIST",
+      "role": "other",
+      "anchor": "allmetricsidentifyFashion-MNISTasafriendlyneighbor",
+      "line": 420
+    },
+    {
+      "name": "SVHN",
+      "role": "other",
+      "anchor": "Tiny-ImageNetandSVHNareclosesttoCIFAR-10",
+      "line": 402
+    },
+    {
+      "name": "Tiny-ImageNet",
+      "role": "other",
+      "anchor": "following two distributions (a) Tiny-ImageNet, based on",
+      "line": 604
+    },
+    {
+      "name": "CelebA",
+      "role": "other",
+      "anchor": "andCelebAareconsistentlyfriendlyneighborstomultiple",
+      "line": 408
+    },
+    {
+      "name": "LSUN-Churches",
+      "role": "other",
+      "anchor": "CIFAR-10[44],Tiny-ImageNet[45],LSUN-Churches[46],",
+      "line": 128
+    },
+    {
+      "name": "AFHQ-Dogs",
+      "role": "other",
+      "anchor": "targets; and (b) AFHQ-Dogs, which possesses structural",
+      "line": 539
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "achievesstate-of-the-artFréchetinceptiondistance(FID)",
+      "line": 61
+    },
+    {
+      "name": "KID",
+      "anchor": "30% improvement in terms of FID, KID and cumulative",
+      "line": 133
+    },
+    {
+      "name": "SID",
+      "anchor": "proposeanewmeasurecalledthesignedinceptiondistance",
+      "line": 36
+    },
+    {
+      "name": "CSID",
+      "anchor": "WeobservethatCSID isgenerallyinagreementwiththe",
+      "line": 460
+    }
+  ],
+  "notes": "角色拆分：MNIST、CIFAR-10、Ukiyo-E Faces 既是 SpiderDCGAN 实验的训练目标基准（benchmark，Table 2 目标列；Ukiyo-E Faces 亦为第 5 节 StyleGAN 目标，Table 3），又作为其他目标的友好邻居输入出现于 Table 2 输入行（role=other），故各拆两条、各带独立锚点（其中 MNIST 与 Ukiyo-E 的输入条目锚点取自 Table 2 表格行，逐字复制）。Fashion-MNIST、SVHN、Tiny-ImageNet、CelebA、LSUN-Churches、AFHQ-Dogs 仅作生成器输入（friendly neighbor source），归为 other：Tiny-ImageNet 在第 5.1 节还经预训练生成器作级联输入，AFHQ-Dogs 同时作级联输入与 weight-transfer 来源（Table 4/5）。MetFaces、FFHQ、AFHQ-Cats 为第 5 节高分辨率小数据集目标基准。ImageNet 仅在展望中假设性提及（train a SpiderStyleGAN on ImageNet 的设想），AFHQv2 仅在 Table 5 注释中说明 Karras 等人的报告口径，均未收录；相关工作与引言动机中出现的 Pix2Pix/CycleGAN 等基线方法不涉及。指标：FID（Fréchet inception distance）与 KID（kernel inception distance）为基线度量，SID（signed inception distance）与 CSID（cumulative SID）为论文提出并在 Table 1/2 与分析中实际使用的度量，均计入；缩写在正文均有全称展开（OCR 缺空格）；improved precision and recall（IPR）仅在 SID 推导中被引述，未用于结果报告，未计入。全文为 OCR 转录 markdown，普遍缺失空格，所有锚点已用 grep -F 逐字核验通过。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Asokan_Spider_GAN_Leveraging_Friendly_Neighbors_To_Accelerate_GAN_Training_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

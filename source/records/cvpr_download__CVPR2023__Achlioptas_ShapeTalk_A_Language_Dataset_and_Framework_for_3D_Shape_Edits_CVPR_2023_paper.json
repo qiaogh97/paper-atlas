@@ -1,0 +1,78 @@
+{
+  "paper": "cvpr_download/CVPR2023/Achlioptas_ShapeTalk_A_Language_Dataset_and_Framework_for_3D_Shape_Edits_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "ShapeTalk: A Language Dataset and Framework for 3D Shape Edits and Deformations",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ShapeTalk",
+      "role": "benchmark",
+      "anchor": "WeseparatetheshapesinvolvedinShapeTalk intodis-",
+      "line": 468
+    },
+    {
+      "name": "ShapeNet",
+      "role": "construction",
+      "anchor": "shapes are | aggregated | from | ShapeNet",
+      "line": 189
+    },
+    {
+      "name": "ModelNet",
+      "role": "construction",
+      "anchor": "[9], | ModelNet | [48] |",
+      "line": 189
+    },
+    {
+      "name": "PartNet",
+      "role": "construction",
+      "anchor": "andPartNet[32].",
+      "line": 192
+    },
+    {
+      "name": "ShapeNet Parts",
+      "role": "pretrain",
+      "anchor": "partlabelsextractedfromtheShapeNetParts[49].",
+      "line": 531
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Linguistic Association Boost (LAB)",
+      "anchor": "1. LinguisticAssociationBoost(LAB).",
+      "line": 321
+    },
+    {
+      "name": "Geometric Difference (GD)",
+      "anchor": "2. GeometricDifference(GD).",
+      "line": 360
+    },
+    {
+      "name": "localized-Geometric Difference (l-GD)",
+      "anchor": "Baselines GD(↓) l-GD(↓) CD(↓) LAB(↑)",
+      "line": 519
+    },
+    {
+      "name": "Class Distortion (CD)",
+      "anchor": "since our CD and l-GD met-",
+      "line": 519
+    },
+    {
+      "name": "Fréchet pointcloud distance (FPD)",
+      "anchor": "tance[41]measurement(FPDcolumn).",
+      "line": 563
+    },
+    {
+      "name": "accuracy",
+      "anchor": "tionaccuracyaspercentofthetestsetacrossallShapeTalkclasses.",
+      "line": 456
+    },
+    {
+      "name": "Chamfer distance",
+      "anchor": "Chamferdistance,scaledby10e2;LABandCParepercentages.",
+      "line": 552
+    }
+  ],
+  "notes": "论文自建数据集 ShapeTalk（53.6万条对比性话语、约3.6万形状）为主实验基准：listener 评测与编辑实验均按 85%/5%/10% train/val/test 划分在其上进行，故记 benchmark。ShapeNet/ModelNet/PartNet 仅作为 ShapeTalk 形状的聚合收集来源（第3节），记 construction。ShapeNet Parts 的部件标签仅用于训练 l-GD 指标所需的 PointNet 部件分割辅助模型，记 pretrain。相关工作/Table 1 中的 ShapeGlot、SNARE、PartIt 仅为对比未用于实验，排除；CLIP/Open-CLIP 为预训练模型而非数据集、ImageNet 仅以 ImageNet-pretrained 分类器形式出现，均不收。指标方面：LAB/GD/l-GD/CD 为第4节自定义评测指标，FPD 用于 Table 7 消融，accuracy 用于 Table 5 listener 评测及辅助分类器（89.0%），Chamfer distance 为 GD/l-GD 的实际计算基础（亦作重建损失），故收录。Table 7 图注提到 CP 但表中无该列且全文未定义，未收；Inception Score、EMD、KL-Divergence 仅作类比/备选提及未使用，排除。全文转录存在 OCR 空格缺失，name 字段按原论文恢复常规空格，锚点逐字保留 OCR 原样（已逐一核验各恰 1 处命中）。补充材料为独立 PDF，未包含在本转录文件中，附录内容未覆盖。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Achlioptas_ShapeTalk_A_Language_Dataset_and_Framework_for_3D_Shape_Edits_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

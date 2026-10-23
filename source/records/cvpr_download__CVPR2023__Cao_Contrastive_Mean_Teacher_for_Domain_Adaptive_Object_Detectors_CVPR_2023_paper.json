@@ -1,0 +1,53 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Contrastive_Mean_Teacher_for_Domain_Adaptive_Object_Detectors_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Contrastive Mean Teacher for Domain Adaptive Object Detectors",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "Cityscapes[8]isadatasetofstreetscenes.Itcontains2,975",
+      "line": 376
+    },
+    {
+      "name": "Foggy Cityscapes",
+      "role": "benchmark",
+      "anchor": "Foggy Cityscapes [31] is a dataset synthesized from",
+      "line": 383
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "KITTI[13]isanotherdatasetofstreetscenes,butthedata",
+      "line": 389
+    },
+    {
+      "name": "Pascal VOC",
+      "role": "benchmark",
+      "anchor": "Pascal VOC [11] is a dataset of 20 categories of common",
+      "line": 395
+    },
+    {
+      "name": "Clipart1k",
+      "role": "benchmark",
+      "anchor": "Clipart1k[21]isadatasetofclipartimages. Itsharesthe",
+      "line": 398
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAP",
+      "anchor": "cision(mAP)metricwiththe0.5thresholdforIntersection",
+      "line": 414
+    },
+    {
+      "name": "AP(Car)",
+      "anchor": "| AP(Car) | Gainw.r.t. |",
+      "line": 480
+    }
+  ],
+  "notes": "5 个数据集均为无监督域自适应主实验的评测基准（benchmark）：Cityscapes 既作 Cityscapes→Foggy Cityscapes 源域又作 KITTI→Cityscapes 目标域；Foggy Cityscapes 为目标域（含“0.02”与“All”两个 fog split）；KITTI 为源域（7,481 训练图，仅评 Car 类）；Pascal VOC 为源域（实际用 VOC2012 train split 11,540 图）；Clipart1k 为目标域。指标：mAP 为 IoU 0.5 阈值下的 mean average precision（缩写按原文保留，原文已展开一次）；Table 2（KITTI→Cityscapes）以 AP(Car) 表头出现、正文记作 AP，单独收录。本文件无附录，supplementary 仅在正文提及（更多可视化），未包含在转录中。全文 OCR 转录存在空格缺失，锚点按文件原样逐字照抄。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Contrastive_Mean_Teacher_for_Domain_Adaptive_Object_Detectors_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

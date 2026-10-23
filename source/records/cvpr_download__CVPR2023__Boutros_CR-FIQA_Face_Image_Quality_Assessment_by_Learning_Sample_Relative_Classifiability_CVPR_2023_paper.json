@@ -1,0 +1,109 @@
+{
+  "paper": "cvpr_download/CVPR2023/Boutros_CR-FIQA_Face_Image_Quality_Assessment_by_Learning_Sample_Relative_Classifiability_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CR-FIQA: Face Image Quality Assessment by Learning Sample Relative Classifiability",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "LFW",
+      "role": "benchmark",
+      "anchor": "other three settings (Table 1). On the LFW benchmark,",
+      "line": 522
+    },
+    {
+      "name": "AgeDB-30",
+      "role": "benchmark",
+      "anchor": "els. OntheAgeDB-30benchmark,ourproposedCR-FIQA",
+      "line": 520
+    },
+    {
+      "name": "CFP-FP",
+      "role": "benchmark",
+      "anchor": "Frontal-ProfileintheWild(CFP-FP)[33],Cross-ageLFW",
+      "line": 405
+    },
+    {
+      "name": "CALFW",
+      "role": "benchmark",
+      "anchor": "CFP-FP, CALFW, and CPLFW at FMR1e-3 and FMR1e-",
+      "line": 517
+    },
+    {
+      "name": "CPLFW",
+      "role": "benchmark",
+      "anchor": "CPLFW[40] XQLFW[23] IJB-C[27]",
+      "line": 538
+    },
+    {
+      "name": "XQLFW",
+      "role": "benchmark",
+      "anchor": "TheXQLFWbenchmarkisderivedfromLFWtocontain",
+      "line": 616
+    },
+    {
+      "name": "Adience",
+      "role": "benchmark",
+      "anchor": "ObservingtheresultsonIJB-C,Adience,",
+      "line": 516
+    },
+    {
+      "name": "IJB-C",
+      "role": "benchmark",
+      "anchor": "The IJB-C1:1mixedverificationbenchmark[27]usingquali",
+      "line": 619
+    },
+    {
+      "name": "CASIA-WebFace",
+      "role": "pretrain",
+      "anchor": "using ResNet-50 model trained on CASIA-WebFace [39]",
+      "line": 500
+    },
+    {
+      "name": "CASIA-WebFace",
+      "role": "other",
+      "anchor": "all samples of CASIA-WebFace using feature embedding",
+      "line": 302
+    },
+    {
+      "name": "MS1MV2",
+      "role": "pretrain",
+      "anchor": "(notedasCR-FIQA(L)).TheMS1MV2isarefinedversion",
+      "line": 443
+    }
+  ],
+  "metrics": [
+    {
+      "name": "ERC",
+      "anchor": "ERCs [11]. The ERC is a widely used representation of",
+      "line": 419
+    },
+    {
+      "name": "FNMR",
+      "anchor": "MatchRate[21](FNMR)ataspecificthresholdcalculated",
+      "line": 427
+    },
+    {
+      "name": "FMR",
+      "anchor": "allbenchmarksareplottedattwofixedFMRs,1e-3(asrec-",
+      "line": 433
+    },
+    {
+      "name": "AUC",
+      "anchor": "ERCs and AUCs in Figure 3 show that both CR-FIQA(S)",
+      "line": 483
+    },
+    {
+      "name": "TAR",
+      "anchor": "1:1mixedVerification:TAR(%)at",
+      "line": 597
+    },
+    {
+      "name": "FAR",
+      "anchor": "rates(FAR)of1e-4,1e-5,and1e-6,asdefinedin[27].",
+      "line": 465
+    }
+  ],
+  "notes": "主实验在 8 个评测基准上报告（LFW、AgeDB-30、CFP-FP、CALFW、CPLFW、XQLFW、Adience、IJB-C），均为 benchmark 角色。CASIA-WebFace 拆两条：pretrain 条目对应其作为 CR-FIQA(S)/CCS-FIQA(S) 的 FR 训练数据（0.5M 图像、10K 身份）；other 条目对应第 3.3 节用 R50(CASIA)/R100(MS1M-V2) 在其样本上计算 CR/CCS/NNCCS 并绘制图 2 ERC 的动机性分析（非主实验基准）。MS1MV2 作为 CR-FIQA(L) 的 FR 训练数据（5.8M 图像、85K 身份），文中亦写作 MS1M-V2，为同一数据集，合并为一条。MS-Celeb-1M 仅作为 MS1MV2 的上游来源被提及（由 [5] 精炼，非本文所做），未直接使用，故不收录。指标保留原文缩写：ERC（Error vs. Reject Curve）、FNMR、FMR、AUC（ERC 曲线下面积）、TAR、FAR；FNMR 原文展开为 False None Match Rate（OCR 拼写）、FMR 为 False Match Rate；报告阈值 FMR=1e-3/1e-4、FAR=1e-6/1e-5/1e-4。表 1 为各基准 AUC，表 2 为 IJB-C 1:1 混合验证 TAR(%)。基线方法（BRISQUE、RankIQA、DeepIQA、RankIQ、PFE、SER-FIQ、FaceQnet、MagFace、SDD-FIQA）与四个 FR 模型仅为对比方法，不计入。补充材料提及更多 ERC/AUC 结果但未新增数据集。全文为双栏 OCR 转录、部分单词空格缺失，锚点均按原文字符逐字复制并经脚本核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Boutros_CR-FIQA_Face_Image_Quality_Assessment_by_Learning_Sample_Relative_Classifiability_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

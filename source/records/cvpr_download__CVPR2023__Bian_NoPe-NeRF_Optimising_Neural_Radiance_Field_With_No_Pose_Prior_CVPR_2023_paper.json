@@ -1,0 +1,85 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "NoPe-NeRF: Optimising Neural Radiance Field with No Pose Prior",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Tanks and Temples",
+      "role": "benchmark",
+      "anchor": "and Temples | [15] and ScanNet | [5]. Tanks | and | Temples:",
+      "line": 335
+    },
+    {
+      "name": "ScanNet",
+      "role": "benchmark",
+      "anchor": "unlessotherwisespecified. ScanNet:weselect4scenesfor",
+      "line": 357
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "ingPeakSignal-to-NoiseRatio(PSNR),StructuralSimilar-",
+      "line": 378
+    },
+    {
+      "name": "SSIM",
+      "anchor": "ityIndexMeasure(SSIM)[45]andLearnedPerceptualIm-",
+      "line": 381
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "agePatchSimilarity(LPIPS)[56].",
+      "line": 383
+    },
+    {
+      "name": "ATE",
+      "anchor": "theAbsoluteTrajectoryError(ATE)andRelativePose",
+      "line": 387
+    },
+    {
+      "name": "RPE",
+      "anchor": "Error(RPE).ATEmeasuresthedifferencebetweentheesti-",
+      "line": 388
+    },
+    {
+      "name": "AbsRel",
+      "anchor": "Weusestandarddepthmetrics[8,19,20,39](AbsRel,",
+      "line": 337
+    },
+    {
+      "name": "SqRel",
+      "anchor": "AbsRel↓ SqRel↓ RMSE↓",
+      "line": 458
+    },
+    {
+      "name": "RMSE",
+      "anchor": "SqRel↓ RMSE↓ RMSElog↓",
+      "line": 458
+    },
+    {
+      "name": "RMSElog",
+      "anchor": "RMSE↓ RMSElog↓ δ 1 ↑",
+      "line": 458
+    },
+    {
+      "name": "δ1",
+      "anchor": "RMSElog↓ δ 1 ↑ δ 2 ↑",
+      "line": 458
+    },
+    {
+      "name": "δ2",
+      "anchor": "δ 1 ↑ δ 2 ↑ δ 3 ↑",
+      "line": 458
+    },
+    {
+      "name": "δ3",
+      "anchor": "δ 1 ↑ δ 2 ↑ δ 3 ↑",
+      "line": 458
+    }
+  ],
+  "notes": "两个数据集均为主实验测试基准(benchmark):Tanks and Temples 用 8 个场景评估位姿精度与新视角合成,ScanNet 用 4 个场景评估位姿/深度/新视角合成(以数据集提供的深度与位姿为真值);Tanks and Temples 位姿评估以 COLMAP 估计作参考真值,COLMAP/DPT/BARF/NeRFmm/SC-NeRF 均为基线方法而非数据集。指标:新视角合成用 PSNR/SSIM/LPIPS;位姿用 ATE 与 RPE,RPE 在正文定义为单一指标、结果表中拆分为 RPE_t(相对平移误差)与 RPE_r(相对旋转误差)两个分量,此处按正文记一条;深度评估(表3)用 AbsRel/SqRel/RMSE/RMSElog/δ1/δ2/δ3,δ 为阈值准确率、原文写作下标形式(表中呈现为 δ 1/δ 2/δ 3)。全文 markdown 为 OCR 转录、空格大量缺失,所有锚点按文件原字符逐字照抄。相关工作提及的 LLFF 未在实验中使用,未收录;正文多处引用 supplementary material,但本全文文件止于参考文献、无附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

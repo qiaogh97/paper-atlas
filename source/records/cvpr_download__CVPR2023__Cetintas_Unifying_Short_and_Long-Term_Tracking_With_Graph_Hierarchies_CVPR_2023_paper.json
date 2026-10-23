@@ -1,0 +1,82 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cetintas_Unifying_Short_and_Long-Term_Tracking_With_Graph_Hierarchies_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Unifying Short and Long-Term Tracking with Graph Hierarchies",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MOT17",
+      "role": "benchmark",
+      "anchor": "MOT17. The benchmark includes diverse scenarios with",
+      "line": 435
+    },
+    {
+      "name": "MOT20",
+      "role": "benchmark",
+      "anchor": "MOT20.Thedatasetfocusesonextremelycrowdedscenes,",
+      "line": 342
+    },
+    {
+      "name": "DanceTrack",
+      "role": "benchmark",
+      "anchor": "DanceTrack. Thebenchmarkconsistsof100groupdanc-",
+      "line": 352
+    },
+    {
+      "name": "BDD100K",
+      "role": "benchmark",
+      "anchor": "BDD100K. The dataset focuses on egocentric vision from",
+      "line": 363
+    }
+  ],
+  "metrics": [
+    {
+      "name": "IDF1",
+      "anchor": "thewidelyacceptedmetricsIDF1[34],MOTA[18],andre-",
+      "line": 371
+    },
+    {
+      "name": "MOTA",
+      "anchor": "tity preservation, MOTA is heavily biased towards trajec-",
+      "line": 376
+    },
+    {
+      "name": "HOTA",
+      "anchor": "HOTAasmainmetrics,andalsoreportMOTAandidentity",
+      "line": 386
+    },
+    {
+      "name": "IDSw.",
+      "anchor": "switches(IDSw.) forcompleteness.",
+      "line": 387
+    },
+    {
+      "name": "AssA",
+      "anchor": "Method IDF1↑ HOTA↑ MOTA↑ AssA↑ DetA↑",
+      "line": 598
+    },
+    {
+      "name": "DetA",
+      "anchor": "Method IDF1↑ HOTA↑ MOTA↑ AssA↑ DetA↑",
+      "line": 598
+    },
+    {
+      "name": "mIDF1",
+      "anchor": "Method mIDF1↑ mMOTA↑ IDF1↑ MOTA↑ IDSw.↓",
+      "line": 620
+    },
+    {
+      "name": "mMOTA",
+      "anchor": "Method mIDF1↑ mMOTA↑ IDF1↑ MOTA↑ IDSw.↓",
+      "line": 620
+    },
+    {
+      "name": "oracle IDF1",
+      "anchor": "compute | the | oracle | IDF1 score, | i.e., as-",
+      "line": 500
+    }
+  ],
+  "notes": "四个数据集均为主实验测试基准(benchmark);消融实验在 MOT17 训练集上 3 折交叉验证,未引入额外数据集。BDD100K 在结果部分亦简称 BDD / BDD MOT(Table 5),按 5.1 节命名记作 BDD100K 一条。指标保留原文缩写:IDF1、MOTA、HOTA 正文未展开全称;IDSw. 即 identity switches,原文仅括注;AssA/DetA 为 HOTA 的两个子指标,仅见于 Table 4(DanceTrack)表头;mIDF1/mMOTA 为 BDD(Table 5)多类别平均变体;oracle IDF1 为消融分析(Fig.4a)中明确命名的分析性度量。正文另述推理速度 21fps(Runtime 段,属实现细节,未作为表格评价指标,未计入)。YOLOX 检测器与 ResNet50-IBN reID 网络的预训练数据未在正文命名,故无 pretrain 条目;MOTChallenge 仅作为 MOT17/MOT20 公共检测来源提及,未单列。全文止于参考文献,无附录内容。OCR 转录空格大量缺失,锚点均按原文件逐字复制(含断词连字符与表格竖线)。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cetintas_Unifying_Short_and_Long-Term_Tracking_With_Graph_Hierarchies_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

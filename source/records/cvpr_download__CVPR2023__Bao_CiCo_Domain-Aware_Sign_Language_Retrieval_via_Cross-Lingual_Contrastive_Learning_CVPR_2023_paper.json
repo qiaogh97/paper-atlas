@@ -1,0 +1,57 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bao_CiCo_Domain-Aware_Sign_Language_Retrieval_via_Cross-Lingual_Contrastive_Learning_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "How2Sign",
+      "role": "benchmark",
+      "anchor": "Datasets. We primarily focus on How2Sign [19] dataset.",
+      "line": 582
+    },
+    {
+      "name": "PHOENIX-2014T",
+      "role": "benchmark",
+      "anchor": "Our model is also evaluated on PHOENIX-2014T [8] and",
+      "line": 583
+    },
+    {
+      "name": "CSL-Daily",
+      "role": "benchmark",
+      "anchor": "CSL-Daily is a recently released Chinese sign language",
+      "line": 524
+    },
+    {
+      "name": "BSL-1K",
+      "role": "pretrain",
+      "anchor": "network pre-trained on BSL-1K [61], a sign classification",
+      "line": 346
+    }
+  ],
+  "metrics": [
+    {
+      "name": "R@1",
+      "anchor": "tasks. WereportR@1,R@5,andR@10inallexperiments,",
+      "line": 542
+    },
+    {
+      "name": "R@5",
+      "anchor": "tasks. WereportR@1,R@5,andR@10inallexperiments,",
+      "line": 542
+    },
+    {
+      "name": "R@10",
+      "anchor": "tasks. WereportR@1,R@5,andR@10inallexperiments,",
+      "line": 542
+    },
+    {
+      "name": "MedR",
+      "anchor": "and additionally report MedR when comparing with state-",
+      "line": 543
+    }
+  ],
+  "notes": "How2Sign 为主实验基准（主对比与消融均在其上进行）；PHOENIX-2014T 亦为主对比基准，表 2 标题中写作 PHOENIX2014T（无连字符），按正文写法保留 PHOENIX-2014T；CSL-Daily 仅提供 baseline 结果（表 3），仍计为 benchmark。BSL-1K 为 domain-agnostic sign encoder（I3D）的预训练数据集，角色 pretrain（消融表 5 中 Single-Ag 即该编码器）。指标保留缩写：R@K=recall at rank K（实验报告 R@1/R@5/R@10），MedR=median rank，均为正文已展开定义的缩写；R@1/R@5/R@10 共用同一锚点句。全文文件正文之后均为参考文献，无附录/补充材料内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bao_CiCo_Domain-Aware_Sign_Language_Retrieval_via_Cross-Lingual_Contrastive_Learning_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

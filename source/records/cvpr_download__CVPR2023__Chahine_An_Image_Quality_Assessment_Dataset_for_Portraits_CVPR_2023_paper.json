@@ -1,0 +1,52 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chahine_An_Image_Quality_Assessment_Dataset_for_Portraits_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "An Image Quality Assessment Dataset for Portraits",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "PIQ23",
+      "role": "benchmark",
+      "anchor": "inPIQ23fortrainingandleavetherestfortesting",
+      "line": 527
+    },
+    {
+      "name": "LIVEChallenge",
+      "role": "pretrain",
+      "anchor": "LIVEChallengeandPaQ-2-PiQ,respectively.HyperIQAis",
+      "line": 585
+    },
+    {
+      "name": "PaQ-2-PiQ",
+      "role": "pretrain",
+      "anchor": "andPaQ-2-PiQ,respectively.HyperIQAis",
+      "line": 585
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "pre-trainedonImageNet",
+      "line": 587
+    }
+  ],
+  "metrics": [
+    {
+      "name": "SRCC",
+      "anchor": "compute Spearman’s rank correlation coefficient (SRCC)",
+      "line": 536
+    },
+    {
+      "name": "JOD",
+      "anchor": "inJust-Objectionable-Difference(JOD)",
+      "line": 383
+    },
+    {
+      "name": "CI",
+      "anchor": "interval(CI)oftheJODscores.",
+      "line": 345
+    }
+  ],
+  "notes": "PIQ23 为论文自建数据集，实验按 70/30 划分在其上训练并评测 BIQA 基线（Table 1），记为 benchmark（自建兼基准，不另拆 construction）。LIVEChallenge、PaQ-2-PiQ、ImageNet 仅为基线模型 DB-CNN/MUSIQ/HyperIQA 的预训练来源，记为 pretrain；锚点句因双栏 OCR 交错，两数据集锚点取自同一句的不同跨度。相关工作中的 LIVE、CSIQ、TID、BAPPS、CLIVE、KonIQ10k、SCPQD2020 等仅作综述讨论，未计入。SRCC 原文有全称 Spearman's rank correlation coefficient；JOD（Just-Objectionable-Difference）为质量标注量表、CI（confidence interval）为不确定性度量，二者在第 4 节统计分析/Fig.3 中作为命名的分析量报告（JOD range、median CI size）；RMANOVA、paired t-test、K-means、Louvain 为统计方法而非指标，未计入。全文 OCR 单词普遍粘连，锚点按文件原样逐字复制；supplementary material 被提及但未包含在本文件中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chahine_An_Image_Quality_Assessment_Dataset_for_Portraits_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

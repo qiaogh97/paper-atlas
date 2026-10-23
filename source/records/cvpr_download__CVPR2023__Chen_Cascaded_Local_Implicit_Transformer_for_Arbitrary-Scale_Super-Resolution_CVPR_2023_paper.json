@@ -1,0 +1,54 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Cascaded_Local_Implicit_Transformer_for_Arbitrary-Scale_Super-Resolution_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Cascaded Local Implicit Transformer for Arbitrary-Scale Super-Resolution",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DIV2K",
+      "role": "benchmark",
+      "anchor": "TheaveragePSNR(dB)ontheDIV2K[48]validationset.",
+      "line": 376
+    },
+    {
+      "name": "DIV2K",
+      "role": "other",
+      "anchor": "We use the DIV2K dataset [48] for network",
+      "line": 392
+    },
+    {
+      "name": "Set5",
+      "role": "benchmark",
+      "anchor": "performanceonthevalidationsetofDIV2K[48],Set5[49],",
+      "line": 403
+    },
+    {
+      "name": "Set14",
+      "role": "benchmark",
+      "anchor": "on widely-used datasets, including Set5 [49], Set14 [50],",
+      "line": 470
+    },
+    {
+      "name": "B100",
+      "role": "benchmark",
+      "anchor": "Set14[50],B100[51]andUrban100[52]intermsofpeak",
+      "line": 404
+    },
+    {
+      "name": "Urban100",
+      "role": "benchmark",
+      "anchor": "Table2.TheaveragePSNR(dB)onSet5[49],Set14[50],B100[51],andUrban100[52].",
+      "line": 444
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "signal-to-noise(PSNR)values.",
+      "line": 408
+    }
+  ],
+  "notes": "DIV2K 双角色拆两条:一条为网络训练数据(other,1000 张 2K 图像,bicubic 降采样 x2/x3/x4 生成 LR 对),一条为 validation set 测试基准(Table 1 主结果)。Set5/Set14/B100/Urban100 为五个标准测试基准(Table 2);消融实验(Table 3-5)也均在 DIV2K validation set 上进行。全文定量指标仅 PSNR(peak signal-to-noise,已在原文展开);Table 4 另报告 training time (hour) 作为效率成本,非评价指标故未计入。全文为 OCR 转录、多处空格缺失,锚点均按原文字符逐字照抄。无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Cascaded_Local_Implicit_Transformer_for_Arbitrary-Scale_Super-Resolution_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

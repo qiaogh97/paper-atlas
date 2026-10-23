@@ -1,0 +1,116 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Three_Guidelines_You_Should_Know_for_Universally_Slimmable_Self-Supervised_Learning_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Three Guidelines You Should Know for Universally Slimmable Self-Supervised Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "Wepretrainfor400epochsonCIFAR-100",
+      "line": 432
+    },
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "employtheofficialcodeandexperimentonCIFAR-10",
+      "line": 572
+    },
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "linearevaluationresultsonImageNetareshowninTable4",
+      "line": 561
+    },
+    {
+      "name": "Pascal VOC07&12",
+      "role": "benchmark",
+      "anchor": "TransferresultsonPascalVOC07&12underR50-FPN",
+      "line": 626
+    },
+    {
+      "name": "COCO2017",
+      "role": "benchmark",
+      "anchor": "TransferresultsonCOCO2017objectdetection&instance",
+      "line": 628
+    },
+    {
+      "name": "Flowers",
+      "role": "benchmark",
+      "anchor": "C-10 C-100 Flowers Pets Dtd",
+      "line": 584
+    },
+    {
+      "name": "Pets",
+      "role": "benchmark",
+      "anchor": "C-10 C-100 Flowers Pets Dtd",
+      "line": 584
+    },
+    {
+      "name": "Dtd",
+      "role": "benchmark",
+      "anchor": "C-10 C-100 Flowers Pets Dtd",
+      "line": 584
+    }
+  ],
+  "metrics": [
+    {
+      "name": "LinearAccuracy(%)",
+      "anchor": "LinearAccuracy(%)",
+      "line": 482
+    },
+    {
+      "name": "Accuracy(%)",
+      "anchor": "Accuracy(%)\ntrade-off",
+      "line": 17
+    },
+    {
+      "name": "APbb",
+      "anchor": "onCOCO,weachieve+0.9and+1.5APbbpointshigherat",
+      "line": 662
+    },
+    {
+      "name": "APbb50",
+      "anchor": "|       | APbb   | APbb | APbb APmk | APmk APmk |     |     |     |     |\n| ----- | ------ | ---- | --------- | --------- | --- | --- | --- | --- |\n| Width | Method | 5 0  | 7 5       | 5 0 7 5   |     |     |     |     |",
+      "line": 634
+    },
+    {
+      "name": "APbb75",
+      "anchor": "|       | APbb   | APbb | APbb APmk | APmk APmk |     |     |     |     |\n| ----- | ------ | ---- | --------- | --------- | --- | --- | --- | --- |\n| Width | Method | 5 0  | 7 5       | 5 0 7 5   |     |     |     |     |",
+      "line": 634
+    },
+    {
+      "name": "APmk",
+      "anchor": "|       | APbb   | APbb | APbb APmk | APmk APmk |     |     |     |     |",
+      "line": 634
+    },
+    {
+      "name": "APmk50",
+      "anchor": "|       | APbb   | APbb | APbb APmk | APmk APmk |     |     |     |     |\n| ----- | ------ | ---- | --------- | --------- | --- | --- | --- | --- |\n| Width | Method | 5 0  | 7 5       | 5 0 7 5   |     |     |     |     |",
+      "line": 634
+    },
+    {
+      "name": "APmk75",
+      "anchor": "|       | APbb   | APbb | APbb APmk | APmk APmk |     |     |     |     |\n| ----- | ------ | ---- | --------- | --------- | --- | --- | --- | --- |\n| Width | Method | 5 0  | 7 5       | 5 0 7 5   |     |     |     |     |",
+      "line": 634
+    },
+    {
+      "name": "AP50",
+      "anchor": "upto+2.6and+18.5 get,whichensurescross-subnetconsistency. Nevertheless,\n| AP atwidthof0.5xand0.25x,respectively. |     |     |     | Wecanreach |                                                      |     |     |     |\n| -------------------------------------- | --- | --- | --- | ---------- | ---------------------------------------------------- | --- | --- | --- |\n| 50",
+      "line": 656
+    },
+    {
+      "name": "Params",
+      "anchor": "Net Width Params MACS Method C-10 C-100 Flowers Pets Dtd",
+      "line": 584
+    },
+    {
+      "name": "MACs",
+      "anchor": "Net Width Params MACS Method C-10 C-100 Flowers Pets Dtd",
+      "line": 584
+    }
+  ],
+  "notes": "全文为markdown转录且普遍存在OCR空格缺失，锚点均按原样逐字复制。数据集：CIFAR-10/100与ImageNet为自监督预训练+线性评测主基准（ImageNet同时作为迁移实验的预训练来源，仍记benchmark一条）；Pascal VOC07&12与COCO2017为检测/实例分割迁移基准；Table 6的5个识别迁移基准中C-10/C-100即CIFAR-10/100（不重复计），Flowers/Pets/Dtd按表头原样照抄、原文未展开全名。指标：LinearAccuracy(%)为各主表线性评测精度；Accuracy(%)为Table 1表头（监督分类与SimSiam对比，锚点跨行）；APbb及50/75阈值变体、APmk及50/75阈值变体来自Table 5，表头中APbb/APmk与数字50/75被OCR分行，正文明确出现APbb；VOC的AP50在正文OCR中被拆为'AP'与'50'两处；Params与MACs为效率度量（Table 6列，表中写作MACS，图3坐标轴为MACs(G)）。表2的Training Cost（以T为单位）未计为指标。正文提及附录（动态采样分析）但本文件止于参考文献，无附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Three_Guidelines_You_Should_Know_for_Universally_Slimmable_Self-Supervised_Learning_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

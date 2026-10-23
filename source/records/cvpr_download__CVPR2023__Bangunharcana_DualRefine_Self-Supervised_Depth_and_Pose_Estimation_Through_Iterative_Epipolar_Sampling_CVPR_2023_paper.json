@@ -1,0 +1,81 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bangunharcana_DualRefine_Self-Supervised_Depth_and_Pose_Estimation_Through_Iterative_Epipolar_Sampling_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "train/testsplit[15]fromtheKITTIdataset[20].",
+      "line": 439
+    },
+    {
+      "name": "KITTI odometry",
+      "role": "benchmark",
+      "anchor": "Forthevisualodometryexperiments,weusetheKITTI",
+      "line": 456
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "ResNet18initializedwithImageNetpre-trainedweightsas",
+      "line": 496
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AbsRel",
+      "anchor": "Semantics W×H AbsRel↓ SqRel↓",
+      "line": 499
+    },
+    {
+      "name": "SqRel",
+      "anchor": "W×H AbsRel↓ SqRel↓ RMSE↓",
+      "line": 499
+    },
+    {
+      "name": "RMSE",
+      "anchor": "AbsRel↓ SqRel↓ RMSE↓ RMSElog↓",
+      "line": 499
+    },
+    {
+      "name": "RMSElog",
+      "anchor": "SqRel↓ RMSE↓ RMSElog↓ δ1↑",
+      "line": 499
+    },
+    {
+      "name": "δ1",
+      "anchor": "RMSE↓ RMSElog↓ δ1↑ δ2↑ δ3↑",
+      "line": 499
+    },
+    {
+      "name": "δ2",
+      "anchor": "RMSElog↓ δ1↑ δ2↑ δ3↑",
+      "line": 499
+    },
+    {
+      "name": "δ3",
+      "anchor": "RMSElog↓ δ1↑ δ2↑ δ3↑",
+      "line": 499
+    },
+    {
+      "name": "terr",
+      "anchor": "terr(%)↓ |               | ATE(m)↓",
+      "line": 567
+    },
+    {
+      "name": "rerr",
+      "anchor": "| Methods          |     |          | rerr(◦/100m)↓ |",
+      "line": 566
+    },
+    {
+      "name": "ATE",
+      "anchor": "andabsolutetrajectoryerror(ATE) [76].",
+      "line": 470
+    }
+  ],
+  "notes": "深度实验用 KITTI raw 的 Eigen train/test split,视觉里程计实验用 KITTI odometry(Seq.00-08 训练、Seq.09/10 测试),属两个不同基准,拆两条均为 benchmark。ImageNet 仅用于教师位姿网络 ResNet18 的预训练权重初始化,故 role=pretrain。深度指标按 Table 1 列名照抄(AbsRel/SqRel/RMSE/RMSElog/δ1/δ2/δ3);正文 4.1 展开为 absolute and squared relative error、root mean square error(RMSE、RMSElog)与 accuracy under threshold,δ 系列为阈值精度指标、原文未进一步展开(δ1/δ2/δ3 在表中即此写法)。里程计指标按 Table 4 列名照抄 terr/rerr,正文 4.1 写作 translation (t_err) and rotation (r_err) error 与 absolute trajectory error (ATE),rerr 单位为 ◦/100m。Table 3 中 Time (ms) 为推理时间、#iters 为迭代配置,未作为评价指标收录;Table 1 中 Struct2depth、Videos in the Wild 等为对比方法名而非数据集,未计入。全文 markdown 不含附录/supplementary 正文(仅正文与参考文献)。OCR 文本普遍缺空格,锚点按原文字节逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bangunharcana_DualRefine_Self-Supervised_Depth_and_Pose_Estimation_Through_Iterative_Epipolar_Sampling_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

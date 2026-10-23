@@ -1,0 +1,62 @@
+{
+  "paper": "cvpr_download/CVPR2023/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Two-view Geometry Scoring Without Correspondences",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ScanNet",
+      "role": "benchmark",
+      "anchor": "FundamentalandessentialmatrixestimationonScanNet. WecomputetheMAA@10",
+      "line": 453
+    },
+    {
+      "name": "ScanNet",
+      "role": "pretrain",
+      "anchor": "WetrainindoorandoutdoorFSNetmodelsonScanNet",
+      "line": 416
+    },
+    {
+      "name": "MegaDepth",
+      "role": "pretrain",
+      "anchor": "For our outdoor model, we use the MegaDepth",
+      "line": 464
+    },
+    {
+      "name": "CVPR IMW 2019 PhotoTourism",
+      "role": "benchmark",
+      "anchor": "scenesinthetestsetoftheCVPRIMW2019PhotoTourism",
+      "line": 466
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAA@10°",
+      "anchor": "report the mean Average Accuracy (mAA), which thresh",
+      "line": 483
+    },
+    {
+      "name": "Median error (°)",
+      "anchor": "andMedianerror(°)metricsinthe",
+      "line": 453
+    },
+    {
+      "name": "Reprojection error (RE)",
+      "anchor": "Reprojection | error         | (RE) measures",
+      "line": 279
+    },
+    {
+      "name": "Symmetric epipolar (SED)",
+      "anchor": "lar(SED)measuresgeometricdistanceofeachpointtoits",
+      "line": 283
+    },
+    {
+      "name": "Sampson (RE1) distance",
+      "anchor": "Finally, Sampson (RE1) distance is a first-",
+      "line": 286
+    }
+  ],
+  "notes": "ScanNet 双角色拆分：室内 FSNet 模型训练（splits 沿用[50]）+ Table 2 测试基准；第3节验证集分析归入训练/验证用途。MegaDepth 仅为室外模型的训练/验证场景来源（并排除与 PhotoTourism 测试重叠的场景），未作为测试基准，故归 pretrain。PhotoTourism 全文写作 CVPR IMW 2019 PhotoTourism dataset，Table 3 简写为 PhotoTourism，作为室外测试基准。mAA@10° 全称 mean Average Accuracy，正文/表头混写为 MAA@10°、mAA (10°)，阈值固定 10°；Median error (°) 表头简写 Median(°)。Reprojection error (RE)、Symmetric epipolar (SED)（原文断行为 Symmetricepipo-lar(SED)，即对称极线距离）、Sampson (RE1) distance 为第3节明确命名的基矩阵误差准则，属分析性度量，用于 Table 1 oracle 评分对比与 Table 4 监督消融；Table 1 另有 Epi.Distance、GT Pose error 两个仅以表内标签出现的 oracle 准则未单列；eR/e_t 角度误差为 mAA/median 的底层误差量未单列；损失函数（L1/Soft-L1/CE）非评测指标未收。补充材料仅被正文引用、未包含在全文文件中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

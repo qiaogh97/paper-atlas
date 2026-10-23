@@ -1,0 +1,56 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_Orthogonal_Annotation_Benefits_Barely-Supervised_Medical_Image_Segmentation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Orthogonal Annotation Benefits Barely-supervised Medical Image Segmentation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "LA",
+      "role": "benchmark",
+      "anchor": "LADataset[42]contains1003Dgadolinium-enhanced",
+      "line": 479
+    },
+    {
+      "name": "KiTS19",
+      "role": "benchmark",
+      "anchor": "KiTS19Dataset[14]isabenchmarkforkidneyandkid-",
+      "line": 489
+    },
+    {
+      "name": "LiTS",
+      "role": "benchmark",
+      "anchor": "LiTSDataset[4]consistsof201contrast-enhancedab-",
+      "line": 502
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Dice coefficient",
+      "anchor": "which are | Dice coefficient, | Jaccard | coeffi-",
+      "line": 543
+    },
+    {
+      "name": "Jaccard coefficient",
+      "anchor": "Dice coefficient, | Jaccard | coeffi-",
+      "line": 543
+    },
+    {
+      "name": "95% Hausdorff Distance (95% HD)",
+      "anchor": "cient, 95% Hausdorff Distance (95% HD) and Average",
+      "line": 544
+    },
+    {
+      "name": "Average Surface Distance (ASD)",
+      "anchor": "Surface Distance (ASD). We compare our method with",
+      "line": 545
+    },
+    {
+      "name": "Hilbert-Schmidt independence criterion (HSIC)",
+      "anchor": "(HSIC) [26] as the evalua-",
+      "line": 303
+    }
+  ],
+  "notes": "三个数据集 LA / KiTS19 / LiTS 均为主实验测试基准（Table 1-3，KiTS19 另用于 4.4 消融），LA 还用于 3.2 节正交标注分析，不拆分角色。指标名按 4.2 节原句保留（Jaccard coefficient 在原文中跨行连字符排版）；结果表中对应缩写为 Dice(%) / Jaccard(%) / HD(voxel) / ASD(voxel)。HSIC 为 3.2 节分析性度量（衡量切片独立性），照原文计入。全文为 OCR 转录、大量空格缺失，锚点按文件原样复制（含表格竖线与连字符断行）。全文文件止于参考文献，补充材料未包含在内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_Orthogonal_Annotation_Benefits_Barely-Supervised_Medical_Image_Segmentation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

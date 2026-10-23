@@ -1,0 +1,69 @@
+{
+  "paper": "cvpr_download/CVPR2023/Barattin_Attribute-Preserving_Face_Dataset_Anonymization_via_Latent_Code_Optimization_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Attribute-preserving Face Dataset Anonymization via Latent Code Optimization",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CelebA-HQ",
+      "role": "benchmark",
+      "anchor": "AnonymizationresultsonCelebA-HQ[25]incompari-",
+      "line": 663
+    },
+    {
+      "name": "LFW",
+      "role": "benchmark",
+      "anchor": "and(ii)LFW[15],whichcontainsover13000images",
+      "line": 419
+    },
+    {
+      "name": "FFHQ",
+      "role": "construction",
+      "anchor": "FFHQ [19] dataset, in order to generate a set of fake face",
+      "line": 284
+    },
+    {
+      "name": "CelebA-HQ",
+      "role": "pretrain",
+      "anchor": "usetwoclassifiers[17,22]pretrainedonCelebA-HQ[25].",
+      "line": 592
+    },
+    {
+      "name": "CASIA WebFace",
+      "role": "pretrain",
+      "anchor": "ontwolarge-scalefacedatasets(CASIAWebFace[46]and",
+      "line": 455
+    },
+    {
+      "name": "VGGFace2",
+      "role": "pretrain",
+      "anchor": "VGGFace2[4]).Moreover,wemeasurethe“detectionrate”",
+      "line": 456
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "we report the Fre´chet Inception Distance (FID) [14]",
+      "line": 478
+    },
+    {
+      "name": "Detection rate",
+      "anchor": "Moreover,wemeasurethe“detectionrate”",
+      "line": 456
+    },
+    {
+      "name": "Re-identification rate",
+      "anchor": "identificationrate”(definedasthenumberofimageswhose",
+      "line": 452
+    },
+    {
+      "name": "Accuracy",
+      "anchor": "themetricusedtoquantifythisistheaccuracyofclas-",
+      "line": 495
+    }
+  ],
+  "notes": "CelebA-HQ 与 LFW 为主实验匿名化基准（Tables 1-6、消融与定性图均在其上）。CelebA-HQ 另拆一条 pretrain：评测 LFW 属性时所用两个分类器[17,22]预训练于 CelebA-HQ 并为其生成伪标签。FFHQ 为 construction：方法用它（经在 FFHQ 上预训练的 StyleGAN2 采样）生成配对用 fake dataset，非测试基准。CASIA WebFace 与 VGGFace2 仅为评测模型 FaceNet 的预训练集（文本 OCR 空格缺失写作 CASIAWebFace，名称按原论文拼写保留空格）。上游 CelebA 仅作为 CelebA-HQ 图像来源及官方 train/test split 与 40 属性标注提供者出现，未单列。指标均为缩写或原名照抄：FID 在正文展开为 Fre´chet Inception Distance（含组合变音符），表中另有以 CelebA-HQ 为目标分布的变体 FID(C-HQ)，未单列；Detection rate 分别以 dlib 与 MTCNN 两个检测器报告；Re-identification rate 在表头作 Face re-ID（CASIA/VGG 两列）；Accuracy 为属性分类准确率。正文提及 supplementary material，但本 markdown 文件止于参考文献、无附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Barattin_Attribute-Preserving_Face_Dataset_Anonymization_via_Latent_Code_Optimization_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

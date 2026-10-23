@@ -1,0 +1,178 @@
+{
+  "paper": "cvpr_download/CVPR2023/Brazil_Omni3D_A_Large_Benchmark_and_Model_for_3D_Object_Detection_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "OMNI3D: A Large Benchmark and Model for 3D Object Detection in the Wild",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "OMNI3D",
+      "role": "benchmark",
+      "anchor": "Weaimtobridgethegapto2DbyintroducingOMNI3D,",
+      "line": 209
+    },
+    {
+      "name": "OMNI3D",
+      "role": "pretrain",
+      "anchor": "OMNI3Dasapre-trainingdataset. Next,wedemonstrate",
+      "line": 714
+    },
+    {
+      "name": "KITTI",
+      "role": "construction",
+      "anchor": "(nuScenes[9]andKITTI[21]),indoor(SUNRGB-D[70],",
+      "line": 223
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "andsingle-datasetbenchmarks,KITTIandSUNRGB-D.",
+      "line": 663
+    },
+    {
+      "name": "SUN RGB-D",
+      "role": "construction",
+      "anchor": "ARKitScenes[6]andHypersim[65]),andgeneral(Objec-",
+      "line": 225
+    },
+    {
+      "name": "SUN RGB-D",
+      "role": "benchmark",
+      "anchor": "ComparisonsonSUNRGB-D.Table4comparesCubeR-",
+      "line": 695
+    },
+    {
+      "name": "nuScenes",
+      "role": "construction",
+      "anchor": "(nuScenes[9]andKITTI[21]),indoor(SUNRGB-D[70],",
+      "line": 223
+    },
+    {
+      "name": "nuScenes",
+      "role": "benchmark",
+      "anchor": "onnuScenes;thesecondbestisM3D-RPN+vcwith10.7%.",
+      "line": 725
+    },
+    {
+      "name": "Hypersim",
+      "role": "construction",
+      "anchor": "ARKitScenes[6]andHypersim[65]),andgeneral(Objec-",
+      "line": 225
+    },
+    {
+      "name": "Hypersim",
+      "role": "benchmark",
+      "anchor": "KITTI+5.3%. ExceptforHypersim,thedomain-specific",
+      "line": 708
+    },
+    {
+      "name": "ARKitScenes",
+      "role": "construction",
+      "anchor": "liclyreleaseddatasets,SUNRBG-D[70],ARKitScenes[6],",
+      "line": 80
+    },
+    {
+      "name": "ARKitScenes",
+      "role": "benchmark",
+      "anchor": "oversingledatasettraining. ARKitseesa+2.6%boostand",
+      "line": 706
+    },
+    {
+      "name": "Objectron",
+      "role": "construction",
+      "anchor": "OMNI3D (KITTI,nuScenes). Objectron,withprimarily",
+      "line": 267
+    },
+    {
+      "name": "COCO",
+      "role": "qualitative",
+      "anchor": "Right:WeproposeCubeR-CNN,whichgeneralizestounseendatasets(e.g.COCO[45])andoutperformspriorworksonexistingdatasets.",
+      "line": 28
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "Figure6.Pre-trainingonOMNI3D-vs.ImageNet.",
+      "line": 695
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AP3D",
+      "anchor": "on OMNI3D.WereportAP 3D , performanceatsingleIoU",
+      "line": 550
+    },
+    {
+      "name": "AP25",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "AP50",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "APnear",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "APmed",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "APfar",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "APIN",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "APOUT",
+      "anchor": "| AP25 | AP50 | APnear | APmed | APfar | APIN | APOUT |",
+      "line": 561
+    },
+    {
+      "name": "APKIT",
+      "anchor": "Method f APKIT APNU APOUT AP Method",
+      "line": 581
+    },
+    {
+      "name": "APNU",
+      "anchor": "Method f APKIT APNU APOUT AP Method",
+      "line": 581
+    },
+    {
+      "name": "APHYP",
+      "anchor": "APHYP APSUN APAR Trainedon APKIT APNU",
+      "line": 672
+    },
+    {
+      "name": "APSUN",
+      "anchor": "APHYP APSUN APAR Trainedon APKIT APNU",
+      "line": 672
+    },
+    {
+      "name": "APAR",
+      "anchor": "APHYP APSUN APAR Trainedon APKIT APNU",
+      "line": 672
+    },
+    {
+      "name": "IoU3D",
+      "anchor": "ForTotal3D,weuseoracle2DdetectionstoreportIoU",
+      "line": 679
+    },
+    {
+      "name": "APBEV",
+      "anchor": "| 3 D |     | B EV  |",
+      "line": 580
+    }
+  ],
+  "notes": "主基准 OMNI3D 由 SUN RGB-D、ARKitScenes、Hypersim、Objectron、KITTI、nuScenes 六个公开数据集重标注构成(construction);其中 KITTI/SUN RGB-D/nuScenes/Hypersim/ARKitScenes 另在 Table 2-5 及零样本、预训练实验中作为独立评测基准(benchmark),故按角色拆多条。OMNI3D 本身另在 Sec5.2/Fig6 作为预训练数据集(pretrain,OMNI3D- 去除目标集后预训练再微调)。Objectron 仅作构建来源(只在 full OMNI3D 设置使用)。COCO 仅 Fig1 定性泛化展示;ImageNet 为骨干预训练及 Fig6 对比;LVIS/COCO 的规模对比仅为分析不算实验数据集。OCR 原文普遍缺空格且上下标分离:AP3D/IoU3D 原文为带上标 3D 的排版(OCR 作 'AP 3D' 等),SUN RGB-D 排作 'SUNRGB-D'(一处笔误 'SUNRBG-D'),ARKitScenes 在 Table5/正文缩写为 ARKit,名称按正式写法记录。指标均为 AP3D 家族:AP3D 主指标为 50 类上 IoU3D 阈值 τ∈[0.05,0.50] 的 mean AP;AP25/AP50 为 IoU3D 单阈值 0.25/0.50 变体;APnear/APmed/APfar 按深度 0-10m/10-35m/>35m 划分;APIN/APOUT 为室内/室外子集;APKIT/APNU/APHYP/APSUN/APAR 为 Table2/4/5 中在各对应数据集上评测的 AP3D 列名。Table 3 为 KITTI 官方 leaderboard 口径:AP3D 单阈值 IoU 0.70(Easy/Moderate/Hard),另报 BEV AP(表头 OCR 破碎为 'AP7 0'/'3 D'/'B EV',按 APBEV 收录)。IoU3D 同时是预测-真值匹配度量并以 mean IoU 报告(Table 4 第3列)。正文多处引用 Appendix,但本 markdown 至参考文献(p.13164)截止,未含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Brazil_Omni3D_A_Large_Benchmark_and_Model_for_3D_Object_Detection_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,70 @@
+{
+  "paper": "cvpr_download/CVPR2023/Asnani_MaLP_Manipulation_Localization_Using_a_Proactive_Scheme_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "MaLP: Manipulation Localization Using a Proactive Scheme",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CelebA",
+      "role": "benchmark",
+      "anchor": "STGAN [28] to manipulate images from CelebA [31]",
+      "line": 404
+    },
+    {
+      "name": "SiWM-v2",
+      "role": "qualitative",
+      "anchor": "faceimagescomefromSiWM-v2data[18].",
+      "line": 393
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Cosine similarity (CS)",
+      "anchor": "Evaluation Metrics We use cosine similarity (CS), peak",
+      "line": 415
+    },
+    {
+      "name": "PSNR",
+      "anchor": "signal-to-noise ratio (PSNR), and structural similarity in-",
+      "line": 417
+    },
+    {
+      "name": "SSIM",
+      "anchor": "CS↑ PSNR↑ SSIM↑ Accuracy↑ EER↓ AUC↑",
+      "line": 348
+    },
+    {
+      "name": "AUC",
+      "anchor": "binary detection, we use the area under the curve (AUC),",
+      "line": 421
+    },
+    {
+      "name": "EER",
+      "anchor": "equalerrorrate(EER),andaccuracyscore[21].",
+      "line": 422
+    },
+    {
+      "name": "Accuracy",
+      "anchor": "Constraintremoved Cosinesimilarity↑ Accuracy↑",
+      "line": 580
+    },
+    {
+      "name": "FID",
+      "anchor": "both strategies, MaLP reduces the FID score of StarGAN.",
+      "line": 489
+    },
+    {
+      "name": "Average precision",
+      "anchor": "We have better average precision than passive",
+      "line": 546
+    },
+    {
+      "name": "Inference speed",
+      "anchor": "Inference Speed We compare the inference speed of our",
+      "line": 562
+    }
+  ],
+  "notes": "CelebA 为主实验数据集（按 [21] 设置用 STGAN 篡改 CelebA 图像、以 bald 属性训练，Tab.2/Tab.3 对比均基于该设置），记 benchmark；SiWM-v2 仅作为 Fig.3/Fig.4 定性可视化配图的人脸来源，记 qualitative。论文自建的 22 个未见 GM 泛化 benchmark（每 GM 取 200 张真实图，取自各 GM 训练所用数据集）本身未命名，各 GM 对应数据集清单在 supplementary；本 markdown 仅含正文与参考文献、无附录，故无法列出。指标：CS/PSNR/SSIM 评定位（Tab.2/3/4），AUC/EER/Accuracy 评二分类检测（Accuracy 正文亦写作 accuracy score）；FID 用于以 MaLP 为判别器微调 GM 的生成质量对比（Tab.5），原文未展开缩写；Average precision 用于与二分类检测先前工作对比（Tab.6，正文写作 average precision）；Inference speed（每图毫秒，NVIDIA K80）在 4.5 节作为命名分析度量参与比较，一并计入。全文存在 OCR 空格缺失，锚点均自全文逐字复制并经脚本核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Asnani_MaLP_Manipulation_Localization_Using_a_Proactive_Scheme_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

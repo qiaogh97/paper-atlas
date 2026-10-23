@@ -1,0 +1,74 @@
+{
+  "paper": "cvpr_download/CVPR2023/Brachmann_Accelerated_Coordinate_Encoding_Learning_to_Relocalize_in_Minutes_Using_RGB_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Accelerated Coordinate Encoding: Learning to Relocalize in Minutes using RGB and Poses",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "7Scenes",
+      "role": "benchmark",
+      "anchor": "We conducted experiments on 7Scenes [53] and",
+      "line": 498
+    },
+    {
+      "name": "12Scenes",
+      "role": "benchmark",
+      "anchor": "12Scenes [60], two indoor relocalization datasets.",
+      "line": 499
+    },
+    {
+      "name": "CambridgeLandmarks",
+      "role": "benchmark",
+      "anchor": "Table2. CambridgeLandmarks[29]Results.",
+      "line": 548
+    },
+    {
+      "name": "Wayspots",
+      "role": "benchmark",
+      "anchor": "calizationdataset,denotedWayspots,fromapubliclyavail-",
+      "line": 554
+    },
+    {
+      "name": "MapFree",
+      "role": "construction",
+      "anchor": "split of | the MapFree",
+      "line": 560
+    },
+    {
+      "name": "ScanNet",
+      "role": "pretrain",
+      "anchor": "ScanNet[17]for1week,resultingin11MBofweightsthat",
+      "line": 410
+    }
+  ],
+  "metrics": [
+    {
+      "name": "percentage of frames below a 5cm, 5◦ pose error",
+      "anchor": "Wereportthepercentageofframesbelowa5cm,5◦poseerror.",
+      "line": 462
+    },
+    {
+      "name": "percentage of frames below 10cm, 5◦ pose error",
+      "anchor": "asthepercentageofframesbelow10cm,5◦poseerror.",
+      "line": 638
+    },
+    {
+      "name": "median rotation and position errors",
+      "anchor": "Wereportmedianrotationandpositionerrors.",
+      "line": 548
+    },
+    {
+      "name": "Mapping Time",
+      "anchor": "Mapping Time (Minutes)",
+      "line": 28
+    },
+    {
+      "name": "Map Size",
+      "anchor": "Map Size. | The | network | architecture",
+      "line": 579
+    }
+  ],
+  "notes": "角色拆分:7Scenes/12Scenes(Table 1 室内)、CambridgeLandmarks(Table 2 室外)、Wayspots(Fig. 4)均为实验评测基准;Wayspots 为作者自建数据集并在其上报告主结果,故记为 benchmark;MapFree 仅作为 Wayspots 的构建来源(从其训练 split 选 10 个场景)记为 construction;ScanNet 仅用于 ACE backbone 预训练(100 场景训练 1 周)记为 pretrain。指标:主指标为正确重定位帧占比的两个阈值变体(室内 5cm/5°、Wayspots 10cm/5°,按原文写法分列;Fig. 1 亦称 Relocalization Rate,视为同一指标不单列);Cambridge 报 median rotation/position errors(cm/°);Mapping Time 与 Map Size 为 4.3 Analysis 小节明确命名并在 Table 3/Fig. 6 报告的资源度量;Table 3 的 ACE Speed-up 为派生比值未单列。OCR 转录普遍缺空格,name 字段按原文语义恢复空格,anchor 一律逐字保留(含表格竖线与无空格形式)。正文多处提及 Supplement 的额外实验与数据集细节,但 Supplement 未包含在本文本内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Brachmann_Accelerated_Coordinate_Encoding_Learning_to_Relocalize_in_Minutes_Using_RGB_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

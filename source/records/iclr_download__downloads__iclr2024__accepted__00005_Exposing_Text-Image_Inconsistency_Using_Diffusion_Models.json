@@ -1,0 +1,50 @@
+{
+  "paper": "iclr_download/downloads/iclr2024/accepted/00005_Exposing_Text-Image_Inconsistency_Using_Diffusion_Models",
+  "venue": "ICLR2024",
+  "title": "EXPOSING TEXT-IMAGE INCONSISTENCY USING DIFFUSION MODELS",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "TIIL",
+      "role": "benchmark",
+      "anchor": "TIILdatasetareshowninTable3andFig.9.",
+      "line": 606
+    },
+    {
+      "name": "VisualNews",
+      "role": "construction",
+      "anchor": "theVisualNewsdataset(Liuetal.,2020),whichoffersarichvarietyofnewstopicsandsources,",
+      "line": 435
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "Wereportthemeanofclass-wiseintersectionoverunion(mIoU)(Everingham",
+      "line": 588
+    },
+    {
+      "name": "AUC",
+      "anchor": "WereporttheAreaUnderROC(AUC)andAccuracy.",
+      "line": 614
+    },
+    {
+      "name": "Accuracy",
+      "anchor": "WereporttheAreaUnderROC(AUC)andAccuracy.",
+      "line": 614
+    },
+    {
+      "name": "CLIPScore",
+      "anchor": "CLIPScore 0.19 80.98",
+      "line": 909
+    },
+    {
+      "name": "cosine similarity",
+      "anchor": "comparisonofaveragedcosinesimilarityscoresonasubsetofourdataset",
+      "line": 998
+    }
+  ],
+  "notes": "TIIL为论文自建数据集（约14K图文对），既是贡献也是全部主实验与附录实验（Table3-10、Fig8-13）的评测基准，故记benchmark单条。VisualNews仅作为TIIL构建时真实图文对的来源（正文Sec.4与附录A统计），记construction；DALL-E2仅是生成编辑图像的工具非数据集。相关工作与Table2特性对比中出现的MAIM、MEIR、NewsCLIPpings、FacebookPost、COSMOS未在本文实验中使用，按规则排除；NewsClippings仅作为基线CLIP*的微调来源被提及、未被本文直接评测，未计入。指标：mIoU正文展开为mean of class-wise intersection over union；AUC展开为Area Under ROC；Table9中Accuracy缩写为ACC，按同一指标合并为一条；CLIPScore在Table1写作Avg.CLIPScore、正文写作CLIP scores/similarity scores，为CLIP相似度得分，用于生成方式对比（Table1）与初始化消融（Table7）；cosine similarity仅在附录表征分析（报告9.2%/2.4%提升）中使用；图中的consistency score r仅为定性展示、未入结果表，未计入。全文OCR存在空格缺失，锚点均按原文逐字复制并已核验。",
+  "text_path": "conference_paper/iclr_download/downloads/iclr2024/accepted/00005_Exposing_Text-Image_Inconsistency_Using_Diffusion_Models/paper.md",
+  "text_source": "markdown"
+}

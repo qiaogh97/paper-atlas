@@ -1,0 +1,64 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_Human_Guided_Ground-Truth_Generation_for_Realistic_Image_Super-Resolution_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "Human Guided Ground-truth Generation for Realistic Image Super-resolution",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "HGGT",
+   "role": "other",
+   "anchor": "inourHGGTdataset,theperceptualqualityofpositiveGTs"
+  },
+  {
+   "name": "Test-100",
+   "role": "benchmark",
+   "anchor": "denotethisdatasetasTest-100."
+  },
+  {
+   "name": "DF2K-OST",
+   "role": "other",
+   "anchor": "the DF2K-OST dataset and our HGGT dataset, and com-"
+  },
+  {
+   "name": "DF2K-OST",
+   "role": "pretrain",
+   "anchor": "dataset,wefirstpre-trainitontheDF2K-OSTdatasetbyus-"
+  },
+  {
+   "name": "DIV2K",
+   "role": "construction",
+   "anchor": "1) 800 images from the DIV2K [1] dataset; 2) 400 im-"
+  },
+  {
+   "name": "Pixabay",
+   "role": "construction",
+   "anchor": "| as Pixabay              | (https://pixabay.com)"
+  },
+  {
+   "name": "Unsplash",
+   "role": "construction",
+   "anchor": "(https://pixabay.com) |               | and Unsplash |"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "PSNR",
+   "anchor": "Test-100, we adopt the commonly used PSNR, SSIM [49]"
+  },
+  {
+   "name": "SSIM",
+   "anchor": "we adopt the commonly used PSNR, SSIM [49]"
+  },
+  {
+   "name": "LPIPS",
+   "anchor": "LPIPS[53]andDISTS[7]asqualitymetrics."
+  },
+  {
+   "name": "DISTS",
+   "anchor": "LPIPS[53]andDISTS[7]asqualitymetrics."
+  }
+ ],
+ "notes": "全文为 OCR 转录且多处空格缺失,锚点均逐字照抄并经脚本核验唯一。HGGT 为论文自建的人引导多 GT 训练数据集,是主实验的训练集而非测试基准,故 role=other;Test-100 为按训练集同流程自建的定量测试集(100 个 patch 组),role=benchmark。DF2K-OST 拆两条:一是 Sec.5.2 中 Real-ESRGAN/BSRGAN/AdaTarget/LDL 四种代表模型的对比训练集,同时用于训练构建 HGGT 的四个图像增强模型(role=other);二是在 HGGT 上训练前的预训练语料(role=pretrain)。其括号内构成(DIV2K 800 张、Flickr2K 2650 张、OST 10324 张)仅作来源说明,Flickr2K/OST 未单列。DIV2K 亦为 HGGT 1600 张 HR 图像三来源之一(800 张),role=construction。Pixabay/Unsplash 为 400 张免费互联网图像的收集平台,role=construction;其余 400 张为作者手机自拍,未命名不单列。指标 PSNR/SSIM/LPIPS/DISTS 均保留缩写,正文未展开全称(仅引用文献编号);另有 12 人 user study 报告偏好计数,非命名指标未计入 metrics。全文文件不含附录,supplementary file 仅在正文提及。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Human_Guided_Ground-Truth_Generation_for_Realistic_Image_Super-Resolution_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

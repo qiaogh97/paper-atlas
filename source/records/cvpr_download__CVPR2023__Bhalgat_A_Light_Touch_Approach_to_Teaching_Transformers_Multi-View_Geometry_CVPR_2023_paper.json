@@ -1,0 +1,53 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bhalgat_A_Light_Touch_Approach_to_Teaching_Transformers_Multi-View_Geometry_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A Light Touch Approach to Teaching Transformers Multi-view Geometry",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CO3D-Retrieve",
+      "role": "benchmark",
+      "anchor": "WeevaluateonCO3D-Retrieveintwosettings:withand",
+      "line": 480
+    },
+    {
+      "name": "CO3Dv2",
+      "role": "construction",
+      "anchor": "CO3Dv2 [63] dataset which contains ground-truth camera",
+      "line": 62
+    },
+    {
+      "name": "Stanford Online Products",
+      "role": "benchmark",
+      "anchor": "The Stanford Online Products (SOP) dataset [55] does",
+      "line": 576
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "modelspretrainedonImageNet[17],i.e.trained",
+      "line": 364
+    },
+    {
+      "name": "Pittsburgh250k",
+      "role": "pretrain",
+      "anchor": "pooling)pretrainedforretrievalonPittsburgh250k[77].",
+      "line": 367
+    }
+  ],
+  "metrics": [
+    {
+      "name": "R@K",
+      "anchor": "trieved. R@K isthefractionofcorrectlyretrievedqueries",
+      "line": 426
+    },
+    {
+      "name": "mAP",
+      "anchor": "Second, we report Mean Average Precision (mAP) – the",
+      "line": 429
+    }
+  ],
+  "notes": "CO3D-Retrieve 为论文基于 CO3Dv2 自建的物体检索评测基准（主实验基准）；CO3Dv2 仅作为构建来源（提供 GT 相机位姿、前景掩码、3D 点云），记 construction。Stanford Online Products（SOP）为标准检索基准，含微调与 zero-shot 两种设置，记 benchmark。ImageNet（VGG16/R50 分类预训练）与 Pittsburgh250k（NetVLAD 检索预训练）仅用于提供 Table 1/2 中预训练对比基线的权重来源，记 pretrain。指标共两项：R@K 在结果表中按 K=1,10,50 报告为 R@1/R@10/R@50；mAP 即 Mean Average Precision（论文已给出全称）。全文文件止于参考文献，无附录/补充材料实验。OCR 转录普遍缺失空格，锚点按文件原文逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bhalgat_A_Light_Touch_Approach_to_Teaching_Transformers_Multi-View_Geometry_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

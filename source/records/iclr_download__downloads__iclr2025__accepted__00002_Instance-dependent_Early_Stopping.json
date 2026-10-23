@@ -1,0 +1,121 @@
+{
+  "paper": "iclr_download/downloads/iclr2025/accepted/00002_Instance-dependent_Early_Stopping",
+  "venue": "ICLR2025",
+  "title": "Instance-dependent Early Stopping",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "datasetscompriseCIFAR-10,CIFAR-100(Krizhevskyetal.,2009)",
+      "line": 383
+    },
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "experimentalresultsonbothCIFAR-10andCIFAR-100datasetsdemonstratethat",
+      "line": 470
+    },
+    {
+      "name": "ImageNet-1k",
+      "role": "benchmark",
+      "anchor": "CIFAR-100(Krizhevskyetal.,2009),andImageNet-1k(Dengetal.,",
+      "line": 383
+    },
+    {
+      "name": "ImageNet-1k",
+      "role": "pretrain",
+      "anchor": "WefirstpretrainedmodelsontheImageNet-1kdatasetusingIES",
+      "line": 442
+    },
+    {
+      "name": "Caltech-101",
+      "role": "benchmark",
+      "anchor": "includingCIFAR-10,CIFAR-100,andCaltech-101(Lietal.,2022)datasets",
+      "line": 445
+    },
+    {
+      "name": "PASCAL VOC2007",
+      "role": "benchmark",
+      "anchor": "weutilizedthePASCALVOC2007(Evering-",
+      "line": 1041
+    },
+    {
+      "name": "PASCAL VOC2012",
+      "role": "benchmark",
+      "anchor": "We employed the PASCAL VOC2012 (Everingham et al., b)",
+      "line": 1054
+    },
+    {
+      "name": "CelebA",
+      "role": "benchmark",
+      "anchor": "WeutilizedtheCelebAfacedatasetasanadversarialdataset",
+      "line": 1205
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Test accuracy",
+      "anchor": "whilemaintainingtestaccuracycomparabletofulldatatraining",
+      "line": 439
+    },
+    {
+      "name": "Test error",
+      "anchor": "Themetricsincludetesterror,gradient",
+      "line": 336
+    },
+    {
+      "name": "Mini-batch Saved",
+      "anchor": "Mini-batchSaved. Wecalculatethepercentageofmini-batchsaved",
+      "line": 429
+    },
+    {
+      "name": "Wall-time Speedup",
+      "anchor": "Wall-timeSpeedup. WemeasurethetrainingtimespeedupachievedbytheIESmethodcompared",
+      "line": 431
+    },
+    {
+      "name": "mAP",
+      "anchor": "WeevaluatethebestmAPvalueofthetrainedmodel",
+      "line": 1044
+    },
+    {
+      "name": "mIoU",
+      "anchor": "WeevaluatethebestmIoUvalue",
+      "line": 1056
+    },
+    {
+      "name": "gradient norm",
+      "anchor": "theaveragemini-batchgradientnormforinstances",
+      "line": 348
+    },
+    {
+      "name": "training loss",
+      "anchor": "norm,trainingloss,sharpness-awareminimization(SAM)value",
+      "line": 337
+    },
+    {
+      "name": "SAM value",
+      "anchor": "sharpness-awareminimization(SAM)value,andthemaximumeigenvalueof",
+      "line": 337
+    },
+    {
+      "name": "maximum eigenvalue of the Hessian matrix",
+      "anchor": "value,andthemaximumeigenvalueof",
+      "line": 337
+    },
+    {
+      "name": "Recall (True Positive Rate)",
+      "anchor": "evaluatingtheaccuracy,recall(TruePositiveRate),",
+      "line": 1209
+    },
+    {
+      "name": "Demographic Parity Difference (DPD)",
+      "anchor": "andDemographicParityDifference(DPD)metricsonthemaleandfemalevalidationsubsets",
+      "line": 1210
+    }
+  ],
+  "notes": "ImageNet-1k 既作主实验训练/测试基准(Table 1/2)又作迁移学习的预训练来源(Table 3),按多角色拆成 benchmark 与 pretrain 两条;CIFAR-10/CIFAR-100 同时用于主实验、迁移下游任务与附录 G 噪声标签/双下降实验,均归 benchmark 一条;Caltech-101 仅作迁移下游评测。主文统称 PASCAL VOC,附录 E 拆为 VOC2007(检测,Faster R-CNN)与 VOC2012(分割,DeepLabv3),分两条;CelebA 用于附录 I 公平性评估。指标方面:accuracy 变体(Best Accuracy、Acc.、Training Accuracy)并入 Test accuracy 不单列;附录 Mini-BatchSaved(%) 拼写差异并入 Mini-batch Saved;test error 与 test accuracy 为不同名分列;Figure 4 的分析指标 gradient norm / training loss / SAM value / maximum eigenvalue of the Hessian matrix 照录(原文亦称之为 model performance metrics);mAP、mIoU 原文未展开缩写;Total Excluded Samples 与 Computation Speedup 为对比实验的自变量/目标设置,未计入指标。附录实验(迁移、噪声标签、双下降、灾难性遗忘、公平性)均已覆盖。",
+  "text_path": "conference_paper/iclr_download/downloads/iclr2025/accepted/00002_Instance-dependent_Early_Stopping/paper.md",
+  "text_source": "markdown"
+}

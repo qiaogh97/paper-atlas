@@ -1,0 +1,35 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bucarelli_Leveraging_Inter-Rater_Agreement_for_Classification_in_the_Presence_of_Noisy_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Leveraging Inter-rater Agreement for Classification in the Presence of Noisy Labels",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR10-N",
+      "role": "benchmark",
+      "anchor": "CIFAR10-Ndataset,comparingtheperformanceofaclas-",
+      "line": 683
+    },
+    {
+      "name": "CIFAR-10",
+      "role": "construction",
+      "anchor": "containsCIFAR-10trainimageswithnoisylabelsannotated",
+      "line": 763
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Test Accuracy",
+      "anchor": "Table1.TestAccuracyonCIFAR10-NwithResnet34",
+      "line": 717
+    },
+    {
+      "name": "Error in the estimation of T",
+      "anchor": "ErrorintheestimationofT for4classesand10an-",
+      "line": 647
+    }
+  ],
+  "notes": "全文转录存在 OCR 空格缺失,锚点逐字照抄原文(如 TestAccuracy、CIFAR10-Ndataset)。CIFAR10-N 为主实验基准(Table 1, Resnet34, 真实人工噪声标签);CIFAR-10 仅作为 CIFAR10-N 的训练图像来源,故记为 construction。另有未命名自建合成数据集(特征在 [0,1]^2 均匀生成)及作为其标注来源的 Amazon Mechanical Turk 平台,均非命名数据集不入库。指标方面,正文明确 use accuracy with respect to a clean dataset as performance metric,与 Table 1 的 Test Accuracy 为同一指标,合并一条;Figure 1 的分析性度量 Error in the estimation of T 按分析小节命名计入。Cohen's kappa / Fleiss' kappa 出现在引言、相关工作与理论引理(Lemma 5.1),未在实验小节作评测指标使用,未计入。正文引用的附录 A-D 未包含在本转录中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bucarelli_Leveraging_Inter-Rater_Agreement_for_Classification_in_the_Presence_of_Noisy_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,65 @@
+{
+  "paper": "cvpr_download/CVPR2023/Araujo_CIRCLE_Capture_in_Rich_Contextual_Environments_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CIRCLE: Capture In Rich Contextual Environments",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIRCLE",
+      "role": "benchmark",
+      "anchor": "WetrainourmodelonCIRCLE,usetwodifferentcrite-",
+      "line": 409
+    },
+    {
+      "name": "S3DIS",
+      "role": "pretrain",
+      "anchor": "task | on the | S3DIS | dataset | [3]. We | input the",
+      "line": 418
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Success rate",
+      "anchor": "Test Model Success Dist. Cumulative Foot MVPE MJPE Root Joint",
+      "line": 603
+    },
+    {
+      "name": "Dist. to goal",
+      "anchor": "rate togoal | collision | sliding",
+      "line": 604
+    },
+    {
+      "name": "Cumulative collision depth",
+      "anchor": "Cumulative Foot MVPE MJPE Root Joint\n|     | split  |             |        | rate togoal | collision | sliding | (cm)  | (cm)  | trans.    |      | orn.  |     |\n| --- | ------ | ----------- | ------ | ----------- | --------- | ------- | ----- | ----- | --------- | ---- | ----- | --- |\n|     |        |             |        | (%) (cm)    | depth(cm)",
+      "line": 603
+    },
+    {
+      "name": "Foot sliding",
+      "anchor": "Foot Sliding. Our chosen metric is percentage of frames",
+      "line": 504
+    },
+    {
+      "name": "MVPE",
+      "anchor": "Cumulative Foot MVPE MJPE Root Joint",
+      "line": 603
+    },
+    {
+      "name": "MJPE",
+      "anchor": "Foot MVPE MJPE Root Joint",
+      "line": 603
+    },
+    {
+      "name": "Root trans. error",
+      "anchor": "MVPE MJPE Root Joint\n|     | split  |             |        | rate togoal | collision | sliding | (cm)  | (cm)  | trans.",
+      "line": 603
+    },
+    {
+      "name": "Joint orn. error",
+      "anchor": "MJPE Root Joint\n|     | split  |             |        | rate togoal | collision | sliding | (cm)  | (cm)  | trans.    |      | orn.",
+      "line": 603
+    }
+  ],
+  "notes": "论文自建数据集 CIRCLE 本身即主实验的训练与评测基准（random 与 task 两种 split），记 benchmark；S3DIS 仅用于预训练 PointNet++ 语义分割场景编码器，记 pretrain。相关工作中的 CMU Motion Capture Database、AMASS、BEHAVE、GIMO、EgoBody、GRAB、HumanEva 等仅述及，未计入；虚拟场景来自 AI Habitat 模拟器（平台，非数据集）。指标名称取自 5.2 Evaluation Metrics 与 Table 2/3 表头；markdown 转录存在空格缺失（如 Dist. togoal）且表头词被拆行（Success/rate、Cumulative/collision/depth(cm)、Root/trans./error、Joint/orn./error 分处不同行），锚点按原文逐字截取；MVPE、MJPE 为表中未展开缩写，5.2 对应全称 mean vertex error、mean joint position error；Root trans. error、Joint orn. error 对应全称 mean root translation error、mean joint orientation error。正文无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Araujo_CIRCLE_Capture_in_Rich_Contextual_Environments_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

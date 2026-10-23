@@ -1,0 +1,71 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chatziagapi_AVFace_Towards_Detailed_Audio-Visual_4D_Face_Reconstruction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "AVFace: Towards Detailed Audio-Visual 4D Face Reconstruction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Voxceleb2",
+      "role": "other",
+      "anchor": "[16] J.S.Chung,A.Nagrani,andA.Zisserman.Voxceleb2:Deep",
+      "line": 541
+    },
+    {
+      "name": "FaceSet",
+      "role": "benchmark",
+      "anchor": "thetestset,whichwecallFaceSet.",
+      "line": 337
+    },
+    {
+      "name": "Multiface",
+      "role": "benchmark",
+      "anchor": "our3Drecontruction.Multifaceincludesvideosof13iden-",
+      "line": 351
+    }
+  ],
+  "metrics": [
+    {
+      "name": "NME",
+      "anchor": "Method NME↓ AUC↑ NME(lips)↓ NME(occ)↓",
+      "line": 276
+    },
+    {
+      "name": "AUC",
+      "anchor": "Method NME↓ AUC↑ NME(lips)↓ NME(occ)↓",
+      "line": 276
+    },
+    {
+      "name": "NME(lips)",
+      "anchor": "Method NME↓ AUC↑ NME(lips)↓ NME(occ)↓",
+      "line": 276
+    },
+    {
+      "name": "NME(occ)",
+      "anchor": "Method NME↓ AUC↑ NME(lips)↓ NME(occ)↓",
+      "line": 276
+    },
+    {
+      "name": "Median(mm)",
+      "anchor": "Median(mm)↓ | Mean(mm)↓ | Std(mm)↓",
+      "line": 451
+    },
+    {
+      "name": "Mean(mm)",
+      "anchor": "Median(mm)↓ | Mean(mm)↓ | Std(mm)↓",
+      "line": 451
+    },
+    {
+      "name": "Std(mm)",
+      "anchor": "Median(mm)↓ | Mean(mm)↓ | Std(mm)↓",
+      "line": 451
+    },
+    {
+      "name": "Preference(%)",
+      "anchor": "Figure8.Userstudy.Preference(%)intermsoflipsynchroniza-",
+      "line": 461
+    }
+  ],
+  "notes": "全文为去空格 OCR 转录,名称与锚点均按文件原字符照抄(无空格)。Voxceleb2 为方法主训练语料(实验小节称 a publicly available dataset [16],含 6112 identities 视频),名称仅出现在参考文献 [16],角色 other(训练用,非测试基准、非预训练权重来源);拼写按参考文献原文 Voxceleb2。FaceSet 是作者对 [16] 提出 train-test split 后测试集的命名,benchmark 角色。Multiface 仅用于带 3D 真值的定量测试(Table 5),benchmark 角色。合成遮挡测试集(Sec 3.4 自生成)与 8 段自采视频均未命名,不入 datasets;NoW [55] 仅作 scan-to-mesh 误差计算协议来源而非数据。指标:NME/AUC 在 Sec 4.2 定义为 normalized mean error (%) 与 area under the curve,缩写按原文保留;NME(lips)、NME(occ) 为嘴唇区域与遮挡合成测试集上的变体,按表格列名照抄;Median(mm)/Mean(mm)/Std(mm) 为 Table 5 的 3D reconstruction error 统计量列名照抄;Preference(%) 为用户研究(Fig.8)指标。DECA/EMOCA/3DDFA-V2/VOCA/MeshTalk/FaceFormer/Abdelaziz et al. 为对比方法,FLAME 为 3DMM 模型,均不入 datasets。无附录;文中提及的 suppl. material 未包含在全文文件内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chatziagapi_AVFace_Towards_Detailed_Audio-Visual_4D_Face_Reconstruction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

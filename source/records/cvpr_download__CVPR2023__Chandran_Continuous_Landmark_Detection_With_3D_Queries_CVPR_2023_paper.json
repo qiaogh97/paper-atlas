@@ -1,0 +1,69 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chandran_Continuous_Landmark_Detection_With_3D_Queries_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Continuous Landmark Detection with 3D Queries",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "300-W",
+      "role": "benchmark",
+      "anchor": "on the 300-W challenge dataset [33]. As described in",
+      "line": 409
+    },
+    {
+      "name": "300-W",
+      "role": "construction",
+      "anchor": "landmarkannotationsfrom300-W,100000imageswith70-",
+      "line": 352
+    },
+    {
+      "name": "Fake-it-till-you-make-it",
+      "role": "construction",
+      "anchor": "Fake-it-till-you-make-it[42]dataset,bothcontainingsparse",
+      "line": 277
+    },
+    {
+      "name": "multi-view 3D face database",
+      "role": "construction",
+      "anchor": "amulti-view3Dfacedatabase[9],wheredense3Dsurface",
+      "line": 288
+    },
+    {
+      "name": "3D dataset of Chandran et al.",
+      "role": "benchmark",
+      "anchor": "fromthe3DdatasetofChandranetal.[9],forthedifferent",
+      "line": 493
+    },
+    {
+      "name": "FaceScape",
+      "role": "other",
+      "anchor": "arepossible,forexampleFaceScape[52],whichweevalu-",
+      "line": 310
+    }
+  ],
+  "metrics": [
+    {
+      "name": "NME",
+      "anchor": "|     |     |     |     |     |     | Method |     |     | NME |     |",
+      "line": 594
+    },
+    {
+      "name": "DenseNME",
+      "anchor": "| Model(Dataset) |     |     | DenseNME |     |",
+      "line": 449
+    },
+    {
+      "name": "3D reconstruction errors",
+      "anchor": "presentmean,medianandstandarddeviationof3Drecon-",
+      "line": 577
+    },
+    {
+      "name": "frames per second",
+      "anchor": "ofinferenceinframespersecondfordifferentarchitectural",
+      "line": 605
+    }
+  ],
+  "notes": "300-W 双角色：3129 张 68 点标注图作训练数据（construction），同时作为主评测基准（Table 1 报告 300-W challenge 的 Common/Challenging 子集，Table 4 在 300-W train set 训练、Common test set 评测）。多视角 3D 人脸库 [9]（Chandran et al.，即 studio 稠密标注的来源）双角色：提供稠密(≈50000 点)及 skull/jaw/teeth 训练标注（construction），其 left-out 样本用作 Table 2 稠密地标评测（benchmark），行文两种称呼按角色拆条。Fake-it-till-you-make-it（10 万张 70 点标注）仅作训练数据。FaceScape 正文称在补充材料中作为 studio 数据替代进行评测，本文件不含补充材料，role 取 other。眼部稀疏标注合成数据由 StyleGAN2 生成、DatasetGAN 自动标注，skull/jaw/teeth 标注由 [44][1,45][58] 方法作用于 [9] 数据获得，均为方法工具/衍生标注，未计入 datasets；Table 1 中 LAB/AWING/ODN/LUVLi/Wood et al. 为对比方法。指标：NME 为 Table 4 表头缩写，正文展开为 normalized mean error；DenseNME 正文展开为 dense normalized mean error (NME)；Table 3 以 Mean error (mm)/Median error/Std 三列报告 3D 重建误差，OCR 断行致列名不连续，按正文记为一条；另计 4.7 运行时分析(图 14)的 frames per second。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chandran_Continuous_Landmark_Detection_With_3D_Queries_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

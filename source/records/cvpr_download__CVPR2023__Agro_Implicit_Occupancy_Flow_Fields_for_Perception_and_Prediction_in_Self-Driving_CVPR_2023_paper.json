@@ -1,0 +1,60 @@
+{
+  "paper": "cvpr_download/CVPR2023/Agro_Implicit_Occupancy_Flow_Fields_for_Perception_and_Prediction_in_Self-Driving_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Implicit Occupancy Flow Fields for Perception and Prediction in Self-Driving",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Argoverse 2 Sensor (AV2)",
+      "role": "benchmark",
+      "anchor": "TheArgoverse2Sensor(AV2)dataset",
+      "line": 353
+    },
+    {
+      "name": "HighwaySim (HwySim)",
+      "role": "benchmark",
+      "anchor": "HighwaySim (HwySim) is a dataset generated",
+      "line": 396
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAP",
+      "anchor": "Mean average precision (mAP): mAP captures if the",
+      "line": 441
+    },
+    {
+      "name": "Soft-IoU",
+      "anchor": "UnlikemAP,Soft-IoUalsoconsidersthemagnitudeofpre-",
+      "line": 367
+    },
+    {
+      "name": "ECE",
+      "anchor": "Expected Calibration Error (ECE): ECE measures the",
+      "line": 372
+    },
+    {
+      "name": "EPE",
+      "anchor": "Foreground mean end-point-error (EPE): This metric",
+      "line": 390
+    },
+    {
+      "name": "Flow-Grounded Soft-IoU",
+      "anchor": "We report flow-grounded Soft-",
+      "line": 420
+    },
+    {
+      "name": "Flow-Grounded mAP",
+      "anchor": "FlowGrounded mAP↑ Soft-IoU↑ ECE↓ EPE↓ FlowGrounded",
+      "line": 446
+    },
+    {
+      "name": "Inference Time",
+      "anchor": "Inference Time: When measuring inference time, all",
+      "line": 431
+    }
+  ],
+  "notes": "实验在两个数据集上开展：Argoverse 2 Sensor（AV2，城市）与 HighwaySim（HwySim，高速，仿真器生成），均为主评测基准，故 role 均为 benchmark，无预训练/构建来源角色。指标共 7 条：mAP、Soft-IoU、ECE、EPE 为实验小节明确定义的评测指标；Flow-Grounded Soft-IoU 与 Flow-Grounded mAP 为流接地一致性指标（正文写作 flow-grounded Soft-IoU and mAP，表 1/2/3 表头拼写为 FlowGrounded mAP/Soft-IoU，此处按正文形式记录）；Inference Time 为实验小节明确命名的分析性度量（Fig. 5 及 Table 3 附有该列）。ECE/EPE 为缩写，原文已展开（Expected Calibration Error、Foreground mean end-point-error）。参考文献中的 Waymo open dataset、Argoverse 2 引用条目仅属相关工作/引用，未计入。正文多次提及 supplementary，但本 markdown 文件未含附录内容。全文为 OCR 转录、空格缺失较多，锚点均已按原文字符逐字核验通过。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Agro_Implicit_Occupancy_Flow_Fields_for_Perception_and_Prediction_in_Self-Driving_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

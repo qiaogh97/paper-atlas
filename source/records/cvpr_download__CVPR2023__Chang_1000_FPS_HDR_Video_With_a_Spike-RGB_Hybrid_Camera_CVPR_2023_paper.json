@@ -1,0 +1,39 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_1000_FPS_HDR_Video_With_a_Spike-RGB_Hybrid_Camera_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "1000 FPS HDR Video with a Spike-RGB Hybrid Camera",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Spike-RGB dataset",
+      "role": "benchmark",
+      "anchor": "a new Spike-RGB dataset that contains 300 sequences of",
+      "line": 62
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "We evaluate the reconstructed HDR in terms of PSNR,",
+      "line": 638
+    },
+    {
+      "name": "SSIM",
+      "anchor": "Method    | PSNR↑ | SSIM↑ | HDR-VDP2↑ | HDR-VQM↓ | FPS |",
+      "line": 609
+    },
+    {
+      "name": "HDR-VDP-2",
+      "anchor": "SSIM, | HDR-VDP-2 |     | [32], | and HDR-VQM",
+      "line": 641
+    },
+    {
+      "name": "HDR-VQM",
+      "anchor": "Method    | PSNR↑ | SSIM↑ | HDR-VDP2↑ | HDR-VQM↓ | FPS |",
+      "line": 609
+    }
+  ],
+  "notes": "自建数据集,名称 Spike-RGB dataset 仅在摘要出现一次,全文无外部基准数据集。其构成表(Table 1)按规则不逐条收录:含 full-synthetic(80/20 train/test,用于训练与验证)、real-synthetic(160/40,表 2 的定量测试基准)、real-world(20 组,仅 4.2 定性展示并与商用相机 iPhone 13/Mi 10/Phantom 对比)三部分;整体作为训练与定量测试基准故 role=benchmark,real-world 部分仅定性用途。指标方面:HDR-VDP-2 与 HDR-VQM 为缩写,原文未展开(表 2 表头写作 HDR-VDP2,正文写作 HDR-VDP-2,本文保留正文写法);表 2 中 FPS 列(60/1000)为帧率条件标注而非质量指标,未收录;l1/SSIM/LPIPS 在 3.5 节为训练损失而非评测指标,未收录。论文无附录;4.2 节为纯定性评估,无额外指标。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_1000_FPS_HDR_Video_With_a_Spike-RGB_Hybrid_Camera_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

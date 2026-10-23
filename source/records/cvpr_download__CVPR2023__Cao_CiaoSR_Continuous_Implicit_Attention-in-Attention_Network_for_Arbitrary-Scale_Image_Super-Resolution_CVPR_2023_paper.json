@@ -1,0 +1,91 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_CiaoSR_Continuous_Implicit_Attention-in-Attention_Network_for_Arbitrary-Scale_Image_Super-Resolution_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CiaoSR: Continuous Implicit Attention-in-Attention Network for Arbitrary-Scale Image Super-Resolution",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DIV2K",
+      "role": "benchmark",
+      "anchor": "models on the DIV2K validation set and a wide range of",
+      "line": 426
+    },
+    {
+      "name": "Set5",
+      "role": "benchmark",
+      "anchor": "standardbenchmarkdatasets,includingSet5[3],Set14[80],",
+      "line": 427
+    },
+    {
+      "name": "Set14",
+      "role": "benchmark",
+      "anchor": "includingSet5[3],Set14[80],",
+      "line": 427
+    },
+    {
+      "name": "B100",
+      "role": "benchmark",
+      "anchor": "B100[46],Urban100[29],andManga109[47].",
+      "line": 428
+    },
+    {
+      "name": "Urban100",
+      "role": "benchmark",
+      "anchor": "Urban100.WeuseRDN[88]asthebackbone.",
+      "line": 614
+    },
+    {
+      "name": "Manga109",
+      "role": "benchmark",
+      "anchor": "Manga109datasetsareshowninTable6.",
+      "line": 595
+    },
+    {
+      "name": "RealSRSet",
+      "role": "benchmark",
+      "anchor": "DIV2K dataset [1], and test on the RealSRSet [82] and",
+      "line": 663
+    },
+    {
+      "name": "DPED",
+      "role": "qualitative",
+      "anchor": "results on the RealSRSet [82] and DPED [30] datasets in",
+      "line": 700
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "Evaluationmetrics. WeusePSNRtoevaluatethequality",
+      "line": 430
+    },
+    {
+      "name": "SSIM",
+      "anchor": "metrics(suchasSSIM[76]andLPIPS[85])areprovidedto",
+      "line": 442
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "Comparisonofmoreevaluationmetrics(SSIM↑[76]andLPIPS↓[85])for",
+      "line": 638
+    },
+    {
+      "name": "NIQE",
+      "anchor": "imagequalityassessment(e.g.,NIQE[54],BRISQUE[53]",
+      "line": 693
+    },
+    {
+      "name": "BRISQUE",
+      "anchor": "imagequalityassessment(e.g.,NIQE[54],BRISQUE[53]",
+      "line": 693
+    },
+    {
+      "name": "PIQE",
+      "anchor": "andPIQE[69])toevaluatetheimagequality.",
+      "line": 696
+    }
+  ],
+  "notes": "DIV2K 兼作训练集(800 张 2K)与验证集评测基准(Table 1 在 DIV2K validation set 上报告),real-world 实验亦以 DIV2K 加退化合成训练数据;因其评测角色明确,未按训练用途另拆条。Set5/Set14/B100/Urban100/Manga109 为 in-scale/out-of-scale 标准测试基准(Table 2/3),Urban100/Manga109 还用于消融(Table 4-6)与更多指标对比(Table 8)。RealSRSet 为 real-world 定量测试(Table 9);DPED 仅出现在 Figure 6 视觉对比,故标 qualitative。NIQE/BRISQUE/PIQE 为无参考图像质量评估指标,原文仅以缩写给出未展开全称。全文为 markdown 转录、OCR 空格缺失,锚点均按原文逐字照抄并经脚本核验;正文后无附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_CiaoSR_Continuous_Implicit_Attention-in-Attention_Network_for_Arbitrary-Scale_Image_Super-Resolution_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

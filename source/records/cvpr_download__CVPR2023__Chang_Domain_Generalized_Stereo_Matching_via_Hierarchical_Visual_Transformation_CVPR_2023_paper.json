@@ -1,0 +1,74 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_Domain_Generalized_Stereo_Matching_via_Hierarchical_Visual_Transformation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Domain Generalized Stereo Matching via Hierarchical Visual Transformation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "SceneFlow",
+      "role": "other",
+      "anchor": "Datasets. We use the SceneFlow [19] dataset for train-",
+      "line": 423
+    },
+    {
+      "name": "KITTI 2012",
+      "role": "benchmark",
+      "anchor": "ing and four realistic SM datasets (KITTI 2012 [8], KIT-",
+      "line": 424
+    },
+    {
+      "name": "KITTI 2015",
+      "role": "benchmark",
+      "anchor": "except ITSA-CFNet on KITTI 2015. It also",
+      "line": 592
+    },
+    {
+      "name": "Middlebury",
+      "role": "benchmark",
+      "anchor": "Middlebury [23] includes 15 high-",
+      "line": 469
+    },
+    {
+      "name": "ETH3D",
+      "role": "benchmark",
+      "anchor": "ETH3D[24]has27grayscalestereoimage",
+      "line": 472
+    },
+    {
+      "name": "DrivingStereo",
+      "role": "benchmark",
+      "anchor": "Figure5.QualitativeresultsontheDrivingStereo[32]dataset.For",
+      "line": 628
+    }
+  ],
+  "metrics": [
+    {
+      "name": "EPE",
+      "anchor": "dicted disparity maps of different methods. The EPE values are",
+      "line": 633
+    },
+    {
+      "name": "D1",
+      "anchor": "TheD1errorratecomputesthepercentageoferror",
+      "line": 486
+    },
+    {
+      "name": "D1(3px)",
+      "anchor": "Sunny,Cloudy,Rainy,andFoggy.TheD1(3px)metricisused.",
+      "line": 627
+    },
+    {
+      "name": "D1(2px)",
+      "anchor": "D1(3px) EPE | D1(2px)",
+      "line": 429
+    },
+    {
+      "name": "D1(1px)",
+      "anchor": "D1(2px) | EPE  | D1(1px)",
+      "line": 429
+    }
+  ],
+  "notes": "SceneFlow 为域泛化设定下唯一训练用合成数据集(模型仅在其上训练,不作测试基准,也非预训练-微调流程,故 role=other)。KITTI 2012 / KITTI 2015 / Middlebury / ETH3D 为四个跨域测试基准;Middlebury 实验采用半分辨率版本 Middlebury(H)。DrivingStereo 用于复杂天气(Sunny/Cloudy/Rainy/Foggy)鲁棒性定量评测(Table 4)及定性展示(Fig.5),按 benchmark 记。指标:EPE 即 End-Point Error(原文 OCR 无空格写作 End-PointError,缩写未展开处已按原样保留);D1 为 D1 error rate(%),按像素阈值 ρ 在不同数据集取 3px/2px/1px,结果表表头写作 D1(3px)/D1(2px)/D1(1px),作为阈值变体单列。全文无附录;相关工作中的数据集与基线仅用于排除,未计入。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_Domain_Generalized_Stereo_Matching_via_Hierarchical_Visual_Transformation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

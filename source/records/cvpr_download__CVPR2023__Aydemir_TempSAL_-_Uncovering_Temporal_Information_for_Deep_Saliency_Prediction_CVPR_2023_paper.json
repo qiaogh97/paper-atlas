@@ -1,0 +1,66 @@
+{
+  "paper": "cvpr_download/CVPR2023/Aydemir_TempSAL_-_Uncovering_Temporal_Information_for_Deep_Saliency_Prediction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "TempSAL - Uncovering Temporal Information for Deep Saliency Prediction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "SALICON",
+      "role": "benchmark",
+      "anchor": "SALICON[20]isthelargesthumanattentiondataseton",
+      "line": 146
+    },
+    {
+      "name": "CodeCharts1k",
+      "role": "benchmark",
+      "anchor": "ity of our method using CodeCharts1k [14], which is the",
+      "line": 196
+    },
+    {
+      "name": "temporal SALICON",
+      "role": "benchmark",
+      "anchor": "Results of ablation studies on the temporal SALICON",
+      "line": 548
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AUC",
+      "anchor": "AreaUndertheCurve(AUC)[5]:Saliencypredictioncan",
+      "line": 460
+    },
+    {
+      "name": "sAUC",
+      "anchor": "FPratesusingallthegroundtruthfixationpoints,sAUC[4]",
+      "line": 469
+    },
+    {
+      "name": "NSS",
+      "anchor": "Normalized Scanpath Saliency (NSS) [38]: This metric",
+      "line": 473
+    },
+    {
+      "name": "KL",
+      "anchor": "vergence (KL) [45] and the Correlation Coefficient (CC)",
+      "line": 379
+    },
+    {
+      "name": "CC",
+      "anchor": "Pearson’s correlation coefficient (CC) [21]: This metric",
+      "line": 396
+    },
+    {
+      "name": "SIM",
+      "anchor": "Similarity(SIM)score[22]:Thesimilarityscoresumsthe",
+      "line": 408
+    },
+    {
+      "name": "IG",
+      "anchor": "InformationGain(IG)score[27]:Theinformationgainis",
+      "line": 417
+    }
+  ],
+  "notes": "全文为 OCR 转录 markdown，空格大量缺失且双栏文本有交错，锚点按原文逐字复制。SALICON 为主实验基准（表3，SALICON (LSUN 2017) test benchmark），并提供 train/val/test 划分用于训练与消融；temporal SALICON 为作者基于 SALICON 原始 gaze 数据重建时间戳后构建的时序数据集，用于表5消融与表6时序基线对比，故单列为一条 benchmark；CodeCharts1k 用于 5.5 节与多时长模型 MD-SEM/SAM-MD 的对比（表4）。MS-COCO 仅作为 SALICON 图像来源被提及，未在实验中直接使用，未计入；SALICON-MD 仅作为先前工作的时间戳均匀分布假设被引用，实验未直接使用；CAT2000 与 MIT1003 仅在引言中作为缺乏时序信息的其他显著性数据集对比提及，未使用。指标均为缩写形式，原文未逐词展开的按缩写保留（AUC/sAUC/NSS/KL/CC/SIM/IG）；正文定义处写作 sAUC 而表3表头写作 SAUC，按正文写法保留 sAUC；KL 同时用作训练损失（4.2.3 节）与评测指标（表3/4/5/6 的 KL 列），只记一条；CC 除评测外亦用于 3.2 节时序切片相关性分析，同一名称只记一条。5.5 节在 three-slice SALICON multi-duration 数据上训练后微调到 CodeCharts1k，该数据即 SALICON 的时长切分版本，未单列。正文多处提及 supplementary material（时间戳重建细节、附加消融与定性结果），未见额外命名数据集或新指标。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Aydemir_TempSAL_-_Uncovering_Temporal_Information_for_Deep_Saliency_Prediction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

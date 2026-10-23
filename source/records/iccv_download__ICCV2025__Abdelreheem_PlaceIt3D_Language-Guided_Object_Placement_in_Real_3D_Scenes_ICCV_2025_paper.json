@@ -1,0 +1,78 @@
+{
+  "paper": "iccv_download/ICCV2025/Abdelreheem_PlaceIt3D_Language-Guided_Object_Placement_in_Real_3D_Scenes_ICCV_2025_paper",
+  "venue": "ICCV2025",
+  "title": "PLACEIT3D: Language-Guided Object Placement in Real 3D Scenes",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "PLACEIT3D-benchmark",
+      "role": "benchmark",
+      "anchor": "We introduce PLACEIT3D-benchmark for language-",
+      "line": 158
+    },
+    {
+      "name": "PLACEIT3D-dataset",
+      "role": "pretrain",
+      "anchor": "elsaretrainedonourtrainingdatasetPLACEIT3D-dataset.",
+      "line": 619
+    },
+    {
+      "name": "ScanNet",
+      "role": "construction",
+      "anchor": "bining a total of 142 different scenes from ScanNet [15]",
+      "line": 369
+    },
+    {
+      "name": "PartObjaverse-Tiny",
+      "role": "construction",
+      "anchor": "and 20 different assets from the PartObjaverse-Tiny",
+      "line": 370
+    },
+    {
+      "name": "Objaverse",
+      "role": "pretrain",
+      "anchor": "trained on the Objaverse [17] dataset. This encoder",
+      "line": 542
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Global Constraint Accuracy",
+      "anchor": "GlobalConstraintAccuracy:Thepercentageofallcon-",
+      "line": 334
+    },
+    {
+      "name": "Complete Placement Success",
+      "anchor": "uationmetric,CompletePlacementSuccess,whichrequires",
+      "line": 597
+    },
+    {
+      "name": "Language Adherence Success",
+      "anchor": "LanguageAdherenceSuccess:Thepercentageofplace-",
+      "line": 354
+    },
+    {
+      "name": "Physical",
+      "anchor": "Name Physical Spatial Rotational Visibility",
+      "line": 571
+    },
+    {
+      "name": "Spatial",
+      "anchor": "Name Physical Spatial Rotational Visibility",
+      "line": 571
+    },
+    {
+      "name": "Rotational",
+      "anchor": "Name Physical Spatial Rotational Visibility",
+      "line": 571
+    },
+    {
+      "name": "Visibility",
+      "anchor": "Name Physical Spatial Rotational Visibility",
+      "line": 571
+    }
+  ],
+  "notes": "论文自建并发布两类数据：PLACEIT3D-benchmark（3,500 评测例）为主实验测试基准；PLACEIT3D-dataset（100,505 训练/2,566 验证例）仅用于训练全部模型（含基线），映射为 pretrain 角色。PLACEIT3D-dataset-full（约 400 万例）仅作为发布母语料被提及，未直接用于实验，未单列。ScanNet（benchmark 用 142 场景、训练集用 565 场景，并提供 anchor 的 GT 包围盒）与 PartObjaverse-Tiny（20 个资产）均为构建来源，归 construction。Objaverse 仅用于 Point-BERT 资产编码器的预训练。指标方面，三个全局指标在 OCR 全文中无空格（如 GlobalConstraintAccuracy），名称按原论文规范写法保留空格，锚点保持 OCR 原样；Table 2 的子组列 Physical/Spatial/Rotational/Visibility 为按约束组汇报的成功率列（Subgroup metrics），逐列单列一条，锚点取自表头行。文中 ARD 系 PLACEWIZ-ARD 跨行拆分，非指标。相关工作中提及的其他数据集仅用于排除，未收录。全文文件止于参考文献，补充材料（supplemental）未包含在内。",
+  "text_path": "conference_paper/iccv_download/ICCV2025/Abdelreheem_PlaceIt3D_Language-Guided_Object_Placement_in_Real_3D_Scenes_ICCV_2025_paper/paper.md",
+  "text_source": "markdown"
+}

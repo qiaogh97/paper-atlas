@@ -1,0 +1,85 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_Pointersect_Neural_Rendering_With_Cloud-Ray_Intersection_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Pointersect: Neural Rendering with Cloud-Ray Intersection",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "tex-models",
+      "role": "benchmark",
+      "anchor": "Method Metrics tex-models ShapeNet Sketchfab",
+      "line": 504
+    },
+    {
+      "name": "ShapeNet Core",
+      "role": "benchmark",
+      "anchor": "30meshesinShapeNetCoredataset[7]containingsharp",
+      "line": 415
+    },
+    {
+      "name": "sketchfab",
+      "role": "benchmark",
+      "anchor": "13testmeshesinthesketchfabdataset[38].",
+      "line": 418
+    },
+    {
+      "name": "sketchfab",
+      "role": "construction",
+      "anchor": "Themodelistrainedon48trainingmeshesinthesketch-",
+      "line": 445
+    },
+    {
+      "name": "Hypersim",
+      "role": "benchmark",
+      "anchor": "We randomly select a room scene in the Hypersim",
+      "line": 503
+    },
+    {
+      "name": "ImageNet",
+      "role": "construction",
+      "anchor": "fromImageNetdatasetasthetexturemapforthemesh.",
+      "line": 494
+    },
+    {
+      "name": "ARKitScenes",
+      "role": "qualitative",
+      "anchor": "itScenesdataset[6],performuniformvoxeldownsampling",
+      "line": 615
+    }
+  ],
+  "metrics": [
+    {
+      "name": "RMSE",
+      "anchor": "SquareError(RMSE)oftheintersectionpointestimation,",
+      "line": 492
+    },
+    {
+      "name": "normal(angle(◦))",
+      "anchor": "normal(angle(◦))↓ 8.48±3.97",
+      "line": 520
+    },
+    {
+      "name": "hit(accuracy(%))",
+      "anchor": "hit(accuracy(%))↑ 99.8±0.2 99.6±0.6 99.8±0.1",
+      "line": 552
+    },
+    {
+      "name": "PSNR",
+      "anchor": "thePeakSignal-to-NoiseRatio(PSNR),StructuralSimilar-",
+      "line": 497
+    },
+    {
+      "name": "SSIM",
+      "anchor": "ity Index Measure | (SSIM) | [50], and LPIPS |",
+      "line": 500
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "LPIPS↓ 0.79±0.04 0.37±0.04",
+      "line": 565
+    }
+  ],
+  "notes": "全文 markdown 由 OCR 转录、空格大量缺失，所有锚点按原样逐字复制并已用 grep -F 核验。角色拆分：sketchfab 拆两条——13 个测试网格作主实验测试基准（benchmark，表 1 Sketchfab 列），48 个训练网格作为采样生成训练数据的来源（construction）；ImageNet 仅在训练时为网格提供随机纹理贴图（construction）。tex-models 即 4.2 节 Zhou et al.[57] 提供的 7 个带纹理网格（含 Stanford Bunny、Buddha），表 1 列名及参考文献 [57] 的 tex-models.htm 均用此名。ARKitScenes 原文跨行写作 ARK-/itScenes（锚点取行内连续段），仅用于真实 Lidar 点云定性展示（图 7 场景编辑/重光照，无定量表），故 role=qualitative。Hypersim 用于房间级 novel-view 渲染定量实验（表 2，PSNR/SSIM/LPIPS），role=benchmark。指标口径：PSNR/SSIM/LPIPS 在表 1 中带 color() 前缀、表 2 无前缀，均为渲染图像质量；RMSE 用于交点估计误差（表 1 记作 depth(RMSE)、表 3 记作 depth(rmse)）；normal(angle(◦)) 为法向角度误差；hit(accuracy(%)) 为相机射线是否命中表面的准确率。PSNR/SSIM/RMSE 原文均有展开（Peak Signal-to-Noise Ratio、Structural Similarity Index Measure、Root Mean Square Error），LPIPS 原文未展开。文件止于参考文献，无附录/补充材料正文。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_Pointersect_Neural_Rendering_With_Cloud-Ray_Intersection_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

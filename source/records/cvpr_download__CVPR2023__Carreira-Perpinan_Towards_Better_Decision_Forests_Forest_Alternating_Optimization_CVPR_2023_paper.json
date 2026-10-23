@@ -1,0 +1,87 @@
+{
+  "paper": "cvpr_download/CVPR2023/Carreira-Perpinan_Towards_Better_Decision_Forests_Forest_Alternating_Optimization_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Towards Better Decision Forests: Forest Alternating Optimization",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "cpuact",
+      "role": "benchmark",
+      "anchor": "Optimizationability and overfitting problem of FAO on the cpuact dataset.",
+      "line": 441
+    },
+    {
+      "name": "MNIST",
+      "role": "benchmark",
+      "anchor": "Wereport0-1errorontheMNISTdatasetandRMSEoncpuact.",
+      "line": 680
+    },
+    {
+      "name": "CT-slice",
+      "role": "benchmark",
+      "anchor": "aconsiderablemargin(e.g. MNIST,CT-slice).",
+      "line": 612
+    },
+    {
+      "name": "SUSY",
+      "role": "benchmark",
+      "anchor": "thedifferenceissmallatthefirstside(e.g. SUSY),itisim-",
+      "line": 613
+    },
+    {
+      "name": "news20",
+      "role": "benchmark",
+      "anchor": ")001,215,k05(001RAFIC LightGBM 30.32±0.00 1.0M 14.3k 18 XGBo",
+      "line": 555
+    },
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": ")001,215,k05(001RAFIC",
+      "line": 555
+    },
+    {
+      "name": "casp",
+      "role": "benchmark",
+      "anchor": ")9,k54(psac GB-TAO",
+      "line": 559
+    },
+    {
+      "name": "year",
+      "role": "benchmark",
+      "anchor": ")09,k054(raey XGBoost",
+      "line": 570
+    },
+    {
+      "name": "UCMerced logos",
+      "role": "qualitative",
+      "anchor": "ThisphenomenonisalsoillustratedintheUCMercedlogosinthepapertitle",
+      "line": 474
+    }
+  ],
+  "metrics": [
+    {
+      "name": "0-1 error",
+      "anchor": "Wereport a0-1errorE (%)forclassification,",
+      "line": 580
+    },
+    {
+      "name": "RMSE",
+      "anchor": "RMSEforregression(mean±stdover5repeats)andmodelsize.",
+      "line": 582
+    },
+    {
+      "name": "model size",
+      "anchor": "andmodelsize.ThedatasetnameisfollowedbythetrainingsetsizeN",
+      "line": 582
+    },
+    {
+      "name": "training time",
+      "anchor": "Training time Training T = 10 oblique trees of depth",
+      "line": 633
+    }
+  ],
+  "notes": "Table 1 的数据集名在 OCR 转录中被旋转 180 度：cpuact/MNIST/CT-slice/SUSY 在正文有正向写法可作锚点；news20/CIFAR-100/casp/year 仅以旋转形式出现（02swan→news20(16k,62k,20)、001RAFIC→CIFAR-100(50k,512,100)、psac→casp(45k,9)、raey→year(450k,90)），其锚点逐字取自旋转后的原文表格行。8 个 benchmark 均为主实验测试基准（分类：MNIST、news20、CIFAR-100、SUSY；回归：cpuact、CT-slice、casp、year）。UCMerced logos 为论文标题页把校徽图像当作 2D→3D 回归数据集的定性演示，role=qualitative。指标：0-1 error 即分类测试误差 E_test（表中 E test (%)）；RMSE 为回归误差，原文未展开缩写；model size 对应表中 #pars. 参数量；training time 在实验部分单列小节报告运行时间。正文提及 suppl.mat 含更多超参数与数据集细节，但补充材料不在本全文文件内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Carreira-Perpinan_Towards_Better_Decision_Forests_Forest_Alternating_Optimization_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

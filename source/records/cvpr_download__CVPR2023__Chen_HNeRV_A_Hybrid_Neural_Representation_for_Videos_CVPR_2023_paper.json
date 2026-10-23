@@ -1,0 +1,11 @@
+{"paper": "cvpr_download/CVPR2023/Chen_HNeRV_A_Hybrid_Neural_Representation_for_Videos_CVPR_2023_paper", "venue": "CVPR2023", "title": "HNeRV: A Hybrid Neural Representation for Videos", "status": "ok",
+ "datasets": [{"name": "BigBuckBunny", "role": "benchmark", "anchor": "WeusetheBigBuckBunny(Bunny)[1],UVG[30]and"},
+  {"name": "UVG", "role": "benchmark", "anchor": "size(e.g.1×2)forembedding. UVGhas7videos1 with"},
+  {"name": "DAVIS", "role": "benchmark", "anchor": "crop960×1920. Wealsotake10videos2fromtheDAVIS"}],
+ "metrics": [{"name": "PSNR", "anchor": "For evaluation metrics, we use PSNR and MS-SSIM to"},
+  {"name": "MS-SSIM", "anchor": "For evaluation metrics, we use PSNR and MS-SSIM to"},
+  {"name": "bpp", "anchor": "evaluatereconstructionquality,bitsperpixel(bpp)forcom-"},
+  {"name": "ppp", "anchor": "pression,andpixelsperpixel(ppp)formodelcompactness."},
+  {"name": "FPS", "anchor": "compactness(ppp),reconstructionquality(PSNR),anddecodingspeed(FPS)."}],
+ "notes": "全文 markdown 为双栏 PDF 转录，存在 OCR 空格缺失（如 WeusetheBigBuckBunny），锚点均按原文逐字复制并已核验。三个数据集（BigBuckBunny 别名 Bunny、UVG 7 视频、DAVIS 验证子集 10 视频）均为主实验测试基准（视频回归/压缩/内插/修复），故均记 benchmark。指标 PSNR、MS-SSIM、bpp（bits per pixel）、ppp（pixels per pixel）为论文 4.1 节明确声明的评测指标；另将 4.4 节解码实验中明确命名的解码速度 FPS 计入（Figure 5 轴标签 Decoding FPS）。bpp/ppp 原文已展开给出全称。附录 A（Tab.9/10 消融）与补充材料未包含在该转录文件中。H.264、H.265、DCVC、IIVI、NeRV、E-NeRV 为对比方法而非数据集；UVG/DAVIS 各视频名（Beauty、bike-packing 等）为数据集内单条视频，不单列。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_HNeRV_A_Hybrid_Neural_Representation_for_Videos_CVPR_2023_paper/paper.md", "text_source": "markdown"}

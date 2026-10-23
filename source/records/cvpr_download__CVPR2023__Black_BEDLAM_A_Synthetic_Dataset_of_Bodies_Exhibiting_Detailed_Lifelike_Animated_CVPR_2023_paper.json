@@ -1,0 +1,146 @@
+{
+  "paper": "cvpr_download/CVPR2023/Black_BEDLAM_A_Synthetic_Dataset_of_Bodies_Exhibiting_Detailed_Lifelike_Animated_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "BEDLAM: A Synthetic Dataset of Bodies Exhibiting Detailed Lifelike Animated Motion",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "BEDLAM",
+      "role": "benchmark",
+      "anchor": "weusetheAGORAandBEDLAMtestsets.",
+      "line": 453
+    },
+    {
+      "name": "BEDLAM",
+      "role": "other",
+      "anchor": "(BEDLAM+AGORA) using an HRNet-W48 [71] back-",
+      "line": 461
+    },
+    {
+      "name": "AGORA",
+      "role": "construction",
+      "anchor": "from AGORA dataset. These bodies mostly correspond to",
+      "line": 236
+    },
+    {
+      "name": "AGORA",
+      "role": "benchmark",
+      "anchor": "weusetheAGORAandBEDLAMtestsets.",
+      "line": 453
+    },
+    {
+      "name": "AGORA",
+      "role": "other",
+      "anchor": "than 85K crops from AGORA, suggesting that BEDLAM",
+      "line": 539
+    },
+    {
+      "name": "3DPW",
+      "role": "benchmark",
+      "anchor": "GTlabelsinSMPL-Xformat. Weuse3DPWforeval-",
+      "line": 438
+    },
+    {
+      "name": "RICH",
+      "role": "benchmark",
+      "anchor": "useRICH[26]whichhasmorevariedcameraangles.",
+      "line": 442
+    },
+    {
+      "name": "Human3.6M",
+      "role": "benchmark",
+      "anchor": "InSup.Mat.wealsoevaluateonHuman3.6M[27]andob-",
+      "line": 446
+    },
+    {
+      "name": "SSP-3D",
+      "role": "benchmark",
+      "anchor": "toevaluatebodyshapeweuseSSP-3D[66]andHBW[16].",
+      "line": 445
+    },
+    {
+      "name": "HBW",
+      "role": "benchmark",
+      "anchor": "toevaluatebodyshapeweuseSSP-3D[66]andHBW[16].",
+      "line": 445
+    },
+    {
+      "name": "AMASS",
+      "role": "construction",
+      "anchor": "AMASS[47]. BecauseAMASSdoesnotincludehandmo-",
+      "line": 87
+    },
+    {
+      "name": "GRAB",
+      "role": "construction",
+      "anchor": "pledfromtheGRABdataset[74]. Werendersinglepeople",
+      "line": 89
+    },
+    {
+      "name": "CAESAR",
+      "role": "construction",
+      "anchor": "from the | CAESAR | dataset | [62].",
+      "line": 240
+    },
+    {
+      "name": "BABEL",
+      "role": "construction",
+      "anchor": "ofthemotionlabelsprovidedbyBABEL[60].",
+      "line": 293
+    },
+    {
+      "name": "COCO",
+      "role": "pretrain",
+      "anchor": "on COCO [82]. We represent all ground truth bodies in a",
+      "line": 468
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "ImageNet[18], orusingaposeestimationnetworktrained",
+      "line": 467
+    },
+    {
+      "name": "MPI-INF-3DHP",
+      "role": "other",
+      "anchor": "[27],MPI-INF-3DHP[49],and2DdatasetsCOCO[43]and",
+      "line": 397
+    },
+    {
+      "name": "MPII",
+      "role": "other",
+      "anchor": "MPII[7]withpseudo-GTprovidedbytheCLIFFannotator.",
+      "line": 398
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PVE",
+      "anchor": "and shape | accuracy. | PVE | and MPJPE | rep-",
+      "line": 455
+    },
+    {
+      "name": "MPJPE",
+      "anchor": "PA-MPJPE MPJPE PVE PA-MPJPE MPJPE PVE",
+      "line": 479
+    },
+    {
+      "name": "PA-MPJPE",
+      "anchor": "after aligning the pelvis. PA-MPJPE further",
+      "line": 460
+    },
+    {
+      "name": "PVE-T-SC",
+      "anchor": "PVE-T-SCisper-vertexerrorinaneutralpose(T-pose)after",
+      "line": 462
+    },
+    {
+      "name": "P2P",
+      "anchor": "scale-correction[66]. P2P isper-vertexerrorinaneutral",
+      "line": 464
+    }
+  ],
+  "notes": "数据集论文。BEDLAM 拆两条：自带测试集+评测服务器（benchmark，与 AGORA-test 一起评 BEDLAM-CLIFF-X）与主训练语料（other，含 750K crops 及派生手部 crops）。AGORA 拆三条：111 个 SMPL-X 体型来源（construction）、85K 训练 crops（other）、AGORA-test 评测（benchmark）。3DPW 主角色为测试基准，其训练集另用于微调 BEDLAM-CLIFF*/HMR*，未单列。Human3.6M 在补充材料中作评测基准（正文明确提及），同时用于训练 CLIFF† 真实数据基线。MPI-INF-3DHP、MPII（及 COCO 的再次出现）仅用于 CLIFF† 基线训练，角色记为 other；COCO/ImageNet 为主干网络预训练（pretrain）。构建来源：AMASS（2311 段动作）、GRAB（手部动作）、CAESAR（高 BMI 体型）、BABEL（动作标签采样）；Meshcapade 皮肤纹理、Reallusion 发型、CLO3D 布料模拟、UE5 渲染为商业资产/工具，未列为数据集条目。相关工作里提及的 SURREAL、HSPACE、MGN、PSPHDRI+、3DPeople、JTA、SPEC 等仅用于对比排除，未收。指标：PVE/MPJPE/PA-MPJPE/P2P 为缩写，原文以小写描述（per-vertex error、关节/顶点平均误差、骨盆对齐/再加旋转尺度对齐）但未给出缩写全称；PVE-T-SC 中 SC 指尺度校正（scale correction），论文表格中亦写作 PVE-T-SC；P2P 在表 2 中写作 P2P20k（采样 20K 顶点）。表 2 的 Rank/Average 为排名统计，未计入指标。补充材料正文未含于本文件，Human3.6M 评测依据主文 4.2 节表述。全文为双栏 OCR 转录，空格有缺失，锚点照抄原文。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Black_BEDLAM_A_Synthetic_Dataset_of_Bodies_Exhibiting_Detailed_Lifelike_Animated_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

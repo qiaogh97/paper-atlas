@@ -1,0 +1,82 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Activating_More_Pixels_in_Image_Super-Resolution_Transformer_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Activating More Pixels in Image Super-Resolution Transformer",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Set5",
+      "role": "benchmark",
+      "anchor": "Training Set5 Set14 BSD100 Urban100 Manga109",
+      "line": 461
+    },
+    {
+      "name": "Set14",
+      "role": "benchmark",
+      "anchor": "Five benchmark | datasets | including | Set5 | [2], | Set14 [66],",
+      "line": 322
+    },
+    {
+      "name": "BSD100",
+      "role": "benchmark",
+      "anchor": "BSD100[40],Urban100[19]andManga109[41]areused",
+      "line": 325
+    },
+    {
+      "name": "Urban100",
+      "role": "benchmark",
+      "anchor": "on the Urban100 dataset for",
+      "line": 381
+    },
+    {
+      "name": "Manga109",
+      "role": "benchmark",
+      "anchor": "Manga109. When recovering the characters",
+      "line": 445
+    },
+    {
+      "name": "DF2K",
+      "role": "other",
+      "anchor": "trainingandDF2Kdatasetisusedforfine-tuning.",
+      "line": 528
+    },
+    {
+      "name": "DIV2K",
+      "role": "construction",
+      "anchor": "(DIV2K | [33]+Flicker2K",
+      "line": 357
+    },
+    {
+      "name": "Flicker2K",
+      "role": "construction",
+      "anchor": "(DIV2K | [33]+Flicker2K",
+      "line": 357
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "indicatesthatmethodsadoptpre-trainingstrategyonImageNet.",
+      "line": 460
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "toevaluatethemethods.Forthequantitativemetrics,PSNR",
+      "line": 328
+    },
+    {
+      "name": "SSIM",
+      "anchor": "andSSIM(calculatedontheYchannel)arereported.",
+      "line": 331
+    },
+    {
+      "name": "DI",
+      "anchor": "highestDI[15],whichmeansourmethodutilizesthemost",
+      "line": 417
+    }
+  ],
+  "notes": "五个测试基准 Set5/Set14/BSD100/Urban100/Manga109 为 benchmark;DF2K(DIV2K+Flicker2K)为训练集,训练数据角色在模板中无对应项故标 other;DIV2K 与 Flicker2K 仅作为 DF2K 训练集的组成来源出现,标 construction(原文拼写为 Flicker2K,即常用名 Flickr2K);ImageNet 仅用于 same-task 预训练,标 pretrain。指标 PSNR/SSIM 在 Y 通道上计算;DI 为 LAM 归因分析中的度量,原文未展开缩写(引文[15]),在消融分析小节明确命名,故计入。正文称训练细节见补充材料,本全文文件不含附录/补充材料,未涉及额外数据集。markdown 转录存在双栏错位与空格缺失,锚点均按原文件逐字切片并程序化验证。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Activating_More_Pixels_in_Image_Super-Resolution_Transformer_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

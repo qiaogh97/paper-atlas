@@ -1,0 +1,64 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Better_CMOS_Produces_Clearer_Images_Learning_Space-Variant_Blur_Estimation_for_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Better “CMOS” Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "NYUv2-BSR",
+      "role": "benchmark",
+      "anchor": "new datasets with out-of-focus blur, i.e., NYUv2-BSR and",
+      "line": 22
+    },
+    {
+      "name": "Cityscapes-BSR",
+      "role": "benchmark",
+      "anchor": "Cityscapes-BSR, to support further researches of blind SR",
+      "line": 23
+    },
+    {
+      "name": "NYUv2",
+      "role": "construction",
+      "anchor": "NYUv2isanindoordataset.",
+      "line": 206
+    },
+    {
+      "name": "Cityscapes",
+      "role": "construction",
+      "anchor": "SincethedepthmapsinCityscapescontainin-",
+      "line": 219
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "thepre-trainedImageNetweights.",
+      "line": 383
+    },
+    {
+      "name": "IVA",
+      "role": "other",
+      "anchor": "Importanceofusingspace-variantblurfortraining. IVA",
+      "line": 453
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "For Evaluation Metrics. For blur estimation, we use PSNR",
+      "line": 415
+    },
+    {
+      "name": "SSIM",
+      "anchor": "andSSIM[41]. Forsemanticsegmentation,weusemIoU.",
+      "line": 417
+    },
+    {
+      "name": "mIoU",
+      "anchor": "mIoUevaluatestheeffectofsemanticestimation.",
+      "line": 513
+    }
+  ],
+  "notes": "论文自建两个空间变异模糊盲 SR 基准 NYUv2-BSR、Cityscapes-BSR(role=benchmark,主实验与消融均在其实测);NYUv2 与 Cityscapes 仅作为生成离焦模糊图像的上游原始数据(role=construction);ImageNet 仅用于 HRNet backbone 预训练权重(role=pretrain);IVA 为消融表 4 中使用的 NYUv2 空间不变模糊变体(原文:IVA stands for the NYUv2 dataset with only space-invariant blur),仅消融用途故记 other。指标 PSNR/SSIM/mIoU 原文均未展开全称(SSIM 引用 [41] 即 Wang 等结构相似性),PSNR/SSIM 报告在 YCbCr 的 Y 通道,均保留缩写。5.4 真实世界 SR 实验仅定性视觉比较,无数值指标与命名数据集。无附录。全文为 OCR 转录、存在空格缺失痕迹,所有锚点均按文件原字符逐字复制。另注:任务给定的 text_path 目录名与实际文件目录名存在历史别名差异(Estimati_CVPR vs Estimation_for_CVPR),实际读取的是仓库中 Chen_Better_CMOS_Produces_Clearer_Images_Learning_Space-Variant_Blur_Estimation_for_CVPR_2023_paper/paper.md,text_path 字段按任务给定值原样保留。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Better_CMOS_Produces_Clearer_Images_Learning_Space-Variant_Blur_Estimation_for_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,47 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Iterative_Proposal_Refinement_for_Weakly-Supervised_Video_Grounding_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Iterative Proposal Refinement for Weakly-Supervised Video Grounding",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ActivityNet Captions",
+      "role": "benchmark",
+      "anchor": "forActivityNetCaptions.",
+      "line": 522
+    },
+    {
+      "name": "Charades-STA",
+      "role": "benchmark",
+      "anchor": "AllablationstudiesareconductedonCharades-STAdatasetwiththe",
+      "line": 732
+    },
+    {
+      "name": "sport1M",
+      "role": "pretrain",
+      "anchor": "C3D[54]pre-trainedonsport1M[30]forActivityNetCap-",
+      "line": 527
+    },
+    {
+      "name": "Kinetics",
+      "role": "pretrain",
+      "anchor": "tionsandI3D[9]pre-trainedonKinetics[9]forCharades-",
+      "line": 528
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Rn@m",
+      "anchor": "72], we adopt“Rn@m”as themetric, whichis definedas",
+      "line": 626
+    },
+    {
+      "name": "coverage ratio",
+      "anchor": "stratethis,wedeviseanewmetriccoverageratiotobethe",
+      "line": 707
+    }
+  ],
+  "notes": "主实验基准为 ActivityNet Captions 与 Charades-STA(benchmark)。正文提及两者的上游来源 ActivityNet v1.3 与 Charades 数据集,仅为基准自身构建背景,论文并未直接使用,未单列。C3D 特征提取器的预训练集 sport1M(原文拼写如此,通常写作 Sports-1M)与 I3D 预训练集 Kinetics 按 pretrain 角色收录;DistilBERT 预训练语料(English Wikipedia、Toronto Book Corpus)属现成模型说明,未计入。指标 Rn@m 为论文统一定义的度量(n∈{1,5};m∈{0.3,0.5,0.7} 于 Charades-STA,m∈{0.1,0.3,0.5} 于 ActivityNet Captions),表1/2/3/4/5 列头的 R1@0.3、@0.5、R5@0.3 等及正文 R1@0.3 均为该指标实例,不单列。coverage ratio 为 4.5 节明确自命名的分析性度量;图6 的 normalized average length 与图5 sanity check 的 V-L Similarity(OCR 轴标签反转)属图轴分析量,未计为指标。全文 OCR 普遍缺空格,anchor 逐字保留原样,名称字段按词义还原空格。该 markdown 仅含正文与参考文献,脚注5提到的 GloVe 语言编码器附录结果未包含在文本内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Iterative_Proposal_Refinement_for_Weakly-Supervised_Video_Grounding_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

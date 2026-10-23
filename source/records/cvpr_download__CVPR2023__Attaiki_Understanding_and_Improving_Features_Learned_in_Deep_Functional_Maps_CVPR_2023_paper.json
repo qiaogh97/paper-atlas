@@ -1,0 +1,59 @@
+{
+  "paper": "cvpr_download/CVPR2023/Attaiki_Understanding_and_Improving_Features_Learned_in_Deep_Functional_Maps_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Understanding and Improving Features Learned in Deep Functional Maps",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FAUST",
+      "role": "benchmark",
+      "anchor": "describedin[68],denotedasFA,SA,andSHAforFAUST",
+      "line": 522
+    },
+    {
+      "name": "SCAPE",
+      "role": "benchmark",
+      "anchor": "remeshedaligned,SCAPEremeshedaligned,andSHREC",
+      "line": 524
+    },
+    {
+      "name": "SHREC’19",
+      "role": "benchmark",
+      "anchor": "andSHREC’19[43]. Weutilizetheremeshedversionsof",
+      "line": 510
+    },
+    {
+      "name": "SMAL",
+      "role": "benchmark",
+      "anchor": "[39,81](denotedasSMALhereafter),whichconsistsof50",
+      "line": 538
+    },
+    {
+      "name": "human segmentation dataset",
+      "role": "benchmark",
+      "anchor": "Toconductthisexperiment,weemploythehumanseg-",
+      "line": 731
+    },
+    {
+      "name": "RNA dataset",
+      "role": "benchmark",
+      "anchor": "mentontheRNAdataset[54]andpresenttheresultsinthe",
+      "line": 694
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Mean geodesic error",
+      "anchor": "Table 2. Mean geodesic error of various feature extractors for",
+      "line": 609
+    },
+    {
+      "name": "Segmentation accuracy",
+      "anchor": "Number of shapes vs. Segmentation accuracy",
+      "line": 654
+    }
+  ],
+  "notes": "FAUST/SCAPE/SHREC’19 为有监督与无监督形状匹配主实验基准（Tab.1/Tab.2），论文使用其 remeshed 版本（记为 FR/SR/SH）及 oriented aligned 版本（记为 FA/SA/SHA），均为同一数据集的变体，未拆分单列；SCAPE(SA) 另在分割泛化实验中作为 DiffusionNet 无监督预训练数据，但主角色仍为 benchmark。SMAL（[39,81] 动物数据集，50 个形状 25/25 划分）用于非等距非刚性匹配实验（Tab.3）。human segmentation dataset（[41] Maron et al.，含多个先前数据集的分割人形）与 RNA dataset（[54]）用于 Sec.5.2 下游分割泛化实验（Fig.5），作为该下游实验的评测基准，故记为 benchmark。指标：评测协议（[31] Kim et al.）度量 geodesic error 并以总面积平方根归一化、×100 报告，结果表标题均写为 Mean geodesic error，视为同一指标只记一条；Fig.5 使用 Segmentation accuracy；FM/NN 为点对点地图提取方式而非指标，properness 为训练中强制施加的结构性质（损失项）而非评测指标，均未计入。全文 markdown 有 OCR 空格缺失（如 humanseg-/RNAdataset），名称按上下文恢复为标准写法，锚点保持原文逐字（SHREC’19 保留原文弯引号）。文件止于参考文献，无补充材料正文，正文提及的 ablation/adjoint 结果在 supplementary 中不可见。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Attaiki_Understanding_and_Improving_Features_Learned_in_Deep_Functional_Maps_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

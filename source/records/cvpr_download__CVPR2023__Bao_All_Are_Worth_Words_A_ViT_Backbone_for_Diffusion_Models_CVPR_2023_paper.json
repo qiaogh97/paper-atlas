@@ -1,0 +1,67 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bao_All_Are_Worth_Words_A_ViT_Backbone_for_Diffusion_Models_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "All are Worth Words: A ViT Backbone for Diffusion Models",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR10",
+      "role": "benchmark",
+      "anchor": "weablateonCIFAR10[34],evaluatetheFIDscore[22]",
+      "line": 236
+    },
+    {
+      "name": "CelebA 64×64",
+      "role": "benchmark",
+      "anchor": "CelebA 64×64 [38], which contain 162,770 training im-",
+      "line": 368
+    },
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "considerImageNet[11]at64×64,256×256and512×512",
+      "line": 370
+    },
+    {
+      "name": "MS-COCO",
+      "role": "benchmark",
+      "anchor": "standard benchmark dataset MS-COCO. We train our U-",
+      "line": 604
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "FID score [22] to measure the image quality.",
+      "line": 610
+    },
+    {
+      "name": "sFID",
+      "anchor": "sFID, inception score, precision and recall) as well as the",
+      "line": 572
+    },
+    {
+      "name": "inception score",
+      "anchor": "sFID, inception score, precision and recall) as well as the",
+      "line": 572
+    },
+    {
+      "name": "precision",
+      "anchor": "sFID, inception score, precision and recall) as well as the",
+      "line": 572
+    },
+    {
+      "name": "recall",
+      "anchor": "sFID, inception score, precision and recall) as well as the",
+      "line": 572
+    },
+    {
+      "name": "GFLOPs",
+      "anchor": "computationalcost(GFLOPs)withmoreU-ViTconfigura-",
+      "line": 573
+    }
+  ],
+  "notes": "四个数据集均为生成模型的训练与评测基准（无条件/类条件/文生图主实验），故 role=benchmark；ImageNet 覆盖 64×64、256×256、512×512 三个分辨率，MS-COCO 为 256×256 文生图，CelebA 按原文写法保留为 CelebA 64×64。sFID、inception score、precision、recall 与 GFLOPs 仅在正文 5.2 节点名、数值结果位于附录 D，而本 markdown 不含附录正文，按正文命名收录；其中 inception score、precision、recall 原文为小写且未展开缩写，FID 亦未给出全称。Table 4 中其他模型的训练数据（DALL-E dataset、LAION、CC3M、Conceptual Caption Subset 等）仅为对比方法的信息，未收录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bao_All_Are_Worth_Words_A_ViT_Backbone_for_Diffusion_Models_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

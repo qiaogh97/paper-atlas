@@ -1,0 +1,29 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Kernel Aware Resampler",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DIV2K",
+      "role": "benchmark",
+      "anchor": "fromDIV2Kstestset(onecropperimage)",
+      "line": 517
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "measured in PSNR. All models are trained on projective trans-",
+      "line": 426
+    },
+    {
+      "name": "Runtime",
+      "anchor": "Table4.RuntimecomparisononanNvidiaRTXA6000",
+      "line": 521
+    }
+  ],
+  "notes": "DIV2K 同时用于训练(800 张高分辨率训练图)与定量评测(测试集 100 个 512×512 crop),故归为 benchmark 单条,训练用途并入说明,不另拆 pretrain。PSNR 为缩写,论文中未展开全文。Runtime 指表4中在 Nvidia RTX A6000 上以秒计的推理时间对比,按表标题原词保留。定性结果(图1/5/6/7,含真实图像矫正与渲染法线图)未引入其他命名数据集。表3 按不同 kernel 的完整分breakdown 位于补充材料,不在本全文文件内;文件无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "paper-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Registration-free dataset and metric paper explorer",
+  "scripts": {
+    "start": "python3 scripts/serve.py",
+    "build:data": "python3 scripts/build_data.py",
+    "test": "node --test tests/core.test.js",
+    "build": "python3 scripts/build_site.py",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}

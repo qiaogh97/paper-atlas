@@ -1,0 +1,144 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bagad_Test_of_Time_Instilling_Video-Language_Models_With_a_Sense_of_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Test of Time: Instilling Video-Language Models with a Sense of Time",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "HowTo100M",
+      "role": "pretrain",
+      "anchor": "HowTo100M[68]andpost-pretrainonmultipledatasets.",
+      "line": 427
+    },
+    {
+      "name": "TEMPO",
+      "role": "pretrain",
+      "anchor": "ment with: (i) TEMPO [40]: the subset of stitched di-",
+      "line": 443
+    },
+    {
+      "name": "TEMPO",
+      "role": "benchmark",
+      "anchor": "TEMPO TACT† 7.7 13.0 46.5",
+      "line": 542
+    },
+    {
+      "name": "ActivityNet Captions",
+      "role": "pretrain",
+      "anchor": "|     |          |         |     |     |     |     |         | relations; | (ii) ActivityNet |     | Captions |     | [55]: | a dense | video |",
+      "line": 448
+    },
+    {
+      "name": "ActivityNet",
+      "role": "benchmark",
+      "anchor": "ActivityNet TACT† 5.8 34.0 59.7",
+      "line": 545
+    },
+    {
+      "name": "Charades",
+      "role": "pretrain",
+      "anchor": "tyNet and Charades. Choosing β=1 leads to an improve-",
+      "line": 538
+    },
+    {
+      "name": "Charades",
+      "role": "benchmark",
+      "anchor": "Charades TACT† 5.3 38.5 73.5",
+      "line": 548
+    },
+    {
+      "name": "Charades-Ego",
+      "role": "pretrain",
+      "anchor": "all the datasets. For TEMPO and Charades-Ego, using all",
+      "line": 534
+    },
+    {
+      "name": "Charades-Ego",
+      "role": "benchmark",
+      "anchor": "Charades-Ego TACT† 6.4 35.0 60.1",
+      "line": 551
+    },
+    {
+      "name": "MSR-VTT",
+      "role": "benchmark",
+      "anchor": "benchmarks: MSR-VTT [120] and YouCookII [132] and",
+      "line": 674
+    },
+    {
+      "name": "YouCookII",
+      "role": "benchmark",
+      "anchor": "do not need time awareness. On YouCookII [132], TACT",
+      "line": 663
+    },
+    {
+      "name": "Next-QA",
+      "role": "benchmark",
+      "anchor": "Next-QA [115] and AGQA [34]. The idea is to",
+      "line": 671
+    },
+    {
+      "name": "AGQA",
+      "role": "benchmark",
+      "anchor": "ForAGQA,wepickasubsetof∼6kquestionsthatexplic-",
+      "line": 681
+    },
+    {
+      "name": "Something-Something (SSv2)",
+      "role": "benchmark",
+      "anchor": "recognition benchmarks such as Something-Something",
+      "line": 700
+    },
+    {
+      "name": "SSv2 (events)",
+      "role": "benchmark",
+      "anchor": "We create a subset SSv2 (events)",
+      "line": 707
+    },
+    {
+      "name": "Temporal",
+      "role": "benchmark",
+      "anchor": "evaluate against the Temporal benchmark [88], a combi-",
+      "line": 711
+    }
+  ],
+  "metrics": [
+    {
+      "name": "R@1",
+      "anchor": "recall R@1,R@5,R@10",
+      "line": 475
+    },
+    {
+      "name": "R@5",
+      "anchor": "R@1 R@5 R@10 R@1 R@5 R@10 Accuracy Accuracy mAP mAP mAP",
+      "line": 643
+    },
+    {
+      "name": "R@10",
+      "anchor": "R@1 R@5 R@10 R@1 R@5 R@10 Accuracy Accuracy mAP mAP mAP",
+      "line": 643
+    },
+    {
+      "name": "MedR",
+      "anchor": "R@1↑ MedR↓ A ↑ time",
+      "line": 540
+    },
+    {
+      "name": "time-order consistency",
+      "anchor": "stitched video-text clips; and (ii) time-order consistency,",
+      "line": 478
+    },
+    {
+      "name": "Accuracy",
+      "anchor": "We use accuracy as the standard metric.",
+      "line": 690
+    },
+    {
+      "name": "mAP",
+      "anchor": "we report mAP as the metric for these bench-",
+      "line": 718
+    }
+  ],
+  "notes": "第5节四个时序适配数据集 TEMPO、ActivityNet Captions、Charades、Charades-Ego 既用于 TACT post-pretraining(属预训练性质,记 pretrain),也在各自新划分的拼接测试集上做检索与时序一致性评测(Tab.2-4,记 benchmark),按规则各拆两条;表中写作 ActivityNet 者与正文 ActivityNet Captions 为同一数据集(OCR 双栏合并把名称拆断,该锚点取整行逐字复制)。HowTo100M 为基座 VideoCLIP 的预训练数据,记 pretrain;WebVid2M 仅作大规模预训练数据集举例未被使用,不收。下游零样本评测:MSR-VTT、YouCookII 为文本-视频检索基准;Next-QA 使用其 ATP-hard 子集,AGQA 使用约6k条 before/after 问题子集(多选视频QA);Something-Something (SSv2) 按 Lei 等模板检索的 174 类评测划分,SSv2 (events) 为作者自建 49 类子集,Temporal 为来自[88]的基准(由 SSv2 与 Kinetics-400 的 50 个时序敏感动作类组合而成,Kinetics-400 未单独作为实验数据集故不收,DiDeMo 仅作为 TEMPO 上游来源及相关工作提及亦不收)。第3节用于探测的自建合成数据集(180 对视频-文本对)未命名,不计入 datasets。指标均为原文缩写形式:R@1/R@5/R@10 未展开;MedR 为表格写法(行文作 median-rank);time-order consistency 在表中记作符号 A_time;Accuracy 用于 Next-QA/AGQA;mAP 用于 SSv2/SSv2(events)/Temporal。验证集上用于损失系数选择与 checkpoint 选择的 GeometricMean(R@1, max(A_time-50,0)) 及分析量 Δtime(拼接片段时间距离,与适配难度相关系数 ρ=0.92)非结果报告指标,未计入 metrics。正文多次提及 supplement,但本全文文件止于参考文献,不含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bagad_Test_of_Time_Instilling_Video-Language_Models_With_a_Sense_of_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

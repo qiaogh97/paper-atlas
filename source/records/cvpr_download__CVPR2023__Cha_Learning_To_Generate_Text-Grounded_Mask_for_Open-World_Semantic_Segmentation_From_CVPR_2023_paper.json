@@ -1,0 +1,78 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cha_Learning_To_Generate_Text-Grounded_Mask_for_Open-World_Semantic_Segmentation_From_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "PASCAL VOC",
+      "role": "benchmark",
+      "anchor": "(PASCAL VOC [10], PASCAL Context [21], and COCO-",
+      "line": 501
+    },
+    {
+      "name": "PASCAL Context",
+      "role": "benchmark",
+      "anchor": "PASCAL VOC [10], PASCAL Context [21], and COCO-",
+      "line": 501
+    },
+    {
+      "name": "COCO-Object",
+      "role": "benchmark",
+      "anchor": "Object:COCO-Object,Stuff:COCO-Stuff,City:Cityscapes",
+      "line": 463
+    },
+    {
+      "name": "PASCAL VOC20",
+      "role": "benchmark",
+      "anchor": "VOC20 [10], PASCAL Context59 [21], COCO-Stuff [3],",
+      "line": 503
+    },
+    {
+      "name": "PASCAL Context59",
+      "role": "benchmark",
+      "anchor": "Context Object VOC20 Context59 Stuff City ADE Avg.",
+      "line": 448
+    },
+    {
+      "name": "COCO-Stuff",
+      "role": "benchmark",
+      "anchor": "Stuff:COCO-Stuff,City:Cityscapes,ADE:ADE20K.",
+      "line": 463
+    },
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "Cityscapes [9], and ADE20K [32]). Note that open-world",
+      "line": 504
+    },
+    {
+      "name": "ADE20K",
+      "role": "benchmark",
+      "anchor": "City:Cityscapes,ADE:ADE20K.",
+      "line": 463
+    },
+    {
+      "name": "CC3M",
+      "role": "pretrain",
+      "anchor": "areameasuredbyMaskCLIP[33]intheCC3Mdataset[27].",
+      "line": 335
+    },
+    {
+      "name": "CC12M",
+      "role": "pretrain",
+      "anchor": "TheYFCCandRedCapsofGroupViTindicatetheirtrainingdatasetsinadditiontoCC12M",
+      "line": 462
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "employ mean intersection-over-union (mIoU) as a perfor-",
+      "line": 481
+    }
+  ],
+  "notes": "8 个 zero-shot benchmark 按原文分组：带背景类 PASCAL VOC / PASCAL Context / COCO-Object，无背景类 PASCAL VOC20 / PASCAL Context59 / COCO-Stuff / Cityscapes / ADE20K；消融用 PASCAL VOC20 训练 split、定性对比（Fig.5a）用 PASCAL VOC，均并入对应 benchmark 条目不再拆分。训练语料 CC3M 与 CC12M 记为 pretrain：正文 \"We use CC 3M and 12M datasets for training\" 被 OCR 双栏拆行无法作连续锚点，CC3M 锚点取自 area prior 测量处，CC12M 锚点取自 Table 1 caption（该处语境为 GroupViT 基线训练集 in addition to CC12M，CC12M 同时是本文训练集）。GroupViT 基线训练集 YFCC、RedCaps 仅作对比方法说明，未计入。指标仅 mIoU（mean intersection-over-union），全部实验通用。全文转录仅含正文（至 11174 页），论文引用的附录 A-H 未包含在 markdown 中，无法覆盖附录实验。OCR 为双栏混排、大量空格缺失，锚点均按原样复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cha_Learning_To_Generate_Text-Grounded_Mask_for_Open-World_Semantic_Segmentation_From_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

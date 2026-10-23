@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_AnchorFormer_Point_Cloud_Completion_From_Discriminative_Nodes_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "AnchorFormer: Point Cloud Completion from Discriminative Nodes",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "PCN",
+      "role": "benchmark",
+      "anchor": "EvaluationonPCN.Table1summarizestheL1Cham-",
+      "line": 563
+    },
+    {
+      "name": "ShapeNet-55",
+      "role": "benchmark",
+      "anchor": "Former on the ShapeNet-55 dataset with more categories.",
+      "line": 673
+    },
+    {
+      "name": "ShapeNet-34",
+      "role": "benchmark",
+      "anchor": "EvaluationonShapeNet-34. Following[46],weexam-",
+      "line": 670
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "hard(H).FortheKITTIdataset,thereare2,401partialcar",
+      "line": 526
+    },
+    {
+      "name": "ShapeNet",
+      "role": "construction",
+      "anchor": "whicharesampledfromtheShapeNet[3]dataset.Theinput",
+      "line": 497
+    }
+  ],
+  "metrics": [
+    {
+      "name": "L1 Chamfer Distance",
+      "anchor": "Table1.PerformancecomparisonintermsofL1ChamferDistance×103(CD )onthePCNdataset.",
+      "line": 535
+    },
+    {
+      "name": "L2 Chamfer Distance",
+      "anchor": "Table2.PerformancecomparisonintermsofL2ChamferDistance×103(CD )andF-Score@1%(F1)",
+      "line": 611
+    },
+    {
+      "name": "F-Score@1%",
+      "anchor": "andF-Score@1%(F1)ontheShapeNet-34dataset.",
+      "line": 628
+    },
+    {
+      "name": "Fidelity Distance",
+      "anchor": "Table4. FidelityDistance(FD)andMinimalMatchingDistance",
+      "line": 648
+    },
+    {
+      "name": "Minimal Matching Distance",
+      "anchor": "malMatchingDistance(MMD)performances.",
+      "line": 599
+    }
+  ],
+  "notes": "实验在四个测试基准上进行:PCN(Table 1)、ShapeNet-55(Table 2)、ShapeNet-34(Table 3,含 34 已见类与 21 未见类)、KITTI(Table 4);ShapeNet 仅作为 PCN 与 ShapeNet-55/34 的构建来源(construction),不作为独立测试基准。指标:L1 CD 用于 PCN,L2 CD 与 F-Score@1%(表中缩写 F1)用于 ShapeNet-55/34,KITTI 上按 [46,50] 惯例报告 FD 与 MMD;L2 CD 按遮罩比例 25%/50%/75% 报告 CD_L2-S/M/H 难度变体,属同一指标的分档,未单列。消融表 Table 5 中的 L_cpa 为训练用点紧致性约束(损失项),非评测指标,未计入。全文 OCR 存在空格缺失,所有锚点按原文字符逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_AnchorFormer_Point_Cloud_Completion_From_Discriminative_Nodes_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bashkirova_MaskSketch_Unpaired_Structure-Guided_Masked_Image_Generation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "MaskSketch: Unpaired Structure-guided Masked Image Generation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet-Sketch",
+      "role": "benchmark",
+      "anchor": "ImageNet-Sketch [50], a dataset of 50 real sketches of",
+      "line": 518
+    },
+    {
+      "name": "Pseudosketches",
+      "role": "benchmark",
+      "anchor": "1000classesofImageNet-2012[9]andthePseudosketches",
+      "line": 520
+    },
+    {
+      "name": "ImageNet 2012",
+      "role": "pretrain",
+      "anchor": "model | pretrained |     | on  | the ImageNet",
+      "line": 404
+    },
+    {
+      "name": "ImageNet21K",
+      "role": "construction",
+      "anchor": "from 125 classes from the ImageNet21K [43] dataset",
+      "line": 525
+    },
+    {
+      "name": "OpenSketches",
+      "role": "qualitative",
+      "anchor": "proposeOpenSketches,anoveldatasetmadeof200openly",
+      "line": 502
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "theFIDscore[23]. Toassessgenerationdiversity,weused",
+      "line": 476
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "the LPIPS-based diversity score [36], which computes the",
+      "line": 478
+    },
+    {
+      "name": "CLIP feature distance",
+      "anchor": "tance and prompt similarity score. The CLIP feature dis-",
+      "line": 507
+    },
+    {
+      "name": "prompt similarity score",
+      "anchor": "tance and prompt similarity score. The CLIP feature dis-",
+      "line": 507
+    },
+    {
+      "name": "User preference",
+      "anchor": "CLIPprompt |     | CLIPfeat. |     | Userpreference",
+      "line": 605
+    }
+  ],
+  "notes": "角色拆分：ImageNet-Sketch 与 Pseudosketches 为 sketch-to-photo 定量评测基准（各有 full 与 10-class 子集两种设置）；ImageNet 2012 用于预训练 MaskGIT 生成先验（pretrain），同时充当 ImageNet-Sketch 实验 FID 的参考图像集，不单列角色；ImageNet21K 是 Pseudosketches 数据集 125 类真实图像的来源（construction）；OpenSketches 为本文提出的 200 张草图新数据集，仅用于定性展示（qualitative），其中数字草图由 Stable Diffusion 生成（模型，不计入数据集）。指标说明：FID 与 LPIPS 保留缩写、原文未展开，LPIPS 以 LPIPS-based diversity score（多样性）形式使用，表头记作 FID#/LPIPS#；CLIP feature distance 与 prompt similarity score 为 CLIP-based 度量，表头分别写作 CLIPfeat./CLIPprompt；User preference 来自用户偏好研究（仅计三人一致投票），表头写作 Userpreference。全文文件止于参考文献（无附录正文），正文引用的 Appendix C/D/E/F 中的补充实验未覆盖。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bashkirova_MaskSketch_Unpaired_Structure-Guided_Masked_Image_Generation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

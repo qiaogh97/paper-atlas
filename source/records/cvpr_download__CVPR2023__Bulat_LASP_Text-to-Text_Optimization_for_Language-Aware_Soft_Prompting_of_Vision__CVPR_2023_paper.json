@@ -1,0 +1,89 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bulat_LASP_Text-to-Text_Optimization_for_Language-Aware_Soft_Prompting_of_Vision__CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "ImageNet  | [6],",
+      "line": 407
+    },
+    {
+      "name": "Caltech101",
+      "role": "benchmark",
+      "anchor": "Caltech101                                      | [9],",
+      "line": 409
+    },
+    {
+      "name": "Oxford-Pets",
+      "role": "benchmark",
+      "anchor": "Oxford-Pets | [22],",
+      "line": 409
+    },
+    {
+      "name": "Stanford Cars",
+      "role": "benchmark",
+      "anchor": "Stanford | Cars      | [14],",
+      "line": 409
+    },
+    {
+      "name": "Flowers102",
+      "role": "benchmark",
+      "anchor": "Flowers102                                      | [21],",
+      "line": 411
+    },
+    {
+      "name": "Food101",
+      "role": "benchmark",
+      "anchor": "Food101     | [3],",
+      "line": 411
+    },
+    {
+      "name": "FGVC Aircraft",
+      "role": "benchmark",
+      "anchor": "FGVC     | Aircraft  | [20],",
+      "line": 411
+    },
+    {
+      "name": "SUN397",
+      "role": "benchmark",
+      "anchor": "SUN397[32],DTD[5],",
+      "line": 413
+    },
+    {
+      "name": "DTD",
+      "role": "benchmark",
+      "anchor": "DTD[5],EuroSAT[10]and",
+      "line": 413
+    },
+    {
+      "name": "EuroSAT",
+      "role": "benchmark",
+      "anchor": "EuroSAT[10]andUCF-101[29].",
+      "line": 413
+    },
+    {
+      "name": "UCF-101",
+      "role": "benchmark",
+      "anchor": "EuroSAT[10]andUCF-101[29].",
+      "line": 413
+    }
+  ],
+  "metrics": [
+    {
+      "name": "accuracy",
+      "anchor": "Following[25,35],wemainlyevaluatedtheaccuracyof",
+      "line": 390
+    },
+    {
+      "name": "harmonic mean",
+      "anchor": "Intermsofharmonicmean,LASPout-",
+      "line": 484
+    }
+  ],
+  "notes": "11 个数据集均为 CoOp/CoCoOp 标准协议下 base/new 划分的少样本图像分类测试基准，全部 role=benchmark；消融(Table3-5)复用其中 DTD/EuroSAT/UCF-101/Food101/Flowers102/OxfordPets，不新增。正文数据集列表写法 Oxford-Pets、UCF-101，表格中为 OxfordPets、UCF101，按正文列表原样保留。指标仅 accuracy（正文命名，表格按 Base/New 行报告）与 harmonic mean（表中缩写 H，Conclusion 1 展开为 harmonic mean）；Table 6 的 CE/L1/L2 为训练损失消融非评测指标。正文提及 Supp. Mat. 含 cross-dataset transfer、domain generalization 及 generalized zero-shot 详细结果，但本 markdown 仅含正文与参考文献，无补充材料。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bulat_LASP_Text-to-Text_Optimization_for_Language-Aware_Soft_Prompting_of_Vision__CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bravo_Open-Vocabulary_Attribute_Detection_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Open-vocabulary Attribute Detection",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "OVAD benchmark",
+      "role": "benchmark",
+      "anchor": "Our OVAD evaluation benchmark comprises 2000 images",
+      "line": 236
+    },
+    {
+      "name": "MS-COCO",
+      "role": "construction",
+      "anchor": "randomly selected from the MS-COCO [29] val2017 set.",
+      "line": 237
+    },
+    {
+      "name": "MS COCO",
+      "role": "pretrain",
+      "anchor": "MS COCO | [29] | 2017 training |",
+      "line": 533
+    },
+    {
+      "name": "COCO Captions",
+      "role": "construction",
+      "anchor": "captions of the COCO Captions dataset [9] using a parts-",
+      "line": 257
+    },
+    {
+      "name": "COCO Captions",
+      "role": "pretrain",
+      "anchor": "from COCO Captions [9] 2017 training set.",
+      "line": 536
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAP",
+      "anchor": "mAPforOpen-vocabularyAttributeDetection(OVAD)",
+      "line": 487
+    },
+    {
+      "name": "AP",
+      "anchor": "andAP onOpen-VocabularyDetection(OVD-80).",
+      "line": 489
+    },
+    {
+      "name": "AP50-OVD-80",
+      "anchor": "OVAD | AP50-OVD-80",
+      "line": 493
+    }
+  ],
+  "notes": "论文自建 OVAD 基准（2000 张 MS-COCO val2017 图像、117 属性类、1.4M 标注）为全部主实验评测集，记 benchmark；OVD-80（80 类目标检测部分）与 OVAD-Box（box-oracle 设定，Table 4）均为 OVAD 上的评测设定，不单列。MS-COCO（评测图像与目标框标注起点）和 COCO Captions（属性词形容词来源）为构建 OVAD 的来源，记 construction；同一 COCO 2017 训练集（base 类框标注）与 COCO Captions 2017 训练集用于训练文中全部基线/OVD 方法（OVAD-Baseline-Box 训练数据 1a+1b），另拆条记 pretrain。Table 5 为被评基础模型的训练语料统计表（COCO Captions、COCO Objects、RefCOCO+、VG、SBU Captions、OpenImages、Objects365、CC-3M、CC-12M、LAION、CLIP 400M 等约 11 项），按构成表规则不逐条收录；Table 1 中 VAW、COCO-A、Visual Genome 仅为统计对比，相关工作中的 Open Images、LVIS、VQA 数据集等仅引用，均排除。指标：mAP 为主指标（按属性长尾分 All/Head/Medium/Tail 汇报）；AP 为逐属性类平均精度（正文已展开 average precision）；AP50-OVD-80 为 Table 3 中 OVD-80 在 IoU≥0.5 下的写法（正文称 mAP at 0.5 IoU，Table 2 称 AP on OVD-80，Generalized OVD-80 为评测协议非指标）；IoU 仅作匹配阈值、Chance 仅为参照行，均未单列。附录 A/B/C 未包含于本 markdown，正文仅提及。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bravo_Open-Vocabulary_Attribute_Detection_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

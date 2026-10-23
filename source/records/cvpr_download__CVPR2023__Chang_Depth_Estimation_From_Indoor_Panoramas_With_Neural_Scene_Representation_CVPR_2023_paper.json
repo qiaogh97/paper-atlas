@@ -1,0 +1,56 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_Depth_Estimation_From_Indoor_Panoramas_With_Neural_Scene_Representation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Depth Estimation from Indoor Panoramas with Neural Scene Representation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "IPMP",
+      "role": "benchmark",
+      "anchor": "IPMP.ToevaluateourapproachandotherNeuralRadiance",
+      "line": 461
+    },
+    {
+      "name": "Matterport3D",
+      "role": "benchmark",
+      "anchor": "Allresultsaretrainedwith3views.ForMatterport3D,",
+      "line": 494
+    },
+    {
+      "name": "Stanford2D3D",
+      "role": "benchmark",
+      "anchor": "metricsareaveragedover10scenes.ForStanford2D3DandIPMP,",
+      "line": 495
+    }
+  ],
+  "metrics": [
+    {
+      "name": "MAE",
+      "anchor": "rformance: |     | mean | absolute | error | (MAE), | mea",
+      "line": 526
+    },
+    {
+      "name": "MRE",
+      "anchor": "relativeerror(MRE),meansquareerroroflinearmeasures",
+      "line": 528
+    },
+    {
+      "name": "MSE",
+      "anchor": "meansquareerroroflinearmeasures",
+      "line": 528
+    },
+    {
+      "name": "δ1",
+      "anchor": "       | relative | accuracy |        | δ 1 (the    | fraction | of pixel",
+      "line": 532
+    },
+    {
+      "name": "RMSE",
+      "anchor": "SincemanyworksadoptRMSEmetricforevaluations,wealsoreport",
+      "line": 557
+    }
+  ],
+  "notes": "IPMP 为论文自建合成全景 RGB-D 数据集(全称 Indoor Photorealistic Multiview Panoramas dataset, 5 个室内场景、每场景 Blender 渲染 12 个视图), 除发布外直接作为 Table 1/2 与图4 的评测基准, 故记为单条 benchmark, 不另拆 construction; Matterport3D 采用 [38] 处理版本并选 10 个场景评测(Table 5 为其 10 个人工扰动场景), Stanford2D3D 选 5 个场景评测, 均为主实验基准。指标定义处写作 (MSE2), 其中 2 为脚注编号, MSE 即 mean square error of linear measures; δ1 原文为 δ 带下标 1 的 relative accuracy(相对误差在阈值 1.25 内的像素占比, OCR 转录为 δ 1); RMSE 仅在脚注中声明于补充材料报告, 正文表格实际使用 MAE/MRE/MSE/δ1, 已按脚注计入 RMSE 并在此说明。相关工作与基线方法(OmniDepth、BiFuse、HoHoNet、360SD-Net 及其训练用 fusion dataset 等)所属数据集仅用于排除, 未计入。此 markdown 仅含正文与参考文献, 无附录/补充材料。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_Depth_Estimation_From_Indoor_Panoramas_With_Neural_Scene_Representation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

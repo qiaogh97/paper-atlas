@@ -1,0 +1,81 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ashutosh_HierVL_Learning_Hierarchical_Video-Language_Embeddings_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "HierVL: Learning Hierarchical Video-Language Embeddings",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Ego4D",
+      "role": "pretrain",
+      "anchor": "WeleveragetheEgo4Ddataset[13,34]fortrainingour",
+      "line": 275
+    },
+    {
+      "name": "Ego4D",
+      "role": "benchmark",
+      "anchor": "ity of pretraining on three tasks defined on the Ego4D",
+      "line": 471
+    },
+    {
+      "name": "EgoMCQ",
+      "role": "benchmark",
+      "anchor": "dataset: EgoMCQ(multiple-choice-question,introducedin",
+      "line": 472
+    },
+    {
+      "name": "SummaryMCQ",
+      "role": "benchmark",
+      "anchor": "Table 1. Pretraining accuracy on EgoMCQ, SummaryMCQ, and ShuffleMCQ on Ego4D pretraining",
+      "line": 465
+    },
+    {
+      "name": "ShuffleMCQ",
+      "role": "benchmark",
+      "anchor": "Table 1. Pretraining accuracy on EgoMCQ, SummaryMCQ, and ShuffleMCQ on Ego4D pretraining",
+      "line": 465
+    },
+    {
+      "name": "Charades-Ego",
+      "role": "benchmark",
+      "anchor": "Charades-Egoactionrecognition.WeoutperformEgoVLPandre-",
+      "line": 666
+    },
+    {
+      "name": "EPIC-Kitchens-100",
+      "role": "benchmark",
+      "anchor": "fine-tuned (bottom) accuracy on EPIC-Kitchens-100 Multi-Instance Retrieval",
+      "line": 663
+    },
+    {
+      "name": "HowTo100M",
+      "role": "benchmark",
+      "anchor": "Table5.LinearproberesultsonHowTo100Mvideoclassification",
+      "line": 719
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "anchor": "chancecorrespondsto20.0accuracy",
+      "line": 466
+    },
+    {
+      "name": "mAP",
+      "anchor": "mAP(meanaverageprecision)",
+      "line": 575
+    },
+    {
+      "name": "nDCG",
+      "anchor": "Metrics are mAP and nDCG (normalized Dis-",
+      "line": 582
+    },
+    {
+      "name": "Edit Distance (ED)",
+      "anchor": "lenge.EDistheeditdistanceatZ",
+      "line": 549
+    }
+  ],
+  "notes": "Ego4D 双角色:预训练语料(pretrain)与评测基准(benchmark,预训练评测 EgoMCQ/SummaryMCQ/ShuffleMCQ 及 Ego4D LTA challenge 均在其上进行),各带独立锚点。EgoMCQ 为 EgoVLP 引入、SummaryMCQ 与 ShuffleMCQ 为本文新提出的 MCQ 评测基准(论文原文称 two new benchmarks),定义在 Ego4D 上,故按 benchmark 收录而非独立数据集。指标方面:HowTo100M 处论文写作 classification accuracy,与 MCQ 评测的 accuracy 同义,合并为一条 Accuracy;Table 4 中 mAP/nDCG 报告为 V→T 与 T→V 平均(列头 mAPAvg/nDCGAvg),未单列;Table 2 中 Edit Distance 有 VerbED/NounED/Act.ED 三个变体列,并入 ED 一条。相关工作提及的 HowTo100M、YouCookII、CrossTask、CharadesEgo、EPIC-KITCHENS 仅作文献综述背景,未据此收录;全文无附录。该 markdown 为 OCR 转录、空格大量缺失,所有锚点均按文件原样逐字复制并经 grep 核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ashutosh_HierVL_Learning_Hierarchical_Video-Language_Embeddings_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

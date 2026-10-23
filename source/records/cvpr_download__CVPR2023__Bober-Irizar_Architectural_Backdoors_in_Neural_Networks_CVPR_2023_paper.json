@@ -1,0 +1,73 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bober-Irizar_Architectural_Backdoors_in_Neural_Networks_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Architectural Backdoors in Neural Networks",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "thisthreatmodelontheCIFAR-10dataset[16]andreport",
+      "line": 359
+    },
+    {
+      "name": "GTSRB",
+      "role": "benchmark",
+      "anchor": "GTSRB[32]andBTSC[21]datasetsofGermanandBelgian",
+      "line": 378
+    },
+    {
+      "name": "BTSC",
+      "role": "benchmark",
+      "anchor": "GTSRB[32]andBTSC[21]datasetsofGermanandBelgian",
+      "line": 378
+    },
+    {
+      "name": "IMDB-Wiki",
+      "role": "benchmark",
+      "anchor": "ResultsonIMDB-Wiki,CIFAR10andGTSRB",
+      "line": 398
+    },
+    {
+      "name": "MNIST",
+      "role": "benchmark",
+      "anchor": "ThemodifiedDARTSalgorithmsearchingforabackdooronMNIST",
+      "line": 599
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Task accuracy",
+      "anchor": "Taskaccuracy(thehigherthebetter",
+      "line": 325
+    },
+    {
+      "name": "Triggered accuracy",
+      "anchor": "Triggeredaccuracy(thelowerthebetter",
+      "line": 330
+    },
+    {
+      "name": "Triggered accuracy ratio",
+      "anchor": "Triggeredaccuracyratio",
+      "line": 335
+    },
+    {
+      "name": "backdoor loss",
+      "anchor": "backdoorlossisthereforegivenby",
+      "line": 436
+    },
+    {
+      "name": "Kolmogorov-Smirnov test",
+      "anchor": "byKolmogorov-SmirnovtestinFig.C.9",
+      "line": 492
+    },
+    {
+      "name": "targeting success rate",
+      "anchor": "targetedMABwith100%targetingsuccessrate",
+      "line": 626
+    }
+  ],
+  "notes": "五个数据集均为主实验测试基准(benchmark):CIFAR-10 用于设定1(Table 1)、设定3(从头重训)及定向 MAB 补充实验(VGG11),另用于方法论演示(Fig.2);GTSRB(德国交通标志)与 BTSC(比利时交通标志)用于设定2的微调/迁移实验;IMDB-Wiki 为设定3重训用的人脸识别数据集;MNIST 用于 5.1 节修改版 DARTS 搜索实验(Fig.6)。名称变体:CIFAR-10 亦写作 CIFAR10;IMDB-Wiki 亦写作 IMDB-WIKI/IMDBWiki。指标:Task accuracy / Triggered accuracy / Triggered accuracy ratio 为第4节正式定义并在 Table 1、Fig.4、Fig.5 使用的三个核心指标;backdoor loss(5.1 节命名并作为 Fig.6 纵轴与分析量)、Kolmogorov-Smirnov test(4.3 节确认结果显著性的统计检验)、targeting success rate(5.2 节定向 MAB 实验的成功度量)按分析性度量规则计入。DARTS 的 Training loss / Architecture loss 为训练优化目标而非评测指标,未计入。OCR 转录普遍缺失空格,名称按原文惯例恢复空格,锚点逐字保留 OCR 原样(部分定义句中的 PUA 字形已避开);附录 A/B/C 未包含在本 markdown 转录中(文件止于参考文献),正文提到的附录数据集统计无法核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bober-Irizar_Architectural_Backdoors_in_Neural_Networks_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

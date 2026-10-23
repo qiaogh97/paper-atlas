@@ -1,0 +1,46 @@
+{
+  "paper": "cvpr_download/CVPR2023/Basak_Pseudo-Label_Guided_Contrastive_Learning_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Pseudo-label Guided Contrastive Learning for Semi-supervised Medical Image Segmentation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ACDC",
+      "role": "benchmark",
+      "anchor": "(1)ACDCdatasetisacardiacMRIdataset[5]thatcon-",
+      "line": 563
+    },
+    {
+      "name": "KiTS19",
+      "role": "benchmark",
+      "anchor": "(2) KiTS19 is a tumor segmentation dataset [24],",
+      "line": 575
+    },
+    {
+      "name": "CRAG",
+      "role": "benchmark",
+      "anchor": "cinoma Gland (CRAG) dataset [19] contains 213 H&E",
+      "line": 583
+    }
+  ],
+  "metrics": [
+    {
+      "name": "DSC",
+      "anchor": "ationofmodelperformance,namelyDiceSimilarityScore",
+      "line": 554
+    },
+    {
+      "name": "HD95",
+      "anchor": "(DSC), Hausdorff Distance 95 (HD95) and Average Sym-",
+      "line": 556
+    },
+    {
+      "name": "ASD",
+      "anchor": "metricDistance(ASD)[9]. Forafaircomparison, wefol-",
+      "line": 557
+    }
+  ],
+  "notes": "三个数据集 ACDC(心脏MRI)、KiTS19(肾脏CT肿瘤)、CRAG(结直肠腺癌组织病理H&E)均为主实验(第4节、Table 1)测试基准,并同时用于消融(Table 2),故均记 benchmark,无 construction/pretrain 角色。指标按结果表(Table 1/2/3)中的缩写 DSC、HD95、ASD 收录;4.2 节给出展开:Dice Similarity Score、Hausdorff Distance 95、Average Symmetric Distance。Table 3 中的 Cosine similarity 与 Class Confidence 是 patch 采样相似性度量的消融对比(方法组件),Figure 3 的 t-SNE 为表征空间可视化,均不计入评测指标。全文无附录实验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Basak_Pseudo-Label_Guided_Contrastive_Learning_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

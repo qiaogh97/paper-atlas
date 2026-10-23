@@ -1,0 +1,46 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_L-CoIns_Language-Based_Colorization_With_Instance_Awareness_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "L-CoIns: Language-based Colorization with Instance Awareness",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Extended COCO-Stuff",
+      "role": "benchmark",
+      "anchor": "ExtendedCOCO-Stuffdataset.L-CoDe[42]discardsthe",
+      "line": 566
+    },
+    {
+      "name": "COCO-Stuff",
+      "role": "construction",
+      "anchor": "samplesfromtheCOCO-Stuff[3]datasetthatdoesnotpro-",
+      "line": 568
+    },
+    {
+      "name": "Multi-instance dataset",
+      "role": "benchmark",
+      "anchor": "Multi-instancedataset.Toprovidealargenumberofsam-",
+      "line": 575
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "PSNR↑ SSIM↑ LPIPS↓ PSNR↑ SSIM↑ LPIPS↓ orizationquality.",
+      "line": 493
+    },
+    {
+      "name": "SSIM",
+      "anchor": "larityIndexMeasure(SSIM)[40],andLearnedPerceptual",
+      "line": 487
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "andLPIPSscoresonboththeexistingCOCO-Stuffdataset",
+      "line": 666
+    }
+  ],
+  "notes": "Extended COCO-Stuff 为主实验训练/评测基准（沿用 L-CoDe 设定，Table 1/2 两列之一），记 benchmark；COCO-Stuff 仅作为 Extended COCO-Stuff 的上游构建来源（L-CoDe 从中保留含颜色描述的样本，59K 训练/2.4K 验证），记 construction。Multi-instance dataset 为论文自建数据集（从相关任务 [21,30] 收集，65K 训练/7K 验证图像），同时用于训练与实例感知评测（Table 1/2 Multi-instance 列），记 benchmark。指标 PSNR/SSIM/LPIPS 在文中均给出全称（Peak Signal-to-Noise Ratio / Structural Similarity Index Measure / Learned Perceptual Image Patch Similarity），结果表使用缩写，按表写法保留缩写。用户研究的 Reality expt / Corresp expt（AMT 上 25 人偏好选择百分比）为实验协议名而非命名指标，未计入 metrics。论文无附录。text_source=markdown 转录存在 OCR 空格缺失痕迹，锚点均按原文逐字复制并经脚本核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_L-CoIns_Language-Based_Colorization_With_Instance_Awareness_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

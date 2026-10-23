@@ -1,0 +1,74 @@
+{
+  "paper": "cvpr_download/CVPR2023/Attal_HyperReel_High-Fidelity_6-DoF_Video_With_Ray-Conditioned_Sampling_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DoNeRF dataset",
+      "role": "benchmark",
+      "anchor": "DoNeRFDataset. TheDoNeRFdataset[33]containssix",
+      "line": 518
+    },
+    {
+      "name": "LLFF dataset",
+      "role": "benchmark",
+      "anchor": "quantitativecomparisonsontheLLFFdataset[31],showing",
+      "line": 558
+    },
+    {
+      "name": "Technicolor light field dataset",
+      "role": "benchmark",
+      "anchor": "ontheTechnicolorlightfielddatasetwithdifferentnumbers",
+      "line": 588
+    },
+    {
+      "name": "Neural 3D Video dataset",
+      "role": "benchmark",
+      "anchor": "andmemoryisinMBperframe.1OntheNeural3DVideodataset",
+      "line": 456
+    },
+    {
+      "name": "Google Immersive dataset",
+      "role": "benchmark",
+      "anchor": "Google Immersive Dataset. The Google Immersive",
+      "line": 570
+    },
+    {
+      "name": "Shiny",
+      "role": "benchmark",
+      "anchor": "Shiny“Lab”[61] |",
+      "line": 508
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "Dataset Method PSNR↑ SSIM↑ LPIPS↓ FPS↑",
+      "line": 465
+    },
+    {
+      "name": "SSIM",
+      "anchor": "doesnotprovideSSIMandLPIPSscores.",
+      "line": 463
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "Dataset Method PSNR↑ SSIM↑ LPIPS↓ FPS↑Memory↓",
+      "line": 465
+    },
+    {
+      "name": "FPS",
+      "anchor": "samplingnetwork,andmodelsize.AllFPSnumberspermegapixel.",
+      "line": 482
+    },
+    {
+      "name": "Memory",
+      "anchor": "megapixel;memoryinMB.",
+      "line": 422
+    }
+  ],
+  "notes": "均为论文实验实际评测的基准数据集:DoNeRF(静态对比 Table 1 及 Table 4 消融)、Technicolor light field(动态对比 Table 2 与 Table 3 消融)、Neural 3D Video(动态对比 Table 2)、Google Immersive(动态对比 Table 2,表内记作 Google LF videos,七场景)。LLFF 的定量对比在补充材料中(正文 Table 1 标题与 4.1 节明确声明),本文件无附录正文但仍计入。Shiny 指 NeX[61] 的 Shiny 数据集,Table 4 点偏移消融用其 “Lab” 场景(原文名仅写作 Shiny“Lab”)。LLFF 引文编号正文写作[31]、Table 1 标题写作[30],为原文引用不一致,名称本身无歧义。指标保留缩写 PSNR/SSIM/LPIPS/FPS,原文未展开;FPS 按每 megapixel 归一化,Memory 以 MB/帧计;训练耗时(GPU hours)仅见于行文叙述,未列为指标,故不计。全文 OCR 存在空格缺失,锚点按文件原样复制。R2L 对比仍在 DoNeRF(400×400)上,DeepView 为对比方法而非数据集。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Attal_HyperReel_High-Fidelity_6-DoF_Video_With_Ray-Conditioned_Sampling_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Careil_Few-Shot_Semantic_Image_Synthesis_With_Class_Affinity_Transfer_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Few-shot Semantic Image Synthesis with Class Affinity Transfer",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ADE20K",
+      "role": "benchmark",
+      "anchor": "Astargetdatasets,weusesubsetsofADE20KandCOCO-",
+      "line": 412
+    },
+    {
+      "name": "ADE20K",
+      "role": "pretrain",
+      "anchor": "source models trained either on COCO-Stuff or ADE20K",
+      "line": 561
+    },
+    {
+      "name": "COCO-Stuff",
+      "role": "benchmark",
+      "anchor": "agestakenfromCityscapes,ADE20KandCOCO-Stuff.",
+      "line": 565
+    },
+    {
+      "name": "COCO-Stuff",
+      "role": "pretrain",
+      "anchor": "Stuff[4](110kimagesand183classes)assourcedatasets.",
+      "line": 411
+    },
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "Stuff,aswellastheCityscapes[7]datasetconsistingof3k",
+      "line": 415
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "metricsasin[15,23,33]. FIDcapturesbothimagequality",
+      "line": 363
+    },
+    {
+      "name": "mIoU",
+      "anchor": "anddiversity,whilemIoUassessesthesemanticcorrespon-",
+      "line": 364
+    },
+    {
+      "name": "#training iterations",
+      "anchor": "Figure4. FID,mIoUand#trainingiterationsforCOCO→ADE",
+      "line": 520
+    }
+  ],
+  "notes": "角色拆分：ADE20K 与 COCO-Stuff 双角色——既作源数据集训练源模型（OASIS/PITI，pretrain），又取其 25-400 图像子集作 few-shot 目标评测基准（benchmark）；Cityscapes 仅作目标数据集（benchmark，含人脸/车牌模糊版本）。相关工作/引言中提及的 GLIDE 预训练图文对等仅为背景，未收录。指标 FID、mIoU 原文均未展开缩写，照抄；表中以 ↓FID/↑mIoU 形式出现，按论文写法记为 FID、mIoU。另计入分析小节 4.3 与图 4 中明确命名的分析量 #training iterations（收敛所需训练迭代数），锚点中为 OCR 无空格形式 #trainingiterations。全文为 OCR 转录、空格大量缺失，所有锚点均按文件原样逐字复制并经脚本核验。文内提及 supplementary material 但该文件不含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Careil_Few-Shot_Semantic_Image_Synthesis_With_Class_Affinity_Transfer_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

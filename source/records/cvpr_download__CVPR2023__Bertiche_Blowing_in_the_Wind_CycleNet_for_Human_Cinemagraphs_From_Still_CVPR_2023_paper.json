@@ -1,0 +1,60 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bertiche_Blowing_in_the_Wind_CycleNet_for_Human_Cinemagraphs_From_Still_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Blowing in the Wind: CycleNet for Human Cinemagraphs from Still Images",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Cloth3D",
+      "role": "construction",
+      "anchor": "pairs from the Cloth3D dataset [6], which is a large-scale",
+      "line": 255
+    },
+    {
+      "name": "DeepFashion",
+      "role": "benchmark",
+      "anchor": "DeepFashionsamplesasinputandcomparetothesmallset",
+      "line": 343
+    }
+  ],
+  "metrics": [
+    {
+      "name": "MAE",
+      "anchor": "Experiment MAE MSE RMSE SSIM PSNR Perceptual FVD",
+      "line": 382
+    },
+    {
+      "name": "MSE",
+      "anchor": "ror(MSE),rootofmeansquarederror(RMSE),andPSNR.",
+      "line": 301
+    },
+    {
+      "name": "RMSE",
+      "anchor": "ror(MSE),rootofmeansquarederror(RMSE),andPSNR.",
+      "line": 301
+    },
+    {
+      "name": "PSNR",
+      "anchor": "ror(MSE),rootofmeansquarederror(RMSE),andPSNR.",
+      "line": 301
+    },
+    {
+      "name": "SSIM",
+      "anchor": "Experiment MAE MSE RMSE SSIM PSNR Perceptual FVD",
+      "line": 382
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "similarities | (LPIPS",
+      "line": 303
+    },
+    {
+      "name": "FVD",
+      "anchor": "tance(FVD[36])againsttherealdatawehavecaptured.",
+      "line": 308
+    }
+  ],
+  "notes": "Cloth3D 仅用于采样人体/服装对以构建自建合成训练数据,故 role=construction;DeepFashion 真实样本用作真实域测试输入(benchmark),另用无命名 stock images 做泛化测试;自建合成数据集与 50 段自采风扇真人视频数据集均未命名,不单列条目。指标:MAE/MSE/RMSE/SSIM/PSNR 在合成测试集上计算;LPIPS 正文仅出现一处 '(LPIPS [45])',表1列名为 'Perceptual'(即 LPIPS),按原名收 LPIPS,不重复收 'Perceptual';FVD 用于真实数据评估;另辅以定性 user study(plausible 占比、风向判别约 70%),非命名指标未计入。全文 markdown 双栏转录存在空格缺失痕迹,所有锚点按原样逐字保留。论文无附录,参考文献区无额外数据集/指标。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bertiche_Blowing_in_the_Wind_CycleNet_for_Human_Cinemagraphs_From_Still_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

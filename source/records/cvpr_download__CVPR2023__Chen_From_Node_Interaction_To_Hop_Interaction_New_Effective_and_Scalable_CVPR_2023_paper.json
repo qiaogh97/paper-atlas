@@ -1,0 +1,85 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "From Node Interaction to Hop Interaction: New Effective and Scalable Graph Learning Paradigm",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "Texas",
+   "role": "benchmark",
+   "anchor": "Texas Wisconsin Actor Squirrel"
+  },
+  {
+   "name": "Wisconsin",
+   "role": "benchmark",
+   "anchor": "Wisconsin Actor Squirrel Chameleon"
+  },
+  {
+   "name": "Actor",
+   "role": "benchmark",
+   "anchor": "Actor Squirrel Chameleon Cornell"
+  },
+  {
+   "name": "Squirrel",
+   "role": "benchmark",
+   "anchor": "Squirrel Chameleon Cornell Citeseer"
+  },
+  {
+   "name": "Chameleon",
+   "role": "benchmark",
+   "anchor": "Squirrel Chameleon Cornell"
+  },
+  {
+   "name": "Cornell",
+   "role": "benchmark",
+   "anchor": "Chameleon Cornell Citeseer"
+  },
+  {
+   "name": "Citeseer",
+   "role": "benchmark",
+   "anchor": "Cornell Citeseer Pubmed"
+  },
+  {
+   "name": "Pubmed",
+   "role": "benchmark",
+   "anchor": "Citeseer Pubmed Cora Avg"
+  },
+  {
+   "name": "Cora",
+   "role": "benchmark",
+   "anchor": "Pubmed Cora Avg"
+  },
+  {
+   "name": "Flickr",
+   "role": "benchmark",
+   "anchor": "the inductive setting of Flickr and Reddit"
+  },
+  {
+   "name": "Reddit",
+   "role": "benchmark",
+   "anchor": "setting of Flickr and Reddit substan-"
+  },
+  {
+   "name": "Products",
+   "role": "benchmark",
+   "anchor": "(right)intheProductsdataset,bothy-axisareinthelogscale"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "Accuracy",
+   "anchor": "Meantestaccuracy±stdevon6heterophilyand3homophilyreal-worlddatasets"
+  },
+  {
+   "name": "Throughput",
+   "anchor": "Thecomparisonofthroughput(left)andmemoryusage"
+  },
+  {
+   "name": "Memory usage",
+   "anchor": "(left)andmemoryusage"
+  }
+ ],
+ "notes": "12 个数据集全部为主实验测试基准（role=benchmark）：表2 九个小规模（6 heterophily + 3 homophily 引文图）+ 表3 三个大规模（Flickr/Reddit 为 inductive，Products 为 transductive）。Products 即正文所称 large-scale transductive OGB products dataset（ogbn-products），名称照抄表3 表头 \"Products\"。指标方面：Accuracy 原文表2 表题写作 \"Mean test accuracy ± stdev\"（OCR 空格缺失，锚点逐字保留无空格原样），图4 亦用 \"Classification accuracy\"，同一指标只记一条；Throughput 与 Memory usage 为 4.4 Efficiency 分析（图5）中明确命名的效率度量。论文多处提及 Appendix（更多基线结果、数据集细节），但本 markdown 全文到参考文献结束、不含附录正文，故无附录条目。相关工作中的数据集与方法仅用于排除，未写入。Two-column OCR 交错与空格缺失处锚点均已逐字核验通过。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

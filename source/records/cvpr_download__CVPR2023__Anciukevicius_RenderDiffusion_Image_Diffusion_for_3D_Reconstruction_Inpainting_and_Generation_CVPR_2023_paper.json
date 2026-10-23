@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FFHQ",
+      "role": "benchmark",
+      "anchor": "human face dataset (FFHQ), a cat face dataset (AFHQv2)",
+      "line": 329
+    },
+    {
+      "name": "AFHQv2",
+      "role": "benchmark",
+      "anchor": "human face dataset (FFHQ), a cat face dataset (AFHQv2)",
+      "line": 329
+    },
+    {
+      "name": "ShapeNet",
+      "role": "benchmark",
+      "anchor": "threecategoriesoftheShapeNetdataset.ShapeNetcontains",
+      "line": 341
+    },
+    {
+      "name": "CLEVR",
+      "role": "construction",
+      "anchor": "WegenerateavariantoftheCLEVRdataset",
+      "line": 334
+    },
+    {
+      "name": "CLEVR1",
+      "role": "benchmark",
+      "anchor": "dataset (CLEVR1). Since PixelNeRF has a significant advantage",
+      "line": 353
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "scenestothegroundtruthrendersusingtwometrics:PSNR",
+      "line": 400
+    },
+    {
+      "name": "SSIM",
+      "anchor": "PSNR SSIM | PSNR SSIM | PSNR",
+      "line": 358
+    },
+    {
+      "name": "coverage",
+      "anchor": "Generationresults(coverage,",
+      "line": 407
+    }
+  ],
+  "notes": "全文为去空格 OCR 转录，锚点均逐字复制。FFHQ/AFHQv2 用于训练与评测（重建定性、Table 2 生成 coverage），AFHQv2 在 Datasets 段写作 AFHQv2（摘要处写作 AFHQ），均为 benchmark；ShapeNet 取 car/plane/chair 三类做重建（Table 1）与生成（Table 2）评测；CLEVR 仅作为作者自建变体 CLEVR1 的生成来源（construction），CLEVR1 另列 benchmark；Table 1 直接标注 CLEVR1。指标：PSNR/SSIM 为重建指标（Metrics 段），coverage 为 Table 2 生成指标（定义在补充材料）。SSIM 锚点取自含 andSSIM[62] 的原行窗口。论文提到补充材料含其他指标与 CLEVR 结果，但本文件不含附录，未提取。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

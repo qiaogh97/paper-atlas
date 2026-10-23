@@ -1,0 +1,51 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bhatia_CCuantuMM_Cycle-Consistent_Quantum-Hybrid_Matching_of_Multiple_Shapes_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CCuantuMM: Cycle-Consistent Quantum-Hybrid Matching of Multiple Shapes",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FAUST",
+      "role": "benchmark",
+      "anchor": "oftheFAUSTcollection[4]withguaranteedcycleconsistency",
+      "line": 26
+    },
+    {
+      "name": "TOSCA",
+      "role": "benchmark",
+      "anchor": "TOSCA.Fig.7bandTab.1showthatourmethodachieves",
+      "line": 768
+    },
+    {
+      "name": "SMAL",
+      "role": "benchmark",
+      "anchor": "SMAL [45] has scans of toy animals in arbitrary poses,",
+      "line": 754
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Geodesic Error",
+      "anchor": "0 5·10−2 0.1 0.15\nGeodesicError",
+      "line": 781
+    },
+    {
+      "name": "PCK",
+      "anchor": "keypoints(PCK)curve,wherethethresholdvariesalongthe",
+      "line": 738
+    },
+    {
+      "name": "AUC",
+      "anchor": "Table1.AUCaveragedoverallclassesofeachdataset.Forrefer-",
+      "line": 748
+    },
+    {
+      "name": "Runtime (in min)",
+      "anchor": "Table 2. Runtime (in min) for FAUST. IsoMuSh uses ZoomOut",
+      "line": 814
+    }
+  ],
+  "notes": "三个数据集 FAUST、TOSCA、SMAL 均为主实验测试基准（含 5.1 真实量子退火机实验、100 形状匹配与 5.3 消融，均在 FAUST/TOSCA/SMAL 上进行），故均记为 benchmark，无 construction/pretrain 角色。评测遵循 Princeton benchmark protocol（Kim et al.），该协议是评测协议而非指标，未单列为条目；Geodesic Error 为图中坐标轴标签（原文 OCR 缺空格写作 GeodesicError），正文定义为 normalised geodesic distance；PCK 原文有展开（percentage-of-correct-keypoints），AUC 原文有展开（area-under-the-curve of PCK curves）；Runtime (in min) 来自 Table 2 运行时间对比。补充材料（supplement，含 Zephyr 硬件结果与更多消融）未包含在该全文文件中，附录实验未覆盖。相关工作与对比方法（IsoMuSh、ZoomOut、Q-Match 等）中出现的名称仅用于排除，未写入。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bhatia_CCuantuMM_Cycle-Consistent_Quantum-Hybrid_Matching_of_Multiple_Shapes_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

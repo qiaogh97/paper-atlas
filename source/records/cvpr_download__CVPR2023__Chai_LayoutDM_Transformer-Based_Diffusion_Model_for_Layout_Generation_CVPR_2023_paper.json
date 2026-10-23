@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chai_LayoutDM_Transformer-Based_Diffusion_Model_for_Layout_Generation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "LayoutDM: Transformer-based Diffusion Model for Layout Generation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Rico",
+      "role": "benchmark",
+      "anchor": "zines,textlogosandmobilephoneUIs.Rico[7]isadataset",
+      "line": 462
+    },
+    {
+      "name": "PublayNet",
+      "role": "benchmark",
+      "anchor": "ation results on benchmark datasets: Rico, PublayNet and",
+      "line": 498
+    },
+    {
+      "name": "Magazine",
+      "role": "benchmark",
+      "anchor": "egories (text, title, figure, list, table). Magazine [46] is a",
+      "line": 472
+    },
+    {
+      "name": "COCO",
+      "role": "qualitative",
+      "anchor": "COCO[26]isalarge-scalelabeledimagedatasetthatcon-",
+      "line": 478
+    },
+    {
+      "name": "TextLogo3K",
+      "role": "qualitative",
+      "anchor": "TextLogo3K[44]dataset",
+      "line": 637
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "usethepre-trainedclassifiersin[18]tocomputeFID.Max.",
+      "line": 499
+    },
+    {
+      "name": "Max.IoU",
+      "anchor": "Model FID↓ Max.IoU↑ Alignment↓ Overlap↓",
+      "line": 434
+    },
+    {
+      "name": "Alignment",
+      "anchor": "sidethelayout. Additionally,wemeasuretheAlignmentby",
+      "line": 510
+    },
+    {
+      "name": "Overlap",
+      "anchor": "quality of generated layouts. Overlap measures the total",
+      "line": 506
+    },
+    {
+      "name": "IoU",
+      "anchor": "IoU↓[21] | Overlap↓[24] |     | Alignment↓[23]",
+      "line": 528
+    }
+  ],
+  "notes": "五个公开数据集均用于实验：Rico/PublayNet/Magazine 为主定量基准（Table 1/2/3，含消融），role=benchmark；COCO 与 TextLogo3K 仅在 4.4 扩展任务中定性展示（Fig.7 场景布局、Fig.6 与 LogoGAN 的文字 logo 对比），未报告任何定量指标，role=qualitative。指标：FID 原文未展开全称，保留缩写；Max.IoU 按原文写法保留（含点号）；Alignment/Overlap 在 Table 2 中按不同引用来源（[23]/[24]）计算但名称相同，各只记一条；Table 2 的 IoU 为采用 BLT[21] 协议的扩展对比指标，与 Table 1 的 Max.IoU 定义不同，故单列一条。正文多次提及 supplementary material，但全文文件（止于参考文献）未包含附录内容。全文为 OCR 转录、多处空格缺失，锚点均按原样逐字复制并已核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chai_LayoutDM_Transformer-Based_Diffusion_Model_for_Layout_Generation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

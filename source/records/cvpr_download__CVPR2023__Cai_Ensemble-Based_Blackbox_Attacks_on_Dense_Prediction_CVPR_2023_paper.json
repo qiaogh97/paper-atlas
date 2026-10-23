@@ -1,0 +1,52 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_Ensemble-Based_Blackbox_Attacks_on_Dense_Prediction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Ensemble-based Blackbox Attacks on Dense Prediction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "COCO 2017",
+      "role": "benchmark",
+      "anchor": "uate attack performance on COCO 2017 [30] and Pascal",
+      "line": 362
+    },
+    {
+      "name": "Pascal VOC 2007",
+      "role": "benchmark",
+      "anchor": "images containing | multiple | (2–6) | objects | from | VOC 2007",
+      "line": 371
+    },
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "selectedfromthevalidationsetofCityScapesdataset.",
+      "line": 578
+    },
+    {
+      "name": "Pascal VOC 2012",
+      "role": "benchmark",
+      "anchor": "andPascalVOC2012,whichcontains500",
+      "line": 359
+    }
+  ],
+  "metrics": [
+    {
+      "name": "attack success rate (ASR)",
+      "anchor": "manceoftheattackusingattacksuccessrate(ASR),which",
+      "line": 377
+    },
+    {
+      "name": "mIoU",
+      "anchor": "ingthemIoUscore(inpercentage%),thelowermIoUscore",
+      "line": 367
+    },
+    {
+      "name": "pixel success ratio (PSR)",
+      "anchor": "reportthepixelsuccessratio(PSR),whichindicatestheper-",
+      "line": 369
+    }
+  ],
+  "notes": "四个数据集均为主实验测试基准：检测在 COCO 2017 与 VOC 2007 各随机取 500 张验证/测试图评估攻击，分割在 Cityscapes 与 Pascal VOC 2012 验证集（500/1499 张、19/21 类）评估；COCO 2017 同时是 MMDetection 模型的预训练集，但论文中的实验角色是攻击评测基准，故只记 benchmark 一条。指标：目标检测用 ASR（IOU>0.3 判定成功，Fig.3 中 fooling rate 为其同义别名，不单列），分割 untargeted 用 mIoU（文中未展开为 mean IoU 全称，保留缩写），targeted 用 PSR（Tab.4/Fig.5 的 pixel success rate 即 PSR）。补充材料（Tab. S1 COCO 结果、VOC 分割结果、Fig. S3）未引入新数据集或新指标。全文 OCR 空格缺失，锚点按原样逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_Ensemble-Based_Blackbox_Attacks_on_Dense_Prediction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

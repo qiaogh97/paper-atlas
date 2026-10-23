@@ -1,0 +1,51 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_High-Fidelity_Facial_Avatar_Reconstruction_From_Monocular_Video_With_Generative_Priors_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "High-fidelity Facial Avatar Reconstruction from Monocular Video with Generative Priors",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "NerFACE",
+      "role": "benchmark",
+      "anchor": "WeadoptthethreemonocularvideosusedinNerFACE[11]",
+      "line": 385
+    },
+    {
+      "name": "FFHQ",
+      "role": "pretrain",
+      "anchor": "AfterbeingtrainedonFFHQ[21],EG3D",
+      "line": 231
+    },
+    {
+      "name": "YouTube",
+      "role": "construction",
+      "anchor": "YouTube. Thepositionofthecameraisfixedandthereso-",
+      "line": 460
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "Signal-to-Noise Ratio (PSNR), Structure Similarity Index",
+      "line": 404
+    },
+    {
+      "name": "SSIM",
+      "anchor": "(SSIM),andtheLearnedPerceptualImagePatchSimilarity",
+      "line": 405
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "and LPIPS, SyncNet [9] is further used to measure audio-",
+      "line": 472
+    },
+    {
+      "name": "SyncNet",
+      "anchor": "SyncNet [9] is further used to measure audio-",
+      "line": 472
+    }
+  ],
+  "notes": "NerFACE 条目指论文直接采用的 NerFACE 工作所用三段单目人脸视频，作为 RGB 重建（Sec 4.2）与 3DMM 驱动重演（Sec 4.3）的评测基准；NerFACE 同时作为对比方法出现在表 2，此处仅取其数据集角色。FFHQ 为 EG3D 生成器的预训练数据（生成先验来源），记 pretrain。音频驱动实验（Sec 4.4）在三段自 YouTube 收集的公开视频上进行，YouTube 记 construction。指标中 PSNR/SSIM/LPIPS 原文均有全称展开；SyncNet 为音画同步置信度指标，原文未展开缩写，按原缩写保留。markdown 全文存在 OCR 空格缺失痕迹，锚点均按原文逐字复制并经脚本核验。正文提及补充材料含额外实验，但本全文文件仅含正文与参考文献，无附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_High-Fidelity_Facial_Avatar_Reconstruction_From_Monocular_Video_With_Generative_Priors_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Real-Time_Neural_Light_Field_on_Mobile_Devices_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Real-Time Neural Light Field on Mobile Devices",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Synthetic 360",
+      "role": "benchmark",
+      "anchor": "datasets: realistic synthetic 360 [33] and real-world",
+      "line": 433
+    },
+    {
+      "name": "Forward-facing",
+      "role": "benchmark",
+      "anchor": "forward-facing [32,33]. The synthetic 360 dataset con-",
+      "line": 435
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "achievesbetterresultsonPSNR,SSIM,andLPIPSforthe",
+      "line": 452
+    },
+    {
+      "name": "SSIM",
+      "anchor": "obtain better SSIM and LPIPS than NeRF [33]. Similarly,",
+      "line": 455
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "PSNR, SSIM [42], and LPIPS [46], on the realistic syn-",
+      "line": 446
+    },
+    {
+      "name": "Latency",
+      "anchor": "Table3. AnalysisofInferenceSpeed. Latency(ms)isobtained",
+      "line": 472
+    },
+    {
+      "name": "Disk storage",
+      "anchor": "Diskstorage 125.8 86.8 8.3 201.5 337.3 8.3",
+      "line": 471
+    },
+    {
+      "name": "Params",
+      "anchor": "Params | PSNR SSIM    | LPIPS  | Latency",
+      "line": 568
+    }
+  ],
+  "notes": "两数据集均为主实验测试基准：论文 Datasets 段称 realistic synthetic 360（引 [33]，8 个合成场景）与 real-world forward-facing（引 [32,33]，8 个真实场景），Tab.1 主对比与消融（synthetic 360 的 Chair 场景）均在其上进行，故均为 benchmark。指标：PSNR/SSIM/LPIPS 为主报告指标（SSIM 引 [42]、LPIPS 引 [46]，原文未展开缩写，按原缩写保留）；Latency（ms，iPhone 13/14 实测推理延迟，Tab.3 与 Tab.4/5）、Disk storage（MB，Tab.2）、Params（Tab.4/5 消融表中报告的参数量）亦为结果表中的度量，一并计入。4.3 节虚拟试穿应用用 iPhone 自采 100 张鞋图像训练，为未命名自建数据，不计入 datasets。全文为 OCR 表格化 markdown，锚点按原样复制（含缺空格等 OCR 痕迹）。无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Real-Time_Neural_Light_Field_on_Mobile_Devices_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

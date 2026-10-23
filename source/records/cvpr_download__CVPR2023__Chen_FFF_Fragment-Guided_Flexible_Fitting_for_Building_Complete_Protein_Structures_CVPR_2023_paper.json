@@ -1,0 +1,15 @@
+{"paper": "cvpr_download/CVPR2023/Chen_FFF_Fragment-Guided_Flexible_Fitting_for_Building_Complete_Protein_Structures_CVPR_2023_paper", "venue": "CVPR2023", "title": "FFF: Fragment-Guided Flexible Fitting for Building Complete Protein Structures", "status": "ok",
+ "datasets": [
+  {"name": "EM Data Bank (EMDB)", "role": "construction", "anchor": "(EMDB), and the corresponding modeled PDB files that"},
+  {"name": "EM Data Bank (EMDB)", "role": "qualitative", "anchor": "ing map (EMDB entry: EMD-12142, resolution: 3.4 A˚),"},
+  {"name": "Protein Data Bank (PDB)", "role": "construction", "anchor": "(PDB).Thereleasedateisconsistentwiththetrainingset-"},
+  {"name": "Protein Data Bank (PDB)", "role": "qualitative", "anchor": "conformation [3] of ASCT2 (PDB entry: 6RVX, released"}
+ ],
+ "metrics": [
+  {"name": "TM-score", "anchor": "tionsfromthedepositedstructures.TM-score[27]wascho-"},
+  {"name": "Cα precision", "anchor": "Cαprecisionisthefraction"},
+  {"name": "Cα recall", "anchor": "CαrecallisthefractionoftruepositiveCαatomsamongall"},
+  {"name": "AA-type precision", "anchor": "residue,weevaluatedtheAA-typeprecisionson24experi-"}
+ ],
+ "notes": "训练数据约2400张1–4Å cryo-EM map取自EM Data Bank (EMDB)并配对2020-05-01前发布的PDB模型文件，故两者均为construction角色；4.1案例研究引用PDB条目6RVX/7BCQ与EMDB条目EMD-12142、4.2以PDB条目7M7B作代表性示例，故PDB/EMDB另拆qualitative角色各一条。主实验基准为自建的24个蛋白结构测试集（AlphaFold训练数据排除项，2.4–4.2Å），论文未命名，不单列。指标：TM-score为Table 1主指标；消融与分析小节使用Cα precision、Cα recall（脚注定义）与AA-type precision，原文OCR空格缺失（如Cαprecision），名称按惯例补空格。RMSD仅作为TMD方法中的collective variable定义、非报告指标，Dice Loss/BCE为训练损失，均未计入。无附录；相关工作中的RELION/cryoSPARC/cryoDRGN/DeepTracer等为软件或方法，未计入。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_FFF_Fragment-Guided_Flexible_Fitting_for_Building_Complete_Protein_Structures_CVPR_2023_paper/paper.md", "text_source": "markdown"}

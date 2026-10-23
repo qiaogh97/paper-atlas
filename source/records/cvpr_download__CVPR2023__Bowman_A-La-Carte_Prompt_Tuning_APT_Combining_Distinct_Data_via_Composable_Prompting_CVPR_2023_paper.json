@@ -1,0 +1,88 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bowman_A-La-Carte_Prompt_Tuning_APT_Combining_Distinct_Data_via_Composable_Prompting_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A-la-carte Prompt Tuning (APT): Combining Distinct Data Via Composable Prompting",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MIT-67",
+      "role": "benchmark",
+      "anchor": "datasetsMIT-67,Cub-200-2011,OxfordFlowers,Caltech-",
+      "line": 493
+    },
+    {
+      "name": "Cub-200-2011",
+      "role": "benchmark",
+      "anchor": "MIT-67,Cub-200-2011,OxfordFlowers",
+      "line": 493
+    },
+    {
+      "name": "FGVC-Aircrafts",
+      "role": "benchmark",
+      "anchor": "the | datasets | FGVC-Aircrafts |",
+      "line": 498
+    },
+    {
+      "name": "Oxford Flowers",
+      "role": "benchmark",
+      "anchor": "Cub-200-2011,OxfordFlowers,Caltech-",
+      "line": 493
+    },
+    {
+      "name": "Caltech-256",
+      "role": "benchmark",
+      "anchor": "Caltech-256 | [13],",
+      "line": 485
+    },
+    {
+      "name": "Oxford Pets",
+      "role": "benchmark",
+      "anchor": "and | Oxford Pets | as",
+      "line": 496
+    },
+    {
+      "name": "Stanford Cars",
+      "role": "benchmark",
+      "anchor": "AircraftsandStanfordCarsarethemainexceptions",
+      "line": 344
+    },
+    {
+      "name": "Split CIFAR-100",
+      "role": "benchmark",
+      "anchor": "use | Split CIFAR-100 |     | [17] | (10 train-",
+      "line": 504
+    },
+    {
+      "name": "CORe50",
+      "role": "benchmark",
+      "anchor": "mentallearningweuseCORe50(8trainingdomains,3test",
+      "line": 508
+    },
+    {
+      "name": "ImageNet-21k",
+      "role": "pretrain",
+      "anchor": "ImageNet-21k. |     | Unless | explicitly",
+      "line": 472
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "anchor": "Table2.Accuracyofshardensembles.Accuracyofensemblingprompts",
+      "line": 528
+    },
+    {
+      "name": "Error increase",
+      "anchor": "Figure3. (A)ErrorincreaseofAPTcomparedtoparagon.",
+      "line": 341
+    },
+    {
+      "name": "FT vs. PT Gap",
+      "anchor": "“FTvs.PTGap”reportstheaccuracyofDeepPTminustheaccuracyofFinetuning.",
+      "line": 546
+    }
+  ],
+  "notes": "OCR 转录空格缺失：锚点中 OxfordFlowers/StanfordCars/ImageNet21k 等为连写，name 按论文原拼写（带空格/连字符）还原；FT vs. PT Gap 在表头连写为 FTvs.PTgap。角色拆分：MIT-67、Cub-200-2011、FGVC-Aircrafts、Oxford Flowers、Caltech-256、Oxford Pets、Stanford Cars 七个细粒度分类基准用于主实验（其中 FGVC-Aircrafts 与 Stanford Cars 被 paper 称为 out-of-domain），Split CIFAR-100 用于 class-incremental、CORe50 用于 domain-incremental，均为 benchmark；ImageNet-21k 仅作 VIT-B/16 骨干预训练来源，记 pretrain。Split CIFAR-100 在 Table 4 列头简写为 CIFAR-100，视为同一基准只记一条。指标：Accuracy 为主指标（Table 4 记为 average accuracy，同一指标不重复）；另计入两个明确命名的分析性度量——Figure 3 的 Error increase（相对 paragon 的误差增量）与 Table 3 的 FT vs. PT Gap（DeepPT 与 Finetuning 的 accuracy 之差）。正文提及补充材料 Sec. B（APT-W 加权细节）但 markdown 全文未包含附录。相关工作与参考文献中的数据集未计入。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bowman_A-La-Carte_Prompt_Tuning_APT_Combining_Distinct_Data_via_Composable_Prompting_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

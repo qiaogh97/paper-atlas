@@ -1,0 +1,29 @@
+{
+  "paper": "cvpr_download/CVPR2023/Binder_Shortcomings_of_Top-Down_Randomization-Based_Sanity_Checks_for_Evaluations_of_Deep_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Shortcomings of Top-Down Randomization-Based Sanity Checks for Evaluations of Deep Neural Network Explanations",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "EffectofrandomizationonoutputlogitsonaResNet-34modelforthreeimagesfromImageNet.",
+      "line": 386
+    }
+  ],
+  "metrics": [
+    {
+      "name": "SSIM",
+      "anchor": "Resultsoftop-downmodelrandomization-basedsanitycheckswithSSIMafternormalizationofattributionmapsbytheirsecond",
+      "line": 258
+    },
+    {
+      "name": "correlation to iterative occlusion",
+      "anchor": "Resultsofmodelfaithfulnessviaocclusiontesting,bymeasuringthecorrelationtoiterativeocclusionwithakernelsizeof15.",
+      "line": 249
+    }
+  ],
+  "notes": "实验图像取自 ImageNet（Fig.5 明示 three images from ImageNet，Fig.4 的 tench/golf ball/church 类别与之相符），故记为 benchmark；模型为 torchvision 预训练 VGG-16/ResNet-50/DenseNet-121/EfficientNet-B0/ResNet-34，但正文未明写预训练所用数据集，不另立 pretrain 条目。SSIM 全称 Structural Similarity Index Measure 在引言首次给出，正文与图 2 均以缩写 SSIM 使用，保留缩写。Fig.1 的忠实性度量为与迭代遮挡的相关性（原文 OCR 处为连写 thecorrelationtoiterativeocclusion，名称按语义补空格），同类方法名 region perturbation 为引文 [20] 的测试名，未单列。CLEVR-XAI 仅出现于参考文献 [5] 标题，按规则排除。Fig.5 中 logits 前后相关性为分析性观察，非命名指标，未计入。补充材料（Section A.1 实验设置、A.3、C、D、E、F、G、I 等）未包含在本 markdown 全文内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Binder_Shortcomings_of_Top-Down_Randomization-Based_Sanity_Checks_for_Evaluations_of_Deep_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

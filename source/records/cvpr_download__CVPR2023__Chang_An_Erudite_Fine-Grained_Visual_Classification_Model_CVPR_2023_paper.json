@@ -1,0 +1,88 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chang_An_Erudite_Fine-Grained_Visual_Classification_Model_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "An Erudite Fine-Grained Visual Classification Model",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CUB-200-2011",
+      "role": "benchmark",
+      "anchor": "(CUB-200-2011 (D ) [36], Stanford Cars (D ) [20],",
+      "line": 220
+    },
+    {
+      "name": "Stanford Cars",
+      "role": "benchmark",
+      "anchor": "D : Stanford Cars [20] (contains 196",
+      "line": 519
+    },
+    {
+      "name": "FGVC-Aircraft",
+      "role": "benchmark",
+      "anchor": "FGVC-Aircraft |               | (D 3 )",
+      "line": 224
+    },
+    {
+      "name": "Flowers-102",
+      "role": "benchmark",
+      "anchor": "3333 for test), and D : Flowers-102 [27] (contains 102",
+      "line": 525
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "andinitialiseitwithImageNet[11]pre-trainedweights",
+      "line": 562
+    }
+  ],
+  "metrics": [
+    {
+      "name": "ācc",
+      "anchor": "In this paper, we use Arithmetic Mean (a¯cc =",
+      "line": 619
+    },
+    {
+      "name": "SC",
+      "anchor": "SC(↑) 0.127 0.150±0.120 0.163±0.021",
+      "line": 278
+    },
+    {
+      "name": "CHI",
+      "anchor": "CHI(↑) 419.7 420.8±42.02 495.6±36.61",
+      "line": 279
+    },
+    {
+      "name": "DBI",
+      "anchor": "DBI(↓) 3.909 3.757±2.236 3.642±0.236",
+      "line": 280
+    },
+    {
+      "name": "Positive",
+      "anchor": "Positive(↑) − 86.33±4.041 120.0±2.0",
+      "line": 281
+    },
+    {
+      "name": "Negative",
+      "anchor": "Negative(↓) − 113.7±4.041 80.0±2.0",
+      "line": 282
+    },
+    {
+      "name": "MMD",
+      "anchor": "MMD(↑) − − − 5095±1101 5572±312.5",
+      "line": 283
+    },
+    {
+      "name": "MACs",
+      "anchor": "(MACs(G)/Params(M)).",
+      "line": 677
+    },
+    {
+      "name": "Params",
+      "anchor": "complexityandthenumberofparameters(Params)tomea-",
+      "line": 721
+    }
+  ],
+  "notes": "四个FGVC数据集(CUB-200-2011、Stanford Cars、FGVC-Aircraft、Flowers-102)在试点研究(Section 3)与主实验(Section 5)中均作为联合训练与评测基准;文中11个mixed-datasets(D12…D1234)仅为四者的组合,不单列。ImageNet仅用于ResNet-50 backbone预训练权重初始化,故role=pretrain。主指标ācc为各测试数据集accuracy的算术平均(OCR文本中写作a¯cc);SC/CHI/DBI/MMD为Table 1特征分布与数据集间距离的分析指标,正文有展开(Silhouette Coefficient、Calinski-Harabasz Index、Davies-Bouldin Index、Maximum mean discrepancy);Positive/Negative为3.3节正/负迁移类别计数指标;MACs/Params为Table 3效率指标(Multiply Accumulate Operations、参数量)。相关工作中提到的Wikipedia等仅用于排除,未收录;该markdown无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chang_An_Erudite_Fine-Grained_Visual_Classification_Model_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

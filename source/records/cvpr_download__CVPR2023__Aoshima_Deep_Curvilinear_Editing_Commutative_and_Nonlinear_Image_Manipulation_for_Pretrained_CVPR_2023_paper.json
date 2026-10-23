@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Aoshima_Deep_Curvilinear_Editing_Commutative_and_Nonlinear_Image_Manipulation_for_Pretrained_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Deep Curvilinear Editing: Commutative and Nonlinear Image Manipulation for Pretrained Deep Generative Model",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CelebA-HQ",
+      "role": "benchmark",
+      "anchor": "Evaluation Metrics For CelebA-HQ, we measured the",
+      "line": 405
+    },
+    {
+      "name": "MNIST",
+      "role": "qualitative",
+      "anchor": "MNIST[42]      |     | SNGAN[48] |     | LeNet[41]",
+      "line": 318
+    },
+    {
+      "name": "AnimeFaces",
+      "role": "qualitative",
+      "anchor": "AnimeFaces[31] |     | SNGAN[48] |     | LeNet[41]",
+      "line": 321
+    },
+    {
+      "name": "ILSVRC",
+      "role": "qualitative",
+      "anchor": "ILSVRC[14]     |     | BigGAN[7] |     | ResNet-18[",
+      "line": 323
+    },
+    {
+      "name": "LSUNCar",
+      "role": "qualitative",
+      "anchor": "LSUNCar[40] |     | StyleGAN2[36] |     | ResNet-",
+      "line": 326
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Commutativity Errors",
+      "anchor": "Table3.CommutativityErrors[%]ofStyleGAN2.",
+      "line": 437
+    },
+    {
+      "name": "Side Effect Errors",
+      "anchor": "Table4.SideEffectErrors[%]ofStyleGAN2.",
+      "line": 512
+    },
+    {
+      "name": "Identity Errors",
+      "anchor": "Table5.IdentityErrors[%]ofStyleGAN2.",
+      "line": 552
+    },
+    {
+      "name": "attribute score",
+      "anchor": "attribute scores of generated images using separate pre-",
+      "line": 407
+    },
+    {
+      "name": "identity score",
+      "anchor": "cFacemeasuredtheidentityscoreI(·,·)",
+      "line": 451
+    }
+  ],
+  "notes": "Table 2 列出 5 组实验数据集组合：CelebA-HQ（ProgGAN 与 StyleGAN2 两种骨干）承载全部定量评测（Table 3 Commutativity Errors、Table 4 Side Effect Errors、Table 5 Identity Errors 及 Fig.3），role=benchmark；MNIST/AnimeFaces/ILSVRC/LSUNCar 的结果仅在 Fig.2 与 Fig.4 以定性可视化呈现，故 role=qualitative。LSUNCar 为原文连写形式（即 LSUN Car 数据集，文献[40]）。指标方面：三个 Errors 为结果表报告指标；attribute score 与 identity score 为 5.1 Evaluation Metrics 小节明确命名的分析性度量，分别由 FairFace、CelebA-HQ attributes classifier、Hopenet 属性预测器及 ArcFace 计算，这些预测器为评测工具模型，未计入数据集。锚点均保留 OCR 连写原样（如 CommutativityErrors、cFacemeasuredtheidentityscoreI(·,·)，其中 cFace 为 ArcFace 换行拆分）。附录 A–D 未包含在该 markdown 转录文件中，无法核对其中的补充实验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Aoshima_Deep_Curvilinear_Editing_Commutative_and_Nonlinear_Image_Manipulation_for_Pretrained_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

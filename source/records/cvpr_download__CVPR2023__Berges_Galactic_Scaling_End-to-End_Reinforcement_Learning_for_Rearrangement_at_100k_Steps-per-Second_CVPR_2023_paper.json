@@ -1,0 +1,46 @@
+{
+  "paper": "cvpr_download/CVPR2023/Berges_Galactic_Scaling_End-to-End_Reinforcement_Learning_for_Rearrangement_at_100k_Steps-per-Second_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Galactic: Scaling End-to-End Reinforcement Learning for Rearrangement at 100k Steps-Per-Second",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "RearrangeEasy benchmark",
+      "role": "benchmark",
+      "anchor": "theRearrangeEasybenchmarkfromtheNeurIPS2022Habitat",
+      "line": 362
+    },
+    {
+      "name": "ReplicaCAD",
+      "role": "benchmark",
+      "anchor": "Easy benchmark uses the ReplicaCAD [55] scene dataset",
+      "line": 385
+    },
+    {
+      "name": "Tidy House",
+      "role": "benchmark",
+      "anchor": "of objects and scenes) from the Tidy House dataset. When",
+      "line": 529
+    }
+  ],
+  "metrics": [
+    {
+      "name": "success rate",
+      "anchor": "achieve a high success rate in Galactic, and then",
+      "line": 421
+    },
+    {
+      "name": "steps-per-second (SPS)",
+      "anchor": "Steps-per-second(SPS)numbersaretakenfromsourcepublications",
+      "line": 85
+    },
+    {
+      "name": "wall-clock time",
+      "anchor": "Wall-clocktimeversussuccessrateinthemobilepicktask",
+      "line": 540
+    }
+  ],
+  "notes": "角色拆分：RearrangeEasy benchmark（NeurIPS 2022 Habitat Rearrangement Challenge，含 10k train / 1k val episodes）为主实验训练与评测基准，也是零样本迁移目标；ReplicaCAD（105 个交互式室内场景，train split 63 room layouts）为其底层场景数据集，训练与评测均在其中进行，记 benchmark；Tidy House 仅在 5.3 节 rearrangement 设置分析中作为 100 个验证 episode 的评测来源，亦记 benchmark。Table 1 中 VizDoom、IsaacGym、Brax、iGibson、AI2-THOR、Megaverse、Habitat 2.0 等为吞吐对比的模拟器/框架而非数据集，未收录；引言中 CLIP 的 400M 图像数据集为动机性引用，未收录。指标：success rate 为核心指标（Table 2、Figure 5），zero-shot success 为其零样本迁移变体、mobile pick 任务中口语化写作 accuracy，均不单列；SPS 在 Table 1/Figure 4 作吞吐指标（含 SimSPS/TrainSPS 变体），缩写保留；wall-clock time 为 Figure 6 训练效率对比轴。正文多处引用 Appendix A–I，但本 markdown 转录仅含正文与参考文献（至页 13777），无附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Berges_Galactic_Scaling_End-to-End_Reinforcement_Learning_for_Rearrangement_at_100k_Steps-per-Second_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

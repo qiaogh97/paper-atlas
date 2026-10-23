@@ -1,0 +1,90 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cha_Rebalancing_Batch_Normalization_for_Exemplar-Based_Class-Incremental_Learning_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Rebalancing Batch Normalization for Exemplar-based Class-Incremental Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "ontheofflineCILsettingsleveragingCIFAR-100[19]and",
+      "line": 467
+    },
+    {
+      "name": "ImageNet-100",
+      "role": "benchmark",
+      "anchor": "ImageNet-100[10]datasets:foreachdataset,wedivide100",
+      "line": 470
+    },
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "distinct datasets such as CIFAR-\nexperiment,weagainconfirmthattheperformancegainof 10[19]",
+      "line": 649
+    },
+    {
+      "name": "SVHN",
+      "role": "benchmark",
+      "anchor": "10[19],SVHN[27],STL-10[8],MNIST[11]andFashion-",
+      "line": 650
+    },
+    {
+      "name": "STL-10",
+      "role": "benchmark",
+      "anchor": "SVHN[27],STL-10[8],MNIST[11]andFashion-",
+      "line": 650
+    },
+    {
+      "name": "MNIST",
+      "role": "benchmark",
+      "anchor": "STL-10[8],MNIST[11]andFashion-",
+      "line": 650
+    },
+    {
+      "name": "Fashion-MNIST",
+      "role": "benchmark",
+      "anchor": "MNIST[11]andFashion-\nTBBNismostlyduetoreductioninF (i.e.enhancedstabil- MNIST [41].",
+      "line": 650
+    }
+  ],
+  "metrics": [
+    {
+      "name": "final accuracy (Af)",
+      "anchor": "odsbasedonfourdifferentmetrics,suchasfinalaccuracy",
+      "line": 474
+    },
+    {
+      "name": "average accuracy (Aa)",
+      "anchor": "average accuracy (A ), forgetting measure(F), and",
+      "line": 475
+    },
+    {
+      "name": "forgetting measure (F)",
+      "anchor": "(A ), average accuracy (A ), forgetting measure(F), and",
+      "line": 475
+    },
+    {
+      "name": "learning accuracy (Al)",
+      "anchor": "learningaccuracy(A ).Thedetailedexplanationforthemet-",
+      "line": 478
+    },
+    {
+      "name": "GPU memory cost",
+      "anchor": "Additionally, we compare GPU memory cost, training",
+      "line": 696
+    },
+    {
+      "name": "training time",
+      "anchor": "×1.3oftrainingtimethantheoriginalBN.However,note",
+      "line": 702
+    },
+    {
+      "name": "inference time",
+      "anchor": "time and inference time of each case. Because of both re-",
+      "line": 697
+    }
+  ],
+  "notes": "全文为无空格 OCR markdown。CIFAR-100/ImageNet-100 为主 10-task 离线 CIL 测试基准；CIFAR-10、SVHN、STL-10、MNIST、Fashion-MNIST 用于 dissimilar-tasks CIL 基准（2 任务×5 数据集），均计 benchmark。指标 Af/Aa/Al 在原文为 A 带下标 f/a/l，此处按表格写法保留缩写；四个 CIL 指标名称在 OCR 中空格缺失，锚点按原样复制（其中两条跨行锚点包含双栏排版混入的左栏残句，属逐字复制）。另按 Table 5 与分析小节计入效率度量 GPU memory cost、training time、inference time（原文写作 training time and inference time，表格列为 Memory/Peak Train Time/Test Time）。Figure 4 的四类误分类计数（C→P、P→C 等）作为定性分析量未单列。补充材料未包含在本全文文件中（文件止于参考文献）。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cha_Rebalancing_Batch_Normalization_for_Exemplar-Based_Class-Incremental_Learning_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

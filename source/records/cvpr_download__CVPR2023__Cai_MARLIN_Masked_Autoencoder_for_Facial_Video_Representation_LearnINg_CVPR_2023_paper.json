@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_MARLIN_Masked_Autoencoder_for_Facial_Video_Representation_LearnINg_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "MARLIN: Masked Autoencoder for facial video Representation LearnINg",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CelebV-HQ",
+      "role": "benchmark",
+      "anchor": "Tuned on CelebV-HQ [85] benchmark dataset in terms of",
+      "line": 584
+    },
+    {
+      "name": "CMU-MOSEI",
+      "role": "benchmark",
+      "anchor": "tion, CMU-MOSEI dataset [7] for conversational emotion",
+      "line": 622
+    },
+    {
+      "name": "FaceForensics++",
+      "role": "benchmark",
+      "anchor": "formance of video manipulation on FaceForensics++ [62]",
+      "line": 751
+    },
+    {
+      "name": "LRS2",
+      "role": "benchmark",
+      "anchor": "andFine-Tuning(FT)resultsontheLRS2[22]dataset.",
+      "line": 687
+    },
+    {
+      "name": "YTF",
+      "role": "pretrain",
+      "anchor": "MARLIN, trained on YTF [78] dataset and Linear Probed/Fine-",
+      "line": 583
+    }
+  ],
+  "metrics": [
+    {
+      "name": "accuracy",
+      "anchor": "useoverallaccuracy(↑)asmetrics.",
+      "line": 547
+    },
+    {
+      "name": "AUC",
+      "anchor": "accuracy(↑)andAUC(↑)astheevaluationmetrics.",
+      "line": 559
+    },
+    {
+      "name": "LSE-D",
+      "anchor": "ature[57,74],weuseLip-SyncError-Distance(LSE-D↓),",
+      "line": 570
+    },
+    {
+      "name": "LSE-C",
+      "anchor": "Lip-Sync Error-Confidence (LSE-C ↑) and Frechet Incep-",
+      "line": 572
+    },
+    {
+      "name": "FID",
+      "anchor": "tionDistance(FID↓)[38]asevaluationmatrices.",
+      "line": 573
+    }
+  ],
+  "notes": "角色拆分：YTF（即 YouTube Faces，表 2 脚注写作 YTF:YouTubeFace[78]）仅作自监督预训练语料，故 role=pretrain；CelebV-HQ（FAR 主实验表 2/表 6）、CMU-MOSEI（情感/情绪表 3、表 7）、FaceForensics++（DFD 表 4/表 7）、LRS2（唇音同步表 5）均为主实验测试基准。FaceForensics++ 实际使用低质量变体，原文多处写作 FF++(LQ)、FF++，表 4 标题写作 FaceForensic++，系同一数据集。CelebV-HQ 与 LRS2 还用于图 4 定性分析（Grad-CAM / 生成结果），与对应基准任务同源，未另拆 qualitative 条目。引言表 1 为面部任务相关数据集综述表（含 LFW、VGG-FACE、CelebA、YouTubeFace、CelebV、VoxCeleb2 等），非本文实验实际使用，未收录；IEMOCAP 仅作为对比方法 CAE-LR 的预训练来源出现在表 3，MARLIN 未使用，未收录。指标：accuracy 照抄原文小写，表头缩写为 Acc.↑/Acc.(%)↑；AUC 原文展开为 Area Under the Curve；LSE-D/LSE-C 原文展开为 Lip-Sync Error-Distance / Lip-Sync Error-Confidence；FID 原文展开为 Frechet Inception Distance（原文即拼作 Frechet，且误拼 evaluation matrices）。全文无附录，正文以参考文献结束。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_MARLIN_Masked_Autoencoder_for_Facial_Video_Representation_LearnINg_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

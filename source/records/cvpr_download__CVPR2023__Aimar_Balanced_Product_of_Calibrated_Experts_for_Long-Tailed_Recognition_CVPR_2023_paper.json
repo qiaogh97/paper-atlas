@@ -1,0 +1,74 @@
+{
+  "paper": "cvpr_download/CVPR2023/Aimar_Balanced_Product_of_Calibrated_Experts_for_Long-Tailed_Recognition_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Balanced Product of Calibrated Experts for Long-Tailed Recognition",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-100-LT",
+      "role": "benchmark",
+      "anchor": "andAutoAugment[10]forCIFAR-100-LT.Inthelattercase,",
+      "line": 577
+    },
+    {
+      "name": "ImageNet-LT",
+      "role": "benchmark",
+      "anchor": "ImageNet-LT.BuiltfromImageNet-2012[14]with1K",
+      "line": 498
+    },
+    {
+      "name": "iNaturalist 2018",
+      "role": "benchmark",
+      "anchor": "LT, and iNaturalist 2018 for different imbalance ratios (IR)",
+      "line": 578
+    },
+    {
+      "name": "CIFAR-10-LT",
+      "role": "benchmark",
+      "anchor": "ρ∈{10,50,100}. ForexperimentsonCIFAR-10-LT[32],",
+      "line": 496
+    },
+    {
+      "name": "CIFAR-100",
+      "role": "construction",
+      "anchor": "the balanced | CIFAR-100 |     | dataset | [32] is",
+      "line": 485
+    },
+    {
+      "name": "ImageNet-2012",
+      "role": "construction",
+      "anchor": "ImageNet-LT.BuiltfromImageNet-2012[14]with1K",
+      "line": 498
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Test accuracy",
+      "anchor": "Table 1. Test accuracy (%) on CIFAR-100-LT, ImageNet-",
+      "line": 577
+    },
+    {
+      "name": "Expected calibration error (ECE)",
+      "anchor": "Table2.Expectedcalibrationerror(ECE),maximumcalibration",
+      "line": 647
+    },
+    {
+      "name": "Maximum calibration error (MCE)",
+      "anchor": "error(MCE),andtestaccuracy(ACC)onCIFAR-100-LT-100.⋆:",
+      "line": 648
+    },
+    {
+      "name": "KL divergence",
+      "anchor": "theKLdivergencebetweenexpert-specificbiases,estimated",
+      "line": 748
+    },
+    {
+      "name": "Test error",
+      "anchor": "Figure4. (a)Testerrorand(b)expectedcalibrationerror(ECE)",
+      "line": 826
+    }
+  ],
+  "notes": "主实验基准为 CIFAR-100-LT（IR=10/50/100）、ImageNet-LT、iNaturalist 2018；iNaturalist-2018/iNaturalist 为同一数据集的不同写法，合并为一条。CIFAR-100 与 ImageNet-2012 仅作为对应长尾版本的构建来源，拆为 construction。CIFAR-10-LT 实验在正文 4.1.1 提及但结果指向补充材料（本转录不含补充材料，正文未见其结果表）。指标：ECE/MCE 为原文已展开的缩写；Table 2 中 ACC 为 test accuracy 的缩写，与 Test accuracy 合并为一条；Test error 为 Figure 4(a) 中准确率的误差形式，单列一条；KL divergence 为 4.3 节/Figure 3 的分析性度量；many-/medium-/few-shot 为准确率按类样本数分组的报告口径，不单列；reliability diagram 为可视化手段未计入。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Aimar_Balanced_Product_of_Calibrated_Experts_for_Long-Tailed_Recognition_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

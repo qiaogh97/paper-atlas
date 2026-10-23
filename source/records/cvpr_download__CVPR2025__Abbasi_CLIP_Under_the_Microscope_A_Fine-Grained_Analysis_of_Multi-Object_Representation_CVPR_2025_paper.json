@@ -1,0 +1,69 @@
+{
+  "paper": "cvpr_download/CVPR2025/Abbasi_CLIP_Under_the_Microscope_A_Fine-Grained_Analysis_of_Multi-Object_Representation_CVPR_2025_paper",
+  "venue": "CVPR2025",
+  "title": "CLIP Under the Microscope: A Fine-Grained Analysis of Multi-Object Representation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ComCO",
+      "role": "benchmark",
+      "anchor": "constructedtheComCO(ComplexCOCOObjects)dataset.",
+      "line": 106
+    },
+    {
+      "name": "SimCO",
+      "role": "benchmark",
+      "anchor": "SimCO,whereobjectswerereplacedwithsimplegeometric",
+      "line": 119
+    },
+    {
+      "name": "COCO",
+      "role": "benchmark",
+      "anchor": "validatedourresultsonthewidely-usedCOCOdataset.",
+      "line": 147
+    },
+    {
+      "name": "CLEVR",
+      "role": "construction",
+      "anchor": "shapesfromtheCLEVRdataset. Thiswasdonetoconfirm",
+      "line": 120
+    },
+    {
+      "name": "DomainNet",
+      "role": "construction",
+      "anchor": "First, we used single-object images from the DomainNet",
+      "line": 199
+    },
+    {
+      "name": "LAION",
+      "role": "other",
+      "anchor": "both the LAION [19] and COCO datasets. Due to limited",
+      "line": 389
+    }
+  ],
+  "metrics": [
+    {
+      "name": "retrieval accuracy",
+      "anchor": "ing on the retrieval accuracy for the first object mentioned",
+      "line": 411
+    },
+    {
+      "name": "Top-1 Object Retrieval accuracy",
+      "anchor": "Top-1ObjectRetrievalaccuracycomparisonforsentenceswhere",
+      "line": 380
+    },
+    {
+      "name": "image-text matching accuracy",
+      "anchor": "image-textmatchingaccuracyinComCOandCOCO",
+      "line": 81
+    },
+    {
+      "name": "attention allocation",
+      "anchor": "AttentionallocationfromtheCLStokentoobjectsofdifferentsizesintheComCOdataset",
+      "line": 374
+    }
+  ],
+  "notes": "ComCO（Complex COCO Objects）与 SimCO 为论文自建评测基准（Blender 合成；ComCO 物体列表源自 COCO，SimCO 物体替换为 CLEVR 几何形状，故 CLEVR 记 construction）。COCO 为真实图像验证基准（TOR/IOR/I2TOR 及图文匹配实验），同时另用于训练数据 caption 偏差分析。DomainNet 单物体图像用作 COCO-IOR 的检索目标、其物体按真实尺寸分组构建测试句子，记 construction。LAION（随机抽取 20 万样本）用于分析 CLIP 训练数据 caption 偏差并配合五阶段训练检查点做偏差演化分析，属分析对象而非评测基准，记 other。相关工作中的 Winoground/VL-CheckList/ARO/CREPE/SUGARCREPE 及结果表中作为模型名的 SugarCrepe 均未计入。全文 markdown 止于参考文献，附录 7.1-7.12（Stable Diffusion 文生图实验、TOC 分类结果、LAION 分析方法等）未包含在文件中，附录专属数据集未提取。OCR 文本普遍缺失空格：指标名按原意补空格书写，锚点保留文件逐字原文；Top-1 Object Retrieval accuracy 与文中 TOR rate、retrieval accuracy 同源，为同一指标在图注中的变体表述，仍分列保留。attention allocation 为 Figure 3 中 CLS token 注意力分配的定量分析指标。",
+  "text_path": "conference_paper/cvpr_download/CVPR2025/Abbasi_CLIP_Under_the_Microscope_A_Fine-Grained_Analysis_of_Multi-Object_Representation_CVPR_2025_paper/paper.md",
+  "text_source": "markdown"
+}

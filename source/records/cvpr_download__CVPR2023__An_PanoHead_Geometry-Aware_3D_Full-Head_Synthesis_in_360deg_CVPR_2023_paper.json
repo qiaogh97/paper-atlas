@@ -1,0 +1,76 @@
+{
+  "paper": "cvpr_download/CVPR2023/An_PanoHead_Geometry-Aware_3D_Full-Head_Synthesis_in_360deg_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360◦ Generation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FFHQ",
+      "role": "construction",
+      "anchor": "bination of FFHQ [21], K-hairstyle dataset [24], and an",
+      "line": 386
+    },
+    {
+      "name": "K-hairstyle dataset",
+      "role": "construction",
+      "anchor": "datasetwith4K back-headimagesfromK-hairstyledataset",
+      "line": 392
+    },
+    {
+      "name": "FFHQ-F",
+      "role": "benchmark",
+      "anchor": "combinationasFFHQ-F.Werefertothesupplementarypa-",
+      "line": 396
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID-all",
+      "anchor": "FID-all↓ 68.2 37.3 78.5 6.2 5.4 oftheunderlying3Dgeometry",
+      "line": 411
+    },
+    {
+      "name": "FID-front",
+      "anchor": "metrics(FID-allandFID-front)canhardlythoroughlyreflect",
+      "line": 481
+    },
+    {
+      "name": "FID-back",
+      "anchor": "viatethisissue,weproposeFID-back,wherewecondition",
+      "line": 485
+    },
+    {
+      "name": "IS-back",
+      "anchor": "| IS-back↑   | 4.3  | 3.9       | 4.2      |",
+      "line": 438
+    },
+    {
+      "name": "IS-front",
+      "anchor": "| IS-front↑ | 3.9 | 4.1 | 4.1 |",
+      "line": 440
+    },
+    {
+      "name": "IS-all",
+      "anchor": "| IS-all↑ | 3.8 | 4.0 | 4.0 |",
+      "line": 443
+    },
+    {
+      "name": "ID",
+      "anchor": "ilarityscore(ID)bycalculatingtheaverageAdaface[23]",
+      "line": 442
+    },
+    {
+      "name": "MSE",
+      "anchor": "Weassessmeansquareerror(MSE)tocalculate",
+      "line": 450
+    },
+    {
+      "name": "Runtime",
+      "anchor": "| Runtime↓ | 1   | 1.14× | 1.26× |",
+      "line": 446
+    }
+  ],
+  "notes": "训练与评测集为 FFHQ+K-hairstyle dataset+15K 张 in-house 大姿态头部图像合并而成的 FFHQ-F，故 FFHQ 与 K-hairstyle dataset 记为 construction（构建来源），FFHQ-F 记为 benchmark；in-house 图像集合无专有名未单列。相关工作中的数据集提及仅用于排除。指标按表格原缩写保留：FID=Fréchet Inception Distance、IS=Inception Score，-back/-front/-all 为按视角（背部/正面/全部）拆分的变体，其中 FID-back 为论文自提出；ID 表格未展开（identity similarity score，基于 Adaface 余弦相似度的多视角一致性）；MSE 为生成分割掩码与 DeepLabV3ResNet101 掩码的均方误差；Runtime 为以 EG3D 归一的相对运行开销。GAN inversion 小节的 L2 与 LPIPS 为优化损失而非评测指标，未计入。无附录正文（supplementary 仅被引用）。标题由首页 OCR 表格单元格拼接（原文含 360◦ Generation）。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/An_PanoHead_Geometry-Aware_3D_Full-Head_Synthesis_in_360deg_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

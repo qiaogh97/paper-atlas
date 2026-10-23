@@ -1,0 +1,82 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ai_HRDFuse_Monocular_360deg_Depth_Estimation_by_Collaboratively_Learning_Holistic-With-Regional_Depth_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "HRDFuse: Monocular 360◦ Depth Estimation by Collaboratively Learning Holistic-with-Regional Depth Distributions",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Stanford2D3D",
+      "role": "benchmark",
+      "anchor": "80epochsforStanford2D3D[2]and60epochsforMatter-",
+      "line": 516
+    },
+    {
+      "name": "Matterport3D",
+      "role": "benchmark",
+      "anchor": "plepatchFoVs. AsinTable4,ontheMatterport3Ddataset,",
+      "line": 597
+    },
+    {
+      "name": "3D60",
+      "role": "benchmark",
+      "anchor": "the3D60dataset,HRDFusewiththepatchsize256×256",
+      "line": 510
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "ResNet-34 [22], pre-trained on ImageNet [13], as the en-",
+      "line": 507
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AbsRel",
+      "anchor": "ror(AbsRel),SquaredRelativeError(SqRel),RootMean",
+      "line": 491
+    },
+    {
+      "name": "SqRel",
+      "anchor": "SquaredRelativeError(SqRel),RootMean",
+      "line": 491
+    },
+    {
+      "name": "RMSE",
+      "anchor": "Squared Error (RMSE), Root Mean Squared Logarithmic",
+      "line": 493
+    },
+    {
+      "name": "RMSE (log)",
+      "anchor": "Error (RMSE (log)), as well as a percentage metric with a",
+      "line": 495
+    },
+    {
+      "name": "δ1",
+      "anchor": "#Params AbsRel↓ SqRel↓ RMSE↓ δ1↑ δ2↑ δ3↑",
+      "line": 470
+    },
+    {
+      "name": "δ2",
+      "anchor": "SqRel↓ RMSE↓ δ1↑ δ2↑ δ3↑",
+      "line": 470
+    },
+    {
+      "name": "δ3",
+      "anchor": "RMSE↓ δ1↑ δ2↑ δ3↑",
+      "line": 470
+    },
+    {
+      "name": "FPS",
+      "anchor": "leadingtomorethanthreeframespersecond(FPS)gainin",
+      "line": 575
+    },
+    {
+      "name": "#Params",
+      "anchor": "geometricfusion SFA CDDC FPS #Params AbsRel↓",
+      "line": 470
+    }
+  ],
+  "notes": "三个数据集 Stanford2D3D、Matterport3D、3D60 均为 Table 1 主实验定量对比基准（正文 'We conduct extensive experiments on three benchmark datasets'），另用于 Fig.5 定性对比。SUNCG 与 SceneNet 仅作为 3D60 的组成部分在正文提及（'3D60 is composed of two synthetic datasets (SUNCG [37] and SceneNet [21])...'），实验未单独使用，故不单列。ImageNet 仅用于 ResNet-34 编码器预训练，记为 pretrain。指标：AbsRel/SqRel 原文已展开为 Absolute Relative Error / Squared Relative Error；RMSE (log) 表头写作 RMSE(log)；δ1/δ2/δ3 为阈值百分比指标，正文写作 'a percentage metric with a threshold δt, where t ∈ {1.25^1, 1.25^2, 1.25^3}'（OCR 中指数下标粘连为 1.251 等），表格表头为 δ1↑/δ2↑/δ3↑，箭头为方向标注不计入名称；FPS 与 #Params 为 Table 2 消融表中报告的效率/参数量度量，正文有对应讨论，计入 metrics。全文文件仅含正文与参考文献，无补充材料。全文存在 OCR 缺空格痕迹，锚点均按原样逐字复制并经 grep 核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ai_HRDFuse_Monocular_360deg_Depth_Estimation_by_Collaboratively_Learning_Holistic-With-Regional_Depth_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

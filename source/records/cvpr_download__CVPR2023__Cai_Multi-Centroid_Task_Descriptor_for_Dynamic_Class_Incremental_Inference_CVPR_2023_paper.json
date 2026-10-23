@@ -1,0 +1,61 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_Multi-Centroid_Task_Descriptor_for_Dynamic_Class_Incremental_Inference_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Multi-Centroid Task Descriptor for Dynamic Class Incremental Inference",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "CIFAR-100[20]consistsof60,00032x32colorim-",
+      "line": 382
+    },
+    {
+      "name": "ImageNet-100",
+      "role": "benchmark",
+      "anchor": "CIFAR-100, |     | ImageNet-100, |     | and",
+      "line": 380
+    },
+    {
+      "name": "ImageNet-1000",
+      "role": "benchmark",
+      "anchor": "ImageNet-1000[8]isalarge-",
+      "line": 385
+    }
+  ],
+  "metrics": [
+    {
+      "name": "top-1 accuracy",
+      "anchor": "1 accuracy. | For | ImageNet, | we  | report | the top-1 | and top-5",
+      "line": 435
+    },
+    {
+      "name": "top-5 accuracy",
+      "anchor": "the top-1 | and top-5",
+      "line": 435
+    },
+    {
+      "name": "average accuracy",
+      "anchor": "Avgmeanstheaverageaccuracy(%)oversteps.",
+      "line": 511
+    },
+    {
+      "name": "last step accuracy",
+      "anchor": "Lastdenotesthelaststepaccuracy",
+      "line": 564
+    },
+    {
+      "name": "#P",
+      "anchor": "#Pmeanstheaveragenumberofparametersinmillions",
+      "line": 496
+    },
+    {
+      "name": "inference time",
+      "anchor": "InferencetimeandaccuracyonCIFAR-100testset",
+      "line": 643
+    }
+  ],
+  "notes": "三个数据集均为主实验测试基准（benchmark）：CIFAR-100（B0/B50 协议）、ImageNet-100（B0/B50）、ImageNet-1000（B0）；ImageNet-100 为 ImageNet-1000 选 100 类的子集，按 DER/PODNet 相同子集选取。B0/B50 与 S5/S10 等仅为任务划分协议，不单独计为数据集。MNIST 仅在相关工作提及，未使用。指标：结果表中缩写 Avg/Last 按表题展开为 average accuracy (%) over steps 与 last step accuracy (%)，按展开名收录；#P 为结果表中报告的平均参数量（millions）效率指标；inference time 为分析小节 Reducing Inference Time 中的效率度量（图 6a）。原文 OCR 空格缺失：top-1 accuracy 在原文跨行断开（top-/1 accuracy），锚点按文件字符原样复制；supplementary material 未包含在本全文文件中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_Multi-Centroid_Task_Descriptor_for_Dynamic_Class_Incremental_Inference_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

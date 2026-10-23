@@ -1,0 +1,88 @@
+{
+  "paper": "iclr_download/downloads/iclr2025/accepted/06587_Rotated_Runtime_Smooth_Training-Free_Activation_Smoother_for_accurate_INT4_inference",
+  "venue": "ICLR2025",
+  "title": "Rotated Runtime Smooth: Training-Free Activation Smoother for Accurate INT4 Inference",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "WikiText-2",
+      "role": "benchmark",
+      "anchor": "WeevaluatetheperformanceofthemodelsonWikiText-2perplexityand",
+      "line": 355
+    },
+    {
+      "name": "WikiText-2",
+      "role": "construction",
+      "anchor": "WeapplystandardGPTQsettingsbyusing128samplesfromWikiText-2withasequencelengthof",
+      "line": 354
+    },
+    {
+      "name": "ARC-e",
+      "role": "benchmark",
+      "anchor": "TheCommonSenseQAbenchmarksincludeARC-e,",
+      "line": 356
+    },
+    {
+      "name": "ARC-c",
+      "role": "benchmark",
+      "anchor": "ARC-c(Clarketal.,2018),BoolQ(Clarketal.,2019),andOBQA(Mihaylovetal.,2018).",
+      "line": 357
+    },
+    {
+      "name": "BoolQ",
+      "role": "benchmark",
+      "anchor": "BoolQ(Clarketal.,2019),andOBQA(Mihaylovetal.,2018).",
+      "line": 357
+    },
+    {
+      "name": "OBQA",
+      "role": "benchmark",
+      "anchor": "BoolQ(Clarketal.,2019),andOBQA(Mihaylovetal.,2018).",
+      "line": 357
+    },
+    {
+      "name": "MMLU",
+      "role": "benchmark",
+      "anchor": "Inthissection,weincorporateadditionaldownstreamtaskssuchasMMLU,GSM8k(Math),C-EVAL",
+      "line": 698
+    },
+    {
+      "name": "GSM8k",
+      "role": "benchmark",
+      "anchor": "additionaldownstreamtaskssuchasMMLU,GSM8k(Math),C-EVAL",
+      "line": 698
+    },
+    {
+      "name": "C-EVAL",
+      "role": "benchmark",
+      "anchor": "downstreamtaskssuchasMMLU,GSM8k(Math),C-EVAL",
+      "line": 698
+    },
+    {
+      "name": "HumanEval",
+      "role": "benchmark",
+      "anchor": "(Chinese),andHumanEval(code),utilizing7/8BmodelsfromQwen2.5,Mistral,LLaMA3,and",
+      "line": 699
+    }
+  ],
+  "metrics": [
+    {
+      "name": "perplexity",
+      "anchor": "WeevaluatetheperformanceofthemodelsonWikiText-2perplexityand",
+      "line": 355
+    },
+    {
+      "name": "0-shot accuracy (%)",
+      "anchor": "Table2: 0-shotaccuracy(%)ontheCommonSenseQAtasks. Eachblockisbasedonthesame",
+      "line": 435
+    },
+    {
+      "name": "average accuracy",
+      "anchor": "consistentlysurpassesthebaselinebyapproximately3%intermsofaverageaccuracyimprovement.",
+      "line": 419
+    }
+  ],
+  "notes": "WikiText-2 双角色拆两条：主实验 perplexity 评测基准（benchmark，Table 1 及附录 B/C 激活统计亦用其 test set），以及 GPTQ 量化校准集来源（construction，128 样本 seq len 2048）。ARC-e/ARC-c 取正文 4.1 节写法，表格列头写作 ARC_E/ARC_C；OBQA 正文未展开缩写（据参考文献为 OpenBookQA）；C-EVAL 取正文写法，表格写作 C-Eval(Chinese)；GSM8k 在附录 Table 5/7 按 GSM8k_flex 与 GSM8k_strict 两种口径列列，未拆分条目。指标方面 perplexity 在 Figure 3/5 中缩写为 PPL（未展开），同一条；0-shot accuracy (%) 覆盖 Table 2/5/7；average accuracy 对应表中 Avg. 列。附录 A 补充实验（MMLU/GSM8k/C-Eval/HumanEval）已包含。效率评测用 NVBench 为 GPU kernel 基准工具而非数据集，未计入 datasets；Figure 6 吞吐轴标签 OCR 损毁（疑为 Tops），未提取数值指标。全文 OCR 存在空格缺失，锚点均按原样逐字复制并已 grep 核验。",
+  "text_path": "conference_paper/iclr_download/downloads/iclr2025/accepted/06587_Rotated_Runtime_Smooth_Training-Free_Activation_Smoother_for_accurate_INT4_inference/paper.md",
+  "text_source": "markdown"
+}

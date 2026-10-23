@@ -1,0 +1,18 @@
+{"paper": "cvpr_download/CVPR2023/Chen_Divide_and_Conquer_Answering_Questions_With_Object_Factorization_and_Compositional_CVPR_2023_paper", "venue": "CVPR2023", "title": "Divide and Conquer: Answering Questions with Object Factorization and Compositional Reasoning", "status": "ok",
+ "datasets": [
+  {"name": "VQA", "role": "benchmark", "anchor": "inourexperiments,includingVQA[18],GQA[24]andthe"},
+  {"name": "GQA", "role": "benchmark", "anchor": "inourexperiments,includingVQA[18],GQA[24]andthe"},
+  {"name": "Novel-VQA", "role": "benchmark", "anchor": "recently introduced Novel-VQA [55]. Following [45,55],"},
+  {"name": "VQA-CP", "role": "benchmark", "anchor": "including VQA-CP [1] with adversarial distributions be"},
+  {"name": "GQA-OOD", "role": "benchmark", "anchor": "tweentrainingandevaluation,andGQA-OOD[27]thatuti"},
+  {"name": "VisualGenome", "role": "construction", "anchor": "embeddingsofconceptscoveredintheVisualGenome[31]"},
+  {"name": "Glove", "role": "pretrain", "anchor": "we follow [51,55] and use Glove vec-"}
+ ],
+ "metrics": [
+  {"name": "VQA accuracy", "anchor": "we adopt VQA accuracy [4] as the"},
+  {"name": "standard accuracy", "anchor": "standard accuracy since each question has an unique an"},
+  {"name": "△", "anchor": "questions(i.e.,△)ontheGQA-OODdataset."},
+  {"name": "acc-tail", "anchor": "acc↑   | acc-tail↑ | △↓"}
+ ],
+ "notes": "五个评测基准(VQA、GQA、Novel-VQA、VQA-CP、GQA-OOD)均为主实验测试基准,role=benchmark;其中 VQA/GQA 按零样本设置重构了训练/验证集(划分 Known/Novel)。VisualGenome 仅在消融(4.4)中作为 Textual 原型变体的概念来源(词向量的概念词表取自其 objects/attributes/relationships),role=construction。Glove 用于词嵌入初始化,且消融中 Textual 原型亦由 Glove 词向量导出,role=pretrain。MSCOCO 仅作为对比基线 VisualBert 所用的外部数据被提及,非本文方法实验使用,未计入。指标:VQA accuracy 用于 VQA/Novel-VQA/VQA-CP;standard accuracy 用于 GQA/GQA-OOD;△ 为 GQA-OOD 上分布内/分布外答题准确率之差,原文仅以符号表示未展开;acc-tail 仅出现于表 2 列名(GQA-OOD tail 准确率)。分析小节 4.5 的 relevance scores(αp)属模型内部注意量,未计入 metrics。正文两处提及 supplementary materials 含额外消融,但本全文文件不含附录内容。全文存在 OCR 空格缺失痕迹,锚点均按原样逐字复制并已脚本核验。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Divide_and_Conquer_Answering_Questions_With_Object_Factorization_and_Compositional_CVPR_2023_paper/paper.md", "text_source": "markdown"}

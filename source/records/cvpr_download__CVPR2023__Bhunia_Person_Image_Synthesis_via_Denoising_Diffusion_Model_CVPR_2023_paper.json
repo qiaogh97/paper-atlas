@@ -1,0 +1,60 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bhunia_Person_Image_Synthesis_via_Denoising_Diffusion_Model_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Person Image Synthesis via Denoising Diffusion Model",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DeepFashion",
+      "role": "benchmark",
+      "anchor": "Datasets: We carry out experiments on DeepFashion",
+      "line": 442
+    },
+    {
+      "name": "Market-1501",
+      "role": "benchmark",
+      "anchor": "formthere-IDexperimentonMarket-1501dataset.Weran-",
+      "line": 700
+    }
+  ],
+  "metrics": [
+    {
+      "name": "SSIM",
+      "anchor": "(SSIM) [22] and Learned Perceptual Image Patch Simi-",
+      "line": 436
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "PerceptualImagePatchSimilarity(LPIPS).Theresultsareshown",
+      "line": 458
+    },
+    {
+      "name": "FID",
+      "anchor": "main.Fre`chetInceptionDistance(FID)[5]isusedtomea-",
+      "line": 443
+    },
+    {
+      "name": "R2G",
+      "anchor": "R2G,G2RandJabmetric. HighervaluesindicatePIDMispre-",
+      "line": 495
+    },
+    {
+      "name": "G2R",
+      "anchor": "ageswereinterpretedasrealimages48%(G2R)outofto-",
+      "line": 603
+    },
+    {
+      "name": "Jab",
+      "anchor": "model. OurJabscoreis56%showingthattheparticipants",
+      "line": 606
+    },
+    {
+      "name": "mAP",
+      "anchor": "ofmAPscoresusingimagesgeneratedbydifferentmethods.The",
+      "line": 640
+    }
+  ],
+  "notes": "全文为双栏 OCR 转录,左右栏文本逐行交错且大量缺空格,锚点均取自单行内连续子串并已逐字核验。数据集:DeepFashion(正文全名 DeepFashion In-shop Clothes Retrieval Benchmark,全名跨行被右栏文本打断,故字段名用表格与图注中通用的 DeepFashion)用于主表 Table 1、用户研究与消融;Market-1501 用于 Table 1 主实验,并复用于 4.5 节 person re-ID 下游数据增强实验,角色均记 benchmark,不拆分。指标:FID 原文写作 Fre`chet Inception Distance(Fréchet 的 OCR 形式);SSIM 原文全称写作 Structure Similarity Index Measure;R2G、G2R、Jab 为 4.2 节用户研究指标;mAP 为 4.5 节 re-ID(Table 3,ResNet50)指标。OpenPose 仅用于骨架提取(工具),ResNet50 为 backbone,不计入数据集。文中提及 supplementary 但本 markdown 止于参考文献,无附录内容可提取。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bhunia_Person_Image_Synthesis_via_Denoising_Diffusion_Model_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

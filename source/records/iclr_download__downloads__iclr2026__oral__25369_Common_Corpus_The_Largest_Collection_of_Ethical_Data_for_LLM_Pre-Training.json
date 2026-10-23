@@ -1,0 +1,90 @@
+{
+  "paper": "iclr_download/downloads/iclr2026/oral/25369_Common_Corpus_The_Largest_Collection_of_Ethical_Data_for_LLM_Pre-Training",
+  "venue": "ICLR2026",
+  "title": "COMMON CORPUS: THE LARGEST COLLECTION OF ETHICAL DATA FOR LLM PRE-TRAINING",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Common Corpus",
+      "role": "pretrain",
+      "anchor": "We train two models on Common Corpus: PleIAs 350M and PleIAs 1.2B5.",
+      "line": 678
+    },
+    {
+      "name": "MultiBLiMP",
+      "role": "benchmark",
+      "anchor": "We evaluate our models on MultiBLiMP (Jumelet et al., 2025), XStoryCloze (Lin et al., 2022), and",
+      "line": 683
+    },
+    {
+      "name": "XStoryCloze",
+      "role": "benchmark",
+      "anchor": "We evaluate our models on MultiBLiMP (Jumelet et al., 2025), XStoryCloze (Lin et al., 2022), and",
+      "line": 683
+    },
+    {
+      "name": "XCOPA",
+      "role": "benchmark",
+      "anchor": "XCOPA (Ponti et al., 2020; see Table 2 for aggregated scores and Appendix G for per-language",
+      "line": 684
+    },
+    {
+      "name": "FLORES200",
+      "role": "other",
+      "anchor": "els for six languages. The data source for all languages is the devtest set of FLORES200 (Costa-",
+      "line": 1619
+    },
+    {
+      "name": "C4",
+      "role": "other",
+      "anchor": "of Common Corpus collections, C4, and FineWeb.",
+      "line": 311
+    },
+    {
+      "name": "FineWeb",
+      "role": "other",
+      "anchor": "We also stress the difference in data sources. An investigation of the top 1000 domains of FineWeb",
+      "line": 367
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Character Repetition",
+      "anchor": "Character Repetition measures the proportion of character pairs belonging to repeated",
+      "line": 2301
+    },
+    {
+      "name": "Type-Token Ratio",
+      "anchor": "Type-Token Ratio is the ratio of unique word forms to the total number of tokens. It captures",
+      "line": 2304
+    },
+    {
+      "name": "Top Word Proportion",
+      "anchor": "Top Word Proportion is the share of all tokens accounted for by the single most frequent",
+      "line": 2308
+    },
+    {
+      "name": "Alphanumeric Characters",
+      "anchor": "Alphanumeric Characters denotes the fraction of characters that are letters or digits. This",
+      "line": 2310
+    },
+    {
+      "name": "Whitespace Characters",
+      "anchor": "Whitespace Characters gives the proportion of whitespace characters, which tends to be",
+      "line": 2312
+    },
+    {
+      "name": "Uppercase Characters",
+      "anchor": "Uppercase Characters measures the share of uppercase letters and separates Open Source",
+      "line": 2314
+    },
+    {
+      "name": "Fertility (tokens per word)",
+      "anchor": "Fertility (tokens per word)",
+      "line": 1500
+    }
+  ],
+  "notes": "数据集发布型论文：Common Corpus（约 2T tokens）本身用于预训练两个模型（PleIAs 350M / 1.2B），角色 pretrain，另对 30 万文档抽样做质量评估（Figure 4）。按「构成表不上桌」规则，语料构成未逐条收录：六大 collection（Open Government / Open Culture / Open Science / Open Web / Open Code / Open Semantic），上游来源含 Finance Commons、Legal Commons、Collections As Data、Internet Archive、Delpher、OpenAlex、arXiv、The Stack v1/v2、Wikipedia/Wikisource、YouTube Commons、StackExchange、Wikidata 等（详见附录 D 表 6–10）。相关工作 Table 1 的 C4、ROOTS、DCAD-2000、FineWeb 2、Dolma、KL3M、Common Pile 仅作对比排除；但 C4 与 FineWeb 子集在 Figure 3b t-SNE 语义分布对比及 top-1000 域名重合分析中被实际使用，故以 other 角色收录。FLORES200（devtest）用于附录 C tokenizer fertility 对比，角色 other。模型评测（Table 2 及附录 Tables 11–14）列名即三个 benchmark，论文未单独命名 accuracy 等指标；MultiBLiMP 亦写作 MultiBLIMP、XCOPA 亦写作 XCopa，均保留首现写法。metrics 收录附录 G 六个文档级质量度量与附录 C 的 Fertility；OCRoscope 的 OCR quality rate 与 non-character content rate 为清洗工具描述性输出（附录 F.2 示例），未计入。Celadon 毒性分类器的 2M 合成训练样本来自另文且未命名，不收。",
+  "text_path": "extraction/texts/iclr_download__downloads__iclr2026__oral__25369_Common_Corpus_The_Largest_Collection_of_Ethical_Data_for_LLM_Pre-Training.txt",
+  "text_source": "pdftxt"
+}

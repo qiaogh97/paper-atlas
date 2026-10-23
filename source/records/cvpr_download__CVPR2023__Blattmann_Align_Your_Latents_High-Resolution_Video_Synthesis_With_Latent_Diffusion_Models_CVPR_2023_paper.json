@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "RDS",
+      "role": "benchmark",
+      "anchor": "scene(RDS)videos.Thedatasetconsistsof683,060videos",
+      "line": 475
+    },
+    {
+      "name": "WebVid-10M",
+      "role": "pretrain",
+      "anchor": "(ii) We use the WebVid-10M [2]",
+      "line": 480
+    },
+    {
+      "name": "UCF-101",
+      "role": "benchmark",
+      "anchor": "Table4.UCF-101text-to-videogeneration.",
+      "line": 590
+    },
+    {
+      "name": "MSR-VTT",
+      "role": "benchmark",
+      "anchor": "Table5.MSR-VTTtext-to-videogenerationperformance.",
+      "line": 601
+    },
+    {
+      "name": "Mountain Biking dataset",
+      "role": "other",
+      "anchor": "tainBikingdatasetbyBrooksetal.[6].",
+      "line": 453
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "frame-wise Fre´chet Inception Distance (FID) [26] as well",
+      "line": 455
+    },
+    {
+      "name": "FVD",
+      "anchor": "asFre´chetVideoDistance(FVD)[87].",
+      "line": 456
+    },
+    {
+      "name": "human evaluation",
+      "anchor": "weadditionallyperformhumanevaluation.",
+      "line": 458
+    },
+    {
+      "name": "CLIPSIM",
+      "anchor": "Method Zero-Shot CLIPSIM(↑)",
+      "line": 602
+    },
+    {
+      "name": "IS",
+      "anchor": "SIM)[98]and(video)inceptionscore(IS)(AppendixG).",
+      "line": 460
+    }
+  ],
+  "notes": "RDS 为 in-house 真实驾驶场景数据集(683,060 段 512×1024 视频),既是训练集也是主实验评测基准(Table 1/2/3 与 LVG 对比),故记为 benchmark 一条。WebVid-10M(10.7M 视频-文本对)仅用于把 Stable Diffusion 训练成 text-to-video 模型,不在其上评测,记为 pretrain。UCF-101(Table 4,IS/FVD)与 MSR-VTT(Table 5,CLIPSIM)为零样本评测基准。Mountain Biking dataset(Brooks et al.)仅在正文提及用于附录 I.2 实验,附录正文不在本转录中(文件止于参考文献),用途细节不可读,记为 other;OCR 断字为 Moun-tainBiking,锚点取单行片段 BikingdatasetbyBrooksetal。[6]。指标方面:FID 原文展开为 frame-wise Frechet Inception Distance,FVD 展开为 Frechet Video Distance(Fre 上标重音符按 OCR 原样);IS 为 (video) inception score,原文未展开全称;CLIPSIM 即 CLIP similarity;human evaluation 即 Table 2 的 user study。HD-VILA-100M 仅作为 Make-A-Video 的对比叙述出现,未收。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

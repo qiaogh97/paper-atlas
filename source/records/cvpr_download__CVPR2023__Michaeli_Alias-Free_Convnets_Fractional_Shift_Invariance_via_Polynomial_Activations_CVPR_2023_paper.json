@@ -1,0 +1,50 @@
+{
+  "paper": "cvpr_download/CVPR2023/Michaeli_Alias-Free_Convnets_Fractional_Shift_Invariance_via_Polynomial_Activations_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Alias-Free Convnets: Fractional Shift Invariance via Polynomial Activations",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "trained them on ImageNet [6] according to the",
+      "line": 403
+    },
+    {
+      "name": "ImageNet-C",
+      "role": "benchmark",
+      "anchor": "data using ImageNet-C that contains common corruptions",
+      "line": 559
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Integer shift consistency",
+      "anchor": "Integershiftconsistencyisdefinedasthepercentage",
+      "line": 500
+    },
+    {
+      "name": "Fractional shift consistency",
+      "anchor": "Fractionalshiftconsistencyisdefinedasthe",
+      "line": 501
+    },
+    {
+      "name": "test accuracy",
+      "anchor": "theycausea1.08%reductioninthe(standard)testaccuracy.",
+      "line": 460
+    },
+    {
+      "name": "adversarial accuracy",
+      "anchor": "We measure the adversarial accuracy of translations by up",
+      "line": 555
+    },
+    {
+      "name": "diff",
+      "anchor": "thenormalizeddifferencebetweenthetwotranslatedlayer",
+      "line": 422
+    }
+  ],
+  "notes": "ImageNet 既用于按 ConvNeXt regime 训练又用于主评测（Table 1/Table 2，consistency 在 ImageNet validation set 上平均），按主实验基准记为 benchmark，未拆分训练/评测两条。ImageNet-C 用于 4.3 节分布外对抗平移重复实验（结果在附录 A），亦记为 benchmark；附录 A–G 未包含在本 paper.md 转录内，该用法依据正文描述。MNIST 与 CIFAR 仅在方法部分引述先前工作 [11] 的简单图像分类任务，非本文实验，已排除。指标方面：consistency 按论文 Table 1 拆为 Integer / Fractional shift consistency 两个变体；diff 为论文 Eq.(6) 自定义的归一化平均差异度量（用于 4.1 节 shift-equivariance 实验，Figure 3），非通用缩写；Table 2 的 Translation adversarial accuracy 与正文 adversarial accuracy 为同一指标，只记一条。转录存在 OCR 空格缺失，name 字段按论文原名补正常空格，anchor 一律逐字照抄未改。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Michaeli_Alias-Free_Convnets_Fractional_Shift_Invariance_via_Polynomial_Activations_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

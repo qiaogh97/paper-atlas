@@ -1,0 +1,71 @@
+{
+  "paper": "cvpr_download/CVPR2023/Buchner_Learning_and_Aggregating_Lane_Graphs_for_Urban_Automated_Driving_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Learning and Aggregating Lane Graphs for Urban Automated Driving",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "UrbanLaneGraph",
+      "role": "benchmark",
+      "anchor": "wecompiledtheUrbanLaneGraphdataset. Itisafirst-of-its-",
+      "line": 174
+    },
+    {
+      "name": "Argoverse 2",
+      "role": "construction",
+      "anchor": "Argoverse2dataset[29]whichentailslanegraphsforlarge",
+      "line": 222
+    },
+    {
+      "name": "LaneExtraction",
+      "role": "other",
+      "anchor": "LaneExtraction[15].Sincetheirusedgraphrepresentationis",
+      "line": 601
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Graph IoU",
+      "anchor": "| Graph | IoU: This | metric | measures | the | intersection-over-",
+      "line": 525
+    },
+    {
+      "name": "APLS",
+      "anchor": "TheAPLSmetricscalesfrom0",
+      "line": 545
+    },
+    {
+      "name": "TOPO",
+      "anchor": "TOPO/GEOmetrics: Followingpreviousworksinroad",
+      "line": 565
+    },
+    {
+      "name": "GEO",
+      "anchor": "GEOmetricandtheTOPOmetric.Fordefinitionsanddetails",
+      "line": 567
+    },
+    {
+      "name": "SDA20 / SDA50",
+      "anchor": "SDA20↑ SDA50↑ GraphIoU↑",
+      "line": 477
+    },
+    {
+      "name": "MMD",
+      "anchor": "the mean minimum distance (MMD) and the mean route",
+      "line": 648
+    },
+    {
+      "name": "MED",
+      "anchor": "endpointdistance(MED)betweenthepathsonthepredicted",
+      "line": 649
+    },
+    {
+      "name": "SR",
+      "anchor": "reportthesuccessrate(SR),indicatingthenumberofcases",
+      "line": 651
+    }
+  ],
+  "notes": "全文为OCR式markdown(空格缺失、双栏表格碎片),锚点均按原样逐字复制并核验通过。数据集:UrbanLaneGraph为论文自建的主测试基准(Successor-LGP、Full-LGP任务及路径规划任务均在其实验区/Miami测试区上评测);Argoverse 2仅作为UrbanLaneGraph车道标注的构建来源(聚合各城市局部车道图),角色construction;LaneExtraction[15]提供的数据集仅用于训练Full-LGP对比基线(评测在两数据集共有的Miami场景、UrbanLaneGraph测试区进行),故记other。Table 1中另列NuScenes与LaneExtraction数据集仅作规模统计对比,NuScenes未在任何实验中使用,未收录。指标:TOPO/GEO按表2以Precision/Recall形式报告(TOPO P/R、GEO P/R),定义引自[15]与补充材料;APLS正文未展开缩写(源自[25]);SDA全称Split Detection Accuracy(SDA_R,R为像素半径),表2按半径20/50报SDA20/SDA50;MMD/MED/SR在正文有展开(mean minimum distance/mean endpoint distance/success rate),为5.5路径规划任务指标;Graph IoU在表2/3中写作GraphIoU。全文文件仅含正文与参考文献,无补充材料内容,附录实验(S.x)未包含在内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Buchner_Learning_and_Aggregating_Lane_Graphs_for_Urban_Automated_Driving_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,82 @@
+{
+  "paper": "cvpr_download/CVPR2023/Che_Image_Quality-Aware_Diagnosis_via_Meta-Knowledge_Co-Embedding_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Image Quality-aware Diagnosis via Meta-knowledge Co-embedding",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DRAC",
+      "role": "benchmark",
+      "anchor": "reportresultsforalldatasetsexceptDRAC,i.e.,weselected",
+      "line": 483
+    },
+    {
+      "name": "DeepDR",
+      "role": "benchmark",
+      "anchor": "imageisannotatedwithHQorLQ.DeepDR[5]:Samewith",
+      "line": 425
+    },
+    {
+      "name": "EyeQ",
+      "role": "benchmark",
+      "anchor": "DRAC. We split EyeQ into three parts: 60% for training,",
+      "line": 453
+    },
+    {
+      "name": "CT-IQAD",
+      "role": "benchmark",
+      "anchor": "U), and poor (LQ-P). CT-IQAD: We combine computed",
+      "line": 433
+    },
+    {
+      "name": "CXR-IQAD",
+      "role": "benchmark",
+      "anchor": "others are HQ. CXR-IQAD: This dataset is sampled from",
+      "line": 440
+    },
+    {
+      "name": "COVID-X",
+      "role": "construction",
+      "anchor": "tomographyimagesfromCOVID-X[60]andSARS[61]to",
+      "line": 434
+    },
+    {
+      "name": "SARS",
+      "role": "construction",
+      "anchor": "tomographyimagesfromCOVID-X[60]andSARS[61]to",
+      "line": 434
+    },
+    {
+      "name": "CXR-P",
+      "role": "construction",
+      "anchor": "child chest X-ray images of CXR-P [62] and adult CXR",
+      "line": 442
+    },
+    {
+      "name": "CXR14",
+      "role": "construction",
+      "anchor": "imagesofCXR14[63]. ThediagnosislabelisNormaland",
+      "line": 443
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AUC",
+      "anchor": "curve(AUC),accuracy(ACC),andmacroF1-score(F1).",
+      "line": 465
+    },
+    {
+      "name": "ACC",
+      "anchor": "curve(AUC),accuracy(ACC),andmacroF1-score(F1).",
+      "line": 465
+    },
+    {
+      "name": "F1",
+      "anchor": "Metrics AUC ACC F1 AUC ACC F1 AUC ACC F1",
+      "line": 523
+    }
+  ],
+  "notes": "五个主实验基准：DRAC（OCTA，DR 三级分级）、DeepDR（眼底 DR 分级）、EyeQ（眼底，质量 good/usable/poor）为公开数据集；CT-IQAD、CXR-IQAD 为论文自建数据集，其中 CT-IQAD 由 COVID-X 与 SARS 的 CT 图像合并而成，CXR-IQAD 采样自 CXR-P（儿童胸片）与 CXR14（成人胸片），这四个来源拆为 construction 角色。附录消融（Figure 4-6）与定性 CAM 分析（Figure 9）仍在这五个数据集上进行，无新增数据集；附录一次将 DRAC 误排为 DARC。指标仅 AUC/ACC/F1 三个，为缩写，文中给出全称：area under the ROC curve、accuracy、macro F1-score，结果表 Table 2 亦按缩写列出。全文为 OCR 转录、单词间空格缺失，所有锚点均按文件原样逐字复制并经 grep -F 核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Che_Image_Quality-Aware_Diagnosis_via_Meta-Knowledge_Co-Embedding_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

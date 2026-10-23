@@ -1,0 +1,55 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_SVGformer_Representation_Learning_for_Continuous_Vector_Graphics_Using_Transformers_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "SVGformer: Representation Learning for Continuous Vector Graphics using Transformers",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Google Fonts",
+      "role": "benchmark",
+      "anchor": "tativedatasets,GoogleFonts1",
+      "line": 513
+    },
+    {
+      "name": "Icons",
+      "role": "benchmark",
+      "anchor": "ontheIconsdataset,wecalcu",
+      "line": 593
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Chamfer distance (CD)",
+      "anchor": "soweuseChamferdistance(CD)metric",
+      "line": 540
+    },
+    {
+      "name": "Acc",
+      "anchor": "Classification(Acc%)",
+      "line": 558
+    },
+    {
+      "name": "Fonts@5",
+      "anchor": "FontsGlyph FontsFamily Icons Fonts@5",
+      "line": 561
+    },
+    {
+      "name": "Fonts@10",
+      "anchor": "Fonts@5 Fonts@10 Icons@10",
+      "line": 561
+    },
+    {
+      "name": "Icons@10",
+      "anchor": "Fonts@10 Icons@10",
+      "line": 561
+    },
+    {
+      "name": "top 10 accuracy",
+      "anchor": "modelwith59classesandreportthetop10accuracy",
+      "line": 607
+    }
+  ],
+  "notes": "两数据集 Google Fonts（脚注指向 fonts.google.com）与 Icons（引自 DeepSVG[8]）均为重建/分类/检索/插值四类下游任务的主实验训练+评测基准，故均记 benchmark。Acc 为 Table 2 中 Classification 与 Retrieval 的 accuracy 缩写（未展开，以 % 计）；Fonts@5/Fonts@10/Icons@10 为 Table 2 检索列名，正文对应 family accuracy 的 @5/@10 变体；top 10 accuracy 为 Icons 59 类分类任务报告指标。MSE 与 CE 仅作训练损失（正文明确指出二者无法准确评测重建，改用 CD），未计入 metrics；插值任务与 Icons 检索为定性展示无数值指标；无附录。全文为两栏拼接的 markdown 转录，存在空格缺失的 OCR 痕迹，名称字段按语义恢复空格，锚点保留文件原样逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_SVGformer_Representation_Learning_for_Continuous_Vector_Graphics_Using_Transformers_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

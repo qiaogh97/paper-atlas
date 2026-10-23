@@ -1,0 +1,69 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Affordance_Grounding_From_Demonstration_Video_To_Target_Image_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Affordance Grounding from Demonstration Video to Target Image",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "OPRA",
+      "role": "benchmark",
+      "anchor": "OPRA [13] consists of YouTube product review videos",
+      "line": 462
+    },
+    {
+      "name": "EPIC-Hotspot",
+      "role": "benchmark",
+      "anchor": "EPIC-Hotspot [44] is made up of EPIC-Kitchens [8],",
+      "line": 475
+    },
+    {
+      "name": "AssistQ",
+      "role": "benchmark",
+      "anchor": "AssistQ [57] is a benchmark to solve user egocentric",
+      "line": 443
+    },
+    {
+      "name": "EPIC-Kitchens",
+      "role": "construction",
+      "anchor": "EPIC-KitchensprovidesanactionlabelAandannotations",
+      "line": 477
+    },
+    {
+      "name": "100DOH",
+      "role": "construction",
+      "anchor": "a Faster R-CNN [32, 47] trained on the 100DOH",
+      "line": 399
+    },
+    {
+      "name": "COCO",
+      "role": "pretrain",
+      "anchor": "All encoders are initialized with COCO [33]",
+      "line": 475
+    }
+  ],
+  "metrics": [
+    {
+      "name": "KLD",
+      "anchor": "Evaluation. Wereportsaliency metrics[3]asKLD,SIM,",
+      "line": 479
+    },
+    {
+      "name": "SIM",
+      "anchor": "Evaluation. Wereportsaliency metrics[3]asKLD,SIM,",
+      "line": 479
+    },
+    {
+      "name": "AUC-J",
+      "anchor": "andAUC-J.Pleasereferto[13,44]formoredetails.",
+      "line": 480
+    },
+    {
+      "name": "Top-1 Acc",
+      "anchor": "Method KLD↓ SIM↑ Top-1Acc↑ affordancetasks.",
+      "line": 530
+    }
+  ],
+  "notes": "主实验三个 benchmark:OPRA(消融也在其上)、EPIC-Hotspot、AssistQ(实际用其 Buttons 子集,表3 写作 AssistQ Buttons,论文自行从 80/20 个视频标注 650 训练/91 测试样本,带 construction 成分但整体作为测试基准记 benchmark)。EPIC-Kitchens 是 EPIC-Hotspot 的上游来源,记 construction。100DOH 仅用于训练手部交互检测器(84.9 AP)以合成 MaskAHand 预训练数据,记 construction;其 AP 为辅助检测器验证数字、不在实验设置/结果表中,未计入 metrics。COCO 仅用于编码器检测权重初始化,记 pretrain。指标均为 saliency 指标,原文未展开 KLD/SIM/AUC-J 缩写;Top-1 Acc 在表1 写作 Action Top-1 Acc(动作分类)、表3 写作 Top-1 Acc/Acc(按钮分类准确率),按同一指标合并一条;表5 的 Zero-shot/Fine-tune KLD 为 KLD 变体不另列。全文文件无附录,仅提及可视化在补充材料。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Affordance_Grounding_From_Demonstration_Video_To_Target_Image_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

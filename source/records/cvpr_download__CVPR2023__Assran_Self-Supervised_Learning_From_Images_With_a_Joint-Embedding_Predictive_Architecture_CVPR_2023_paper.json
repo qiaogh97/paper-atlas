@@ -1,0 +1,65 @@
+{
+  "paper": "cvpr_download/CVPR2023/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet-1K",
+      "role": "benchmark",
+      "anchor": "monImageNet-1Klinear-evaluationbenchmark.Afterself-",
+      "line": 436
+    },
+    {
+      "name": "ImageNet-1K",
+      "role": "pretrain",
+      "anchor": "beenpretrainedontheImageNet-1Kdataset[59].",
+      "line": 423
+    },
+    {
+      "name": "ImageNet-22k",
+      "role": "pretrain",
+      "anchor": "G/16modelonImageNet-22k. TheViT-H/14istrainedfor300epochs",
+      "line": 545
+    },
+    {
+      "name": "CIFAR100",
+      "role": "benchmark",
+      "anchor": "Method Arch. CIFAR100 Places205 iNat18 Method Arch. Clevr/Count Clevr/Dist",
+      "line": 449
+    },
+    {
+      "name": "Places205",
+      "role": "benchmark",
+      "anchor": "Method Arch. CIFAR100 Places205 iNat18 Method Arch. Clevr/Count Clevr/Dist",
+      "line": 449
+    },
+    {
+      "name": "iNat18",
+      "role": "benchmark",
+      "anchor": "Method Arch. CIFAR100 Places205 iNat18 Method Arch. Clevr/Count Clevr/Dist",
+      "line": 449
+    },
+    {
+      "name": "Clevr",
+      "role": "benchmark",
+      "anchor": "counting(Clevr/Count)anddepthprediction(Clevr/Dist). TheI-",
+      "line": 463
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Top-1",
+      "anchor": "Method | Arch. | Epochs Top-1",
+      "line": 355
+    },
+    {
+      "name": "Pretraining GPU Hours",
+      "anchor": "1%asafunctionofpretrainingGPUhours.",
+      "line": 584
+    }
+  ],
+  "notes": "ImageNet-1K 双角色拆分：既用于自监督预训练（Table 1/6/7 各模型均在 ImageNet-1K 上预训练）又作为 linear-probe 与 1% low-shot 半监督评测基准，故拆为 benchmark 与 pretrain 两条。ImageNet-22k（缩写 IN22k）仅出现在 Table 5 消融中作为更大规模预训练集，记 pretrain。Places205 在 Table 3 表头拼作 Places205、正文与 Table 5 拼作 Place205，按表头拼写收录。Clevr 按原文拼写（即 CLEVR），用于 Clevr/Count 物体计数与 Clevr/Dist 深度预测两个线性探针下游任务（Table 4）。指标 Top-1 为各结果表报告的分类准确率，原文未展开全称；Pretraining GPU Hours 为第 7 节可扩展性分析（Figure 1/5 横轴）中命名的效率度量，OCR 原文为无空格的 PretrainingGPUHours，名称按语义加空格、锚点逐字保留。全文文件仅含正文（参考文献止），正文提及的 Appendix A/C 未包含在本 markdown 中。markdown 为 OCR 转录、空格有缺失，所有锚点均从文件逐字复制并经 grep -F 核验通过。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

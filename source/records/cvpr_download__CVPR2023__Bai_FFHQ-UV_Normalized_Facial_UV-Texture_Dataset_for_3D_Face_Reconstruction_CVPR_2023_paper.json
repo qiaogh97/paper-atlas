@@ -1,0 +1,99 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_FFHQ-UV_Normalized_Facial_UV-Texture_Dataset_for_3D_Face_Reconstruction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "FFHQ-UV: Normalized Facial UV-Texture Dataset for 3D Face Reconstruction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FFHQ",
+      "role": "construction",
+      "anchor": "We apply the above pipeline to all the images in FFHQ",
+      "line": 242
+    },
+    {
+      "name": "FFHQ",
+      "role": "benchmark",
+      "anchor": "tity standard deviation of the original dataset (FFHQ), the",
+      "line": 373
+    },
+    {
+      "name": "FFHQ-UV",
+      "role": "benchmark",
+      "anchor": "FFHQ-NormandrenderedimagesusingFFHQ-UV.Thescoreis",
+      "line": 340
+    },
+    {
+      "name": "FFHQ-UV",
+      "role": "pretrain",
+      "anchor": "We first train a GAN-based texture decoder on FFHQ-",
+      "line": 447
+    },
+    {
+      "name": "Facescape",
+      "role": "benchmark",
+      "anchor": "ation value compared to Facescape dataset [42], indicat-",
+      "line": 380
+    },
+    {
+      "name": "Facescape",
+      "role": "pretrain",
+      "anchor": "ing from scratch using Facescape does not perform well.",
+      "line": 524
+    },
+    {
+      "name": "FFHQ-Inv",
+      "role": "benchmark",
+      "anchor": "datasetinvertedtothelatentspace(FFHQ-Inv),thenormal-",
+      "line": 374
+    },
+    {
+      "name": "FFHQ-Norm",
+      "role": "benchmark",
+      "anchor": "theidentitysimilaritybetweeneachimageinFFHQ-Norm",
+      "line": 335
+    },
+    {
+      "name": "REALY",
+      "role": "benchmark",
+      "anchor": "on REALY |          | benchmark | [8],",
+      "line": 486
+    },
+    {
+      "name": "CelebA-UV-100",
+      "role": "benchmark",
+      "anchor": "Thevalidationdataset,namelyCelebA-UV-100,consistsof",
+      "line": 593
+    },
+    {
+      "name": "CelebA-HQ",
+      "role": "construction",
+      "anchor": "randomlyselecting100imagesfromCelebA-HQ[19]and",
+      "line": 589
+    }
+  ],
+  "metrics": [
+    {
+      "name": "identity feature standard deviation",
+      "anchor": "dataset in terms | of identity | feature | standard deviation, | where all |",
+      "line": 326
+    },
+    {
+      "name": "identity similarity",
+      "anchor": "theidentitysimilaritybetweeneachimageinFFHQ-Norm",
+      "line": 335
+    },
+    {
+      "name": "BS Error",
+      "anchor": "nessSymmetryError(BSError)asfollows",
+      "line": 358
+    },
+    {
+      "name": "LPIPS error",
+      "anchor": "Tab. 6 shows the fitting results of the final average LPIPS",
+      "line": 599
+    }
+  ],
+  "notes": "数据集发布型论文。自有数据集 FFHQ-UV 拆两条:benchmark(表2/3/4 评估数据集多样性、身份保持与照度)与 pretrain(作为 GAN 纹理解码器训练数据用于 4.3 节重建实验,论文原文亦写 'Using FFHQ-UV as pretraining')。FFHQ 拆两条:construction(FFHQ-UV 的来源数据)与 benchmark(表2 多样性对比参照)。Facescape 拆两条:benchmark(表2/4 多样性与照度对比)与 pretrain(表5 'w/ FS (scratch)/(finetune)' 用于训练/微调解码器)。FFHQ-Inv、FFHQ-Norm 为管线中间数据集,在表2/3 定量评估中出现,计 benchmark。CelebA-UV-100 为自建验证集(表6 拟合误差),来源 CelebA-HQ 计 construction(局限性小节另提及 CelebA-HQ 仅作未来扩展讨论)。表1 的 LSFM、AvatarMe、HiFi3DFace、WildUV、NormAvatar 为既有 UV 数据集统计对比,按相关工作口径不收录。指标说明:BS Error 全称 Brightness Symmetry Error(论文自提出的新指标);identity feature standard deviation 表内行名作 IDstd.;identity similarity 由 Arcface 特征计算,表3 行名为 Similarity;LPIPS 全称未展开,表6 行名为 LPIPSerror,LPIPS 同时充当训练损失但仅按报告指标收录一次。表5 在 REALY 上按区域(nose/mouth/forehead/cheek/all)报告形状误差,但全文未命名该指标缩写(REALY 官方为 NCCE,文中未展开),故不单独立条;表5 标题将 REALY 误拼为 RELAY,名称按正文写法 REALY 收录。全文文件仅含正文与参考文献,正文提及的 supplementary 附件内容未包含。转录存在 OCR 空格缺失痕迹,锚点均按原样复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_FFHQ-UV_Normalized_Facial_UV-Texture_Dataset_for_3D_Face_Reconstruction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,70 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_Source-Free_Adaptive_Gaze_Estimation_by_Uncertainty_Reduction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Source-free Adaptive Gaze Estimation by Uncertainty Reduction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ETH-XGaze",
+      "role": "benchmark",
+      "anchor": "ETH-XGaze(D ) [53], Gaze360(D )",
+      "line": 555
+    },
+    {
+      "name": "Gaze360",
+      "role": "benchmark",
+      "anchor": "Gaze360 is collected in both indoor and outdoor environ-",
+      "line": 576
+    },
+    {
+      "name": "GazeCapture",
+      "role": "benchmark",
+      "anchor": "eachsubjectasthetargetdata.GazeCaptureiscollectedin",
+      "line": 587
+    },
+    {
+      "name": "MPIIGaze",
+      "role": "benchmark",
+      "anchor": "GazeCapture(D ) [26], MPIIGaze(D ) [57], and",
+      "line": 557
+    },
+    {
+      "name": "MPIIFaceGaze",
+      "role": "benchmark",
+      "anchor": "MPIIFaceGaze is collected in the daily environment with",
+      "line": 583
+    },
+    {
+      "name": "EyeDiap",
+      "role": "benchmark",
+      "anchor": "asthetargetset.EyeDiapiscollectedinlaboratoryenviron-",
+      "line": 593
+    },
+    {
+      "name": "FFHQ",
+      "role": "pretrain",
+      "anchor": "In addition, we use FFHQ [22] as our high quality",
+      "line": 568
+    }
+  ],
+  "metrics": [
+    {
+      "name": "angular gaze error",
+      "anchor": "Table1.Angulargazeerrors(◦)ofthebaselinemethodandthevariantsofUnReGA",
+      "line": 536
+    },
+    {
+      "name": "model uncertainty",
+      "anchor": "Averagemodeluncertaintyandaveragegazeerrorsof",
+      "line": 724
+    },
+    {
+      "name": "image quality (IQ)",
+      "anchor": "theirimagequality(IQ),modeluncertainty(MU)andgazeerrors",
+      "line": 768
+    }
+  ],
+  "notes": "五个人眼注视数据集均计入 benchmark：ETH-XGaze、Gaze360 为源域，MPIIGaze、GazeCapture、EyeDiap 为目标域，共同构成六个跨域任务；Table 2 中的 Gaze360 亦为基线方法名，与数据集同名，不影响角色。MPIIGaze 与 MPIIFaceGaze 拆两条：数据集列表写 MPIIGaze(D_M)，描述目标数据时写 MPIIFaceGaze（MPIIGaze 的人脸图像版，每人取 3000 张），锚点各取其出现处。FFHQ 仅用于预训练/微调 face enhancer（Real-ESRGAN），故 role=pretrain。主指标 angular gaze error(◦)（Table 1/3/4、Fig.4；Table 2 写作 angular error(◦)，同一指标只记一条；Table 4 的 mean±standard deviations 为报告形式不单列）。分析小节 4.6 明确命名的分析度量 model uncertainty（Fig.6 分组分析）与 image quality (IQ)（Fig.5 逐样本标注）计入 metrics。全文 md 不含附录（正文注明超参数研究在 suppl）。OCR 转录多处缺空格，锚点均按原文逐字照抄。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_Source-Free_Adaptive_Gaze_Estimation_by_Uncertainty_Reduction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

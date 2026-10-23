@@ -1,0 +1,39 @@
+{
+  "paper": "cvpr_download/CVPR2023/Agaram_Canonical_Fields_Self-Supervised_Learning_of_Pose-Canonicalized_Neural_Fields_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Canonical Fields: Self-Supervised Learning of Pose-Canonicalized Neural Fields",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ShapeNet",
+      "role": "construction",
+      "anchor": "obtained for 13 common ShapeNet categories.",
+      "line": 550
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Instance-Level Consistency (IC)",
+      "anchor": "(1) Instance-Level Consistency (IC), a",
+      "line": 463
+    },
+    {
+      "name": "Category-Level Consistency (CC)",
+      "anchor": "Level Consistency (CC) to measure how consistently we",
+      "line": 411
+    },
+    {
+      "name": "Ground Truth Equivariance Consistency (GEC)",
+      "anchor": "the Ground Truth Equivariance Consistency (GEC) and",
+      "line": 392
+    },
+    {
+      "name": "Chamfer distance (CD)",
+      "anchor": "where CD refers to the Chamfer distance.",
+      "line": 444
+    }
+  ],
+  "notes": "ShapeNet 仅作构建来源:论文自建的 1300 个 NeRF 模型(13 类,每类 100 实例取自 ShapeNet 并随机旋转渲染)及计算指标所用点云均采样自 ShapeNet meshes,故 role=construction;该自建 NeRF 数据集本身未命名,不单列。指标 IC/CC/GEC 缩写在正文均已展开;GEC 为 [37] 的 GC(Ground Truth Consistency)指标的变体,GC 本身未被使用故未计入;Chamfer distance(CD)作为 GEC 计算分量计入。PSNR 仅在 NeRF 训练设置中提及(且明确不以之为目标),非本文报告指标,未计入。ModelNet40 仅见于相关工作,排除。正文多次提及 supplementary document 但该文件不含附录,无附录覆盖。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Agaram_Canonical_Fields_Self-Supervised_Learning_of_Pose-Canonicalized_Neural_Fields_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

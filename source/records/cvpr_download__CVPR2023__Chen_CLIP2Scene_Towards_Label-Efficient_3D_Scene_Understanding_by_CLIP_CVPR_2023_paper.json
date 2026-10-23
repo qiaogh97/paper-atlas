@@ -1,0 +1,48 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_CLIP2Scene_Towards_Label-Efficient_3D_Scene_Understanding_by_CLIP_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CLIP2Scene: Towards Label-efficient 3D Scene Understanding by CLIP",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "SemanticKITTI",
+      "role": "benchmark",
+      "anchor": "SemanticKITTI [3] and nuScenes [5,24], and one indoor",
+      "line": 445
+    },
+    {
+      "name": "nuScenes",
+      "role": "pretrain",
+      "anchor": "train the network on the nuScenes [5,24] dataset.",
+      "line": 463
+    },
+    {
+      "name": "nuScenes",
+      "role": "benchmark",
+      "anchor": "thenuScenes[24],SemanticKITTI[3],andScanNet[20]valsets.",
+      "line": 474
+    },
+    {
+      "name": "ScanNet",
+      "role": "benchmark",
+      "anchor": "(mIoU)onthenuScenes[24]andScanNet[20]valsets.",
+      "line": 493
+    },
+    {
+      "name": "Cityscapes",
+      "role": "other",
+      "anchor": "manticKITTI,andCityscapes)andallclassesforpre-training",
+      "line": 555
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "Table1.Comparisons(mIoU)amongself-supervisedmethodson",
+      "line": 473
+    }
+  ],
+  "notes": "nuScenes 双角色拆分:既用于自监督预训练(600 scenes 关键帧),又作为 annotation-free 与 1%/100% 微调评测基准;SemanticKITTI 兼作跨域泛化评测(在 nuScenes 预训练后于其上微调);ScanNet 为室内 annotation-free 与 5%/100% 微调基准。Cityscapes 仅在消融中用其类别名生成 CLIP 文本嵌入(Table3 Prompts 一行),未使用其图像/点云数据,故 role=other。指标仅 mIoU,论文未展开缩写,保留原缩写;消融中的 KL divergence 为蒸馏损失而非评测指标,未计入。全文无附录;OCR 转录存在空格缺失,锚点按原文逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_CLIP2Scene_Towards_Label-Efficient_3D_Scene_Understanding_by_CLIP_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

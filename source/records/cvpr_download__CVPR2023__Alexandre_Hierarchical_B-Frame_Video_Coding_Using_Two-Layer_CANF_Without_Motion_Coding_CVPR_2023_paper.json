@@ -1,0 +1,81 @@
+{
+  "paper": "cvpr_download/CVPR2023/Alexandre_Hierarchical_B-Frame_Video_Coding_Using_Two-Layer_CANF_Without_Motion_Coding_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Hierarchical B-frame Video Coding Using Two-Layer CANF without Motion Coding",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Vimeo90K septuplet dataset",
+      "role": "pretrain",
+      "anchor": "The Vimeo90K septuplet dataset [33] was used to train",
+      "line": 423
+    },
+    {
+      "name": "UVG",
+      "role": "benchmark",
+      "anchor": "retainedsamplesusingtheMSEmodelontheUVGdataset",
+      "line": 486
+    },
+    {
+      "name": "HEVC Class B",
+      "role": "benchmark",
+      "anchor": "onUVGandHEVCClassBdatasetsmeasuredinPSNRandMS-SSIM",
+      "line": 459
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "signal-to-noiseratio(PSNR)andmulti-scalestructuralsim-",
+      "line": 436
+    },
+    {
+      "name": "MS-SSIM",
+      "anchor": "ilarityindex(MS-SSIM)atseveralcodingbitrates.",
+      "line": 437
+    },
+    {
+      "name": "BD-rate",
+      "anchor": "calculatetheBD-ratesavings[6].",
+      "line": 439
+    },
+    {
+      "name": "bpp",
+      "anchor": "measuredinPSNRandMS-SSIMoverbitrate(bpp).",
+      "line": 459
+    },
+    {
+      "name": "MACs",
+      "anchor": "2080Ti with GOP=32 on the UVG dataset. The MACs is",
+      "line": 588
+    },
+    {
+      "name": "Encode Time",
+      "anchor": "encodingtimeanditsdecodingtimeisveryclosetothatof",
+      "line": 611
+    },
+    {
+      "name": "Decode Time",
+      "anchor": "encodingtimeanditsdecodingtimeisveryclosetothatof",
+      "line": 611
+    },
+    {
+      "name": "Model Size",
+      "anchor": "Table5.AbreakdownanalysisofthemodelsizeandMACsforthe",
+      "line": 579
+    },
+    {
+      "name": "Percentage of retained latent samples",
+      "anchor": "percentageofretainedlatentsamples(transmittedsamples)",
+      "line": 532
+    },
+    {
+      "name": "Percentages of the base-layer bit rate",
+      "anchor": "Percentages | of     | the base-layer | bit rate | for         | 100 frames |",
+      "line": 471
+    }
+  ],
+  "notes": "全文 markdown 为双栏拼接且大量空格缺失（OCR 痕迹），锚点均按原文逐字复制。数据集：Vimeo90K septuplet（91,701 个 7 帧序列）仅用于端到端训练所提模型，按角色枚举归入 pretrain；UVG（7 视频）与 HEVC Class B（5 视频）为主测试基准，Table 1 中的 HEVC-B 即 HEVC Class B，不另立条目；补充材料只加下/超采样变体结果，未见新增数据集。指标：PSNR 与 MS-SSIM 为 RD 曲线度量；BD-rate 以 x265(veryslow)、GOP=32 为锚计算；bpp 即码率 bits-per-pixel；MACs、Encode Time、Decode Time、Model Size 来自 4.5 节计算复杂度分析（Table 4/5，GTX 2080Ti、UVG 数据集）；保留（传输）latent 样本百分比（Table 2）与 base-layer 码率百分比（Table 1）为分析性度量。MSE 仅是 MSE 模型的训练失真度量（其评测曲线以 PSNR 呈现），未单列为指标。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Alexandre_Hierarchical_B-Frame_Video_Coding_Using_Two-Layer_CANF_Without_Motion_Coding_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,34 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chai_Persistent_Nature_A_Generative_Model_of_Unbounded_3D_Worlds_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Persistent Nature: A Generative Model of Unbounded 3D Worlds",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "LHQ",
+      "role": "benchmark",
+      "anchor": "Datasetandcameraposes.WetrainonLHQ[76],adataset",
+      "line": 421
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "weevaluateimagequalityasFIDon",
+      "line": 454
+    },
+    {
+      "name": "one-step consistency error",
+      "anchor": "One-stepconsistencyerrorismeasuredas",
+      "line": 460
+    },
+    {
+      "name": "cycle consistency",
+      "anchor": "andcycleconsistencyastheL1errorbetweentheoriginalframe",
+      "line": 462
+    }
+  ],
+  "notes": "LHQ（约90K无位姿单视角风景图，过滤后用56,982张训练）既是训练集又是FID评测的参考分布，属训练+评测双重角色，按主实验基准记为benchmark，未拆分多条。FID为缩写，原文未展开（引文[25]）。one-step consistency与cycle consistency均为L1误差乘100（Table 2/4的Consistency列即one-step consistency在不同相机分布C_train/C_forward/C_random下的取值）；cycle consistency在正文中亦写作cyclic consistency error，未另立条目；L1 error/photometric error为上述指标的定义单位，未单列。DPT[61]为获取视差与天空分割的预训练模型，非数据集，未计入。全文文件止于参考文献，多处提及的supplemental内容未包含在本文件中；OCR空格缺失、双栏文本交错，锚点均按文件逐字照抄。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chai_Persistent_Nature_A_Generative_Model_of_Unbounded_3D_Worlds_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

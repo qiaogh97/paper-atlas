@@ -1,0 +1,69 @@
+{
+  "paper": "cvpr_download/CVPR2025/Mankovich_A_Flag_Decomposition_for_Hierarchical_Datasets_CVPR_2025_paper",
+  "venue": "CVPR2025",
+  "title": "A Flag Decomposition for Hierarchical Datasets",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "KSC",
+      "role": "benchmark",
+      "anchor": "image patches of the KSC dataset over 20 random trials with a",
+      "line": 796
+    },
+    {
+      "name": "Indian Pines",
+      "role": "benchmark",
+      "anchor": "model evaluation: the KSC and Indian Pines datasets [2].",
+      "line": 770
+    },
+    {
+      "name": "EuroSat",
+      "role": "benchmark",
+      "anchor": "We evaluate flag classifiers on EuroSat [18], CIFAR-",
+      "line": 863
+    },
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "CIFAR-10   | 59.6 |     | 58.6 | 59.6",
+      "line": 817
+    },
+    {
+      "name": "Flowers102",
+      "role": "benchmark",
+      "anchor": "and Flowers102 [40] datasets, and report the av-",
+      "line": 864
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "pre-trainedonImageNet,asthefeatureextractorf",
+      "line": 824
+    }
+  ],
+  "metrics": [
+    {
+      "name": "SNR",
+      "anchor": "putethesignal-to-noiseratio(SNR)indecibels(dB)as",
+      "line": 643
+    },
+    {
+      "name": "LRSE",
+      "anchor": "Metricsforevaluatingsimulations. LRSEstandsforLog",
+      "line": 593
+    },
+    {
+      "name": "Chordal Distance",
+      "anchor": "withDistasthechordaldistance",
+      "line": 692
+    },
+    {
+      "name": "Classification accuracy",
+      "anchor": "Table4.Classificationaccuracy(↑)withsshots",
+      "line": 805
+    }
+  ],
+  "notes": "全文为 OCR 转录 markdown,空格普遍缺失,锚点均按文件字符逐字复制并逐一核验。数据集角色:KSC 用于 5.3 高光谱去噪评测并在 5.4 用于图像块聚类与 kNN 分类,均为评测基准,合一条 benchmark;Indian Pines 仅 5.3 去噪评测(benchmark);EuroSat/CIFAR-10/Flowers102 为 5.5 少样本分类测试基准(benchmark);ImageNet 仅作 AlexNet 特征提取器的预训练来源(pretrain)。5.1/5.2 为作者自生成模拟数据,无命名,不收录。指标:SNR 在正文展开为 signal-to-noise ratio,以 dB 计(Eq.16);LRSE 展开为 Log Relative Squared Error(Tab.3),图 5/6/8 标题与坐标轴拼写不一(LSRE,轴标签 OCR 镜像作 ESRL),视为同一指标只记一条;Chordal Distance 在 Tab.3 写作 ChordalDistance、图中缩写为 Dist,此处按语义名记录;Classification accuracy 覆盖 Tab.4 少样本分类与 Fig.9 kNN 分类两处。正文 CIFAR-10 跨行断成 CIFAR-/10,故锚点取自 Tab.4 表格行。附录(suppl. material)未包含在本全文文件内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2025/Mankovich_A_Flag_Decomposition_for_Hierarchical_Datasets_CVPR_2025_paper/paper.md",
+  "text_source": "markdown"
+}

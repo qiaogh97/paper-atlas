@@ -1,0 +1,160 @@
+{
+  "paper": "cvpr_download/CVPR2026/xu_Affordance-First_Decomposition_for_Continual_Learning_in_Video-Language_Understanding_CVPR_2026_paper",
+  "venue": "CVPR2026",
+  "title": "Affordance-First Decomposition for Continual Learning in Video–Language Understanding",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ViLCo-Bench",
+      "role": "benchmark",
+      "anchor": "we adopt ViLCo-Bench with its three",
+      "line": 560
+    },
+    {
+      "name": "Ego4D",
+      "role": "construction",
+      "anchor": "continual tracks built from Ego4D: Moment Query",
+      "line": 561
+    },
+    {
+      "name": "iVQA",
+      "role": "benchmark",
+      "anchor": "the time-incremental protocol on iVQA by parti-",
+      "line": 575
+    },
+    {
+      "name": "MSVD",
+      "role": "benchmark",
+      "anchor": "The six datasets follow the sequence iVQA →MSVD",
+      "line": 743
+    },
+    {
+      "name": "MSRVTT",
+      "role": "benchmark",
+      "anchor": "sequence iVQA →MSVD →MSRVTT →LSMDC",
+      "line": 743
+    },
+    {
+      "name": "LSMDC",
+      "role": "benchmark",
+      "anchor": "→MSVD →MSRVTT →LSMDC →ActivityNet (ANet) →TGIF.",
+      "line": 743
+    },
+    {
+      "name": "ActivityNet",
+      "role": "benchmark",
+      "anchor": "→LSMDC →ActivityNet (ANet) →TGIF.",
+      "line": 743
+    },
+    {
+      "name": "TGIF",
+      "role": "benchmark",
+      "anchor": "ActivityNet (ANet) →TGIF.",
+      "line": 743
+    },
+    {
+      "name": "CVQA",
+      "role": "benchmark",
+      "anchor": "step reasoning and planning, we include CVQA",
+      "line": 579
+    },
+    {
+      "name": "11-VideoQA",
+      "role": "benchmark",
+      "anchor": "from VQAGuider [4] and the 11-VideoQA bench-",
+      "line": 580
+    },
+    {
+      "name": "VideoMME",
+      "role": "benchmark",
+      "anchor": "VideoMME and MLVU used by LongVU [38] and",
+      "line": 590
+    },
+    {
+      "name": "MLVU",
+      "role": "benchmark",
+      "anchor": "VideoMME and MLVU used by LongVU [38] and",
+      "line": 590
+    }
+  ],
+  "metrics": [
+    {
+      "name": "top-1 accuracy",
+      "anchor": "VideoQA on 6 datasets. Metric: top-1 accuracy (%).",
+      "line": 595
+    },
+    {
+      "name": "R@1/R@5",
+      "anchor": "R@1/R@5 at IoU thresholds (MQ/NLQ), with",
+      "line": 749
+    },
+    {
+      "name": "R@1@0.5",
+      "anchor": "VideoQA, ViLCo R@1@0.5 of 29.6% (MQ) and",
+      "line": 30
+    },
+    {
+      "name": "Backward Forgetting (BwF)",
+      "anchor": "Backward Forgetting (BwF) as the continual met-",
+      "line": 750
+    },
+    {
+      "name": "tAP@0.25",
+      "anchor": "ric; for VQ we report tAP@0.25, stAP@0.25, av-",
+      "line": 751
+    },
+    {
+      "name": "stAP@0.25",
+      "anchor": "20.7% (NLQ) with 18.4% stAP@0.25 (VQ), and",
+      "line": 31
+    },
+    {
+      "name": "average recall",
+      "anchor": "erage recall, and success rate. We also compute",
+      "line": 752
+    },
+    {
+      "name": "success rate",
+      "anchor": "erage recall, and success rate. We also compute",
+      "line": 752
+    },
+    {
+      "name": "average performance P",
+      "anchor": "the average performance P across tasks as in [43].",
+      "line": 753
+    },
+    {
+      "name": "MC Acc",
+      "anchor": "we use MC Acc. For open-ended datasets with stan-",
+      "line": 756
+    },
+    {
+      "name": "EM/F1",
+      "anchor": "EM/F1 when applicable . (iii) Continual learn-",
+      "line": 758
+    },
+    {
+      "name": "Average Accuracy",
+      "anchor": "we report Average Accuracy after each task and",
+      "line": 760
+    },
+    {
+      "name": "Backward Transfer (BWT)",
+      "anchor": "the standard Backward Transfer (BWT) and Forget-",
+      "line": 761
+    },
+    {
+      "name": "Forgetting",
+      "anchor": "forgetting by 1.5, highlighting the central role of a",
+      "line": 974
+    },
+    {
+      "name": "per-slice accuracy",
+      "anchor": "time-incremental iVQA, we report per-slice accu-",
+      "line": 763
+    }
+  ],
+  "notes": "无附录（正文止于参考文献，补充材料未随文提供）。数据集角色：ViLCo-Bench（含 MQ/NLQ/VQ 三条 query-incremental track，作为一个 benchmark 记录，三条 track 不单拆）为主基准；Ego4D 仅作为 ViLCo-Bench 的构建来源单列 construction；iVQA/MSVD/MSRVTT/LSMDC/ActivityNet（表中缩写 ANet）/TGIF 六个为 domain-incremental 与 time-incremental（仅 iVQA）VideoQA 基准，协议引自 DAM[6]；CVQA（引自 VQAGuider）、『11-VideoQA』（引自 LTR 的 11 个 VideoQA 子集，原文未展开具体名单）、VideoMME、MLVU 为非持续学习参考评测基准。指标缩写按原文保留：R@1/R@5（MQ/NLQ 官方指标，含 IoU 阈值）与表头变体 R@1@0.5（R@1 在 IoU 0.5）分开两条；BwF、BWT、tAP@0.25、stAP@0.25、MC Acc、EM/F1 未展开的缩写保留；Forgetting 在表头写作 Forget↓、正文小写 forgetting；average recall 一词在原文被换行连字符切断（av-/erage），锚点取切断后的逐字子串。图3的表征诊断量（cosine distance 原型漂移、verb/action coverage、CKA）属分析性度量，未计入指标字段；3.1 节的 MQ 为问题记忆缓冲区名，非 Moment Query 数据集。",
+  "text_path": "extraction/texts/cvpr_download__CVPR2026__xu_Affordance-First_Decomposition_for_Continual_Learning_in_Video-Language_Understanding_CVPR_2026_paper.txt",
+  "text_source": "pdftxt"
+}

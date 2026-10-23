@@ -1,0 +1,50 @@
+{
+  "paper": "cvpr_download/CVPR2023/Abousamra_Topology-Guided_Multi-Class_Cell_Context_Generation_for_Digital_Pathology_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Topology-Guided Multi-Class Cell Context Generation for Digital Pathology",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "BRCA-M2C",
+      "role": "benchmark",
+      "anchor": "Table1.EvaluationofpersistencediagramofgeneratedcelllayoutcomparedtoreferencelayoutsinBRCA-M2Cdataset.",
+      "line": 390
+    },
+    {
+      "name": "TCGA",
+      "role": "construction",
+      "anchor": "|     |     |     |     |     |     |     | from TCGA | [41]. The | patches are ≈ 500×500 |     | pixels at |",
+      "line": 424
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PD-EMD",
+      "anchor": "showsthePD-EMDandPD-CCMDmetricsforeachclass",
+      "line": 469
+    },
+    {
+      "name": "PD-CCMD",
+      "anchor": "showsthePD-EMDandPD-CCMDmetricsforeachclass",
+      "line": 469
+    },
+    {
+      "name": "Cross K-function MAE",
+      "anchor": "|     |     |        |     |     | CrossK-functionMAE↓ |      |            | CrossK-functionRMSE↓ |            |     |     |",
+      "line": 391
+    },
+    {
+      "name": "Cross K-function RMSE",
+      "anchor": "|     |     |        |     |     | CrossK-functionMAE↓ |      |            | CrossK-functionRMSE↓ |            |     |     |",
+      "line": 391
+    },
+    {
+      "name": "F-score",
+      "anchor": "Table3.F-scoresonthecellclassificationtask,comparingmodels",
+      "line": 493
+    }
+  ],
+  "notes": "BRCA-M2C 为全部主实验（布局生成评测 Table 1/2、下游细胞分类增强 Table 3）所用基准数据集（120 patches / 113 patients，采集自 TCGA）；TCGA 仅作构建/收集来源（BRCA-M2C 采集自 TCGA，且额外从 TCGA 抽取 patch 训练 layout-to-image 生成器），故拆为 construction。指标 PD-EMD / PD-CCMD 为原文缩写，全文未展开（分别为 persistence diagram 上的 Earth Mover's Distance 与 Cell Configuration Matching Distance）；Cross K-function MAE / RMSE 按 Table 2 表头写法；F-score 为下游多类细胞分类指标。全文无附录。OCR 转录普遍缺失空格，锚点按文件原样复制（含表格竖线与去空格痕迹）。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Abousamra_Topology-Guided_Multi-Class_Cell_Context_Generation_for_Digital_Pathology_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

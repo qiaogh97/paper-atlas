@@ -1,0 +1,64 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chelani_Privacy-Preserving_Representations_Are_Not_Enough_Recovering_Scene_Content_From_Camera_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Privacy-Preserving Representations are not Enough: Recovering Scene Content from Camera Poses",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "IKEA-Scenes",
+      "role": "benchmark",
+      "anchor": "Wecalltheinspiration-roomdataIKEA-Scenes",
+      "line": 387
+    },
+    {
+      "name": "IKEA-Objects",
+      "role": "benchmark",
+      "anchor": "andthedatafromtheinventorysectionIKEA-Objects.",
+      "line": 388
+    },
+    {
+      "name": "ScanNet-Office-Scene",
+      "role": "benchmark",
+      "anchor": "ScanNet-Office-Scene - To show that the objects do not",
+      "line": 389
+    },
+    {
+      "name": "ScanNet",
+      "role": "construction",
+      "anchor": "fromtheScanNet[8]dataset.",
+      "line": 393
+    },
+    {
+      "name": "Office-Objects",
+      "role": "benchmark",
+      "anchor": "Office-Objects - Wecollectedimage sequencesof 5com-",
+      "line": 400
+    },
+    {
+      "name": "RIO10",
+      "role": "benchmark",
+      "anchor": "RIO10 - RIO10 [47] is a localization benchmark dataset",
+      "line": 404
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Precision",
+      "anchor": "Table1.Precision(P)andrecall(R)ofourmethodtodetermine",
+      "line": 482
+    },
+    {
+      "name": "Recall",
+      "anchor": "andrecall(R)ofourmethodtodeterminethepresenceofobjects",
+      "line": 482
+    },
+    {
+      "name": "inlier ratio",
+      "anchor": "inlier-ratioϵobtainedfromtheobjectpositioningstep",
+      "line": 388
+    }
+  ],
+  "notes": "任务给定目录名与实际目录名略有别名差异(实际为 ...Recovering_Scene_Content_From_Camera_CVPR_2023_paper),已按模板以实际全文文件为准提取,text_path 按任务给定值原样记录。数据集均出自 Sec.4 'We use multiple datasets for our experiments':IKEA-Scenes/IKEA-Objects 为作者自采数据(IKEA 卖场灵感间/库存区),直接用于 3D 物体摆放与 Table 1 存在性判定实验,记 benchmark;Office-Objects 为自采集查询图像序列,用于攻击实验及 RIO10 防御评估,记 benchmark;ScanNet-Office-Scene(取 ScanNet scene0040)为测试场景记 benchmark,ScanNet 本身仅作为该场景的来源记 construction;RIO10 为定位基准,用于评估潜在防御策略(Fig.6,三个场景)。指标:Table 1 报告 Precision/Recall(缩写 P/R,在三组误差阈值 10°/0.25m、30°/0.5m、60°/2m 下),另报告 random guessing 的 average precision(同 Precision 不另立条目);inlier ratio(符号 ϵ)在 Sec.4/5.2 明确命名为实验统计量(原文亦写作 inlier-ratioϵ)故计入 metrics;IoU 仅作为未采用的度量被提及、Fig.6 纵轴 Fraction of images 为图轴标签,均未计入。全文无附录/补充材料。OCR 转录存在空格缺失痕迹,锚点均为逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chelani_Privacy-Preserving_Representations_Are_Not_Enough_Recovering_Scene_Content_From_Camera_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

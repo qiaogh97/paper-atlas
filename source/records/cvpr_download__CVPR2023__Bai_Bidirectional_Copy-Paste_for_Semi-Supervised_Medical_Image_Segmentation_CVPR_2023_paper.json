@@ -1,0 +1,51 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_Bidirectional_Copy-Paste_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "LA (Atrial Segmentation Challenge)",
+      "role": "benchmark",
+      "anchor": "LA dataset. | Atrial | Segmentation",
+      "line": 370
+    },
+    {
+      "name": "Pancreas-NIH",
+      "role": "benchmark",
+      "anchor": "Pancreas-NIH. Pancreas-NIH [21] dataset contains 82",
+      "line": 378
+    },
+    {
+      "name": "ACDC",
+      "role": "benchmark",
+      "anchor": "ACDCdataset.ACDC[2]datasetisafour-class",
+      "line": 384
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Dice Score (%)",
+      "anchor": "Wechoosefourevaluationmetrics:DiceScore(%),Jac-",
+      "line": 396
+    },
+    {
+      "name": "Jaccard Score (%)",
+      "anchor": "Labeled Unlabeled Dice↑ Jaccard↑ 95HD↓ ASD↓",
+      "line": 403
+    },
+    {
+      "name": "95% Hausdorff Distance (95HD)",
+      "anchor": "card Score (%), 95% Hausdorff Distance (95HD) in voxel",
+      "line": 397
+    },
+    {
+      "name": "Average Surface Distance (ASD)",
+      "anchor": "and Average Surface Distance (ASD) in voxel.",
+      "line": 361
+    }
+  ],
+  "notes": "三个数据集 LA、Pancreas-NIH、ACDC 均为半监督医学图像分割主实验与消融的测试基准（benchmark），无 construction/pretrain/qualitative 角色；附录消融仅复用同三个数据集。指标取 4.2 节 Evaluation Metrics 列出的四个原名；95HD、ASD 为原文已展开的缩写；表格中同名缩写列（Dice↑/Jaccard↑/95HD↓/ASD↓）不另立条目。全文 OCR 空格缺失较多：Jaccard 在 4.2 节正文因排版断词为 \"Jac-card Score (%)\"，故其锚点取结果表表头 \"Jaccard↑\" 一处；LA 数据集锚点取 4.1 节 \"LA dataset. Atrial Segmentation Challenge [39]\" 表格行（含管道符）。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_Bidirectional_Copy-Paste_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

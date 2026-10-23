@@ -1,0 +1,56 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "HexPlane: A Fast Representation for Dynamic Scenes",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Plenoptic Video dataset",
+      "role": "benchmark",
+      "anchor": "Plenoptic Video dataset [28], with challenging dynamic",
+      "line": 446
+    },
+    {
+      "name": "D-NeRF dataset",
+      "role": "benchmark",
+      "anchor": "QuantitativeResultsonD-NeRFdataset[54]",
+      "line": 473
+    },
+    {
+      "name": "monocular videos captured by iPhone",
+      "role": "qualitative",
+      "anchor": "We test HexPlane with monocular videos captured by",
+      "line": 672
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "withbaselineresultsfrom [28]paper. PSNR,struc-",
+      "line": 456
+    },
+    {
+      "name": "D-SSIM",
+      "anchor": "Model Steps PSNR↑ D-SSIM↓ LPIPS↓ JOD↑",
+      "line": 463
+    },
+    {
+      "name": "SSIM",
+      "anchor": "Deform. | PSNR↑ | SSIM↑",
+      "line": 479
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "tual quality | measure |     | LPIPS | [88]",
+      "line": 493
+    },
+    {
+      "name": "JOD",
+      "anchor": "encemeasureJust-Objectionable-Difference(JOD)[37]are",
+      "line": 496
+    }
+  ],
+  "notes": "主实验基准两个:Plenoptic Video dataset(引文[28],表1定量+图3/图5定性)与 D-NeRF dataset(引文[54],表2定量,表3-6消融也主要在其上进行),均为 benchmark 角色。4.4节在 iPhone 拍摄的休闲单目视频(引文[17],Monocular dynamic view synthesis: A reality check)上仅做定性展示(图7),论文未给该数据集正式名称,按原文表述记为 qualitative。指标:PSNR、SSIM 原文未展开缩写;D-SSIM 在表1表头写作 D-SSIM,正文展开为 structural dissimilarity index measure (DSSIM);LPIPS 原文仅称 perceptual quality measure 未展开;JOD 正文展开为 Just-Objectionable-Difference。表1/表2 另报 TrainingTime↓ 与 Speeds-up↑ 效率列,属速度/效率度量,未计入 metrics。文件无附录;全文 OCR 空格缺失,锚点按原样逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

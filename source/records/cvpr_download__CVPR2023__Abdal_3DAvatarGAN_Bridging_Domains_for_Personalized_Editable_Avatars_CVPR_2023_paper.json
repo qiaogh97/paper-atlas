@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Abdal_3DAvatarGAN_Bridging_Domains_for_Personalized_Editable_Avatars_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "3DAvatarGAN: Bridging Domains for Personalized Editable Avatars",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Caricatures",
+      "role": "benchmark",
+      "anchor": "Caricatures, wereporttwoscoresi.e.withandwithoutus",
+      "line": 461
+    },
+    {
+      "name": "Cartoons",
+      "role": "benchmark",
+      "anchor": "inCaricaturesandCartoons. Weattributethesedifferences",
+      "line": 469
+    },
+    {
+      "name": "PixarToons",
+      "role": "benchmark",
+      "anchor": "Caricatures | Cartoons PixarToons",
+      "line": 517
+    },
+    {
+      "name": "Comics",
+      "role": "qualitative",
+      "anchor": "andComicdomains.Next,inordertoshowthatthemethod",
+      "line": 564
+    },
+    {
+      "name": "FFHQ",
+      "role": "pretrain",
+      "anchor": "losses in EG3D fine-tuned from FFHQ trained prior",
+      "line": 443
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "Table1.FIDComputation.FID(FreÂchetInceptionDistance)be-",
+      "line": 512
+    },
+    {
+      "name": "M_d",
+      "anchor": "absolutemeandifferences(M )ofthecorrespondingfore-",
+      "line": 486
+    },
+    {
+      "name": "S_d",
+      "anchor": "ferences(S )forthesamesetting.Here,weassumethatthe",
+      "line": 493
+    },
+    {
+      "name": "R(T_2)",
+      "anchor": "theR(T )scoresbetweencorrespondingimagesinthedo-",
+      "line": 544
+    },
+    {
+      "name": "Identity Preservation",
+      "anchor": "Identity Preservation. Identity preservation score is an-",
+      "line": 558
+    }
+  ],
+  "notes": "目标域艺术数据集 Caricatures/Cartoons/PixarToons 用于微调 3D-GAN 并在 Table 1(FID)/Table 2(几何)/Table 3(身份)定量评测,记 benchmark;Comics 仅在 Sec 5.2 定性结果(Fig.3 等)展示,记 qualitative;FFHQ 为源域 EG3D/StyleGAN2 预训练数据,记 pretrain。方法部分列举的目标域候选 Anime 未出现在任何实验或结果中,未收录;Related Work 中的 FFHQ/AFHQ/LSUN 仅作背景提及。指标方面:FID 原文括号展开为 Fréchet Inception Distance(OCR 显示 FreÂchet);M_d/S_d/R(T_2) 为论文自定义几何度量,原文带下标、OCR 后下标脱落(Table 2 显示 Md/Sd/R(T2)),名称按下标形式记录;Identity Preservation 以 attribute BCE loss 计算(Table 3)。数据集名写法不一:PixarToons 亦写作 Pixar toons/Pixartoons,Comics 亦写作 Comic,按结果表列名收录。MSE/LPIPS 为 inversion 优化损失而非评测指标,未收录。文件未含补充材料正文(ablation 在 supplementary 中)。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Abdal_3DAvatarGAN_Bridging_Domains_for_Personalized_Editable_Avatars_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": "cvpr_download/CVPR2023/Agustsson_Multi-Realism_Image_Compression_With_a_Conditional_Generator_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Multi-Realism Image Compression with a Conditional Generator",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Kodak",
+      "role": "benchmark",
+      "anchor": "Kodak, we only report PSNR since it has too few im-",
+      "line": 417
+    },
+    {
+      "name": "CLIC2020",
+      "role": "benchmark",
+      "anchor": "ResultsonMS-COCO(top)andCLIC2020(bottom).WeshowFIDasameasureofrealism(left,lowerisbetter)",
+      "line": 213
+    },
+    {
+      "name": "MS-COCO",
+      "role": "benchmark",
+      "anchor": "MS-COCOandCLIC2020,forasinglebitrate",
+      "line": 293
+    },
+    {
+      "name": "MS-COCO 2014 validation set",
+      "role": "construction",
+      "anchor": "COCO2014validationset.3 WenotethatFID/256isequiv-",
+      "line": 376
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "weusePSNRasameasureofdistortion,andFID[16]asa",
+      "line": 85
+    },
+    {
+      "name": "FID",
+      "anchor": "WeshowFIDasameasureofrealism(left,lowerisbetter)",
+      "line": 213
+    },
+    {
+      "name": "FID/256",
+      "anchor": "Distortion(PSNR)vs.realism(FID/256)trade-offon",
+      "line": 290
+    },
+    {
+      "name": "bpp",
+      "anchor": "Notethatbothourmodelsalwayshavethesamebits-per-pixel(bpp)perrow",
+      "line": 76
+    }
+  ],
+  "notes": "Kodak(24张512x768/768x512)仅报PSNR(图太少无法可靠估计FID),Fig.2中亦作定性展示;CLIC2020用test split 428张高分辨率图,按HiFiC做法报patched FID(FID/256),亦用于定性展示;MS-COCO即文中MS-COCO30K基准(30000张256x256图,沿用DALL-E预处理),主结果与消融(Fig.7)均在其上,转录中'MS-COCO30K'因OCR断行无连续形式故名称按图注记作MS-COCO;MS-COCO 2014 validation set仅作为MS-COCO30K的构建来源列为construction。训练集为未命名的高分辨率图像集合(256px裁剪、短边500-1000随机缩放),不收。指标:Sec.4.1明确用PSNR(RGB)与FID,FID/256为CLIC2020上的patched FID变体(与COCO上vanilla FID等价),bpp为结果图中的码率单位;MSE与LPIPS仅为训练损失、MS-SSIM仅在相关工作提及ELIC时出现,均不计入;MNIST、ImageNet64、CLIC'21/'22仅为相关工作或他人评测提及,已排除。全文转录仅含正文与参考文献,附录A未包含,无附录数据集可提取。OCR空格缺失,锚点按文件原文逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Agustsson_Multi-Realism_Image_Compression_With_a_Conditional_Generator_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

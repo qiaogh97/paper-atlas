@@ -1,0 +1,50 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ahuja_Neural_Rate_Estimator_and_Unsupervised_Learning_for_Efficient_Distributed_Image_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Neural Rate Estimator and Unsupervised Learning for Efficient Distributed Image Analytics in Split-DNN models",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "we test | on the | ImageNet | dataset | [11] using",
+      "line": 394
+    },
+    {
+      "name": "MS-COCO 2017",
+      "role": "benchmark",
+      "anchor": "the MS-COCO |     | 2017 | dataset | [18], and | use | a DeepLab v3",
+      "line": 398
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "anchor": "the classification accuracy; for segmentation, it is the Jac-",
+      "line": 453
+    },
+    {
+      "name": "mIOU",
+      "anchor": "compared | to other methods | at similar mIOU | levels | for all splits",
+      "line": 435
+    },
+    {
+      "name": "BPP",
+      "anchor": "pixel (bpp), which, as the name indicates is the number of",
+      "line": 456
+    },
+    {
+      "name": "#Params",
+      "anchor": "Accuracy BPP | #Params",
+      "line": 488
+    },
+    {
+      "name": "Computational overhead",
+      "anchor": "Table4.Computationaloverheadofbottlenecklayers.",
+      "line": 519
+    }
+  ],
+  "notes": "两个数据集均为主实验测试基准：ImageNet 用于图像分类（Resnet50，含 Fig.4 特征匹配层选择实验），MS-COCO 2017 用于语义分割（DeepLab v3）；图注中写作 Imagenet/COCO2017，视为同一数据集不另立条目。指标：Accuracy 为分类任务指标（原文写作 classification accuracy，未指明 top-1/top-5 口径）；mIOU 保留缩写，原文定义为 Jaccard index / mean intersection-over-union（双栏 OCR 使全称跨行，锚点取图中用法处）；BPP 保留缩写，全称 bits-per-pixel，原文 bpp/BPP 大小写混用；#Params 与 Computational overhead 为 Table 3/Table 4 中报告的复杂度度量列（后者以相对原始 DNN 的开销百分比报告，表列名为 Overhead，锚点处 OCR 无空格）。MAE/MSE 为蒸馏特征匹配的训练损失，不计入指标。补充材料未包含在本全文文件内，正文多次引用但无从提取。全文为双栏 OCR 转录，存在空格缺失，锚点均照抄原样并已逐字核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ahuja_Neural_Rate_Estimator_and_Unsupervised_Learning_for_Efficient_Distributed_Image_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

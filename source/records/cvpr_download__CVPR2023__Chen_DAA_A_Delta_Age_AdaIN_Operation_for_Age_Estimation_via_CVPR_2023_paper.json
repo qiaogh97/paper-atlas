@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_DAA_A_Delta_Age_AdaIN_Operation_for_Age_Estimation_via_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "DAA: A Delta Age AdaIN operation for age estimation via binary code transformer",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Morph",
+      "role": "benchmark",
+      "anchor": "Table1.ComparisionofMAEsandparametersonMorphdataset.",
+      "line": 408
+    },
+    {
+      "name": "FG-Net",
+      "role": "benchmark",
+      "anchor": "FG-Net | [34] | contains | 1002 | facial | images | from | 82 sub-",
+      "line": 336
+    },
+    {
+      "name": "MegaAge-Asian",
+      "role": "benchmark",
+      "anchor": "MegaAge-Asian[47]isnewlyfacialagedatasetconsist-",
+      "line": 364
+    },
+    {
+      "name": "IMDB-clean",
+      "role": "benchmark",
+      "anchor": "Table4.ComparisonofMAEsonIMDB-cleandataset.",
+      "line": 517
+    },
+    {
+      "name": "IMDB-Wiki",
+      "role": "pretrain",
+      "anchor": "IMDB-Wiki [37] consists of 523051 facial images of",
+      "line": 352
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Mean Absolute Error (MAE)",
+      "anchor": "theMAEvalue,thebetterperformanceitachieves.",
+      "line": 387
+    },
+    {
+      "name": "cumulative accuracy (CA)",
+      "anchor": "This dataset applies the cumulative accuracy (CA) [47] as",
+      "line": 377
+    },
+    {
+      "name": "reasoning time",
+      "anchor": "Table6. ThetotalreasoningtimeofDAAoperation,Binarycode",
+      "line": 598
+    }
+  ],
+  "notes": "四个测试基准：Morph（80%/20% 划分，遵循 C3AE 设置）、FG-Net（LOPO 交叉验证）、MegaAge-Asian（3945 张测试）、IMDB-clean（仅出现在表 4 对比与 4.3 小节，未在 4.1 中描述）。IMDB-Wiki 仅作预训练用（清洗后选约 30 万张训练，原文\"we also pretrained on the IMDB-Wiki dataset\"），故 role=pretrain。表 3 中 ImageNet、AFAD、IMDB-WIKI 为对比方法自己的预训练数据，未计入。MAE 原文展开为 Mean Absolute Error (MAE)；CA 在表 3/5/7 以阈值变体 CA(3)/CA(5)/CA(7) 报告，按定义名收一条；reasoning time 为消融实验 3 的效率分析度量（表 6，GPU/CPU 毫秒）。表中 Params（参数量）列为模型属性，未计为指标。全文 OCR 存在单词粘连与表格碎片化，锚点均经逐字核验。无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_DAA_A_Delta_Age_AdaIN_Operation_for_Age_Estimation_via_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

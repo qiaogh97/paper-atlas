@@ -1,0 +1,82 @@
+{
+  "paper": "cvpr_download/CVPR2023/Arkushin_Ham2Pose_Animating_Sign_Language_Notation_Into_Pose_Sequences_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Ham2Pose: Animating Sign Language Notation into Pose Sequences",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "AUTSL",
+      "role": "benchmark",
+      "anchor": "by using AUTSL [44], a large-scale Turkish",
+      "line": 526
+    },
+    {
+      "name": "DGS Corpus",
+      "role": "construction",
+      "anchor": "| the | DGS Corpus     | [32],    | Dicta-Sign",
+      "line": 207
+    },
+    {
+      "name": "Dicta-Sign",
+      "role": "construction",
+      "anchor": " [32],    | Dicta-Sign     | [26],         |",
+      "line": 207
+    },
+    {
+      "name": "corpus-based dictionary of Polish Sign Language",
+      "role": "construction",
+      "anchor": "corpus-baseddictionaryofPolishSignLanguage[25].",
+      "line": 209
+    }
+  ],
+  "metrics": [
+    {
+      "name": "DTW-MJE",
+      "anchor": "suggested DTW-MJE (Dynamic Time",
+      "line": 508
+    },
+    {
+      "name": "nDTW-MJE",
+      "anchor": "method by nDTW-MJE. We validate the correctness of",
+      "line": 524
+    },
+    {
+      "name": "MSE",
+      "anchor": "nDTW-MJE vs. using MSE and APE over normalized and",
+      "line": 529
+    },
+    {
+      "name": "nMSE",
+      "anchor": "nMSE 0.82 0.68 0.62 0.4",
+      "line": 483
+    },
+    {
+      "name": "APE",
+      "anchor": "APE (Average Position Error) is a dis-",
+      "line": 497
+    },
+    {
+      "name": "nAPE",
+      "anchor": "nAPE 0.93 0.78 0.7 0.44",
+      "line": 487
+    },
+    {
+      "name": "prec@1 / prec@5 / prec@10",
+      "anchor": "Method prec@1↑ prec@5↑ prec@10↑ mAP↑",
+      "line": 479
+    },
+    {
+      "name": "mAP",
+      "anchor": "calculate mAP (mean Average Precision) and mean preci-",
+      "line": 521
+    },
+    {
+      "name": "Rank1 / Rank5 / Rank10",
+      "anchor": "we calculate rank 1, 5, and 10, where",
+      "line": 555
+    }
+  ],
+  "notes": "数据集角色拆分:DGS Corpus、Dicta-Sign、波兰手语(PJM)语料词典仅为构建其自建数据集(5,754个视频、未命名,\"Our dataset\")的收集来源,故记 construction;AUTSL(土耳其手语大规模数据集)仅用于验证距离度量 nDTW-MJE(Table 1),记 benchmark,模型本身的排序评估在其自建数据集上按语言(PJM/DGS/GSL/LSF,系自建数据子集,不单列)进行。指标:MSE/nMSE/APE/nAPE/DTW-MJE/nDTW-MJE 为 Table 1 中对比的距离度量(其中 nDTW-MJE 为本文提出;DTW-MJE 引自 Huang et al.;APE 正文展开为 Average Position Error;nMSE/nAPE 为归一化变体,仅在表头/表行出现;MSE 同时用作训练损失);prec@1/prec@5/prec@10 与 mAP 为 Table 1 列指标(正文写作 precision@k for k=1,5,10 与 mean Average Precision);Rank1/5/10 为 Table 2/3 距离排序指标(正文写作 rank 1, 5, and 10)。序列长度预测器另用平均绝对差值(3.61)评估,原文未命名,未计入。补充材料(架构细节、步数实验等)未包含于本全文文件,无附录可覆盖。OCR 转录普遍缺失空格,锚点均按文件原文逐字复制(含表格竖线与合并空格)。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Arkushin_Ham2Pose_Animating_Sign_Language_Notation_Into_Pose_Sequences_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

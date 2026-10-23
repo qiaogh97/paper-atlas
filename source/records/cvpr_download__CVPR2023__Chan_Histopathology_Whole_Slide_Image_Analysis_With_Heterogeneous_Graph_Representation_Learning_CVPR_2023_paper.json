@@ -1,0 +1,63 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chan_Histopathology_Whole_Slide_Image_Analysis_With_Heterogeneous_Graph_Representation_Learning_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Histopathology Whole Slide Image Analysis with Heterogeneous Graph Representation Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "TCGA–COAD",
+      "role": "benchmark",
+      "anchor": "We use WSIs from the public TCGA–COAD (cancer",
+      "line": 518
+    },
+    {
+      "name": "TCGA–BRCA",
+      "role": "benchmark",
+      "anchor": "Table1.Cancerstagingandclassificationresults[%]ofvariousmethodsonTCGA–COADandTCGA–BRCAdatasets.",
+      "line": 458
+    },
+    {
+      "name": "TCGA–ESCA",
+      "role": "benchmark",
+      "anchor": "variousGNNarchitecturesontheTCGA–ESCAdataset.",
+      "line": 535
+    },
+    {
+      "name": "Camelyon 16",
+      "role": "benchmark",
+      "anchor": "cases) from the TCGA project [35] and Camelyon 16 [3]",
+      "line": 484
+    },
+    {
+      "name": "PanNuke",
+      "role": "pretrain",
+      "anchor": "thePanNukedataset[9](usedtopretraintheHoverNetnode",
+      "line": 633
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AUC",
+      "anchor": "Model AUC Accuracy Macro-F1",
+      "line": 459
+    },
+    {
+      "name": "Accuracy",
+      "anchor": "GNNArchitecture AUC Accuracy Macro-F1 Balanceddataset",
+      "line": 522
+    },
+    {
+      "name": "Macro-F1",
+      "anchor": "Balanceddataset AUC Accuracy Macro-F1",
+      "line": 522
+    },
+    {
+      "name": "P-values of two-sample t-tests",
+      "anchor": "Table 6. | P-values | of two-sample |     | t-tests | on AUCs",
+      "line": 616
+    }
+  ],
+  "notes": "TCGA–COAD/TCGA–BRCA 用于癌症分期与分类主实验,TCGA–ESCA 用于 cancer typing,均为 benchmark;Camelyon 16 用于定位(localization)能力评估(提供 tumor mask 标注,解释对比在补充材料),计 benchmark;PanNuke 仅用于预训练 HoverNet 节点类型分类器,计 pretrain。原文数据集名用 en dash(如 TCGA–COAD)。指标 AUC/Accuracy/Macro-F1 照抄结果表表头;正文写作 classification accuracy 与 macro F-1 score,缩写均未在正文展开(定义称见补充材料);另收录 5.4 中明确命名并以 Table 6 报告的 two-sample t-tests P-values(分析性统计检验)。Table 5 的 balanced dataset 为 TCGA–COAD/BRCA 欠采样子集,不另立条目;KimiaNet 为预训练特征提取器(模型),不计入数据集;补充材料未包含于本文件。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chan_Histopathology_Whole_Slide_Image_Analysis_With_Heterogeneous_Graph_Representation_Learning_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

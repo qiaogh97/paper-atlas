@@ -1,0 +1,56 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_Masked_Autoencoders_Enable_Efficient_Knowledge_Distillers_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Masked Autoencoders Enable Efficient Knowledge Distillers",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet-1k",
+      "role": "pretrain",
+      "anchor": "pre-training on ImageNet-1k [9]. Unless otherwise men-",
+      "line": 253
+    },
+    {
+      "name": "ImageNet-1k",
+      "role": "benchmark",
+      "anchor": "inMAEtofine-tunethestudentmodelonImageNet.",
+      "line": 287
+    },
+    {
+      "name": "COCO",
+      "role": "benchmark",
+      "anchor": "on | the     | COCO | dataset, | wh",
+      "line": 547
+    }
+  ],
+  "metrics": [
+    {
+      "name": "ImageNet Top-1 Acc(%)",
+      "anchor": "achieves 84.0% ImageNet top-1 accuracy, outperforming",
+      "line": 43
+    },
+    {
+      "name": "APbox",
+      "anchor": "onboundingboxobjectdetection(APbox)andinstanceseg-",
+      "line": 554
+    },
+    {
+      "name": "APmask",
+      "anchor": "Still, as shown in method APbox APmask",
+      "line": 564
+    },
+    {
+      "name": "Standard Deviation",
+      "anchor": "Table12. StandarddeviationanalysisforDMAE.Fromtopto",
+      "line": 641
+    },
+    {
+      "name": "Training Cost (GPU Hours)",
+      "anchor": "TrainingCost(GPUHours)",
+      "line": 510
+    }
+  ],
+  "notes": "ImageNet-1k 双角色拆分:既是 MAE 自监督预训练数据(pretrain),也是分类微调评测基准(benchmark);限量数据实验中提到的 ILSVRC-12(1%/10% 类平衡子集,表头记作 IN-1%/IN-10%)为 ImageNet-1k 别名,未单列。COCO 用于下游检测/分割(train2017 训练、val2017 评测)。APbox/APmask 为原文缩写,对应边界框检测与实例分割精度;Acc 未在原文展开;Standard Deviation(随机种子稳定性分析)与 Training Cost(GPU Hours,计算成本评测)为分析小节中明确命名的分析性度量。无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_Masked_Autoencoders_Enable_Efficient_Knowledge_Distillers_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

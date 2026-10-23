@@ -1,0 +1,45 @@
+import { chromium } from '@playwright/test';
+import assert from 'node:assert/strict';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
+import { filterPapers, emptyState } from '../core.js';
+const catalog=JSON.parse(readFileSync(new URL('../data/papers.json',import.meta.url)));
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});
+const errors=[];page.on('pageerror',error=>errors.push(error.message));
+const base=process.env.TEST_URL||'http://127.0.0.1:8877';
+const report=[];
+const check=(name)=>report.push({name,passed:true});
+try {
+ await page.goto(base);await page.waitForSelector('.paper-card');
+ assert.match(await page.locator('#result-count').innerText(),/205/);assert.equal(await page.locator('.paper-card').count(),12);check('205 papers load; first page has 12');
+ await page.screenshot({path:'qa/desktop.png',fullPage:true});
+ await page.locator('#query').pressSequentially('Alpha Vision');assert.equal(await page.locator('#query').inputValue(),'Alpha Vision');check('multi-word input keeps spaces');
+ await page.locator('#query').fill('ImageNet');
+ const expected=filterPapers(catalog.papers,{...emptyState(),q:'ImageNet'}).length;
+ assert.match(await page.locator('#result-count').innerText(),new RegExp(`找到 ${expected} 篇`));check('search count matches source data');
+ await page.locator('#reset-filters').click();
+ await page.locator('#conference-options input[value="ICLR"]').check();
+ assert.equal(await page.locator('.paper-card').count(),8);check('conference filter returns eight ICLR papers');
+ await page.locator('#year-options input[value="2025"]').check();assert.equal(await page.locator('.paper-card').count(),2);check('conference AND year filter');
+ const shared=page.url();await page.reload();await page.waitForSelector('.paper-card');assert.equal(await page.locator('.paper-card').count(),2);assert.equal(page.url(),shared);check('filter URL persists across reload');
+ await page.locator('#reset-filters').click();
+ await page.locator('#dataset-search').fill('ImageNet');await page.locator('#dataset-options input[value="ImageNet"]').check();
+ await page.locator('#role').selectOption('pretrain');
+ const expectedRole=filterPapers(catalog.papers,{...emptyState(),datasets:['ImageNet'],role:'pretrain'}).length;
+ assert.match(await page.locator('#result-count').innerText(),new RegExp(`找到 ${expectedRole} 篇`));check('dataset selector and dataset role agree');
+ await page.locator('#reset-filters').click();await page.locator('.title-button').first().click();
+ assert.equal(await page.locator('#paper-dialog').evaluate(el=>el.open),true);await page.locator('.evidence-item details').first().locator('summary').click();assert.ok((await page.locator('.evidence-item blockquote').first().innerText()).length>=15);check('details show source anchors and roles');
+ await page.screenshot({path:'qa/detail.png'});await page.keyboard.press('Escape');assert.equal(await page.locator('#paper-dialog').evaluate(el=>el.open),false);check('Escape closes dialog');
+ const [download]=await Promise.all([page.waitForEvent('download'),page.locator('#export-button').click()]);await download.saveAs('qa/export.csv');assert.equal(readFileSync('qa/export.csv','utf8').split('\r\n').length,206);check('CSV exports all 205 matches, not only current page');
+ await page.getByRole('button',{name:'下一页',exact:true}).click();assert.match(page.url(),/page=2/);assert.equal(await page.locator('.paper-index').first().innerText(),'013');check('pagination changes papers and URL');
+ await page.locator('#query').fill('___no_such_paper___');await page.waitForSelector('.empty-state');assert.equal(await page.locator('#export-button').isDisabled(),true);await page.locator('[data-clear]').click();await page.waitForSelector('.paper-card');check('empty state and clear filters');
+ await page.locator('#about-button').click();assert.match(await page.locator('#dialog-content').innerText(),/不表示每一个指标/);await page.keyboard.press('Escape');check('data scope and dataset-metric relationship explained');
+ await page.setViewportSize({width:390,height:844});await page.locator('#toast').evaluate(el=>el.classList.remove('visible'));await page.screenshot({path:'qa/mobile.png',fullPage:true});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.locator('#mobile-filter').click();assert.equal(await page.locator('#filters').isVisible(),true);await page.locator('#conference-options input[value="ICCV"]').check();assert.match(await page.locator('#result-count').innerText(),/找到 4 篇/);check('mobile layout has no horizontal overflow; mobile filters work');
+ const context=await browser.newContext();const sub=await context.newPage();
+ // The site is designed for subdirectory hosting; the server also serves its root files.
+ await sub.goto(base+'/?metrics=J%26F');await sub.waitForSelector('#result-count strong');const expectedMetric=filterPapers(catalog.papers,{...emptyState(),metrics:['J&F']}).length;assert.match(await sub.locator('#result-count').innerText(),new RegExp(`找到 ${expectedMetric} 篇`));check('special-character metric J&F survives URL');
+ await context.close();assert.deepEqual(errors,[]);check('no browser JavaScript errors');
+ await writeFile('qa/browser-check.json',JSON.stringify({date:new Date().toISOString(),checks:report,errors},null,2));console.log(JSON.stringify(report,null,2));
+} finally {await browser.close();}

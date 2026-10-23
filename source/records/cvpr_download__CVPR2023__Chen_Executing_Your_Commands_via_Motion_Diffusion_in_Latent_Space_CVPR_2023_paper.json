@@ -1,0 +1,82 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "Executing your Commands via Motion Diffusion in Latent Space",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "HumanML3D",
+   "role": "benchmark",
+   "anchor": "motions. HumanML3D [17], a recent dataset, collects"
+  },
+  {
+   "name": "KIT",
+   "role": "benchmark",
+   "anchor": "Table2.WeinvolveKIT[48]datasetandevaluatetheSOTAmeth-"
+  },
+  {
+   "name": "UESTC",
+   "role": "benchmark",
+   "anchor": "Tab.3showsthecomparisonontwodatasets,UESTC[26]"
+  },
+  {
+   "name": "HumanAct12",
+   "role": "benchmark",
+   "anchor": "cessing,HumanAct12[19]provides1,191rawmotionse-"
+  },
+  {
+   "name": "AMASS",
+   "role": "benchmark",
+   "anchor": "ofAMASS[41]datasetwiththestate-of-the-artmethods.Wepro-"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "FID",
+   "anchor": "tion quality: Frechet Inception Distance (FID) is our prin-"
+  },
+  {
+   "name": "R Precision",
+   "anchor": "isons results. We achieve the best FID, R Precision and"
+  },
+  {
+   "name": "Multi-modal Distance",
+   "anchor": "1/2/3 matching accuracy, and Multi-modal Distance (MM"
+  },
+  {
+   "name": "Diversity",
+   "anchor": "diversity: Diversity(DIV)calculatesvariancethroughfea-"
+  },
+  {
+   "name": "MultiModality",
+   "anchor": "tures[16],whileMultiModality(MM)measuresthegener-"
+  },
+  {
+   "name": "MPJPE",
+   "anchor": "metrics in motion capture [31, 8, 71], MPJPE and PAM-"
+  },
+  {
+   "name": "PAMPJPE",
+   "anchor": "HumanML3D[17]dataset: MPJPEandPAMPJPEaremeasured"
+  },
+  {
+   "name": "ACCL",
+   "anchor": "in millimeter. ACCL indicates acceleration error. We evaluate"
+  },
+  {
+   "name": "ACC",
+   "anchor": "tocalculateAccuracy(ACC)foraction"
+  },
+  {
+   "name": "AITS",
+   "anchor": "Average Inference Time per Sentence (AITS) in seconds"
+  },
+  {
+   "name": "FLOPs",
+   "anchor": "encetime, floating-pointoperations(FLOPs), andFID.As"
+  }
+ ],
+ "notes": "数据集均为主实验测试基准：HumanML3D 与 KIT（文中亦称 KIT Motion-Language）用于 text-to-motion（Tab.1/2），UESTC 与 HumanAct12 用于 action-to-motion（Tab.3），AMASS 用于无条件生成评测（Tab.6/Fig.5，取 HumanML3D 的动作部分即 AMASS 子集），故 AMASS 记为 benchmark，不另记 construction（HumanML3D/KIT 的动作采集自 AMASS 属上游背景，非本文自建数据）。指标：FID 原文展开为 Frechet Inception Distance；R Precision 表头写作 RPrecision，含 Top1/Top2/Top3 阈值变体，合记一条；Multi-modal Distance 表中缩写 MMDist/MM Dist；Diversity 缩写 DIV；MultiModality 表中作 MModality/MM；ACCL 为 Acceleration Error 缩写；ACC 为动作识别 Accuracy；AITS 为论文提出的 Average Inference Time per Sentence（秒）；FLOPs 在消融/效率分析（Sec.5，DDIM 对比）中明确命名，详细数值在补充材料 Sec. C，本文件不含附录。action-to-motion 的 FIDtrain/FIDtest 为同一 FID 在不同 split 上的写法，不另立条目。相关工作里提及的数据集仅用于排除。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

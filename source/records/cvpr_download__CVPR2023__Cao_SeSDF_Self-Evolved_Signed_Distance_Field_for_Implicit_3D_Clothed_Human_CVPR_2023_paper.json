@@ -1,0 +1,35 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_SeSDF_Self-Evolved_Signed_Distance_Field_for_Implicit_3D_Clothed_Human_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "SeSDF: Self-evolved Signed Distance Field for Implicit 3D Clothed Human Reconstruction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "THuman2.0",
+      "role": "benchmark",
+      "anchor": "THuman2.0 |                    |     | CAPE",
+      "line": 372
+    },
+    {
+      "name": "CAPE",
+      "role": "benchmark",
+      "anchor": "compareourmethodwithothersontheCAPE[37]testset,",
+      "line": 421
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Chamfer Distance",
+      "anchor": "WereportChamferDistanceandP2Smetrics",
+      "line": 369
+    },
+    {
+      "name": "P2S",
+      "anchor": "to-Surfacedistance(P2S)andChamferdistancemetricsas",
+      "line": 426
+    }
+  ],
+  "notes": "THuman2.0 为主实验基准（465 训练/61 测试 subjects，单目与多目定量表 1/2 均在其上评测），故记 benchmark；CAPE（150 subjects）为泛化测试集，同样出现在定量表 1/2，记 benchmark。真实世界图片仅作定性评估（Fig.3/4）且论文未命名该数据，未计入 datasets。P2S 保留缩写，4.2 节展开为 Point-to-Surface distance；Chamfer Distance 与 P2S 为仅有的两项定量指标。全文为 OCR 转录、普遍缺空格：正文把 THuman2.0 写作 THUman2.0，锚点按文件原样逐字复制（如 ChamferDistance 连写）。本文件仅正文+参考文献，无附录；相关工作提及的数据集与方法仅用于排除。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_SeSDF_Self-Evolved_Signed_Distance_Field_for_Implicit_3D_Clothed_Human_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

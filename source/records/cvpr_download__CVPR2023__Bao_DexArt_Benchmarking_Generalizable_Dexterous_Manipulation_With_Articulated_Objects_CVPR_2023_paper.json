@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bao_DexArt_Benchmarking_Generalizable_Dexterous_Manipulation_With_Articulated_Objects_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DexArt",
+      "role": "benchmark",
+      "anchor": "WeproposetheDexArtbenchmarkwhichcontainstasks",
+      "line": 201
+    },
+    {
+      "name": "PartNet-Mobility",
+      "role": "construction",
+      "anchor": "PMM=PartNet-MobilityManipulationDataset,asdescribedinsection4.2.",
+      "line": 425
+    },
+    {
+      "name": "DexArt Manipulation Dataset (DAM)",
+      "role": "pretrain",
+      "anchor": "for DexArt Manipulation Dataset (DAM). We render the",
+      "line": 386
+    },
+    {
+      "name": "PartNet-Mobility Manipulation Dataset (PMM)",
+      "role": "pretrain",
+      "anchor": "PartNet-MobilityManipulationDataset(PMM).Dif-",
+      "line": 401
+    },
+    {
+      "name": "Ego4D",
+      "role": "pretrain",
+      "anchor": "| Ego4D          | human           |",
+      "line": 597
+    }
+  ],
+  "metrics": [
+    {
+      "name": "success rate",
+      "anchor": "Wereportthesuccessrate(mean±std)onfourtasks",
+      "line": 424
+    },
+    {
+      "name": "episodic return",
+      "anchor": "istheepisodicreturn,wheretheshadedarearepresentsthestandarderror",
+      "line": 510
+    },
+    {
+      "name": "sample efficiency",
+      "anchor": "thesampleefficiencyandgeneralizabilityofdifferentpolicy",
+      "line": 206
+    }
+  ],
+  "notes": "角色拆分:DexArt为本文提出并作为主实验测试基准(四任务Faucet/Bucket/Laptop/Toilet,Table 1统计seen/unseen物体数);PartNet-Mobility为3.4节选取关节物体模型构建任务资产及PMM渲染来源,记construction;DAM与PMM为4.2节两个预训练点云数据集(分割/分类/重建/SimSiam预训练),记pretrain;Ego4D仅经R3M预训练的ResNet-18基线间接使用(Table 3),记pretrain。排除:SAPIEN为物理仿真器、R3M为预训练方法,均非数据集;MetaWorld/ManiSkill仅引言与相关工作提及未使用。指标:success rate(Table 2按mean±std报告seen/unseen);episodic return为图6/7学习曲线y轴(原文另有复数episodic returns写法);sample efficiency为基准描述与实验结论中明确点名的分析性度量(经环境步数学习曲线衡量);convergence speed原文注明由episodic return表示,不单列。markdown转录存在大量OCR空格缺失(如SuccessRate/episodicreturn),指标名按论文语义保留带空格写法,锚点均逐字复制自原文。正文后仅参考文献,无附录;奖励设计细节称见supplementary material但未含于本文件。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bao_DexArt_Benchmarking_Generalizable_Dexterous_Manipulation_With_Articulated_Objects_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

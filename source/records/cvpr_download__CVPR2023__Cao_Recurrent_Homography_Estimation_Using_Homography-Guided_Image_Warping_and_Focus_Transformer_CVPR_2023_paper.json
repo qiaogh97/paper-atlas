@@ -1,0 +1,62 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Recurrent_Homography_Estimation_Using_Homography-Guided_Image_Warping_and_Focus_Transformer_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Recurrent Homography Estimation Using Homography-Guided Image Warping and Focus Transformer",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MSCOCO",
+      "role": "benchmark",
+      "anchor": "Datasets. We evaluate our RHWF on MSCOCO [24]",
+      "line": 583
+    },
+    {
+      "name": "Cross-resolution MSCOCO",
+      "role": "benchmark",
+      "anchor": "Thecross-resolutionMSCOCOisemployedin[34]tomeet",
+      "line": 591
+    },
+    {
+      "name": "GoogleEarth",
+      "role": "benchmark",
+      "anchor": "Thecross-modalGoogleEarth",
+      "line": 595
+    },
+    {
+      "name": "GoogleMap",
+      "role": "benchmark",
+      "anchor": "GoogleEarth together with GoogleMap following [6,48].",
+      "line": 587
+    }
+  ],
+  "metrics": [
+    {
+      "name": "ACE",
+      "anchor": "ner error (ACE) is adopted for the homography accuracy",
+      "line": 617
+    },
+    {
+      "name": "MACE",
+      "anchor": "Meanaveragecornererror(MACE)and",
+      "line": 628
+    },
+    {
+      "name": "average correlation value",
+      "anchor": "averagecorrelationvalue,whichrepresentsthefeaturesim-",
+      "line": 624
+    },
+    {
+      "name": "FLOPs",
+      "anchor": "In Table 4, we compare the FLOPs of models and",
+      "line": 774
+    },
+    {
+      "name": "Parameters",
+      "anchor": "Table3.Parametercomparison.",
+      "line": 759
+    }
+  ],
+  "notes": "四个数据集（MSCOCO、4×/8× 跨分辨率 MSCOCO、GoogleEarth、GoogleMap）均为主实验测试基准，故均记 benchmark；跨分辨率 MSCOCO 为论文单列的评测设置，独立成条。ACE/MACE 保留原文缩写，原文给出全称 average corner error 与 mean average corner error。average correlation value 为消融分析小节明确命名的分析性度量（Fig.5，特征相似度随 warping 次数变化）。FLOPs 与 Parameters 为 Table 1/3/4 中的模型成本对比指标，一并计入。论文无附录，正文实验即全部。全文为 OCR 转录、空格缺失，锚点按原样复制已逐字核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Recurrent_Homography_Estimation_Using_Homography-Guided_Image_Warping_and_Focus_Transformer_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

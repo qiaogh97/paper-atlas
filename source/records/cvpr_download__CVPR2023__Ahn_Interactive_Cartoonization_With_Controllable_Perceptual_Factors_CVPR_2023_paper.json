@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ahn_Interactive_Cartoonization_With_Controllable_Perceptual_Factors_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Interactive Cartoonization with Controllable Perceptual Factors",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Hayao",
+      "role": "benchmark",
+      "anchor": "we acquired artworks by Miyazaki Hayao",
+      "line": 366
+    },
+    {
+      "name": "Shinkai",
+      "role": "benchmark",
+      "anchor": "and Shinkai Makoto, and comics of titles",
+      "line": 368
+    },
+    {
+      "name": "FreeDraw",
+      "role": "benchmark",
+      "anchor": "comics of titles “FreeDraw” and",
+      "line": 368
+    },
+    {
+      "name": "Barkhan",
+      "role": "benchmark",
+      "anchor": "“Barkhan” | from | the NAVER | Webtoon | platform.",
+      "line": 369
+    },
+    {
+      "name": "monet2photo",
+      "role": "construction",
+      "anchor": "usedmonet2photo[22]asthephotodomain",
+      "line": 364
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "Metrics. | WeevaluatedthecartoonizationwithFrec´hetIn",
+      "line": 376
+    },
+    {
+      "name": "FID CLIP",
+      "anchor": "FID[11]andFID CLIP [15]metrics.Lowerscoreisbetter.",
+      "line": 353
+    },
+    {
+      "name": "Preference",
+      "anchor": "Method |     | Preference |",
+      "line": 356
+    }
+  ],
+  "notes": "四个卡通数据集 Hayao/Shinkai/FreeDraw/Barkhan 为作者自建(来源为 Miyazaki Hayao、Shinkai Makoto 的动画作品及 NAVER Webtoon 平台的两部漫画),同时是训练目标风格与 Table 1 中 FID/FID CLIP 对比的四个评测列,故记为 benchmark。monet2photo 仅作为构建配对数据集的 photo domain 来源,记为 construction。FID CLIP 原文排版为 FID_CLIP(CLIP 为下标),OCR 文本中写作 FID CLIP,按文本写法保留;Metrics 段中 Frechet Inception Distance 因 OCR 断行/空格缺失呈现为 Frec´hetIn-ceptionDistance。Preference 为 Table 2 user study(26 名用户)的列名,即 quality preference score。附录(Suppl.)未包含在本 markdown 全文内,数据集生成协议细节不可见。基线方法 CartoonGAN/AnimeGANv2/WhiteboxGAN 为对比方法而非数据集,未计入。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ahn_Interactive_Cartoonization_With_Controllable_Perceptual_Factors_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

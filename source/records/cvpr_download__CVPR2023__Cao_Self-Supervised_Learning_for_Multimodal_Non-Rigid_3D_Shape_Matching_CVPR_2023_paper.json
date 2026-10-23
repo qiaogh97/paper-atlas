@@ -1,0 +1,71 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Self-Supervised_Learning_for_Multimodal_Non-Rigid_3D_Shape_Matching_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FAUST",
+      "role": "benchmark",
+      "anchor": "benchmark datasets, namely FAUST [5], SCAPE [1] and",
+      "line": 347
+    },
+    {
+      "name": "SCAPE",
+      "role": "benchmark",
+      "anchor": "The SCAPE dataset contains 71 different",
+      "line": 352
+    },
+    {
+      "name": "SHREC’19",
+      "role": "benchmark",
+      "anchor": "TheSHREC’19datasetisamorechalleng-",
+      "line": 355
+    },
+    {
+      "name": "SURREAL",
+      "role": "pretrain",
+      "anchor": "ity by training on the synthetic SURREAL [58] dataset",
+      "line": 405
+    },
+    {
+      "name": "SURREAL",
+      "role": "construction",
+      "anchor": "WeextendtheSURREALdataset[58]bySURREAL-",
+      "line": 163
+    },
+    {
+      "name": "SURREAL-PV",
+      "role": "benchmark",
+      "anchor": "Figure6. QualitativeresultsofourmethodontheSURREAL-PV",
+      "line": 589
+    },
+    {
+      "name": "SHREC’16",
+      "role": "benchmark",
+      "anchor": "shapematchingonthechallengingSHREC’16[10]dataset.",
+      "line": 487
+    },
+    {
+      "name": "LUNA16",
+      "role": "qualitative",
+      "anchor": "real-worldLUNA16dataset[50],whichprovideschestCT-",
+      "line": 543
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mean geodesic error",
+      "anchor": "Themeangeodesicerrorisusedformethodeval-",
+      "line": 361
+    },
+    {
+      "name": "PCK",
+      "anchor": "Right: Proportion | of         | correct  | keypoints       | (PCK)",
+      "line": 40
+    }
+  ],
+  "notes": "SHREC’19/SHREC’16 按原文照抄弯引号（U+2019）。FAUST/SCAPE 实验采用 [13,43] 的 remeshed 版本而非原始版。SURREAL 拆两条：Sec 5.2 跨数据集泛化中仅作训练数据（pretrain）；同时作为自建 SURREAL-PV 数据集的构建基础（construction）。SURREAL-PV 为作者新建部分视角匹配数据集，Table 5 有定量评测，锚点取自 Fig.6 图注中的名称出现处。SHREC’16 含 CUTS/HOLES 两个子集，不单列。LUNA16 无 ground truth 对应，Sec 5.5 仅展示定性结果（qualitative）。指标仅两种：mean geodesic error 在 Table 2/3/4/6 中缩写为 Geo.error(×100)，同一名目只列一条；PCK 在 Fig.1 中展开为 Proportion of correct keypoints。正文多处引用 supplementary document，但本文件仅含正文与参考文献、无附录内容。全文为 OCR 转录、大量空格缺失，锚点均按原文字节逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Self-Supervised_Learning_for_Multimodal_Non-Rigid_3D_Shape_Matching_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

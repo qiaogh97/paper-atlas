@@ -1,0 +1,56 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "End-to-End 3D Dense Captioning with Vote2Cap-DETR",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "ScanRefer",
+   "role": "benchmark",
+   "anchor": "Datasets. We analyze performance on ScanRefer [6] and"
+  },
+  {
+   "name": "Nr3D",
+   "role": "benchmark",
+   "anchor": "Nr3D[1],bothofwhicharebuilton3DscenesfromScan-"
+  },
+  {
+   "name": "ScanNet",
+   "role": "pretrain",
+   "anchor": "head on ScanNet [15] for 1,080 epochs (163k iterations,"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "m@kIoU",
+   "anchor": "weadoptthem@kIoU metric[13]"
+  },
+  {
+   "name": "CIDEr",
+   "anchor": "worksonmetricsC,M,B-4,RasabbreviationsforCIDEr"
+  },
+  {
+   "name": "METEOR",
+   "anchor": "language generation, such as CIDEr [38], METEOR [3],"
+  },
+  {
+   "name": "BLEU-4",
+   "anchor": "[38],METEOR[3],BLEU-4[31],Rouge-L[22]underIoU"
+  },
+  {
+   "name": "ROUGE-L",
+   "anchor": "BLEU-4[31],andROUGE-L[22]."
+  },
+  {
+   "name": "mAP50",
+   "anchor": "dense caption (C@0.5) and detection (mAP50, AR50) in"
+  },
+  {
+   "name": "AR50",
+   "anchor": "dense caption (C@0.5) and detection (mAP50, AR50) in"
+  }
+ ],
+ "notes": "ScanRefer 与 Nr3D 为主实验测试基准（Table 1/2，其中 ScanRefer 在验证集上评测）；ScanNet 仅用于检测头预训练（1080 epochs），故记 pretrain，同时它也是 ScanRefer/Nr3D 的底层场景来源（非本文自建数据，不另立 construction 条目）。指标 m@kIoU 为联合定位+描述指标族（m 可为 CIDEr/METEOR/BLEU-4/ROUGE-L）；结果表中使用缩写 C、B-4、M、R，阈值变体写作 C@0.5、B-4@0.5 等，摘要中写作 CIDEr@0.5IoU，Table 1 按 IoU=0.25/0.50 分组；检测指标 mAP50/AR50 在 Table 3/6 亦写作 mAP/AP@0.5、AR/AR@0.5；ROUGE-L 原文亦写作 Rouge-L。SCST 的 reward 用 CIDEr，非独立评测指标。全文 OCR 空格缺失，锚点按原样逐字复制；附录性内容（Table 6/7 的 NMS 与训练策略分析）未引入新数据集或新指标。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

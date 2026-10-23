@@ -1,0 +1,44 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ahn_Neural_Kaleidoscopic_Space_Sculpting_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Neural Kaleidoscopic Space Sculpting",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "armadillo",
+      "role": "benchmark",
+      "anchor": "We simulate a kaleidoscopic image of an armadillo of",
+      "line": 647
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "| PSNR↑ | chamfer↓ |      | maskerr↓ | labelerr↓ |",
+      "line": 547
+    },
+    {
+      "name": "chamfer",
+      "anchor": "| PSNR↑ | chamfer↓ |      | maskerr↓ | labelerr↓ |",
+      "line": 547
+    },
+    {
+      "name": "maskerr",
+      "anchor": "| PSNR↑ | chamfer↓ |      | maskerr↓ | labelerr↓ |",
+      "line": 547
+    },
+    {
+      "name": "labelerr",
+      "anchor": "| PSNR↑ | chamfer↓ |      | maskerr↓ | labelerr↓ |",
+      "line": 547
+    },
+    {
+      "name": "Avg. dist",
+      "anchor": "(Avg. dist: 4.01mm)",
+      "line": 686
+    }
+  ],
+  "notes": "仿真主实验使用单个 armadillo 网格模型（原文未注明来源数据库），计为 benchmark；真实实验为作者自建万花筒硬件原型自采的物体（Toy、Chair、Trebleclef、Venus、Monkey、Spinner，见 Table 3），属自建且未命名数据，不单列。指标按 Table 2 表头原文照抄：PSNR、chamfer（即 chamfer distance，正文未展开，单位 µm）、maskerr（正文写作 mask error）、labelerr 为缩写形式；Table 3 复用 PSNR 与 maskerr 不重复计。Avg. dist 为 Figure 6 与 kaleidoscopic structured light 对比时报告的顶点平均距离（分析性度量）。全文为正文（无附录/补充材料）；相关工作中的方法与数据仅用于排除。OCR 转录空格缺失，锚点按文件原样复制并已逐字核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ahn_Neural_Kaleidoscopic_Space_Sculpting_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

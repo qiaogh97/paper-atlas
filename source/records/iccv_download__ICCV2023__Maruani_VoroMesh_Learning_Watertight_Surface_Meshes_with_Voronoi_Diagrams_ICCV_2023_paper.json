@@ -1,0 +1,56 @@
+{
+  "paper": "iccv_download/ICCV2023/Maruani_VoroMesh_Learning_Watertight_Surface_Meshes_with_Voronoi_Diagrams_ICCV_2023_paper",
+  "venue": "ICCV2023",
+  "title": "VoroMesh: Learning Watertight Surface Meshes with Voronoi Diagrams",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Thingi32",
+      "role": "benchmark",
+      "anchor": "optimization-based3DreconstructiontaskontheThingi32datasetforthreedifferentgridresolutions.",
+      "line": 552
+    },
+    {
+      "name": "Thingi10K",
+      "role": "construction",
+      "anchor": "Thingi10K    | [53],     | from     | which   | we can",
+      "line": 474
+    },
+    {
+      "name": "ABC",
+      "role": "benchmark",
+      "anchor": "methodsontheABCdataset.",
+      "line": 572
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Chamfer distance (CD)",
+      "anchor": "Quantitative comparisons of Chamfer distance (CD), F1 score, and normal consistency (NC) of VoroMesh",
+      "line": 551
+    },
+    {
+      "name": "F1 score",
+      "anchor": "Quantitative comparisons of Chamfer distance (CD), F1 score, and normal consistency (NC) of VoroMesh",
+      "line": 551
+    },
+    {
+      "name": "normal consistency (NC)",
+      "anchor": "Quantitative comparisons of Chamfer distance (CD), F1 score, and normal consistency (NC) of VoroMesh",
+      "line": 551
+    },
+    {
+      "name": "Time(s)",
+      "anchor": "NC  |     |     | Time(s)",
+      "line": 540
+    },
+    {
+      "name": "Watertight",
+      "anchor": "F1 NC       | Watertight",
+      "line": 625
+    }
+  ],
+  "notes": "Thingi32 为 4.1 直接优化重建(Table 1)与 4.3 泛化测试(Table 3、图6)的测试基准；Thingi10K 仅作为 Thingi32 的构建来源（Thingi32 是其子集，从中导出 SDF 与点云），论文未在其上单独评测，故 role=construction；ABC 为 4.3 学习重建主基准(Table 2，沿用 NDC/NMC 的 train/test 划分，4280 训练/1071 测试)，同时用于预训练泛化到 Thingi32 的模型，主角色仍为 benchmark。指标：CD、F1、NC 在 Table 1 表题以全称+缩写出现，照抄全称；Table 1 中 F1 带阈值写作 F1(δ=0.003)，Table 2/3 为不带阈值的 F1，视为同一指标未拆分；CD 列头 ×10−5 为缩放记法非指标名的一部分；Time(s) 为 Table 1 运行时间列；Watertight 为 Table 2/3 输出网格水密比例列；BCE 为训练损失未计入指标。全文为 OCR 转录、大量空格缺失，锚点均逐字保留原文（含表格竖线与空格）。正文多次提及 supplementary material（含 DMTet 对比与计时细节），但未包含在本全文文件内；文件至参考文献止，无附录。",
+  "text_path": "conference_paper/iccv_download/ICCV2023/Maruani_VoroMesh_Learning_Watertight_Surface_Meshes_with_Voronoi_Diagrams_ICCV_2023_paper/paper.md",
+  "text_source": "markdown"
+}

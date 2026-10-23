@@ -1,0 +1,65 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_Open-World_Multi-Task_Control_Through_Goal-Aware_Representation_Learning_and_Adaptive_Horizon_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Minecraft",
+      "role": "benchmark",
+      "anchor": "thenon-stationarydynamics. Experimentson20Minecraft",
+      "line": 35
+    },
+    {
+      "name": "MineDojo",
+      "role": "benchmark",
+      "anchor": "discreteactionspaceprovidedbyMineDojointo42discrete",
+      "line": 520
+    },
+    {
+      "name": "Plains",
+      "role": "benchmark",
+      "anchor": "in terms of the number of tasks, we choose Plains and",
+      "line": 453
+    },
+    {
+      "name": "Forest",
+      "role": "benchmark",
+      "anchor": "Forest,thetwomostcommonbiomesthatcontainalarge",
+      "line": 457
+    },
+    {
+      "name": "Flat",
+      "role": "benchmark",
+      "anchor": "lines struggle to maintain their success rate on the Flat",
+      "line": 607
+    },
+    {
+      "name": "VPT",
+      "role": "construction",
+      "anchor": "Training(VPT)[4],whichistrainedontremendousamount",
+      "line": 541
+    },
+    {
+      "name": "Meta-world",
+      "role": "qualitative",
+      "anchor": "Figure1.ComparisonofstatesbetweenMeta-world[49](left)and",
+      "line": 38
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Success Rate",
+      "anchor": "target. WeuseSuccessRateandPrecisionasourevaluation",
+      "line": 560
+    },
+    {
+      "name": "Precision",
+      "anchor": "goalwithintheepisode. Precisionisdefinedasthenumber",
+      "line": 458
+    }
+  ],
+  "notes": "全部实验在 Minecraft 开放世界域进行,MineDojo 为提供观测/动作空间的评测平台(§4.1 采用其观测空间并离散化其动作空间,Related Works 亦称 which we use to evaluate our method),二者均为 benchmark。Plains、Forest、Flat 为作者在 Minecraft 内自建的三个 biome 基准(Flat 上的多任务基准又称 hunt animals benchmark),单任务、多任务与零样本泛化实验均在其上进行,故各列一条 benchmark。VPT 全称 Video Pre-Training,仅在数据收集管线中用作 rollout 的预训练非目标条件策略以构建目标条件演示数据集,故 role=construction。Meta-world 仅在图1 t-SNE 定性对比状态可分性时出现,role=qualitative,不参与任何定量实验。指标仅 Success Rate 与 Precision 两个;表格中的 SR、P、Avg.SR(%)、Avg.P(%) 为其缩写/按任务平均形式,按规则不另立条目。全文文件为 CVPR Open Access 版 markdown 转录,存在 OCR 空格缺失(如 WeuseSuccessRate),锚点逐字保留原样;正文引用的附录 A.1–A.3 不在该全文文件内,附录内容未覆盖。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_Open-World_Multi-Task_Control_Through_Goal-Aware_Representation_Learning_and_Adaptive_Horizon_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

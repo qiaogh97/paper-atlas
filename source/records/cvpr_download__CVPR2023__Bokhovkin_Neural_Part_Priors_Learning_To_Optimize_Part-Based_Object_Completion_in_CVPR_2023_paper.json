@@ -1,0 +1,63 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bokhovkin_Neural_Part_Priors_Learning_To_Optimize_Part-Based_Object_Completion_in_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Neural Part Priors: Learning to Optimize Part-Based Object Completion in RGB-D Scans",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ScanNet",
+      "role": "benchmark",
+      "anchor": "pletiononreal-worldRGB-DscansfromScanNet[11].",
+      "line": 437
+    },
+    {
+      "name": "Scan2CAD",
+      "role": "benchmark",
+      "anchor": "EvaluationofsemanticpartcompletiononScan2CAD[1]incomparisontostate-of-the-artpartsegmentation",
+      "line": 381
+    },
+    {
+      "name": "PartNet",
+      "role": "pretrain",
+      "anchor": "synthetic PartNet [36] dataset to characterize a space of",
+      "line": 265
+    },
+    {
+      "name": "PartNet",
+      "role": "benchmark",
+      "anchor": "thecompleteobjectgeometryfromPartNet.",
+      "line": 403
+    },
+    {
+      "name": "ShapeNet",
+      "role": "construction",
+      "anchor": "alignmentsfromShapeNet[5]tothesescenes,andthePart-",
+      "line": 444
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Chamfer Distance–Accuracy",
+      "anchor": "ChamferDistance–Accuracy(↓)",
+      "line": 374
+    },
+    {
+      "name": "Chamfer Distance–Completion",
+      "anchor": "ChamferDistance–Completion(↓)",
+      "line": 374
+    },
+    {
+      "name": "Chamfer Distance",
+      "anchor": "ChamferDistance(↓)",
+      "line": 457
+    },
+    {
+      "name": "IoU",
+      "anchor": "distanceandIoU.WeprojectpartlabelsfromalignedPart-",
+      "line": 442
+    }
+  ],
+  "notes": "OCR转写全文普遍缺空格,锚点按原文字符逐字保留,指标/数据集名称字段按论文原意补回空格。角色拆分:ScanNet为主实验测试基准(1045/156/312 train/val/test scans,Tab.1-3均在ScanNet扫描上评测;其train scenes亦用于微调projection与part segmentation,因主角色是基准故只记一条);Scan2CAD提供CAD模型对齐标注,Tab.1-3明确写明评测在其上进行,记为benchmark;PartNet拆两条——pretrain(在其上训练part/shape隐空间,并与ScanNet合用训练projection与基线)与benchmark(其part标签与完整几何作为评测ground truth);ShapeNet仅作为Scan2CAD对齐CAD模型及PartNet部件标注的上游来源,记为construction。指标:Tab.1/3报Chamfer Distance–Accuracy与–Completion(单侧/双向chamfer),Tab.2仅对观测几何评测另报Chamfer Distance与IoU;IoU为未展开缩写;表头classavg/instavg为聚合口径非指标;chamfer距离另用作场景一致性相似判据属方法组件不计入。文末为参考文献,无附录实验;相关工作/参考文献中出现的ScanNet、KITTI等仅用于排除。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bokhovkin_Neural_Part_Priors_Learning_To_Optimize_Part-Based_Object_Completion_in_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

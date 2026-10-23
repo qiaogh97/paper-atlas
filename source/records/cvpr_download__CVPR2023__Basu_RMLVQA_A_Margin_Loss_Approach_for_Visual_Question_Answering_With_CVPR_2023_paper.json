@@ -1,0 +1,40 @@
+{
+  "paper": "cvpr_download/CVPR2023/Basu_RMLVQA_A_Margin_Loss_Approach_for_Visual_Question_Answering_With_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "RMLVQA: A Margin Loss Approach For Visual Question Answering with Language Biases",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "VQA-CP v2",
+      "role": "benchmark",
+      "anchor": "Dataset details. We evaluate our model on the VQA-",
+      "line": 443
+    },
+    {
+      "name": "VQA v2",
+      "role": "benchmark",
+      "anchor": "modelontheVQAv2validationset.",
+      "line": 457
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "anchor": "Table1. AccuracycomparisonswithothermethodsontheVQA-CPv2andVQAv2datasets.",
+      "line": 522
+    },
+    {
+      "name": "Diff",
+      "anchor": "relative difference in accuracies between VQA-CP v2 test",
+      "line": 484
+    },
+    {
+      "name": "Spearman’s rank correlation coefficient",
+      "anchor": "Spearman’s rank correlation coefficient ρ between m",
+      "line": 500
+    }
+  ],
+  "notes": "主实验在 VQA-CP v2(ood 基准)test 集与 VQA v2(分布内基准)validation 集上评测,两者均记为 benchmark;VQA-CP v2 由 VQA v2 重组构建的叙述不改变 VQA v2 作为 id 评测基准的角色。相关工作/背景中提到的 VQAv1、MS-COCO 及各对比方法所用数据集仅作背景,未列入。Accuracy 按 Y/N、Num、Others 与 Overall 分解报告(表1、表3),不单列条目;表2的 Gap 与表1的 Diff 为同一鲁棒性量(VQA-CP v2 test 与 VQA v2 val 准确率相对差),按同一指标只记 Diff 一条。Spearman’s rank correlation coefficient(ρ)为消融分析 Fig.4 中明确命名的分析性度量,缩写 ρ 按原文保留。全文为 OCR 转录、多处空格缺失(如 VQAv2、Table1.),名称按论文常规写法保留空格,锚点严格按文件原文复制。论文正文无附录;提到补充材料含多数据集结果但正文未展开。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Basu_RMLVQA_A_Margin_Loss_Approach_for_Visual_Question_Answering_With_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

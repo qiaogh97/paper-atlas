@@ -1,0 +1,68 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_A_Unified_Knowledge_Distillation_Framework_for_Deep_Directed_Graphical_Models_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A Unified Knowledge Distillation Framework for Deep Directed Graphical Models",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Old Faithful Geyser",
+      "role": "benchmark",
+      "anchor": "mentsonfivebenchmarkdatasets: OldFaithfulGeyser[17],",
+      "line": 587
+    },
+    {
+      "name": "IAM online handwriting",
+      "role": "benchmark",
+      "anchor": "IAMonlinehandwriting[38],SVHN[42],CIFAR10[28],",
+      "line": 588
+    },
+    {
+      "name": "SVHN",
+      "role": "benchmark",
+      "anchor": "ferentmethodsaveragedoverthreerandomseedsonSVHN,",
+      "line": 589
+    },
+    {
+      "name": "CIFAR10",
+      "role": "benchmark",
+      "anchor": "SVHN[42],CIFAR10[28],",
+      "line": 588
+    },
+    {
+      "name": "CelebA",
+      "role": "benchmark",
+      "anchor": "onKD-basedVAEcontinuallearningusingCelebAdataset.",
+      "line": 667
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "InceptionDistance(FID,lowerisbetter)[6,19],EarthMover",
+      "line": 574
+    },
+    {
+      "name": "EMD",
+      "anchor": "Distance(EMD,lowerisbetter,alsoknownasWasserstein",
+      "line": 575
+    },
+    {
+      "name": "MMD",
+      "anchor": "Distance)[56],MaximumMeanDiscrepancy(MMD,lower",
+      "line": 576
+    },
+    {
+      "name": "1NN",
+      "anchor": "is better) [16], and 1-Nearest-Neighbor Accuracy (1NN,",
+      "line": 577
+    },
+    {
+      "name": "KL divergence",
+      "anchor": "Toy example of accumulated error (KL divergence)",
+      "line": 107
+    }
+  ],
+  "notes": "正文 Sec 4 点名的五个 benchmark 数据集全部收录为 benchmark：SVHN/CIFAR10/CelebA 用于 4.2 数据无关层级 VAE 压缩（Table 1）；CelebA 在 4.4 KD-based VAE 持续学习中再次作为基准（Table 2），同为 benchmark 角色不拆分；IAM online handwriting 对应 4.3 数据无关 VRNN 笔迹生成（正文为定性展示，图形在附录 G）；Old Faithful Geyser 的具体用途未在正文展开（细节在附录，本 markdown 不含附录正文，推测为 toy/低维实验）。OCR 空格缺失：原文形式为 OldFaithfulGeyser、IAMonlinehandwriting，名称字段按规范拼写收录，锚点保留 OCR 原样。指标：Table 1/2 使用 FID/EMD/MMD/1NN 四个生成质量指标，正文括号展开为 Frechet Inception Distance、Earth Mover Distance（又称 Wasserstein Distance）、Maximum Mean Discrepancy、1-Nearest-Neighbor Accuracy，名称按表格缩写列名收录；Table 1 的 FID-T/EMD-T/MMD-T/1NN-T 为同一指标改为 student 与 teacher 之间计算的变体（caption: XXX-T means that this metric XXX is calculated between the student and its corresponding teacher），未单列条目。KL divergence 计入：Fig.2/Fig.5 toy 实验以累积误差（KL divergence，经 density ratio estimation 度量）作为分析性度量。#param 为模型参数规模，非评测指标，未收录。任务提示给定的目录/文件名中 Graphical_M 为实际目录 Graphical_Models 的截断别名，实际读取文件为 conference_paper/cvpr_download/CVPR2023/Chen_A_Unified_Knowledge_Distillation_Framework_for_Deep_Directed_Graphical_Models_CVPR_2023_paper/paper.md；text_path 字段仍按任务提示原样保留。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_A_Unified_Knowledge_Distillation_Framework_for_Deep_Directed_Graphical_Models_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

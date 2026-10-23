@@ -1,0 +1,119 @@
+{
+  "paper": "cvpr_download/CVPR2023/Arsomngern_Learning_Geometric-Aware_Properties_in_2D_Representation_Using_Lightweight_CAD_Models_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Learning Geometric-aware Properties in 2D Representation Using Lightweight CAD Models, or Zero Real 3D Pairs",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "NYUv2",
+      "role": "benchmark",
+      "anchor": "experimentswereconductedonNYUv2[42],ScanNet[12],",
+      "line": 477
+    },
+    {
+      "name": "ScanNet",
+      "role": "benchmark",
+      "anchor": "on2Dand3DdataofScanNetdataset.WewinagainstPri3DinNYUv2andADE20kwithoutrequiring3Dscenescans.",
+      "line": 524
+    },
+    {
+      "name": "ADE20k",
+      "role": "benchmark",
+      "anchor": "indoorADE20k[54],andindoorSUNRGB-D[43]datasets.",
+      "line": 479
+    },
+    {
+      "name": "SUNRGB-D",
+      "role": "benchmark",
+      "anchor": "NYUv2 ScanNet indoorADE20k SUNRGB-D",
+      "line": 525
+    },
+    {
+      "name": "COCO",
+      "role": "benchmark",
+      "anchor": "mark, COCO dataset, with Average Precision (AP) as the",
+      "line": 564
+    },
+    {
+      "name": "Pix3D",
+      "role": "pretrain",
+      "anchor": "Forthepre-traindataset,weusePix3D[45]withtheS1",
+      "line": 410
+    },
+    {
+      "name": "Pix3D",
+      "role": "benchmark",
+      "anchor": "Table 3 shows the retrieval performance on Pix3D [45]",
+      "line": 564
+    },
+    {
+      "name": "ShapeNet",
+      "role": "construction",
+      "anchor": "associatedCADmodellistedintheShapeNet[4]database.",
+      "line": 357
+    },
+    {
+      "name": "Scan2CAD",
+      "role": "construction",
+      "anchor": "Scan2CADdataset[2]containingRGB-Dframesofindoor",
+      "line": 346
+    },
+    {
+      "name": "PASCAL3D+",
+      "role": "pretrain",
+      "anchor": "CAL3D+[50]dataset,whichcontainsobjectssuchasvehi-",
+      "line": 549
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "izedusingpre-trainedImageNetweightsandsubsequently",
+      "line": 377
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "approacheshavebettermIoUthan2Drepresentationlearningbaselines",
+      "line": 523
+    },
+    {
+      "name": "mIoU[25]",
+      "anchor": "mIoU[25].WealsooutperformPri3DinADE20kby+1.01",
+      "line": 496
+    },
+    {
+      "name": "AP",
+      "anchor": "mark, COCO dataset, with Average Precision (AP) as the",
+      "line": 564
+    },
+    {
+      "name": "AP50",
+      "anchor": "Arch. Size GTpair Method 3D AP50 AP75 AP",
+      "line": 576
+    },
+    {
+      "name": "AP75",
+      "anchor": "AP50 AP75 AP AP50 AP75 AP AP50 AP75 AP AP50 AP75 AP AP50 AP75 AP AP50 AP75 AP",
+      "line": 576
+    },
+    {
+      "name": "Coarse R@1",
+      "anchor": "Arch. GTPair Method 3D CoarseR@1 FineR@1",
+      "line": 596
+    },
+    {
+      "name": "Fine R@1",
+      "anchor": "Arch. GTPair Method 3D CoarseR@1 FineR@1",
+      "line": 596
+    },
+    {
+      "name": "Cosine similarity",
+      "anchor": "Distribution of pairwise cosine similarity score",
+      "line": 492
+    }
+  ],
+  "notes": "Pix3D 双角色拆两条:S1 划分配对 RGB-CAD 预训练数据(pretrain)与检索评测/特征分析基准(Table 3、Sec 5.1)。ScanNet 仅作 Table 1 评测基准(自家结果直接报告),方法本身强调未用 3D 场景扫描训练。ADE20k/SUNRGB-D 取 indoor 子集,COCO 取 indoor/outdoor 过滤子集(附录 D 定义,但附录未包含于本 markdown 文件,全文止于参考文献)。ShapeNet 为伪配对生成中 ROCA 检索 CAD 模型的数据库(construction);Scan2CAD 为伪配对生成工具 ROCA 的训练数据(construction,间接来源)。ImageNet 为监督预训练初始化权重与 SupImg 基线(pretrain)。PASCAL3D+ 用于 outdoor 场景预训练,原文因断行写作 PAS-/CAL3D+,锚点取断行后半。指标:mIoU 与 mIoU[25] 为论文明确并用的两个 mIoU 口径(Pri3D 原口径 vs 修订口径),分列;AP 系列(=Average Precision,已展开)按 Table 2 写法保留 AP50/AP75/AP;检索指标原文表格 OCR 缺空格写作 CoarseR@1/FineR@1,按原意记为 Coarse R@1 / Fine R@1,R@1 的 R 原文未展开(应为 Recall);Cosine similarity 为 Sec 5.1/Fig 4 的分析性度量计入;Chamfer Distance 为训练信号/正样本挖掘准则而非评测指标,未计入 metrics。正文引用的附录 A-G 不在本全文文件内,故无附录条目。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Arsomngern_Learning_Geometric-Aware_Properties_in_2D_Representation_Using_Lightweight_CAD_Models_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

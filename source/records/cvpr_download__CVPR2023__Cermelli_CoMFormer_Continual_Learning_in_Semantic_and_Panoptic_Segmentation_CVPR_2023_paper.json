@@ -1,0 +1,39 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cermelli_CoMFormer_Continual_Learning_in_Semantic_and_Panoptic_Segmentation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "CoMFormer: Continual Learning in Semantic and Panoptic Segmentation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ADE20K",
+      "role": "benchmark",
+      "anchor": "modelonthelarge-scaleADE20K[62]datasetsinceitsup-",
+      "line": 376
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "Intersection over Union (mIoU) on semantic segmentation",
+      "line": 421
+    },
+    {
+      "name": "PQ",
+      "anchor": "and Panoptic Quality (PQ) on panoptic segmentation",
+      "line": 423
+    },
+    {
+      "name": "SQ",
+      "anchor": "Quality(SQ)whichconsiderstheIoUbetweenthecorrectly",
+      "line": 425
+    },
+    {
+      "name": "RQ",
+      "anchor": "and Recognition Quality (RQ) which",
+      "line": 426
+    }
+  ],
+  "notes": "唯一实验数据集为 ADE20K(150 类,100 things + 50 stuff),同时用于持续语义分割与论文新提出的持续全景分割 benchmark,故只记 benchmark 一条;100-50/100-10/100-5/50-50 为其上的持续学习协议而非独立数据集。COCO 仅在讨论数据集平均类别数时作为对比提及,未在实验中使用,不予收录。指标:mIoU 与 PQ 为主表指标,SQ 与 RQ 在 Table 5 遗忘分析中使用;四个缩写均在正文 Metrics 段展开(mean Intersection over Union / Panoptic Quality / Segmentation Quality / Recognition Quality),故按表格缩写原名收录。表中 avg 为跨步骤平均的报告方式而非独立指标,未单列;Dice 仅用于训练匹配,非评测指标。正文称 50-50 设置结果见补充材料,但该 markdown 全文不含附录部分。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cermelli_CoMFormer_Continual_Learning_in_Semantic_and_Panoptic_Segmentation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

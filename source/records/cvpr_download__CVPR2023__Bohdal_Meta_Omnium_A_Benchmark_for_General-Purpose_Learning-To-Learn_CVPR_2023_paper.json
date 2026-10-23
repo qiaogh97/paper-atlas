@@ -1,0 +1,117 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bohdal_Meta_Omnium_A_Benchmark_for_General-Purpose_Learning-To-Learn_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Meta Omnium: A Benchmark for General-Purpose Learning-to-Learn",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Meta Omnium",
+      "role": "benchmark",
+      "anchor": "We have introduced Meta Omnium, the first multi-",
+      "line": 627
+    },
+    {
+      "name": "Meta-Album",
+      "role": "benchmark",
+      "anchor": "from the initial public release of Meta-Album [65]. These",
+      "line": 334
+    },
+    {
+      "name": "FSS1000",
+      "role": "benchmark",
+      "anchor": "intheFSS1000datasetforfew-shotlearning,andthusthere",
+      "line": 273
+    },
+    {
+      "name": "VizWiz",
+      "role": "benchmark",
+      "anchor": "bineitwithVizWiz[64]forOODmeta-validation(862im-",
+      "line": 257
+    },
+    {
+      "name": "Pascal5i",
+      "role": "benchmark",
+      "anchor": "ages,22classes),andmodifiedPascal5i[58](7,242images,",
+      "line": 258
+    },
+    {
+      "name": "PH2",
+      "role": "benchmark",
+      "anchor": "PH2 [41] | (200 | images, | 3 classes) | for | meta-testing.",
+      "line": 262
+    },
+    {
+      "name": "animal-pose",
+      "role": "benchmark",
+      "anchor": "Forkeypoints/pose,wetakeanimal-pose[10]",
+      "line": 278
+    },
+    {
+      "name": "synthetic animal-pose",
+      "role": "benchmark",
+      "anchor": "synthetic |     | animal-pose | [44] | for OOD",
+      "line": 280
+    },
+    {
+      "name": "MPII human-pose",
+      "role": "benchmark",
+      "anchor": "meta-validation,andMPIIhuman-pose[4]forOODmeta-",
+      "line": 282
+    },
+    {
+      "name": "ShapeNet1D",
+      "role": "benchmark",
+      "anchor": "ShapeNet1Daimsto",
+      "line": 307
+    },
+    {
+      "name": "ShapeNet2D",
+      "role": "benchmark",
+      "anchor": "ThetestsetofShapeNet2Dcontains300categoriesin",
+      "line": 313
+    },
+    {
+      "name": "Distractor",
+      "role": "benchmark",
+      "anchor": "Distractoraimstopredict",
+      "line": 316
+    },
+    {
+      "name": "Pascal1D",
+      "role": "benchmark",
+      "anchor": "ThewholePascal1Dcontains65objectsfrom10categories.",
+      "line": 324
+    },
+    {
+      "name": "ImageNet1k",
+      "role": "pretrain",
+      "anchor": "standard ImageNet1k pre-trained ResNet18, prior to con-",
+      "line": 623
+    }
+  ],
+  "metrics": [
+    {
+      "name": "top-1 accuracy",
+      "anchor": "dard top-1      | accuracy;",
+      "line": 363
+    },
+    {
+      "name": "mIOU",
+      "anchor": "resultsarereportedinaccuracy(%),mIOU(%),and",
+      "line": 546
+    },
+    {
+      "name": "PCK",
+      "anchor": "tion,wereportthePercentageofCorrectKeypoints(PCK).",
+      "line": 370
+    },
+    {
+      "name": "Average Rank",
+      "anchor": "Keypoints |      | AverageRank",
+      "line": 520
+    }
+  ],
+  "notes": "Meta Omnium 为论文自身发布的多任务 few-shot benchmark;其全部上游数据集既用于构建该 benchmark 又直接作为 ID/OOD 及 held-out 评测数据集报告结果(Table 2 按数据集聚合,附录逐数据集分解),故均记 benchmark 角色,不另拆 construction 条。分类 ID 数据取自 Meta-Album 初始公开版本的 10 个子数据集,但全文文件止于参考文献、附录不可见,子数据集名称无法获得,故以 Meta-Album 整体计一条。VizWiz 与 synthetic animal-pose 仅用于 OOD meta-validation;Pascal5i 为 modified Pascal5i 版本;PH2 为医学影像 OOD meta-test;回归四数据集 ShapeNet1D/ShapeNet2D/Distractor/Pascal1D 取自 [19] 的 test split,整个回归任务族 held-out、不参与 meta-training。ImageNet1k 仅在 Table 4 外部预训练分析中使用,记 pretrain。指标:PCK 原文已展开为 Percentage of Correct Keypoints(阈值 0.01);mIOU 原文展开为 mean intersection-over-union;Average Rank 为论文自定义的分析性排名聚合度量(Table 2 AVG 列及 Table 3);回归任务指标论文仅称 follow [19] and use the same metrics 未点名,故未收录。相关工作与 Table 1 对比表中的 Omniglot、miniImageNet、Meta-Dataset、VTAB、CD-FSL、meta-world、taskonomy 仅作对比排除,未收录。全文 markdown 存在 OCR 空格缺失痕迹,锚点均按文件字面复制并已逐字核验通过。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bohdal_Meta_Omnium_A_Benchmark_for_General-Purpose_Learning-To-Learn_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

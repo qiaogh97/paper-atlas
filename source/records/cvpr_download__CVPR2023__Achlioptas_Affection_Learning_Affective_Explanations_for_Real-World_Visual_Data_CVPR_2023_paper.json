@@ -1,0 +1,164 @@
+{
+  "paper": "cvpr_download/CVPR2023/Achlioptas_Affection_Learning_Affective_Explanations_for_Real-World_Visual_Data_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Affection: Learning Affective Explanations for Real-World Visual Data",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Affection",
+      "role": "benchmark",
+      "anchor": "ofAffection,makingsurethatthesplitshavenooverlapin",
+      "line": 437
+    },
+    {
+      "name": "MS-COCO",
+      "role": "construction",
+      "anchor": "ontopofimagesexistinginthedatasetsMS-COCO[18],",
+      "line": 102
+    },
+    {
+      "name": "Emotional-Machines",
+      "role": "construction",
+      "anchor": "Emotional-Machines [47], Flickr30k Entities [62], Visual",
+      "line": 103
+    },
+    {
+      "name": "Flickr30k Entities",
+      "role": "construction",
+      "anchor": "Emotional-Machines [47], Flickr30k Entities [62], Visual",
+      "line": 103
+    },
+    {
+      "name": "Visual Genome",
+      "role": "construction",
+      "anchor": "ineachoftheremainingdatasets(COCO,Visual-Genome,",
+      "line": 113
+    },
+    {
+      "name": "image-to-emotion-classification work of Quanzeng et al. [64]",
+      "role": "construction",
+      "anchor": "classificationworkofQuanzengetal.[64].",
+      "line": 105
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "trainedonImageNet[27]tofindtheir3-Nearest-Neighbors",
+      "line": 112
+    },
+    {
+      "name": "MS-COCO",
+      "role": "other",
+      "anchor": "Affection (compared to 96.5% on COCO). This suggests",
+      "line": 426
+    },
+    {
+      "name": "ArtEmis",
+      "role": "other",
+      "anchor": "AffectionisArtEmis[7]. WenotethatAffection’slanguage",
+      "line": 264
+    },
+    {
+      "name": "Conceptual Captions",
+      "role": "other",
+      "anchor": "ConceptualCapt.[71] | 9.6 3.8",
+      "line": 160
+    },
+    {
+      "name": "Google Refexp",
+      "role": "other",
+      "anchor": "GoogleRefexp[56] | 8.4 3.0",
+      "line": 162
+    }
+  ],
+  "metrics": [
+    {
+      "name": "BLEU-1-4",
+      "anchor": "purpose: BLEU1-4[61],ROUGE-L[50],METEOR[28]",
+      "line": 381
+    },
+    {
+      "name": "ROUGE-L",
+      "anchor": "ROUGE-L(↑) 30.8 30.5 31.0 30.8",
+      "line": 535
+    },
+    {
+      "name": "METEOR",
+      "anchor": "METEOR(↑) | 14.9 14.4",
+      "line": 533
+    },
+    {
+      "name": "SPICE",
+      "anchor": "SPICE(↑) 7.4 7.2 8.0 7.7",
+      "line": 536
+    },
+    {
+      "name": "CLIPScore",
+      "anchor": "CLIPScore(↑) | 66.7 66.8",
+      "line": 537
+    },
+    {
+      "name": "RefClipScore",
+      "anchor": "therecentlyproposedCLIPScoreandRefClipScore[38],as",
+      "line": 400
+    },
+    {
+      "name": "Unique-Productions",
+      "anchor": "Unique-Productions(↑) | 78.7 80.7",
+      "line": 543
+    },
+    {
+      "name": "Max-LCS",
+      "anchor": "Max-LCS(↓) 70.4 70.4 68.6 68.4",
+      "line": 544
+    },
+    {
+      "name": "ClipDivCos",
+      "anchor": "ClipDivCos(↓) | 73.1 72.8",
+      "line": 545
+    },
+    {
+      "name": "Similes",
+      "anchor": "Similes(↓) | 42.8 36.3",
+      "line": 548
+    },
+    {
+      "name": "Emo-Alignment",
+      "anchor": "Emo-Alignment(↑) 48.1 55.2 48.2 55.9",
+      "line": 550
+    },
+    {
+      "name": "emotional Turing test",
+      "anchor": "as we will show next (emotional Turing test), these",
+      "line": 493
+    },
+    {
+      "name": "Accuracy",
+      "anchor": "LSTM-basedclassifierattains69.8%averageaccuracyon",
+      "line": 455
+    },
+    {
+      "name": "Concreteness",
+      "anchor": "inconcretenesswhilearandomwordofCOCOdoes3.55",
+      "line": 218
+    },
+    {
+      "name": "Subjectivity",
+      "anchor": "Weusethesubjectivitymetric",
+      "line": 228
+    },
+    {
+      "name": "Sentiment",
+      "anchor": "Subjectivity,and(c)Sentiment.",
+      "line": 137
+    },
+    {
+      "name": "Annotator agreement",
+      "anchor": "agreement. Wehypothesizethatthissalient(>20%)differ-",
+      "line": 226
+    }
+  ],
+  "notes": "主实验基准为论文自建数据集 Affection（85%-5%-10% train/val/test 划分）。construction 五项为构建 Affection 的图像来源，其中 Quanzeng et al.[64] 的图像-情感数据集在原文未给出专名，按原文描述照录；MS-COCO 多角色拆分：既是构建来源，另拆一条 other 用于对比实验（CLIP 检索 96.5% vs Affection 89.7%、Table 1 词汇统计与 VADER 情感对比）。ArtEmis 为对比用（Table 1 词汇对比、标注一致性 45.6% vs 67.5%、在其上训练文本-情感分类器的泛化对比 63.3%/64.8%），故记 other。Conceptual Captions 与 Google Refexp 仅出现在 Table 1 词汇统计对比（表格缩写 ConceptualCapt./GoogleRefexp）。ImageNet 仅用于 ResNet 视觉嵌入与 ResNet-101 分类器预训练。指标：原文明确不使用 CIDEr，未收录；BLEU 收一条（第5节写 BLEU1-4，Table 2 拆为 BLEU-1,2/BLEU-3,4 两行）；RefClipScore 在 Table 2 写作 RefCLIPScore；Max-LCS 为生成句与训练集解释的 Longest Common Subsequence 平均最大长度；Unique-Productions 对应正文 percent of unique captions；ClipDivCos 为本文新提出，全称 CLIP-Diversity-Cosine；Similes 对应含隐喻/明喻生成比例（ground-truth 期望值 19.7%）；Emo-Alignment 正文写作 emotional-alignment；emotional Turing test 为 AMT 人评；Accuracy 覆盖 text-to-emotion(69.8%/72.5%)、image-to-emotion(59.1%)、二分类情感(94.0%/95.5%/88.5%)与 CLIP 检索(89.7%)；Concreteness/Subjectivity/Sentiment 为第3.1/3.2节语料分析度量（分别基于 Brysbaert 词典、TextBlob、VADER），Annotator agreement 为标注一致性分析度量。补充材料为外部 PDF，本全文文件（正文+参考文献，877 行）不含附录，无附录条目。全文转录存在 OCR 空格缺失（如 BLEU1-4、Visual-Genome、GoogleRefexp），所有锚点已逐字核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Achlioptas_Affection_Learning_Affective_Explanations_for_Real-World_Visual_Data_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

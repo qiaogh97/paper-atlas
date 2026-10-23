@@ -1,0 +1,70 @@
+{
+  "paper": "cvpr_download/CVPR2023/Brahma_A_Probabilistic_Framework_for_Lifelong_Test-Time_Adaptation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A Probabilistic Framework for Lifelong Test-Time Adaptation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10C",
+      "role": "benchmark",
+      "anchor": "across various benchmarks, such as CIFAR-10C,",
+      "line": 39
+    },
+    {
+      "name": "CIFAR-100C",
+      "role": "benchmark",
+      "anchor": "CIFAR-100C, ImageNetC, and ImageNet3DCC datasets.",
+      "line": 41
+    },
+    {
+      "name": "ImageNetC",
+      "role": "benchmark",
+      "anchor": "ImageNetC,andImageNet-to-Imagenet3DCC.",
+      "line": 492
+    },
+    {
+      "name": "ImageNet3DCC",
+      "role": "benchmark",
+      "anchor": "For ImageNet-to-ImageNet3DCC dataset, we experi-",
+      "line": 626
+    },
+    {
+      "name": "CIFAR10",
+      "role": "pretrain",
+      "anchor": "on CIFAR10, CIFAR100, and ImageNet clean training set",
+      "line": 524
+    },
+    {
+      "name": "CIFAR100",
+      "role": "pretrain",
+      "anchor": "FAR10andCIFAR100[17]datasetsandvalidationimages",
+      "line": 510
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "of original ImageNet [5] dataset",
+      "line": 511
+    }
+  ],
+  "metrics": [
+    {
+      "name": "error rate",
+      "anchor": "Weevaluateourmodelusingtheerrorrateinpredictions.",
+      "line": 556
+    },
+    {
+      "name": "negative log-likelihood (NLL)",
+      "anchor": "methodsurpassesallbaselinesintermsofNLLandBrieruncer-",
+      "line": 590
+    },
+    {
+      "name": "Brier score",
+      "anchor": "likelihood(NLL)andBrierscore[2]. BothNLLandBrier",
+      "line": 558
+    }
+  ],
+  "notes": "四个 corruption 基准 CIFAR-10C/CIFAR-100C/ImageNetC/ImageNet3DCC 为 online lifelong TTA 主实验测试基准（role=benchmark），实验小节写作 CIFAR10-to-CIFAR10C 等任务名。CIFAR10/CIFAR100/ImageNet 干净训练集仅用于训练源域预训练模型（RobustBench 提供的 WideResNet-28/ResNeXt-29/ResNet-50），故 role=pretrain；其测试/验证图像也是各 C 基准的底层图像，但基准由 [11][14] 发布而非本文构建，未另立 construction 条目。指标共三个：error rate（结果表中行名 Error(%)，表注作 classification error）、negative log-likelihood（缩写 NLL，正文已展开）、Brier score（表行名 Brier）；NLL 与 Brier 为不确定性估计的 proper scoring rule。全文 markdown 为 OCR 风格、单词间空格常缺失，名称按语义恢复正常拼写，锚点保留原文原样（含缺空格与连字符断行）。正文多处提及 Appendix（数据集与评测指标细节），但本文件到参考文献即止、未含附录内容。相关工作/参考文献中出现的数据集（WILDS、DomainNet 等）未用于本文实验，已排除。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Brahma_A_Probabilistic_Framework_for_Lifelong_Test-Time_Adaptation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,40 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cai_NeuDA_Neural_Deformable_Anchor_for_High-Fidelity_Implicit_Surface_Reconstruction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DTU",
+      "role": "benchmark",
+      "anchor": "NeuDAunderthew/masksettingontheDTUdataset",
+      "line": 418
+    },
+    {
+      "name": "BlendedMVS",
+      "role": "qualitative",
+      "anchor": "BlendedMVS.TheBlendedMVSdataset[32]consistsofa",
+      "line": 382
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Chamfer Distance",
+      "anchor": "slightlylowerChamferDistance. Apossiblereasonisthat",
+      "line": 480
+    },
+    {
+      "name": "PSNR",
+      "anchor": "toreportthetrainPSNRvaluesofourrenderingscomparedtopreviousworks",
+      "line": 398
+    },
+    {
+      "name": "storage cost",
+      "anchor": "We report the storage cost and surface reconstruction",
+      "line": 444
+    }
+  ],
+  "notes": "DTU 为主定量测试基准（15 个场景，Table 1 主对比与 Table 3 消融，w/ mask 与 w/o mask 两种设置）。BlendedMVS 因无真值点云，论文明确说明仅做定性对比（7 个场景，Figure 9），故 role=qualitative。指标：Chamfer Distance 为主指标，表中缩写为 CD / Mean CD，按原文展开名收录；PSNR 为 Table 2 的补充渲染实验（train PSNR，遵循 VolSDF 设置）；Figure 7 消融中明确命名的分析性度量 storage cost（随网格层数的存储开销）计入。全文 OCR 存在空格缺失，锚点均按文件原样逐字复制（如 ChamferDistance、theDTUdataset）；本文件仅含正文与参考文献，正文提及 supplementary 但未包含在本 markdown 中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cai_NeuDA_Neural_Deformable_Anchor_for_High-Fidelity_Implicit_Surface_Reconstruction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

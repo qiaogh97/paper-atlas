@@ -1,0 +1,53 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chaudhuri_Data-Free_Sketch-Based_Image_Retrieval_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Data-Free Sketch-Based Image Retrieval",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Sketchy",
+      "role": "benchmark",
+      "anchor": "mon large scale SBIR datasets, namely Sketchy [28,45],",
+      "line": 371
+    },
+    {
+      "name": "TU-Berlin",
+      "role": "benchmark",
+      "anchor": "k TU-Berlin[16,28]andQuickDraw-Extended[13]. Wepro-",
+      "line": 372
+    },
+    {
+      "name": "QuickDraw-Extended",
+      "role": "benchmark",
+      "anchor": "TU-Berlin[16,28]andQuickDraw-Extended[13]. Wepro-",
+      "line": 372
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "We use the photos from ImageNet [12] and their corre-",
+      "line": 449
+    },
+    {
+      "name": "ImageNet-Sketch",
+      "role": "pretrain",
+      "anchor": "sponding sketches from ImageNet-Sketch [50] to train the",
+      "line": 450
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAP@all",
+      "anchor": "sion(mAP@all)andprecisionat200(Prec@200)asevalu-",
+      "line": 410
+    },
+    {
+      "name": "Prec@200",
+      "anchor": "andprecisionat200(Prec@200)asevalu-",
+      "line": 410
+    }
+  ],
+  "notes": "主实验基准为 Sketchy、TU-Berlin、QuickDraw-Extended(表1列头简写 QuickDraw,摘要亦称 QuickDraw benchmarks,统一按数据集小节全名收录)。ImageNet 与 ImageNet-Sketch 仅用于基线小节 Training with Alternative Datasets:作为 Alternative Data 基线的编码器训练数据(利用类级对应构造正样本对),故记为 pretrain,评测仍在三个 SBIR 基准上。Flickr 仅作为先前工作 [13] 构建 QuickDraw-Extended 时添加照片的来源被提及,非本文自身构建来源,未计入。两个指标原文均已展开(mean average precision(mAP@all)、precision at 200(Prec@200)),表2、表3及跨数据集教师实验均沿用同一指标。正文多处引用补充材料中的数据集统计、训练/测试划分与实现细节,但补充材料不在本全文文件内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chaudhuri_Data-Free_Sketch-Based_Image_Retrieval_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

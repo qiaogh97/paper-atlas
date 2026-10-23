@@ -1,0 +1,70 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "real-world car dataset",
+      "role": "benchmark",
+      "anchor": "ject/scene datasets, including real-world car dataset [54],",
+      "line": 471
+    },
+    {
+      "name": "PhotoShape",
+      "role": "benchmark",
+      "anchor": "PhotoShape datasets (synthetic chairs) [47], “pinecone”,",
+      "line": 473
+    },
+    {
+      "name": "NeRF real-world 360◦ scenes",
+      "role": "benchmark",
+      "anchor": "“vasedeck”, and “garden” from NeRF real-world 360◦",
+      "line": 474
+    },
+    {
+      "name": "NeRF photorealistic synthetic data",
+      "role": "benchmark",
+      "anchor": "realistic synthetic data [42], bird status from DTU [25]",
+      "line": 478
+    },
+    {
+      "name": "DTU",
+      "role": "benchmark",
+      "anchor": "realistic synthetic data [42], bird status from DTU [25]",
+      "line": 478
+    },
+    {
+      "name": "BlenderSwap",
+      "role": "benchmark",
+      "anchor": "dataset, and“airplane”fromBlenderSwap[37]. Pleasere-",
+      "line": 480
+    },
+    {
+      "name": "Mixamo",
+      "role": "other",
+      "anchor": "or drive models [74] with Mixamo poses [58], while our",
+      "line": 437
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "PSNR,SSIM,andLPIPS[42]tomeasuretheeditedrender-",
+      "line": 485
+    },
+    {
+      "name": "SSIM",
+      "anchor": "PSNR,SSIM,andLPIPS[42]tomeasuretheeditedrender-",
+      "line": 485
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "PSNR,SSIM,andLPIPS[42]tomeasuretheeditedrender-",
+      "line": 485
+    }
+  ],
+  "notes": "4.1 列出的数据均用于编辑效果评测,记为 benchmark;real-world car dataset 即文献 [54] 的 Carwale(正文中两处 OCR 作 “CalWare 360°”);“NeRF real-world 360◦ scenes” 与 “NeRF photorealistic synthetic data” 为论文对 [2,42]/[42] 数据的称呼(对应 Mip-NeRF 360 与 NeRF 合成数据,场景分别为 pinecone/vasedeck/garden 与 chairs/hotdog);Mixamo 仅在 4.2 与手动编辑基线(NeRF-Editing 等)对比时作为其驱动姿态来源,记为 other,非本文方法使用;ShapeNet 仅出现于相关工作,未计入;PSNR/SSIM/LPIPS 原文均为未展开缩写,结果表中 OCR 作 “PNSR↑ / SSIM↑ / LPIPS↓”(PNSR 为 PSNR 之 OCR 讹);另有 user study(43 cases、30 users)仅报偏好百分比、无命名指标,未计入 metrics;正文多处提及 supplementary material,但本文件不含附录内容;全文为无空格 OCR 风格转录,锚点均按文件原样逐字复制并经脚本核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

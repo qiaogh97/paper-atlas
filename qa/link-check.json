@@ -1,0 +1,1844 @@
+{
+  "checked_at": "2026-10-23T18:00:13.046806",
+  "total": 205,
+  "ok": 197,
+  "results": [
+    {
+      "id": "90d5a2631875b877",
+      "title": "Affordance-First Decomposition for Continual Learning in Video–Language Understanding",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/xu_Affordance-First_Decomposition_for_Continual_Learning_in_Video-Language_Understanding_CVPR_2026_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/xu_Affordance-First_Decomposition_for_Continual_Learning_in_Video-Language_Understanding_CVPR_2026_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8cb7887737fbecf5",
+      "title": "Visual Personalization Turing Test",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Abdal_Visual_Personalization_Turing_Test_CVPR_2026_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Abdal_Visual_Personalization_Turing_Test_CVPR_2026_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "911618b17974b96c",
+      "title": "COMMON CORPUS: THE LARGEST COLLECTION OF ETHICAL DATA FOR LLM PRE-TRAINING",
+      "url": "https://openreview.net/pdf?id=0wSlFpMsGb",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "a86964546a5ade8b",
+      "title": "PART-X-MLLM: PART-AWARE 3D MULTIMODAL LARGE LANGUAGE MODEL",
+      "url": "https://openreview.net/pdf?id=WffiETiSeU",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "04a3d8a4af7bc213",
+      "title": "A Flag Decomposition for Hierarchical Datasets",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Mankovich_A_Flag_Decomposition_for_Hierarchical_Datasets_CVPR_2025_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Mankovich_A_Flag_Decomposition_for_Hierarchical_Datasets_CVPR_2025_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "41dc6746eff8ac9b",
+      "title": "CLIP Under the Microscope: A Fine-Grained Analysis of Multi-Object Representation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Abbasi_CLIP_Under_the_Microscope_A_Fine-Grained_Analysis_of_Multi-Object_Representation_CVPR_2025_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Abbasi_CLIP_Under_the_Microscope_A_Fine-Grained_Analysis_of_Multi-Object_Representation_CVPR_2025_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "9cca340a735e9bc8",
+      "title": "PLACEIT3D: Language-Guided Object Placement in Real 3D Scenes",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Abdelreheem_PlaceIt3D_Language-Guided_Object_Placement_in_Real_3D_Scenes_ICCV_2025_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Abdelreheem_PlaceIt3D_Language-Guided_Object_Placement_in_Real_3D_Scenes_ICCV_2025_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "def800cefb57b4ee",
+      "title": "SCFlow: Implicitly Learning Style and Content Disentanglement with Flow Models",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ma_SCFlow_Implicitly_Learning_Style_and_Content_Disentanglement_with_Flow_Models_ICCV_2025_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ma_SCFlow_Implicitly_Learning_Style_and_Content_Disentanglement_with_Flow_Models_ICCV_2025_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "ca59ed86466d612f",
+      "title": "Instance-dependent Early Stopping",
+      "url": "https://openreview.net/attachment?id=P42DbV2nuV&name=pdf",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "c508977cf604ab72",
+      "title": "Rotated Runtime Smooth: Training-Free Activation Smoother for Accurate INT4 Inference",
+      "url": "https://openreview.net/pdf?id=WG7GzGx3G9",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "b166ed6517e32d4b",
+      "title": "BrainWash: A Poisoning Attack to Forget in Continual Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Abbasi_BrainWash_A_Poisoning_Attack_to_Forget_in_Continual_Learning_CVPR_2024_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Abbasi_BrainWash_A_Poisoning_Attack_to_Forget_in_Continual_Learning_CVPR_2024_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e5631c78c4317c4d",
+      "title": "Unveiling the Power of Audio-Visual Early Fusion Transformers with Dense Interactions through Masked Modeling",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Mo_Unveiling_the_Power_of_Audio-Visual_Early_Fusion_Transformers_with_Dense_CVPR_2024_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Mo_Unveiling_the_Power_of_Audio-Visual_Early_Fusion_Transformers_with_Dense_CVPR_2024_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "41a33562771bdc90",
+      "title": "Don't Judge by the Look: Towards Motion Coherent Video Representation",
+      "url": "https://openreview.net/pdf/df94612d9bb46799cd06d6a004a8040d124c48ae.pdf",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "8617b1013f3882a0",
+      "title": "EXPOSING TEXT-IMAGE INCONSISTENCY USING DIFFUSION MODELS",
+      "url": "https://openreview.net/pdf/5ef14ecda408daf8c2e2a2063612332fe824cf04.pdf",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "3b85b9d39cf5479e",
+      "title": "1000 FPS HDR Video with a Spike-RGB Hybrid Camera",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_1000_FPS_HDR_Video_With_a_Spike-RGB_Hybrid_Camera_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_1000_FPS_HDR_Video_With_a_Spike-RGB_Hybrid_Camera_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "688bef9b2313d5d0",
+      "title": "3DAvatarGAN: Bridging Domains for Personalized Editable Avatars",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Abdal_3DAvatarGAN_Bridging_Domains_for_Personalized_Editable_Avatars_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Abdal_3DAvatarGAN_Bridging_Domains_for_Personalized_Editable_Avatars_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3e3bf4b6f622b50d",
+      "title": "A Large-Scale Homography Benchmark",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barath_A_Large-Scale_Homography_Benchmark_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barath_A_Large-Scale_Homography_Benchmark_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "1b8f73fa9ba95cb1",
+      "title": "A Light Touch Approach to Teaching Transformers Multi-view Geometry",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhalgat_A_Light_Touch_Approach_to_Teaching_Transformers_Multi-View_Geometry_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhalgat_A_Light_Touch_Approach_to_Teaching_Transformers_Multi-View_Geometry_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c4e2609e07158a71",
+      "title": "A New Comprehensive Benchmark for Semi-supervised Video Anomaly Detection and Anticipation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "4cc8858668299b25",
+      "title": "A New Dataset Based on Images Taken by Blind People for Testing the Robustness of Image Classification Models Trained for ImageNet Categories",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bafghi_A_New_Dataset_Based_on_Images_Taken_by_Blind_People_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bafghi_A_New_Dataset_Based_on_Images_Taken_by_Blind_People_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6d7747ae4ac2c8cb",
+      "title": "A Probabilistic Framework for Lifelong Test-Time Adaptation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brahma_A_Probabilistic_Framework_for_Lifelong_Test-Time_Adaptation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brahma_A_Probabilistic_Framework_for_Lifelong_Test-Time_Adaptation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "464f3ae2484f72e0",
+      "title": "A Unified Knowledge Distillation Framework for Deep Directed Graphical Models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_A_Unified_Knowledge_Distillation_Framework_for_Deep_Directed_Graphical_Models_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_A_Unified_Knowledge_Distillation_Framework_for_Deep_Directed_Graphical_Models_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "74bfdf5eb643f33d",
+      "title": "A-la-carte Prompt Tuning (APT): Combining Distinct Data Via Composable Prompting",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bowman_A-La-Carte_Prompt_Tuning_APT_Combining_Distinct_Data_via_Composable_Prompting_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bowman_A-La-Carte_Prompt_Tuning_APT_Combining_Distinct_Data_via_Composable_Prompting_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "431712b1d18742a2",
+      "title": "Accelerated Coordinate Encoding: Learning to Relocalize in Minutes using RGB and Poses",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brachmann_Accelerated_Coordinate_Encoding_Learning_to_Relocalize_in_Minutes_Using_RGB_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brachmann_Accelerated_Coordinate_Encoding_Learning_to_Relocalize_in_Minutes_Using_RGB_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "2d9f9e4465560b39",
+      "title": "Activating More Pixels in Image Super-Resolution Transformer",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Activating_More_Pixels_in_Image_Super-Resolution_Transformer_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Activating_More_Pixels_in_Image_Super-Resolution_Transformer_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a9cd9a9aef4efe60",
+      "title": "AdaMAE: Adaptive Masking for Efficient Spatiotemporal Learning with Masked Autoencoders",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bandara_AdaMAE_Adaptive_Masking_for_Efficient_Spatiotemporal_Learning_With_Masked_Autoencoders_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bandara_AdaMAE_Adaptive_Masking_for_Efficient_Spatiotemporal_Learning_With_Masked_Autoencoders_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7aa4ad4b9e3cce97",
+      "title": "Affection: Learning Affective Explanations for Real-World Visual Data",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Achlioptas_Affection_Learning_Affective_Explanations_for_Real-World_Visual_Data_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Achlioptas_Affection_Learning_Affective_Explanations_for_Real-World_Visual_Data_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d7fd812bb8034018",
+      "title": "Affordance Grounding from Demonstration Video to Target Image",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Affordance_Grounding_From_Demonstration_Video_To_Target_Image_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Affordance_Grounding_From_Demonstration_Video_To_Target_Image_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "755d8e10dff18a1d",
+      "title": "Affordances from Human Videos as a Versatile Representation for Robotics",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bahl_Affordances_From_Human_Videos_as_a_Versatile_Representation_for_Robotics_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bahl_Affordances_From_Human_Videos_as_a_Versatile_Representation_for_Robotics_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d9e578dbe96fcaff",
+      "title": "Alias-Free Convnets: Fractional Shift Invariance via Polynomial Activations",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Michaeli_Alias-Free_Convnets_Fractional_Shift_Invariance_via_Polynomial_Activations_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Michaeli_Alias-Free_Convnets_Fractional_Shift_Invariance_via_Polynomial_Activations_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "abd9fcc59571a8d5",
+      "title": "Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a5444bf33079d104",
+      "title": "All are Worth Words: A ViT Backbone for Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_All_Are_Worth_Words_A_ViT_Backbone_for_Diffusion_Models_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_All_Are_Worth_Words_A_ViT_Backbone_for_Diffusion_Models_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7f342075bbf0b959",
+      "title": "ALSO: Automotive Lidar Self-supervision by Occupancy estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boulch_ALSO_Automotive_Lidar_Self-Supervision_by_Occupancy_Estimation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boulch_ALSO_Automotive_Lidar_Self-Supervision_by_Occupancy_Estimation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "721cd3d51147a6f5",
+      "title": "An Erudite Fine-Grained Visual Classification Model",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_An_Erudite_Fine-Grained_Visual_Classification_Model_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_An_Erudite_Fine-Grained_Visual_Classification_Model_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6c03a80b514eb321",
+      "title": "An Image Quality Assessment Dataset for Portraits",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chahine_An_Image_Quality_Assessment_Dataset_for_Portraits_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chahine_An_Image_Quality_Assessment_Dataset_for_Portraits_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "dc1f3e27b5fef4ed",
+      "title": "AnchorFormer: Point Cloud Completion from Discriminative Nodes",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_AnchorFormer_Point_Cloud_Completion_From_Discriminative_Nodes_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_AnchorFormer_Point_Cloud_Completion_From_Discriminative_Nodes_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8cdf18c5c3d64da6",
+      "title": "Architectural Backdoors in Neural Networks",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bober-Irizar_Architectural_Backdoors_in_Neural_Networks_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bober-Irizar_Architectural_Backdoors_in_Neural_Networks_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "562dec2f3432ac05",
+      "title": "Attribute-preserving Face Dataset Anonymization via Latent Code Optimization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barattin_Attribute-Preserving_Face_Dataset_Anonymization_via_Latent_Code_Optimization_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barattin_Attribute-Preserving_Face_Dataset_Anonymization_via_Latent_Code_Optimization_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8e360dd7061ec0e0",
+      "title": "AUNet: Learning Relations Between Action Units for Face Forgery Detection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_AUNet_Learning_Relations_Between_Action_Units_for_Face_Forgery_Detection_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_AUNet_Learning_Relations_Between_Action_Units_for_Face_Forgery_Detection_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "51184513f61acd59",
+      "title": "AVFace: Towards Detailed Audio-Visual 4D Face Reconstruction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chatziagapi_AVFace_Towards_Detailed_Audio-Visual_4D_Face_Reconstruction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chatziagapi_AVFace_Towards_Detailed_Audio-Visual_4D_Face_Reconstruction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "45e7a280e8f5a6b5",
+      "title": "Balanced Product of Calibrated Experts for Long-Tailed Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aimar_Balanced_Product_of_Calibrated_Experts_for_Long-Tailed_Recognition_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aimar_Balanced_Product_of_Calibrated_Experts_for_Long-Tailed_Recognition_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "011cd590f4653f26",
+      "title": "Bayesian posterior approximation with stochastic ensembles",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a3490fe0317af37b",
+      "title": "BEDLAM: A Synthetic Dataset of Bodies Exhibiting Detailed Lifelike Animated Motion",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Black_BEDLAM_A_Synthetic_Dataset_of_Bodies_Exhibiting_Detailed_Lifelike_Animated_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Black_BEDLAM_A_Synthetic_Dataset_of_Bodies_Exhibiting_Detailed_Lifelike_Animated_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e70334c1e84b26d8",
+      "title": "Better “CMOS” Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Better_CMOS_Produces_Clearer_Images_Learning_Space-Variant_Blur_Estimation_for_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Better_CMOS_Produces_Clearer_Images_Learning_Space-Variant_Blur_Estimation_for_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a9c04e55e27c4140",
+      "title": "Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Beyond_Appearance_A_Semantic_Controllable_Self-Supervised_Learning_Framework_for_Human-Centric_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Beyond_Appearance_A_Semantic_Controllable_Self-Supervised_Learning_Framework_for_Human-Centric_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3794352b9593c982",
+      "title": "Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Bidirectional_Copy-Paste_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Bidirectional_Copy-Paste_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "fac3533e9f49775b",
+      "title": "Blowing in the Wind: CycleNet for Human Cinemagraphs from Still Images",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bertiche_Blowing_in_the_Wind_CycleNet_for_Human_Cinemagraphs_From_Still_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bertiche_Blowing_in_the_Wind_CycleNet_for_Human_Cinemagraphs_From_Still_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "113106b0bde32dd7",
+      "title": "Boosting Semi-Supervised Learning by Exploiting All Unlabeled Data",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Boosting_Semi-Supervised_Learning_by_Exploiting_All_Unlabeled_Data_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Boosting_Semi-Supervised_Learning_by_Exploiting_All_Unlabeled_Data_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "084834aad135f4df",
+      "title": "Boundary Unlearning: Rapid Forgetting of Deep Networks via Shifting the Decision Boundary",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Boundary_Unlearning_Rapid_Forgetting_of_Deep_Networks_via_Shifting_the_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Boundary_Unlearning_Rapid_Forgetting_of_Deep_Networks_via_Shifting_the_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "80463a967c3ccf71",
+      "title": "BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "56df96d0d0f57e10",
+      "title": "Canonical Fields: Self-Supervised Learning of Pose-Canonicalized Neural Fields",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agaram_Canonical_Fields_Self-Supervised_Learning_of_Pose-Canonicalized_Neural_Fields_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agaram_Canonical_Fields_Self-Supervised_Learning_of_Pose-Canonicalized_Neural_Fields_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d59e7b0ff2875dab",
+      "title": "Cascade Evidential Learning for Open-world Weakly-supervised Temporal Action Localization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Cascade_Evidential_Learning_for_Open-World_Weakly-Supervised_Temporal_Action_Localization_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Cascade_Evidential_Learning_for_Open-World_Weakly-Supervised_Temporal_Action_Localization_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "2c89d6f7f2d3a724",
+      "title": "Cascaded Local Implicit Transformer for Arbitrary-Scale Super-Resolution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Cascaded_Local_Implicit_Transformer_for_Arbitrary-Scale_Super-Resolution_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Cascaded_Local_Implicit_Transformer_for_Arbitrary-Scale_Super-Resolution_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "55b7f6fb369e73ad",
+      "title": "CCuantuMM: Cycle-Consistent Quantum-Hybrid Matching of Multiple Shapes",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhatia_CCuantuMM_Cycle-Consistent_Quantum-Hybrid_Matching_of_Multiple_Shapes_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhatia_CCuantuMM_Cycle-Consistent_Quantum-Hybrid_Matching_of_Multiple_Shapes_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6b5e7a93092ce420",
+      "title": "CiaoSR: Continuous Implicit Attention-in-Attention Network for Arbitrary-Scale Image Super-Resolution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_CiaoSR_Continuous_Implicit_Attention-in-Attention_Network_for_Arbitrary-Scale_Image_Super-Resolution_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_CiaoSR_Continuous_Implicit_Attention-in-Attention_Network_for_Arbitrary-Scale_Image_Super-Resolution_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e90ee1b88c0bde77",
+      "title": "CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_CiCo_Domain-Aware_Sign_Language_Retrieval_via_Cross-Lingual_Contrastive_Learning_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_CiCo_Domain-Aware_Sign_Language_Retrieval_via_Cross-Lingual_Contrastive_Learning_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d3cce3c5a247bd13",
+      "title": "CIRCLE: Capture In Rich Contextual Environments",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Araujo_CIRCLE_Capture_in_Rich_Contextual_Environments_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Araujo_CIRCLE_Capture_in_Rich_Contextual_Environments_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "2bc4c8a9770cc2f6",
+      "title": "CLIP2Scene: Towards Label-efficient 3D Scene Understanding by CLIP",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_CLIP2Scene_Towards_Label-Efficient_3D_Scene_Understanding_by_CLIP_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_CLIP2Scene_Towards_Label-Efficient_3D_Scene_Understanding_by_CLIP_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c6ccf1e206706e1d",
+      "title": "CoMFormer: Continual Learning in Semantic and Panoptic Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cermelli_CoMFormer_Continual_Learning_in_Semantic_and_Panoptic_Segmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cermelli_CoMFormer_Continual_Learning_in_Semantic_and_Panoptic_Segmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c8e052fb84162d4d",
+      "title": "Continuous Landmark Detection with 3D Queries",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chandran_Continuous_Landmark_Detection_With_3D_Queries_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chandran_Continuous_Landmark_Detection_With_3D_Queries_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3f2d437af265339f",
+      "title": "Contrastive Mean Teacher for Domain Adaptive Object Detectors",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Contrastive_Mean_Teacher_for_Domain_Adaptive_Object_Detectors_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Contrastive_Mean_Teacher_for_Domain_Adaptive_Object_Detectors_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "54f2c1e6c42f2303",
+      "title": "CR-FIQA: Face Image Quality Assessment by Learning Sample Relative Classifiability",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boutros_CR-FIQA_Face_Image_Quality_Assessment_by_Learning_Sample_Relative_Classifiability_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boutros_CR-FIQA_Face_Image_Quality_Assessment_by_Learning_Sample_Relative_Classifiability_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3a750eaf9e109756",
+      "title": "DAA: A Delta Age AdaIN operation for age estimation via binary code transformer",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DAA_A_Delta_Age_AdaIN_Operation_for_Age_Estimation_via_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DAA_A_Delta_Age_AdaIN_Operation_for_Age_Estimation_via_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7c54796e974ecc80",
+      "title": "Data-Free Sketch-Based Image Retrieval",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chaudhuri_Data-Free_Sketch-Based_Image_Retrieval_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chaudhuri_Data-Free_Sketch-Based_Image_Retrieval_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "10121a021e1e4bdf",
+      "title": "DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DBARF_Deep_Bundle-Adjusting_Generalizable_Neural_Radiance_Fields_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DBARF_Deep_Bundle-Adjusting_Generalizable_Neural_Radiance_Fields_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "2c8129deef93f2fd",
+      "title": "Deep Curvilinear Editing: Commutative and Nonlinear Image Manipulation for Pretrained Deep Generative Model",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aoshima_Deep_Curvilinear_Editing_Commutative_and_Nonlinear_Image_Manipulation_for_Pretrained_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aoshima_Deep_Curvilinear_Editing_Commutative_and_Nonlinear_Image_Manipulation_for_Pretrained_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "faa4bef194283d48",
+      "title": "DeepMapping2: Self-Supervised Large-Scale LiDAR Map Optimization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DeepMapping2_Self-Supervised_Large-Scale_LiDAR_Map_Optimization_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DeepMapping2_Self-Supervised_Large-Scale_LiDAR_Map_Optimization_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d26722f1601be46a",
+      "title": "DejaVu: Conditional Regenerative Learning to Enhance Dense Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Borse_DejaVu_Conditional_Regenerative_Learning_To_Enhance_Dense_Prediction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Borse_DejaVu_Conditional_Regenerative_Learning_To_Enhance_Dense_Prediction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "497ca1f4f4151c0c",
+      "title": "Depth Estimation from Indoor Panoramas with Neural Scene Representation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Depth_Estimation_From_Indoor_Panoramas_With_Neural_Scene_Representation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Depth_Estimation_From_Indoor_Panoramas_With_Neural_Scene_Representation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f8c00782fd2cf782",
+      "title": "Detecting Human-Object Contact in Images",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Detecting_Human-Object_Contact_in_Images_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Detecting_Human-Object_Contact_in_Images_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "551397efd259aadc",
+      "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_DexArt_Benchmarking_Generalizable_Dexterous_Manipulation_With_Articulated_Objects_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_DexArt_Benchmarking_Generalizable_Dexterous_Manipulation_With_Articulated_Objects_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3012a9ecf73b3bf7",
+      "title": "DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DisCo-CLIP_A_Distributed_Contrastive_Loss_for_Memory_Efficient_CLIP_Training_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DisCo-CLIP_A_Distributed_Contrastive_Loss_for_Memory_Efficient_CLIP_Training_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3d114653631a081b",
+      "title": "Divide and Conquer: Answering Questions with Object Factorization and Compositional Reasoning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Divide_and_Conquer_Answering_Questions_With_Object_Factorization_and_Compositional_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Divide_and_Conquer_Answering_Questions_With_Object_Factorization_and_Compositional_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "43a0df717002ed70",
+      "title": "Domain Generalized Stereo Matching via Hierarchical Visual Transformation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Domain_Generalized_Stereo_Matching_via_Hierarchical_Visual_Transformation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Domain_Generalized_Stereo_Matching_via_Hierarchical_Visual_Transformation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "ab6a2584471f41a9",
+      "title": "DPF: Learning Dense Prediction Fields with Weak Supervision",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DPF_Learning_Dense_Prediction_Fields_With_Weak_Supervision_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DPF_Learning_Dense_Prediction_Fields_With_Weak_Supervision_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3dffcc1ef30e1142",
+      "title": "DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bangunharcana_DualRefine_Self-Supervised_Depth_and_Pose_Estimation_Through_Iterative_Epipolar_Sampling_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bangunharcana_DualRefine_Self-Supervised_Depth_and_Pose_Estimation_Through_Iterative_Epipolar_Sampling_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a808156fedadc3b1",
+      "title": "Effective Ambiguity Attack Against Passport-based DNN Intellectual Property Protection Schemes through Fully Connected Layer Substitution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Effective_Ambiguity_Attack_Against_Passport-Based_DNN_Intellectual_Property_Protection_Schemes_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Effective_Ambiguity_Attack_Against_Passport-Based_DNN_Intellectual_Property_Protection_Schemes_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f09694358c308ef0",
+      "title": "Elastic Aggregation for Federated Optimization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Elastic_Aggregation_for_Federated_Optimization_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Elastic_Aggregation_for_Federated_Optimization_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "dad66b3de8b39337",
+      "title": "End-to-End 3D Dense Captioning with Vote2Cap-DETR",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5bd678fa24b07694",
+      "title": "Enhanced Multimodal Representation Learning with Cross-modal KD",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Enhanced_Multimodal_Representation_Learning_With_Cross-Modal_KD_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Enhanced_Multimodal_Representation_Learning_With_Cross-Modal_KD_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6295d08152168834",
+      "title": "Enhanced Training of Query-Based Object Detection via Selective Query Recollection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Enhanced_Training_of_Query-Based_Object_Detection_via_Selective_Query_Recollection_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Enhanced_Training_of_Query-Based_Object_Detection_via_Selective_Query_Recollection_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "ffd1aa909676b040",
+      "title": "Enlarging Instance-specific and Class-specific Information for Open-set Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cen_Enlarging_Instance-Specific_and_Class-Specific_Information_for_Open-Set_Action_Recognition_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cen_Enlarging_Instance-Specific_and_Class-Specific_Information_for_Open-Set_Action_Recognition_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "36a337e9c9ec2ea9",
+      "title": "Ensemble-based Blackbox Attacks on Dense Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Ensemble-Based_Blackbox_Attacks_on_Dense_Prediction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Ensemble-Based_Blackbox_Attacks_on_Dense_Prediction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e666336672a81456",
+      "title": "Equivalent Transformation and Dual Stream Network Construction for Mobile Image Super-Resolution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chao_Equivalent_Transformation_and_Dual_Stream_Network_Construction_for_Mobile_Image_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chao_Equivalent_Transformation_and_Dual_Stream_Network_Construction_for_Mobile_Image_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7ae2b07b4efd697a",
+      "title": "Event-guided Person Re-Identification via Sparse-Dense Complementary Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Event-Guided_Person_Re-Identification_via_Sparse-Dense_Complementary_Learning_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Event-Guided_Person_Re-Identification_via_Sparse-Dense_Complementary_Learning_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "224e67a72d8859a1",
+      "title": "Executing your Commands via Motion Diffusion in Latent Space",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "af8d0b66d27a47e7",
+      "title": "Extracting Class Activation Maps from Non-Discriminative Features as well",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Extracting_Class_Activation_Maps_From_Non-Discriminative_Features_As_Well_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Extracting_Class_Activation_Maps_From_Non-Discriminative_Features_As_Well_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8a28cc8ac6973090",
+      "title": "Few-shot Semantic Image Synthesis with Class Affinity Transfer",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Careil_Few-Shot_Semantic_Image_Synthesis_With_Class_Affinity_Transfer_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Careil_Few-Shot_Semantic_Image_Synthesis_With_Class_Affinity_Transfer_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8948b4609216f7a1",
+      "title": "FFF: Fragment-Guided Flexible Fitting for Building Complete Protein Structures",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_FFF_Fragment-Guided_Flexible_Fitting_for_Building_Complete_Protein_Structures_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_FFF_Fragment-Guided_Flexible_Fitting_for_Building_Complete_Protein_Structures_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f5ddeaf901602b0e",
+      "title": "FFHQ-UV: Normalized Facial UV-Texture Dataset for 3D Face Reconstruction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_FFHQ-UV_Normalized_Facial_UV-Texture_Dataset_for_3D_Face_Reconstruction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_FFHQ-UV_Normalized_Facial_UV-Texture_Dataset_for_3D_Face_Reconstruction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d36f26d06594cd11",
+      "title": "Finding Geometric Models by Clustering in the Consensus Space",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barath_Finding_Geometric_Models_by_Clustering_in_the_Consensus_Space_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barath_Finding_Geometric_Models_by_Clustering_in_the_Consensus_Space_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "0b08f718ffc91ac3",
+      "title": "FlexiViT: One Model for All Patch Sizes",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Beyer_FlexiViT_One_Model_for_All_Patch_Sizes_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Beyer_FlexiViT_One_Model_for_All_Patch_Sizes_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a4ad58cc32fc0358",
+      "title": "From Node Interaction to Hop Interaction: New Effective and Scalable Graph Learning Paradigm",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "511994e51af1a63a",
+      "title": "Galactic: Scaling End-to-End Reinforcement Learning for Rearrangement at 100k Steps-Per-Second",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Berges_Galactic_Scaling_End-to-End_Reinforcement_Learning_for_Rearrangement_at_100k_Steps-per-Second_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Berges_Galactic_Scaling_End-to-End_Reinforcement_Learning_for_Rearrangement_at_100k_Steps-per-Second_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "660f752d3e829bf3",
+      "title": "Generalizable Local Feature Pre-training for Deformable Shape Analysis",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Attaiki_Generalizable_Local_Feature_Pre-Training_for_Deformable_Shape_Analysis_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Attaiki_Generalizable_Local_Feature_Pre-Training_for_Deformable_Shape_Analysis_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "b4cd3e2821d271c0",
+      "title": "Generalizing Dataset Distillation via Deep Generative Prior",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cazenavette_Generalizing_Dataset_Distillation_via_Deep_Generative_Prior_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cazenavette_Generalizing_Dataset_Distillation_via_Deep_Generative_Prior_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "0634ab56a1c9811a",
+      "title": "Generative Semantic Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Generative_Semantic_Segmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Generative_Semantic_Segmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "521b6cf037763dba",
+      "title": "GLeaD: Improving GANs with A Generator-Leading Task",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e65074bae753e645",
+      "title": "GM-NeRF: Learning Generalizable Model-based Neural Radiance Fields from Multi-view Images",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_GM-NeRF_Learning_Generalizable_Model-Based_Neural_Radiance_Fields_From_Multi-View_Images_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_GM-NeRF_Learning_Generalizable_Model-Based_Neural_Radiance_Fields_From_Multi-View_Images_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "fddef950b2f9e616",
+      "title": "Ham2Pose: Animating Sign Language Notation into Pose Sequences",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Arkushin_Ham2Pose_Animating_Sign_Language_Notation_Into_Pose_Sequences_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Arkushin_Ham2Pose_Animating_Sign_Language_Notation_Into_Pose_Sequences_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "439205a4cf6db6e4",
+      "title": "Hand Avatar: Free-Pose Hand Animation and Rendering from Monocular Video",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Hand_Avatar_Free-Pose_Hand_Animation_and_Rendering_From_Monocular_Video_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Hand_Avatar_Free-Pose_Hand_Animation_and_Rendering_From_Monocular_Video_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7472491e50a58162",
+      "title": "HexPlane: A Fast Representation for Dynamic Scenes",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5a4bc7e8f6618003",
+      "title": "Hierarchical B-frame Video Coding Using Two-Layer CANF without Motion Coding",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Alexandre_Hierarchical_B-Frame_Video_Coding_Using_Two-Layer_CANF_Without_Motion_Coding_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Alexandre_Hierarchical_B-Frame_Video_Coding_Using_Two-Layer_CANF_Without_Motion_Coding_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "85bc68771e6f1641",
+      "title": "HierVL: Learning Hierarchical Video-Language Embeddings",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ashutosh_HierVL_Learning_Hierarchical_Video-Language_Embeddings_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ashutosh_HierVL_Learning_Hierarchical_Video-Language_Embeddings_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c5c5a6eea1aacaf6",
+      "title": "High-fidelity Facial Avatar Reconstruction from Monocular Video with Generative Priors",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_High-Fidelity_Facial_Avatar_Reconstruction_From_Monocular_Video_With_Generative_Priors_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_High-Fidelity_Facial_Avatar_Reconstruction_From_Monocular_Video_With_Generative_Priors_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "9a1fbd3181dd461c",
+      "title": "Histopathology Whole Slide Image Analysis with Heterogeneous Graph Representation Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chan_Histopathology_Whole_Slide_Image_Analysis_With_Heterogeneous_Graph_Representation_Learning_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chan_Histopathology_Whole_Slide_Image_Analysis_With_Heterogeneous_Graph_Representation_Learning_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "743527e1961027a9",
+      "title": "HNeRV: A Hybrid Neural Representation for Videos",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_HNeRV_A_Hybrid_Neural_Representation_for_Videos_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_HNeRV_A_Hybrid_Neural_Representation_for_Videos_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "db9165865ca96e3e",
+      "title": "HRDFuse: Monocular 360◦ Depth Estimation by Collaboratively Learning Holistic-with-Regional Depth Distributions",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ai_HRDFuse_Monocular_360deg_Depth_Estimation_by_Collaboratively_Learning_Holistic-With-Regional_Depth_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ai_HRDFuse_Monocular_360deg_Depth_Estimation_by_Collaboratively_Learning_Holistic-With-Regional_Depth_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "9c33d491ae790dff",
+      "title": "Human Guided Ground-truth Generation for Realistic Image Super-resolution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Human_Guided_Ground-Truth_Generation_for_Realistic_Image_Super-Resolution_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Human_Guided_Ground-Truth_Generation_for_Realistic_Image_Super-Resolution_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f0ee85db77054843",
+      "title": "HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Attal_HyperReel_High-Fidelity_6-DoF_Video_With_Ray-Conditioned_Sampling_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Attal_HyperReel_High-Fidelity_6-DoF_Video_With_Ray-Conditioned_Sampling_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "738f6581e0b0ccea",
+      "title": "Image Quality-aware Diagnosis via Meta-knowledge Co-embedding",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Che_Image_Quality-Aware_Diagnosis_via_Meta-Knowledge_Co-Embedding_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Che_Image_Quality-Aware_Diagnosis_via_Meta-Knowledge_Co-Embedding_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3287494f7e125fd6",
+      "title": "Imitation Learning as State Matching via Differentiable Physics",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Imitation_Learning_As_State_Matching_via_Differentiable_Physics_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Imitation_Learning_As_State_Matching_via_Differentiable_Physics_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "bb760664c71f1169",
+      "title": "Implicit Occupancy Flow Fields for Perception and Prediction in Self-Driving",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agro_Implicit_Occupancy_Flow_Fields_for_Perception_and_Prediction_in_Self-Driving_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agro_Implicit_Occupancy_Flow_Fields_for_Perception_and_Prediction_in_Self-Driving_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e453a30b722da1cf",
+      "title": "Improved Test-Time Adaptation for Domain Generalization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Improved_Test-Time_Adaptation_for_Domain_Generalization_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Improved_Test-Time_Adaptation_for_Domain_Generalization_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "04490bbb04f95cf7",
+      "title": "Improving Robustness of Semantic Segmentation to Motion-Blur using Class-Centric Augmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aakanksha_Improving_Robustness_of_Semantic_Segmentation_to_Motion-Blur_Using_Class-Centric_Augmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aakanksha_Improving_Robustness_of_Semantic_Segmentation_to_Motion-Blur_Using_Class-Centric_Augmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "4dcb372135192df4",
+      "title": "Instant Multi-View Head Capture through Learnable Registration",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bolkart_Instant_Multi-View_Head_Capture_Through_Learnable_Registration_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bolkart_Instant_Multi-View_Head_Capture_Through_Learnable_Registration_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "467a71d5f2710666",
+      "title": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "b5337f6ddd3fccf4",
+      "title": "Interactive Cartoonization with Controllable Perceptual Factors",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_Interactive_Cartoonization_With_Controllable_Perceptual_Factors_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_Interactive_Cartoonization_With_Controllable_Perceptual_Factors_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8e95376daf01f079",
+      "title": "Introducing Competition to Boost the Transferability of Targeted Adversarial Examples through Clean Feature Mixup",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Byun_Introducing_Competition_To_Boost_the_Transferability_of_Targeted_Adversarial_Examples_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Byun_Introducing_Competition_To_Boost_the_Transferability_of_Targeted_Adversarial_Examples_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c70e887cff9f3211",
+      "title": "Is BERT Blind? Exploring the Effect of Vision-and-Language Pretraining on Visual Language Understanding",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Alper_Is_BERT_Blind_Exploring_the_Effect_of_Vision-and-Language_Pretraining_on_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Alper_Is_BERT_Blind_Exploring_the_Effect_of_Vision-and-Language_Pretraining_on_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "9e79c10e59e70449",
+      "title": "Iterative Proposal Refinement for Weakly-Supervised Video Grounding",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Iterative_Proposal_Refinement_for_Weakly-Supervised_Video_Grounding_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Iterative_Proposal_Refinement_for_Weakly-Supervised_Video_Grounding_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f35391cd7001aa30",
+      "title": "Kernel Aware Resampler",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c86315eb74e1ab12",
+      "title": "L-CoIns: Language-based Colorization with Instance Awareness",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_L-CoIns_Language-Based_Colorization_With_Instance_Awareness_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_L-CoIns_Language-Based_Colorization_With_Instance_Awareness_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c1522d569f1fb964",
+      "title": "LargeKernel3D: Scaling up Kernels in 3D Sparse CNNs",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_LargeKernel3D_Scaling_Up_Kernels_in_3D_Sparse_CNNs_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_LargeKernel3D_Scaling_Up_Kernels_in_3D_Sparse_CNNs_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "04db3dd974b9f669",
+      "title": "LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bulat_LASP_Text-to-Text_Optimization_for_Language-Aware_Soft_Prompting_of_Vision__CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bulat_LASP_Text-to-Text_Optimization_for_Language-Aware_Soft_Prompting_of_Vision__CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "25f3645661e40c16",
+      "title": "LayoutDM: Transformer-based Diffusion Model for Layout Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_LayoutDM_Transformer-Based_Diffusion_Model_for_Layout_Generation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_LayoutDM_Transformer-Based_Diffusion_Model_for_Layout_Generation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "b958960d8ecf2e6e",
+      "title": "Learning a Deep Color Difference Metric for Photographic Images",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_a_Deep_Color_Difference_Metric_for_Photographic_Images_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_a_Deep_Color_Difference_Metric_for_Photographic_Images_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "dfd6bc74c19aaea5",
+      "title": "Learning A Sparse Transformer Network for Effective Image Deraining",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_a_Sparse_Transformer_Network_for_Effective_Image_Deraining_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_a_Sparse_Transformer_Network_for_Effective_Image_Deraining_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c547ae494189de9c",
+      "title": "Learning and Aggregating Lane Graphs for Urban Automated Driving",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Buchner_Learning_and_Aggregating_Lane_Graphs_for_Urban_Automated_Driving_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Buchner_Learning_and_Aggregating_Lane_Graphs_for_Urban_Automated_Driving_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "84e6d5e3e3805c73",
+      "title": "Learning from Unique Perspectives: User-aware Saliency Modeling",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_From_Unique_Perspectives_User-Aware_Saliency_Modeling_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_From_Unique_Perspectives_User-Aware_Saliency_Modeling_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "07b728bec7e09a99",
+      "title": "Learning Geometric-aware Properties in 2D Representation Using Lightweight CAD Models, or Zero Real 3D Pairs",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Arsomngern_Learning_Geometric-Aware_Properties_in_2D_Representation_Using_Lightweight_CAD_Models_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Arsomngern_Learning_Geometric-Aware_Properties_in_2D_Representation_Using_Lightweight_CAD_Models_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "87f26e53978192bd",
+      "title": "Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Learning_Personalized_High_Quality_Volumetric_Head_Avatars_From_Monocular_RGB_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Learning_Personalized_High_Quality_Volumetric_Head_Avatars_From_Monocular_RGB_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "706ee70148755fc4",
+      "title": "Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_the_Distribution_of_Errors_in_Stereo_Matching_for_Joint_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_the_Distribution_of_Errors_in_Stereo_Matching_for_Joint_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "0aa1df7e10d28025",
+      "title": "Learning to Exploit Temporal Structure for Biomedical Vision–Language Processing",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bannur_Learning_To_Exploit_Temporal_Structure_for_Biomedical_Vision-Language_Processing_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bannur_Learning_To_Exploit_Temporal_Structure_for_Biomedical_Vision-Language_Processing_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "19131111189c4380",
+      "title": "Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cha_Learning_To_Generate_Text-Grounded_Mask_for_Open-World_Semantic_Segmentation_From_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cha_Learning_To_Generate_Text-Grounded_Mask_for_Open-World_Semantic_Segmentation_From_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5cabc093d7826d4f",
+      "title": "Learning Visual Representations via Language-Guided Sampling",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Banani_Learning_Visual_Representations_via_Language-Guided_Sampling_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Banani_Learning_Visual_Representations_via_Language-Guided_Sampling_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "053db36d86d42265",
+      "title": "Leveraging Inter-rater Agreement for Classification in the Presence of Noisy Labels",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bucarelli_Leveraging_Inter-Rater_Agreement_for_Classification_in_the_Presence_of_Noisy_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bucarelli_Leveraging_Inter-Rater_Agreement_for_Classification_in_the_Presence_of_Noisy_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "1eca572a4096c334",
+      "title": "LINe: Out-of-Distribution Detection by Leveraging Important Neurons",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_LINe_Out-of-Distribution_Detection_by_Leveraging_Important_Neurons_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_LINe_Out-of-Distribution_Detection_by_Leveraging_Important_Neurons_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "eeb153a92ae264e9",
+      "title": "Look, Radiate, and Learn: Self-Supervised Localisation via Radio-Visual Correspondence",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Alloulah_Look_Radiate_and_Learn_Self-Supervised_Localisation_via_Radio-Visual_Correspondence_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Alloulah_Look_Radiate_and_Learn_Self-Supervised_Localisation_via_Radio-Visual_Correspondence_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "167b21b455b7c46f",
+      "title": "Making Vision Transformers Efficient from A Token Sparsification View",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Making_Vision_Transformers_Efficient_From_a_Token_Sparsification_View_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Making_Vision_Transformers_Efficient_From_a_Token_Sparsification_View_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "25f4ce1bd476801e",
+      "title": "MaLP: Manipulation Localization Using a Proactive Scheme",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Asnani_MaLP_Manipulation_Localization_Using_a_Proactive_Scheme_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Asnani_MaLP_Manipulation_Localization_Using_a_Proactive_Scheme_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "ac1c18d94eea0e46",
+      "title": "MARLIN: Masked Autoencoder for facial video Representation LearnINg",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_MARLIN_Masked_Autoencoder_for_Facial_Video_Representation_LearnINg_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_MARLIN_Masked_Autoencoder_for_Facial_Video_Representation_LearnINg_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "540513ab4ca2fad5",
+      "title": "Masked Autoencoders Enable Efficient Knowledge Distillers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Masked_Autoencoders_Enable_Efficient_Knowledge_Distillers_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Masked_Autoencoders_Enable_Efficient_Knowledge_Distillers_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "655ee49fb5e4e3c5",
+      "title": "MaskSketch: Unpaired Structure-guided Masked Image Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bashkirova_MaskSketch_Unpaired_Structure-Guided_Masked_Image_Generation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bashkirova_MaskSketch_Unpaired_Structure-Guided_Masked_Image_Generation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "39dcea337f1009a2",
+      "title": "Meta Omnium: A Benchmark for General-Purpose Learning-to-Learn",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bohdal_Meta_Omnium_A_Benchmark_for_General-Purpose_Learning-To-Learn_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bohdal_Meta_Omnium_A_Benchmark_for_General-Purpose_Learning-To-Learn_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "88bd96d9b29a60a8",
+      "title": "MetaCLUE: Towards Comprehensive Visual Metaphors Research",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Akula_MetaCLUE_Towards_Comprehensive_Visual_Metaphors_Research_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Akula_MetaCLUE_Towards_Comprehensive_Visual_Metaphors_Research_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "4542f6dbfa418187",
+      "title": "Multi-Centroid Task Descriptor for Dynamic Class Incremental Inference",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Multi-Centroid_Task_Descriptor_for_Dynamic_Class_Incremental_Inference_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Multi-Centroid_Task_Descriptor_for_Dynamic_Class_Incremental_Inference_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "69172b19f3a328e8",
+      "title": "Multi-Realism Image Compression with a Conditional Generator",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agustsson_Multi-Realism_Image_Compression_With_a_Conditional_Generator_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agustsson_Multi-Realism_Image_Compression_With_a_Conditional_Generator_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a61fc4caab1cfe6c",
+      "title": "Multi-View Azimuth Stereo via Tangent Space Consistency",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Multi-View_Azimuth_Stereo_via_Tangent_Space_Consistency_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Multi-View_Azimuth_Stereo_via_Tangent_Space_Consistency_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "ba60074642b248dd",
+      "title": "NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_NeuDA_Neural_Deformable_Anchor_for_High-Fidelity_Implicit_Surface_Reconstruction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_NeuDA_Neural_Deformable_Anchor_for_High-Fidelity_Implicit_Surface_Reconstruction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "63d19e943e469bf9",
+      "title": "Neural Kaleidoscopic Space Sculpting",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_Neural_Kaleidoscopic_Space_Sculpting_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_Neural_Kaleidoscopic_Space_Sculpting_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8aa571e93eafd6de",
+      "title": "Neural Part Priors: Learning to Optimize Part-Based Object Completion in RGB-D Scans",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bokhovkin_Neural_Part_Priors_Learning_To_Optimize_Part-Based_Object_Completion_in_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bokhovkin_Neural_Part_Priors_Learning_To_Optimize_Part-Based_Object_Completion_in_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a26da3356389ca2e",
+      "title": "Neural Pixel Composition for 3D-4D View Synthesis from Multi-Views",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bansal_Neural_Pixel_Composition_for_3D-4D_View_Synthesis_From_Multi-Views_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bansal_Neural_Pixel_Composition_for_3D-4D_View_Synthesis_From_Multi-Views_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "ae93cf8789707989",
+      "title": "Neural Rate Estimator and Unsupervised Learning for Efficient Distributed Image Analytics in Split-DNN models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahuja_Neural_Rate_Estimator_and_Unsupervised_Learning_for_Efficient_Distributed_Image_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ahuja_Neural_Rate_Estimator_and_Unsupervised_Learning_for_Efficient_Distributed_Image_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f156ee1e9bac32d7",
+      "title": "NoPe-NeRF: Optimising Neural Radiance Field with No Pose Prior",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "30d65df04b98fff7",
+      "title": "Object Discovery from Motion-Guided Tokens",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_Object_Discovery_From_Motion-Guided_Tokens_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_Object_Discovery_From_Motion-Guided_Tokens_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "e2cea2c15fda79c0",
+      "title": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Observation-Centric_SORT_Rethinking_SORT_for_Robust_Multi-Object_Tracking_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Observation-Centric_SORT_Rethinking_SORT_for_Robust_Multi-Object_Tracking_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "cef5999cce13a649",
+      "title": "OMNI3D: A Large Benchmark and Model for 3D Object Detection in the Wild",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brazil_Omni3D_A_Large_Benchmark_and_Model_for_3D_Object_Detection_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Brazil_Omni3D_A_Large_Benchmark_and_Model_for_3D_Object_Detection_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "b517afe53144e3a6",
+      "title": "Open-Set Likelihood Maximization for Few-Shot Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boudiaf_Open-Set_Likelihood_Maximization_for_Few-Shot_Learning_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boudiaf_Open-Set_Likelihood_Maximization_for_Few-Shot_Learning_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c466a6c0bf2d9c7d",
+      "title": "Open-vocabulary Attribute Detection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bravo_Open-Vocabulary_Attribute_Detection_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bravo_Open-Vocabulary_Attribute_Detection_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7763fd246b0dcf35",
+      "title": "Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Open-World_Multi-Task_Control_Through_Goal-Aware_Representation_Learning_and_Adaptive_Horizon_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Open-World_Multi-Task_Control_Through_Goal-Aware_Representation_Learning_and_Adaptive_Horizon_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6a28c4e13cde6903",
+      "title": "Orthogonal Annotation Benefits Barely-supervised Medical Image Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Orthogonal_Annotation_Benefits_Barely-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Orthogonal_Annotation_Benefits_Barely-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a2fe616f5b0ce4b2",
+      "title": "PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360◦ Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/An_PanoHead_Geometry-Aware_3D_Full-Head_Synthesis_in_360deg_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/An_PanoHead_Geometry-Aware_3D_Full-Head_Synthesis_in_360deg_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "36b03dd132ab3052",
+      "title": "Persistent Nature: A Generative Model of Unbounded 3D Worlds",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_Persistent_Nature_A_Generative_Model_of_Unbounded_3D_Worlds_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_Persistent_Nature_A_Generative_Model_of_Unbounded_3D_Worlds_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "310936f06cf62384",
+      "title": "Person Image Synthesis via Denoising Diffusion Model",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhunia_Person_Image_Synthesis_via_Denoising_Diffusion_Model_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhunia_Person_Image_Synthesis_via_Denoising_Diffusion_Model_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6df6838b3b8e0547",
+      "title": "Physics-Guided ISO-Dependent Sensor Noise Modeling for Extreme Low-Light Photography",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7ab6f38e644205af",
+      "title": "Pointersect: Neural Rendering with Cloud-Ray Intersection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Pointersect_Neural_Rendering_With_Cloud-Ray_Intersection_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Pointersect_Neural_Rendering_With_Cloud-Ray_Intersection_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "978dd023344fe13f",
+      "title": "Privacy-Preserving Representations are not Enough: Recovering Scene Content from Camera Poses",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chelani_Privacy-Preserving_Representations_Are_Not_Enough_Recovering_Scene_Content_From_Camera_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chelani_Privacy-Preserving_Representations_Are_Not_Enough_Recovering_Scene_Content_From_Camera_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f0cbf6eb91b92014",
+      "title": "Probabilistic Debiasing of Scene Graphs",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Biswas_Probabilistic_Debiasing_of_Scene_Graphs_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Biswas_Probabilistic_Debiasing_of_Scene_Graphs_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8ee2d7355909099e",
+      "title": "Pseudo-label Guided Contrastive Learning for Semi-supervised Medical Image Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Basak_Pseudo-Label_Guided_Contrastive_Learning_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Basak_Pseudo-Label_Guided_Contrastive_Learning_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "7e656965ce146774",
+      "title": "RangeViT: Towards Vision Transformers for 3D Semantic Segmentation in Autonomous Driving",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ando_RangeViT_Towards_Vision_Transformers_for_3D_Semantic_Segmentation_in_Autonomous_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ando_RangeViT_Towards_Vision_Transformers_for_3D_Semantic_Segmentation_in_Autonomous_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "24be6857b6f45bb9",
+      "title": "Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5df0c9c77dae6217",
+      "title": "Real-Time Neural Light Field on Mobile Devices",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Real-Time_Neural_Light_Field_on_Mobile_Devices_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Real-Time_Neural_Light_Field_on_Mobile_Devices_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "2a64b2d7e90fec0d",
+      "title": "Rebalancing Batch Normalization for Exemplar-based Class-Incremental Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cha_Rebalancing_Batch_Normalization_for_Exemplar-Based_Class-Incremental_Learning_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cha_Rebalancing_Batch_Normalization_for_Exemplar-Based_Class-Incremental_Learning_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6b17cd2cb074a56f",
+      "title": "Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_Recognizability_Embedding_Enhancement_for_Very_Low-Resolution_Face_Recognition_and_Quality_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_Recognizability_Embedding_Enhancement_for_Very_Low-Resolution_Face_Recognition_and_Quality_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5cfeee6f990aed03",
+      "title": "Recurrent Homography Estimation Using Homography-Guided Image Warping and Focus Transformer",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Recurrent_Homography_Estimation_Using_Homography-Guided_Image_Warping_and_Focus_Transformer_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Recurrent_Homography_Estimation_Using_Homography-Guided_Image_Warping_and_Focus_Transformer_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "748d8301ba508acd",
+      "title": "RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "36f8f09dd7707e33",
+      "title": "RIAV-MVS: Recurrent-Indexing an Asymmetric Volume for Multi-View Stereo",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_RIAV-MVS_Recurrent-Indexing_an_Asymmetric_Volume_for_Multi-View_Stereo_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_RIAV-MVS_Recurrent-Indexing_an_Asymmetric_Volume_for_Multi-View_Stereo_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "76e369b3f6a3b5d6",
+      "title": "RMLVQA: A Margin Loss Approach For Visual Question Answering with Language Biases",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Basu_RMLVQA_A_Margin_Loss_Approach_for_Visual_Question_Answering_With_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Basu_RMLVQA_A_Margin_Loss_Approach_for_Visual_Question_Answering_With_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "38afb5d136fd8680",
+      "title": "Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Self-Supervised_Learning_for_Multimodal_Non-Rigid_3D_Shape_Matching_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Self-Supervised_Learning_for_Multimodal_Non-Rigid_3D_Shape_Matching_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5b8dfbd63fe94e91",
+      "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f4a4af32c7bf2cab",
+      "title": "SeSDF: Self-evolved Signed Distance Field for Implicit 3D Clothed Human Reconstruction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_SeSDF_Self-Evolved_Signed_Distance_Field_for_Implicit_3D_Clothed_Human_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_SeSDF_Self-Evolved_Signed_Distance_Field_for_Implicit_3D_Clothed_Human_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "d0780a55f884580e",
+      "title": "ShapeTalk: A Language Dataset and Framework for 3D Shape Edits and Deformations",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Achlioptas_ShapeTalk_A_Language_Dataset_and_Framework_for_3D_Shape_Edits_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Achlioptas_ShapeTalk_A_Language_Dataset_and_Framework_for_3D_Shape_Edits_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "b80fbd54542fb60a",
+      "title": "Shortcomings of Top-Down Randomization-Based Sanity Checks for Evaluations of Deep Neural Network Explanations",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Binder_Shortcomings_of_Top-Down_Randomization-Based_Sanity_Checks_for_Evaluations_of_Deep_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Binder_Shortcomings_of_Top-Down_Randomization-Based_Sanity_Checks_for_Evaluations_of_Deep_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3d9ea9eff2dbda40",
+      "title": "SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "3706b0ecbb8cf7fc",
+      "title": "Sketch2Saliency: Learning to Detect Salient Objects from Human Drawings",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhunia_Sketch2Saliency_Learning_To_Detect_Salient_Objects_From_Human_Drawings_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bhunia_Sketch2Saliency_Learning_To_Detect_Salient_Objects_From_Human_Drawings_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f232cd522cff8a84",
+      "title": "Sliced Optimal Partial Transport",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Sliced_Optimal_Partial_Transport_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_Sliced_Optimal_Partial_Transport_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "4a2f0a3f5187fac4",
+      "title": "Source-free Adaptive Gaze Estimation by Uncertainty Reduction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Source-Free_Adaptive_Gaze_Estimation_by_Uncertainty_Reduction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Source-Free_Adaptive_Gaze_Estimation_by_Uncertainty_Reduction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "8205e8bc4745c462",
+      "title": "SpaText: Spatio-Textual Representation for Controllable Image Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Avrahami_SpaText_Spatio-Textual_Representation_for_Controllable_Image_Generation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Avrahami_SpaText_Spatio-Textual_Representation_for_Controllable_Image_Generation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "c941fb9039b5e370",
+      "title": "Spider GAN: Leveraging Friendly Neighbors to Accelerate GAN Training",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Asokan_Spider_GAN_Leveraging_Friendly_Neighbors_To_Accelerate_GAN_Training_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Asokan_Spider_GAN_Leveraging_Friendly_Neighbors_To_Accelerate_GAN_Training_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5ef3ec18318a32ba",
+      "title": "SVGformer: Representation Learning for Continuous Vector Graphics using Transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_SVGformer_Representation_Learning_for_Continuous_Vector_Graphics_Using_Transformers_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_SVGformer_Representation_Learning_for_Continuous_Vector_Graphics_Using_Transformers_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "f6a5899f4a2b435c",
+      "title": "TarViS: A Unified Approach for Target-based Video Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Athar_TarViS_A_Unified_Approach_for_Target-Based_Video_Segmentation_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Athar_TarViS_A_Unified_Approach_for_Target-Based_Video_Segmentation_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "08a8d5a6f8be934d",
+      "title": "TempSAL - Uncovering Temporal Information for Deep Saliency Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aydemir_TempSAL_-_Uncovering_Temporal_Information_for_Deep_Saliency_Prediction_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Aydemir_TempSAL_-_Uncovering_Temporal_Information_for_Deep_Saliency_Prediction_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a6dd0fdb9af564f2",
+      "title": "Test of Time: Instilling Video-Language Models with a Sense of Time",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bagad_Test_of_Time_Instilling_Video-Language_Models_With_a_Sense_of_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bagad_Test_of_Time_Instilling_Video-Language_Models_With_a_Sense_of_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "76b91c1f8a50359d",
+      "title": "Three Guidelines You Should Know for Universally Slimmable Self-Supervised Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Three_Guidelines_You_Should_Know_for_Universally_Slimmable_Self-Supervised_Learning_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Three_Guidelines_You_Should_Know_for_Universally_Slimmable_Self-Supervised_Learning_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "4d156ecc27f8850a",
+      "title": "Topology-Guided Multi-Class Cell Context Generation for Digital Pathology",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Abousamra_Topology-Guided_Multi-Class_Cell_Context_Generation_for_Digital_Pathology_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Abousamra_Topology-Guided_Multi-Class_Cell_Context_Generation_for_Digital_Pathology_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "9572a5e1cd7fde32",
+      "title": "Towards Better Decision Forests: Forest Alternating Optimization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Carreira-Perpinan_Towards_Better_Decision_Forests_Forest_Alternating_Optimization_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Carreira-Perpinan_Towards_Better_Decision_Forests_Forest_Alternating_Optimization_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6556c514c62b4b01",
+      "title": "Two-view Geometry Scoring Without Correspondences",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "716e102b09d7b8a0",
+      "title": "Understanding and Improving Features Learned in Deep Functional Maps",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Attaiki_Understanding_and_Improving_Features_Learned_in_Deep_Functional_Maps_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Attaiki_Understanding_and_Improving_Features_Learned_in_Deep_Functional_Maps_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "36c578b7346898eb",
+      "title": "Unifying Short and Long-Term Tracking with Graph Hierarchies",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cetintas_Unifying_Short_and_Long-Term_Tracking_With_Graph_Hierarchies_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cetintas_Unifying_Short_and_Long-Term_Tracking_With_Graph_Hierarchies_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "a757b49476f8752f",
+      "title": "ZBS: Zero-shot Background Subtraction via Instance-level Background Modeling and Foreground Selection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/An_ZBS_Zero-Shot_Background_Subtraction_via_Instance-Level_Background_Modeling_and_Foreground_CVPR_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/An_ZBS_Zero-Shot_Background_Subtraction_via_Instance-Level_Background_Modeling_and_Foreground_CVPR_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "6ad3e1c77b86147b",
+      "title": "ResQ: Residual Quantization for Video Perception",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Abati_ResQ_Residual_Quantization_for_Video_Perception_ICCV_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Abati_ResQ_Residual_Quantization_for_Video_Perception_ICCV_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "5eaa26182f63b806",
+      "title": "VoroMesh: Learning Watertight Surface Meshes with Voronoi Diagrams",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Maruani_VoroMesh_Learning_Watertight_Surface_Meshes_with_Voronoi_Diagrams_ICCV_2023_paper.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Maruani_VoroMesh_Learning_Watertight_Surface_Meshes_with_Voronoi_Diagrams_ICCV_2023_paper.pdf",
+      "ok": true
+    },
+    {
+      "id": "02cc7fe1e002d960",
+      "title": "Continuous-Discrete Convolution for Geometry-Sequence Modeling in Proteins",
+      "url": "https://openreview.net/pdf?id=P5Z-Z19XJ7",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "d1b6675b41f4f80c",
+      "title": "Efficient Discrete Multi-Marginal Optimal Transport Regularization",
+      "url": "https://openreview.net/pdf?id=R98ZfMt-jE",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

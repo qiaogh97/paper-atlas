@@ -1,0 +1,34 @@
+{
+  "paper": "iclr_download/downloads/iclr2023/accepted/00009_Continuous-Discrete_Convolution_for_Geometry-Sequence_Modeling_in_Proteins",
+  "venue": "ICLR2023",
+  "title": "Continuous-Discrete Convolution for Geometry-Sequence Modeling in Proteins",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "SCOPe 1.75",
+      "role": "benchmark",
+      "anchor": "proteinfoldclassificationonthetraining/validation/testsplitsoftheSCOPe1.75datasetofHou",
+      "line": 791
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "anchor": "Table 1: Accuracy (%) of protein fold classification and enzyme catalytic reaction classification.",
+      "line": 409
+    },
+    {
+      "name": "Fmax",
+      "anchor": "C EVALUATION METRIC F\nmax",
+      "line": 819
+    },
+    {
+      "name": "Running Time",
+      "anchor": "Subset Accuracy RunningTime",
+      "line": 1280
+    }
+  ],
+  "notes": "四个评测任务中仅蛋白质折叠分类显式命名数据集 SCOPe 1.75（附录 B，含 fold/superfamily/family 三场景，附录 I/J/N/P/Q/R/S 均复用该数据及下述任务数据）；酶催化反应分类与 GO 项预测、EC 编号预测的数据集分别取自 Hermosilla et al. (2021) 与 Gligorijevic et al. (2021)，原文仅以引文指代、未给出数据集专名，故未单列条目。附录 L 表 7/8 中的 Pfam/UniRef50/BFD/PDB/AlphaFoldDB/UniRef100 为被比较基线方法的预训练数据（结果引自他人论文），CDConv 本身未做任何预训练，按规则排除；附录 N 的 Large/Normal 子集为酶反应数据集自建子集，未单列。指标方面：Accuracy 原文亦写作 Mean accuracy（单标签任务）；Fmax 即 protein-centric maximum F-Score（多标签任务），markdown 转录中下标 max 被 OCR 拆至下一行，故锚点跨行；Running Time 为附录 N Table 11 的效率指标（每次预测平均耗时），表头 OCR 无空格写作 RunningTime，属边缘性指标，一并收录。",
+  "text_path": "conference_paper/iclr_download/downloads/iclr2023/accepted/00009_Continuous-Discrete_Convolution_for_Geometry-Sequence_Modeling_in_Proteins/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,48 @@
+{
+  "paper": "cvpr_download/CVPR2023/Aakanksha_Improving_Robustness_of_Semantic_Segmentation_to_Motion-Blur_Using_Class-Centric_Augmentation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Improving Robustness of Semantic Segmentation to Motion-Blur using Class-Centric Augmentation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "PASCAL VOC",
+      "role": "benchmark",
+      "anchor": "PASCAL VOC and Cityscapes dataset, respectively,",
+      "line": 72
+    },
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "Cityscapes[4]isanautonomousdrivingdataset",
+      "line": 414
+    },
+    {
+      "name": "Cityscapes-C",
+      "role": "benchmark",
+      "anchor": "Cityscapes-C [13] dataset expands the",
+      "line": 417
+    },
+    {
+      "name": "GoPro",
+      "role": "qualitative",
+      "anchor": "deblurringdatasetsGoProandREDS.",
+      "line": 53
+    },
+    {
+      "name": "REDS",
+      "role": "qualitative",
+      "anchor": "realbluronGoProandREDSdataset.",
+      "line": 623
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "over-Union (mIoU). All models were written in Pytorch",
+      "line": 477
+    }
+  ],
+  "notes": "PASCAL VOC 与 Cityscapes 用于训练与主实验评测（Table 1），均为 benchmark。Cityscapes-C 的 motion-blur 子集为作者按严重度 S1-S3 自行生成（原文说明其未公开），仅用于 Table 2 测试评测，未用于训练，故计 benchmark 单角色。GoPro 与 REDS 仅用于 Fig. 6 真实动态场景模糊的定性对比（原文明确写 qualitative results），计 qualitative。指标仅 mIoU（mean-Intersection-over-Union），Table 3/4/5 表头同名不重复计；Table 4 中 Params 为模型属性不计入指标。相关工作中的 ImageNet-C/ImageNet 等仅作背景提及，未计入。补充材料（更多定性结果与逐类敏感性分析）仅被提及，未包含于本全文文件，无法提取。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Aakanksha_Improving_Robustness_of_Semantic_Segmentation_to_Motion-Blur_Using_Class-Centric_Augmentation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

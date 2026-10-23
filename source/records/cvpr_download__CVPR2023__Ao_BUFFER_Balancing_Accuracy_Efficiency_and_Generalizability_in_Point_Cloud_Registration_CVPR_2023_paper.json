@@ -1,0 +1,72 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "3DMatch",
+      "role": "benchmark",
+      "anchor": "3DMatch [66] and 3DLoMatch [26], outdoor KITTI [20]",
+      "line": 567
+    },
+    {
+      "name": "3DLoMatch",
+      "role": "benchmark",
+      "anchor": "3DMatch [66] and 3DLoMatch [26], outdoor KITTI [20]",
+      "line": 567
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "3DMatch [66] and 3DLoMatch [26], outdoor KITTI [20]",
+      "line": 567
+    },
+    {
+      "name": "ETH",
+      "role": "benchmark",
+      "anchor": "and ETH [49], to evaluate the registration performance of",
+      "line": 569
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Registration Recall (RR)",
+      "anchor": "weuseRegistrationRecall(RR)[66]asourevaluationmet-",
+      "line": 573
+    },
+    {
+      "name": "Relative Translational Error (RTE)",
+      "anchor": "tionalError(RTE),RelativeRotationError(RRE),andSuc-",
+      "line": 577
+    },
+    {
+      "name": "Relative Rotation Error (RRE)",
+      "anchor": "tionalError(RTE),RelativeRotationError(RRE),andSuc-",
+      "line": 577
+    },
+    {
+      "name": "Success Rate",
+      "anchor": "Success Rate on ETH (%)",
+      "line": 27
+    },
+    {
+      "name": "Inlier Ratio",
+      "anchor": "Inlier Ratio: 95.5% Inlier Ratio: 87.7% Inlier Ratio: 82.5%",
+      "line": 705
+    },
+    {
+      "name": "Time",
+      "anchor": "RTE RRE Success Time #Param.",
+      "line": 533
+    },
+    {
+      "name": "#Param.",
+      "anchor": "RTE RRE Success Time #Param.",
+      "line": 533
+    }
+  ],
+  "notes": "OCR 转录普遍缺失空格，指标名按语义还原为 Registration Recall (RR)、Relative Translational Error (RTE)、Relative Rotation Error (RRE)，锚点保留原文无空格逐字形态（表头缩写为 RR/RTE/RRE/Success）。四个数据集（室内 3DMatch/3DLoMatch、室外 KITTI/ETH）均为评测基准；3DMatch 同时是唯一训练集，KITTI 兼作 KITTI→3DMatch/ETH 泛化实验训练来源，均统一记 benchmark。Time 与 #Param. 为表1-6 的效率/模型规模统计列，论文明确以运行时间与轻量性作为对比维度，故计入。Inlier Ratio 出现在图3/图4 消融分析中。正文多处引用 appendix 但本 markdown 止于参考文献，未见附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

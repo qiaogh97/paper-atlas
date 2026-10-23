@@ -1,0 +1,34 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_Learning_Personalized_High_Quality_Volumetric_Head_Avatars_From_Monocular_RGB_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "NerFACE",
+      "role": "benchmark",
+      "anchor": "Subject4isthedatafromNerFACE[15],whileothersubjects",
+      "line": 330
+    }
+  ],
+  "metrics": [
+    {
+      "name": "LPIPS",
+      "anchor": "uations: the Learned Perceptual Image Patch Similarity",
+      "line": 414
+    },
+    {
+      "name": "SSIM",
+      "anchor": "(LPIPS) [51], Structure Similarity Index (SSIM) [44], and",
+      "line": 416
+    },
+    {
+      "name": "PSNR",
+      "anchor": "PeakSignal-to-NoiseRatio(PSNR)",
+      "line": 418
+    }
+  ],
+  "notes": "主实验数据为作者自采集的单目 RGB 视频(智能手机/网络摄像头,Subject 0-3,1-2 分钟每段),自建且未命名,故不写入 datasets。NerFACE 论文发布的视频被纳入训练与评测(Table 1 的 Subject 4 即该数据),故计为 benchmark 角色一条。指标为 4.1 节 Metrics 段命名的三个标准图像质量指标 LPIPS、SSIM、PSNR;Table 1 报告 LPIPS/SSIM/PSNR,Table 2 消融仅用 LPIPS。SSIM 原文全称写作 Structure Similarity Index,按原文照抄;全文 OCR 转录存在空格缺失,锚点均逐字复制并经 grep -F 核验。无附录实验内容(参考文献前即结束)。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_Learning_Personalized_High_Quality_Volumetric_Head_Avatars_From_Monocular_RGB_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

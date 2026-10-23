@@ -1,0 +1,139 @@
+{
+  "paper": "iclr_download/downloads/iclr2026/accepted/00003_Part-X-MLLM_Part-aware_3D_Multimodal_Large_Language_Model",
+  "venue": "ICLR2026",
+  "title": "PART-X-MLLM: PART-AWARE 3D MULTIMODAL LARGE LANGUAGE MODEL",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "UniPart-Bench",
+      "role": "benchmark",
+      "anchor": "we introduce UniPart-Bench, a held-out set of 400 objects, to evaluate our model",
+      "line": 415
+    },
+    {
+      "name": "PointLLM Benchmark",
+      "role": "benchmark",
+      "anchor": "Table 8: Evaluation on the PointLLM Benchmark.",
+      "line": 1358
+    },
+    {
+      "name": "Objaverse",
+      "role": "construction",
+      "anchor": "scale public repositories, primarily Objaverse Deitke et al. (2022) and Objaverse-XL Deitke et al.",
+      "line": 1187
+    },
+    {
+      "name": "Objaverse-XL",
+      "role": "construction",
+      "anchor": "primarily Objaverse Deitke et al. (2022) and Objaverse-XL Deitke et al.",
+      "line": 1187
+    },
+    {
+      "name": "InternScenes",
+      "role": "qualitative",
+      "anchor": "InternScenes Zhong et al. (2025) dataset. This aligns with the emerging paradigm of compositional",
+      "line": 1416
+    },
+    {
+      "name": "OmniObject3D",
+      "role": "qualitative",
+      "anchor": "world scans from OmniObject3D Wu et al. (2023). These inputs typically contain high-frequency",
+      "line": 1422
+    }
+  ],
+  "metrics": [
+    {
+      "name": "BBox IoU",
+      "anchor": "QA, and localized editing, and improving Voxel Recall/IoU and BBox IoU on UniPart-Bench. Ap-",
+      "line": 923
+    },
+    {
+      "name": "Voxel Recall",
+      "anchor": "IoU, Voxel Recall, and Voxel IoU. Matching pairs each ground-truth box with its nearest predicted",
+      "line": 429
+    },
+    {
+      "name": "Voxel IoU",
+      "anchor": "IoU, Voxel Recall, and Voxel IoU. Matching pairs each ground-truth box with its nearest predicted",
+      "line": 429
+    },
+    {
+      "name": "IoU",
+      "anchor": "geometric tasks like box listing, the dual encoder improves IoU by a significant margin (+7.06).",
+      "line": 515
+    },
+    {
+      "name": "SBERT",
+      "anchor": "UniPart-Bench. We report sentence-level similarities (SBERT, SimCSE) and token-level metrics",
+      "line": 600
+    },
+    {
+      "name": "SimCSE",
+      "anchor": "UniPart-Bench. We report sentence-level similarities (SBERT, SimCSE) and token-level metrics",
+      "line": 600
+    },
+    {
+      "name": "BLEU-1",
+      "anchor": "(BLEU-1, ROUGE-L, METEOR). Results in Table 3 show consistent gains of our method on part-",
+      "line": 601
+    },
+    {
+      "name": "ROUGE-L",
+      "anchor": "(BLEU-1, ROUGE-L, METEOR). Results in Table 3 show consistent gains of our method on part-",
+      "line": 601
+    },
+    {
+      "name": "METEOR",
+      "anchor": "(BLEU-1, ROUGE-L, METEOR). Results in Table 3 show consistent gains of our method on part-",
+      "line": 601
+    },
+    {
+      "name": "GPT-5",
+      "anchor": "SBERT\nSimCSE\nBLEU-1\nROUGE-L\nMETEOR\nGPT-5",
+      "line": 612
+    },
+    {
+      "name": "CD",
+      "anchor": "Part-Level\nOverall-Level\nCD ↓\nF-0.1 ↑\nF-0.05 ↑",
+      "line": 1451
+    },
+    {
+      "name": "F-0.1",
+      "anchor": "Part-Level\nOverall-Level\nCD ↓\nF-0.1 ↑\nF-0.05 ↑",
+      "line": 1451
+    },
+    {
+      "name": "F-0.05",
+      "anchor": "Part-Level\nOverall-Level\nCD ↓\nF-0.1 ↑\nF-0.05 ↑",
+      "line": 1451
+    },
+    {
+      "name": "Mean Opinion Score (MOS)",
+      "anchor": "Table 7: Human Evaluation Results. We report the Mean Opinion Score (MOS) on a scale of 1 to",
+      "line": 1343
+    },
+    {
+      "name": "Structural Plausibility",
+      "anchor": "Part Generation\nStructural Plausibility\n4.42 ± 0.6",
+      "line": 1348
+    },
+    {
+      "name": "Generation Quality",
+      "anchor": "Generation Quality\n4.25 ± 0.7",
+      "line": 1351
+    },
+    {
+      "name": "Instruction Fidelity",
+      "anchor": "Instruction Fidelity\n4.03 ± 0.5",
+      "line": 1354
+    },
+    {
+      "name": "Editing Quality",
+      "anchor": "Editing Quality\n4.31 ± 0.6",
+      "line": 1356
+    }
+  ],
+  "notes": "自建 part-centric 训练数据集（85,771 物体）本身未命名，不单列条目；UniPart-Bench 是其 held-out 400 物体子集，作为主实验测试基准。Objaverse/Objaverse-XL 仅作为自建训练数据的收集来源（construction，附录 A.1）。InternScenes 与 OmniObject3D 仅用于附录 A.3.3 泛化/鲁棒性定性评测（qualitative，Figure 8）。PointLLM Benchmark 用于附录 Table 8 公开基准对比（benchmark）。指标方面：SBERT 在 Table 8 写作 S-BERT，视为同一指标只列一条；Table 5 缩写 B-1/R-L/MET 对应 BLEU-1/ROUGE-L/METEOR，不单列；GPT-5 为 Table 3/4 的评测列，正文未展开说明含义（疑为 GPT-5 自动打分），按原缩写保留；CD、F-0.1、F-0.05 正文未展开（CD 疑为 Chamfer Distance，F-x 为 F-score 阈值变体），按论文原样保留；Structural Plausibility/Generation Quality/Instruction Fidelity/Editing Quality 为 Table 7 人评维度（MOS，1-5 分）。附录 A.9 综合结果复用 IoU 与 SBERT/SimCSE/BLEU-1/ROUGE-L/METEOR，无新增指标。",
+  "text_path": "extraction/texts/iclr_download__downloads__iclr2026__accepted__00003_Part-X-MLLM_Part-aware_3D_Multimodal_Large_Language_Model.txt",
+  "text_source": "pdftxt"
+}

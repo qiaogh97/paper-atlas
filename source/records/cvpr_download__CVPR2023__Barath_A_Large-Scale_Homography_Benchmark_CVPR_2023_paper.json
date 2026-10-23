@@ -1,0 +1,56 @@
+{
+  "paper": "cvpr_download/CVPR2023/Barath_A_Large-Scale_Homography_Benchmark_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A Large-Scale Homography Benchmark",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "HEB",
+      "role": "benchmark",
+      "anchor": "overviewofalgorithmsthatwecompareonHEB",
+      "line": 144
+    },
+    {
+      "name": "Pi3D",
+      "role": "construction",
+      "anchor": "use the Pi3D dataset to find image pairs with estimatable",
+      "line": 72
+    },
+    {
+      "name": "1DSfM",
+      "role": "construction",
+      "anchor": "Weusethescenesfromthe1DSfMdatasetas",
+      "line": 70
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAA",
+      "anchor": "mAAscorestobeourmainmetric.",
+      "line": 147
+    },
+    {
+      "name": "angular pose accuracy",
+      "anchor": "Weplottheangularposeaccuracyvs.",
+      "line": 148
+    },
+    {
+      "name": "metric pose accuracy",
+      "anchor": "metric pose accuracy in Fig. 5 (right).",
+      "line": 149
+    },
+    {
+      "name": "mean reprojection error",
+      "anchor": "characterized by the mean reprojection error",
+      "line": 229
+    },
+    {
+      "name": "number of inliers",
+      "anchor": "The number of inliers (Fig. 5, two left graphs) greatly",
+      "line": 154
+    }
+  ],
+  "notes": "全文为去空格 OCR 的 markdown，锚点按原字符逐字复制。HEB（Homography Estimation Benchmark，226260 个单应）为论文提出的基准，全部鲁棒估计器与深度学习过滤实验（train/test 协议、Fig.5）均在其上评测，role=benchmark；Pi3D 为论文自提出的约 1000 个 3D 平面数据集，仅用于构建 HEB，role=construction；1DSfM 场景为 Pi3D 的上游来源，role=construction。Homogr、HPatches、ExtremeView(EVD) 仅在引言/相关工作讨论与图 2 定性对比中出现，未作为实验测试基准，按规则未列入。指标：mAA（rotation/translation 平均 mAA 为主指标，缩写在全文未展开）另在 Fig.5 中以 angular pose accuracy 与 metric pose accuracy 两种口径对比；mean reprojection error 亦缩写为 re-proj. error（mAA of re-proj. error）；number of inliers 为 Fig.5 报告量。SIFT 不确定性分析小节还报告 bias、STD、加权 log-ratio 等噪声统计量，属统计描述未单列；test protocol 给出 time-accuracy 图但运行时间未作为命名指标。正文后即参考文献，无附录；多处提及 suppl. material 但不在本文件内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Barath_A_Large-Scale_Homography_Benchmark_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,176 @@
+{
+  "paper": "cvpr_download/CVPR2023/Beyer_FlexiViT_One_Model_for_All_Patch_Sizes_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "FlexiViT: One Model for All Patch Sizes",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet-21k",
+      "role": "pretrain",
+      "anchor": "trainedonImageNet-21kwithdistillation)totheImageNet-",
+      "line": 523
+    },
+    {
+      "name": "ImageNet-21k",
+      "role": "benchmark",
+      "anchor": "ImageNet-21kdataset[46]. |     |             |     | Weusethebase(ViT-B)scale",
+      "line": 123
+    },
+    {
+      "name": "ImageNet-1k",
+      "role": "benchmark",
+      "anchor": "ViTs based on DeiTIII on ImageNet-1k and show their speed-",
+      "line": 27
+    },
+    {
+      "name": "Pet",
+      "role": "benchmark",
+      "anchor": "Classification We fine-tune on small- (Pet [41], Flow-\ners [40]) and medium-scale (CIFAR10, CIFAR100 [30],\nFood101 [7], SUN397 [59]) classification datasets follow-\ningthesetupof[15]at2402pxresolution.",
+      "line": 458
+    },
+    {
+      "name": "Flowers",
+      "role": "benchmark",
+      "anchor": "Classification We fine-tune on small- (Pet [41], Flow-\ners [40]) and medium-scale (CIFAR10, CIFAR100 [30],\nFood101 [7], SUN397 [59]) classification datasets follow-\ningthesetupof[15]at2402pxresolution.",
+      "line": 458
+    },
+    {
+      "name": "CIFAR10",
+      "role": "benchmark",
+      "anchor": "Classification We fine-tune on small- (Pet [41], Flow-\ners [40]) and medium-scale (CIFAR10, CIFAR100 [30],\nFood101 [7], SUN397 [59]) classification datasets follow-\ningthesetupof[15]at2402pxresolution.",
+      "line": 458
+    },
+    {
+      "name": "CIFAR100",
+      "role": "benchmark",
+      "anchor": "Classification We fine-tune on small- (Pet [41], Flow-\ners [40]) and medium-scale (CIFAR10, CIFAR100 [30],\nFood101 [7], SUN397 [59]) classification datasets follow-\ningthesetupof[15]at2402pxresolution.",
+      "line": 458
+    },
+    {
+      "name": "Food101",
+      "role": "benchmark",
+      "anchor": "Classification We fine-tune on small- (Pet [41], Flow-\ners [40]) and medium-scale (CIFAR10, CIFAR100 [30],\nFood101 [7], SUN397 [59]) classification datasets follow-\ningthesetupof[15]at2402pxresolution.",
+      "line": 458
+    },
+    {
+      "name": "SUN397",
+      "role": "benchmark",
+      "anchor": "Classification We fine-tune on small- (Pet [41], Flow-\ners [40]) and medium-scale (CIFAR10, CIFAR100 [30],\nFood101 [7], SUN397 [59]) classification datasets follow-\ningthesetupof[15]at2402pxresolution.",
+      "line": 458
+    },
+    {
+      "name": "MSCOCO",
+      "role": "benchmark",
+      "anchor": "SUN397 top-1 MSCOCO PQ LVIS AP MSCOCO R@1 Cityscapes mIoU",
+      "line": 444
+    },
+    {
+      "name": "Flickr30k",
+      "role": "benchmark",
+      "anchor": "Flickr30k [42] dataset. FlexiLiT-B/flexi performs the best",
+      "line": 614
+    },
+    {
+      "name": "LVIS",
+      "role": "benchmark",
+      "anchor": "els such as LiT or CLIP [43]. We evaluate its zero-shot\nopen-vocabularydetectionperformanceonLVIS[19].",
+      "line": 468
+    },
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "tationfollowingSegmenter’slineardecodersetup[51]. We\nreportmeanIoUforsinglescaleevaluationandevaluateon\nCityscapes[13]andADE-20k[67].",
+      "line": 476
+    },
+    {
+      "name": "ADE-20k",
+      "role": "benchmark",
+      "anchor": "tationfollowingSegmenter’slineardecodersetup[51]. We\nreportmeanIoUforsinglescaleevaluationandevaluateon\nCityscapes[13]andADE-20k[67].",
+      "line": 476
+    },
+    {
+      "name": "ImageNet-ReaL",
+      "role": "benchmark",
+      "anchor": "ImageNet-ReaL/v2/A/R[3,21,22,45]areinAppendixF.",
+      "line": 645
+    },
+    {
+      "name": "ImageNet-v2",
+      "role": "benchmark",
+      "anchor": "ImageNet-ReaL/v2/A/R[3,21,22,45]areinAppendixF.",
+      "line": 645
+    },
+    {
+      "name": "ImageNet-A",
+      "role": "benchmark",
+      "anchor": "ImageNet-ReaL/v2/A/R[3,21,22,45]areinAppendixF.",
+      "line": 645
+    },
+    {
+      "name": "ImageNet-R",
+      "role": "benchmark",
+      "anchor": "ImageNet-ReaL/v2/A/R[3,21,22,45]areinAppendixF.",
+      "line": 645
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Top-1 accuracy",
+      "anchor": "|     | Top-1 accuracy |     |     | Top-1 agreement |     | CKA similarity |            |     |     |     |     |     | Block 1 MLP       |     |",
+      "line": 340
+    },
+    {
+      "name": "precision@1",
+      "anchor": ")lav( 1@noisicerp k12teNegamI",
+      "line": 535
+    },
+    {
+      "name": "Top-1 agreement",
+      "anchor": "|     | Top-1 accuracy |     |     | Top-1 agreement |     | CKA similarity |            |     |     |     |     |     | Block 1 MLP       |     |",
+      "line": 340
+    },
+    {
+      "name": "CKA similarity",
+      "anchor": "|     | Top-1 accuracy |     |     | Top-1 agreement |     | CKA similarity |            |     |     |     |     |     | Block 1 MLP       |     |",
+      "line": 340
+    },
+    {
+      "name": "Cosine similarity between CLS tokens",
+      "anchor": "|     |     |     |     |     |     |     |     | Cosine similarity between CLS tokens |     |     |     |     | Block 7 MLP       |     |",
+      "line": 360
+    },
+    {
+      "name": "attention relevance",
+      "anchor": "decreasingthepatchsizeresultsinattentionrelevance[9]to",
+      "line": 670
+    },
+    {
+      "name": "PQ",
+      "anchor": "SUN397 top-1 MSCOCO PQ LVIS AP MSCOCO R@1 Cityscapes mIoU",
+      "line": 444
+    },
+    {
+      "name": "AP",
+      "anchor": "SUN397 top-1 MSCOCO PQ LVIS AP MSCOCO R@1 Cityscapes mIoU",
+      "line": 444
+    },
+    {
+      "name": "R@1",
+      "anchor": "SUN397 top-1 MSCOCO PQ LVIS AP MSCOCO R@1 Cityscapes mIoU",
+      "line": 444
+    },
+    {
+      "name": "mIoU",
+      "anchor": "SUN397 top-1 MSCOCO PQ LVIS AP MSCOCO R@1 Cityscapes mIoU",
+      "line": 444
+    },
+    {
+      "name": "Inference speed [ms/img] on TPUv3",
+      "anchor": "Inference speed [ms/img] on TPUv3",
+      "line": 25
+    }
+  ],
+  "notes": "ImageNet-21k 双角色：Section 3 全部训练/验证实验所用语料（benchmark 条），亦为所有下游迁移模型的预训练来源（pretrain 条，另见 I21K validation set）。ImageNet-1k 为 Figure 2（DeiTIII 蒸馏训练）与 Section 4.2 迁移的评测基准。Pet/Flowers/CIFAR10/CIFAR100/Food101/SUN397 六个分类迁移数据集在原文同一段出现，共用同一锚点。MSCOCO 一条对应 LiT img→txt 检索评测（Figure 7）与 UViM 全景分割训练语料（原文写作 COCO panoptic segmentation dataset [25,35]）。ImageNet-ReaL/v2/A/R 在原文为连写形式，此处拆为四条，评测详见附录 F；本 markdown 仅含正文与参考文献，附录 A–L 内容未包含。OWL-ViT 还在 35 个未具名 detection datasets [33] 上调 patch size，未收条目；FlexiCLIP 训练语料未在正文命名。指标：PQ/AP/R@1 原文未展开缩写；mIoU 在正文写作 meanIoU、图 7 写作 mIoU；precision@1 为图轴竖排标签（转录中被逐字符反转，锚点保持原样）；Top-1 accuracy 亦写作 INet Acc./top-1accuracy/SUN397 top-1 acc.；CKA 原文有展开（minibatch centered kernel alignment）；Top-1 agreement 即与 teacher 的一致率；GFLOPs 与 TPU Core Hours 为计算量/耗时钟度量，未收入 metrics。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Beyer_FlexiViT_One_Model_for_All_Patch_Sizes_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

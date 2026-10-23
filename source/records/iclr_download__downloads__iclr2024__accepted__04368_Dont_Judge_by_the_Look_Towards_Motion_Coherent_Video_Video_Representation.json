@@ -1,0 +1,97 @@
+{
+  "paper": "iclr_download/downloads/iclr2024/accepted/04368_Dont_Judge_by_the_Look_Towards_Motion_Coherent_Video_Video_Representation",
+  "venue": "ICLR2024",
+  "title": "Don't Judge by the Look: Towards Motion Coherent Video Representation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Something-Something V1",
+      "role": "benchmark",
+      "anchor": "five video benchmarks: (1) Something-Something V1 &",
+      "line": 377
+    },
+    {
+      "name": "Something-SomethingV2",
+      "role": "benchmark",
+      "anchor": "Something-SomethingV2isalarge-scale",
+      "line": 394
+    },
+    {
+      "name": "UCF101",
+      "role": "benchmark",
+      "anchor": "temporaldependenciesandareemployedforthemajorityofevaluations. (2)UCF101Soomroetal.",
+      "line": 379
+    },
+    {
+      "name": "UCF101",
+      "role": "pretrain",
+      "anchor": "conductpre-trainingandfine-tuningbothonUCF101followingthesettingofBackgroundErasing",
+      "line": 756
+    },
+    {
+      "name": "HMDB51",
+      "role": "benchmark",
+      "anchor": "(3)HMDB51Kuehneetal.(2011)consistsof6,766videoscategorized",
+      "line": 381
+    },
+    {
+      "name": "Kinetics400",
+      "role": "benchmark",
+      "anchor": "Kinetics400Kayetal.(2017)isalarge-scaledatasetwhichiscategorizedinto400actionclasses.",
+      "line": 383
+    },
+    {
+      "name": "Kinetics400",
+      "role": "pretrain",
+      "anchor": "pre-trainTSMLinetal.(2019)onKinetics400Kayetal.(2017)withdifferentdataaugmentation",
+      "line": 771
+    },
+    {
+      "name": "CIFAR10",
+      "role": "other",
+      "anchor": "weconductexperimentsonobjectrecognitiondatasetCIFAR10Krizhevsky",
+      "line": 52
+    },
+    {
+      "name": "ActivityNet",
+      "role": "benchmark",
+      "anchor": "The ActivityNet-v1.3 dataset Caba Heilbron et al. (2015) is an extensive collection of untrimmed",
+      "line": 856
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Acc1.(%)",
+      "anchor": "Method Specification Acc1.(%)",
+      "line": 558
+    },
+    {
+      "name": "Acc5.(%)",
+      "anchor": "Acc1.(%) Acc5.(%)",
+      "line": 421
+    },
+    {
+      "name": "ECE.(%)",
+      "anchor": "Method ρ ECE.(%) Acc1.(%)",
+      "line": 559
+    },
+    {
+      "name": "mAP(%)",
+      "anchor": "|     |                   |     | mAP(%) ∆mAP(%) |     |     |     |",
+      "line": 850
+    },
+    {
+      "name": "TrainAcc1.(%)",
+      "anchor": " | VA       | TrainAcc1.(%)",
+      "line": 505
+    },
+    {
+      "name": "ValAcc1.(%)",
+      "anchor": "ValAcc1.(%) | 30  |     |",
+      "line": 505
+    }
+  ],
+  "notes": "全文实际读取自别名目录 04368_Dont_Judge_by_the_Look_Towards_Motion_Coherent_Video_Representation/paper.md（给定 text_path 的双 Video 目录下仅有 idea.md、无 paper.md，属任务提示所述历史别名现象），text_path 按任务给定值填写。角色拆分：主实验五个视频基准为 Something-Something V1/V2、UCF101、HMDB51、Kinetics400（4.1 节及表1）；UCF101 另拆 pretrain 条目（附录 A.2 MoCo 自监督预训练与微调均在 UCF101，表7）；Kinetics400 另拆 pretrain 条目（附录 A.3 先在 Kinetics400 预训练再迁移，表8）；HMDB51 除表1主基准外还作附录 A.3 线性探针下游评测（同为评测用途，合一条 benchmark）；ActivityNet 为附录 A.7 基准（表11，正文写作 ActivityNet-v1.3）；CIFAR10 仅用于第1节动机初步实验（Hue Jittering 对对象识别的影响，图1），记 other。ImageNet 仅在引言作规模对比引用，实验未使用，未收录。指标：Acc1.(%) 即 Top-1 准确率（图题亦写作 Top-1 Accuracy，∆Acc1.(%) 为其差值列，不单列）；Acc5.(%) 仅表2；ECE.(%) 为 Expected Calibration Error（引言有展开，表5）；mAP(%) 仅附录表11（ActivityNet）；TrainAcc1.(%)/ValAcc1.(%) 为表4 列名。表12 的 TrainingHours 属训练时长效率指标、图8/12 的 AV_Loss/CE_Loss 属训练损失曲线，均非评价指标，未收录。原文为 OCR 风格 markdown、空格普遍缺失，名称照抄原文出现形式：Something-SomethingV2 在原文一律无空格，规范名应为 Something-Something V2；各锚点均逐字取自全文文件。",
+  "text_path": "conference_paper/iclr_download/downloads/iclr2024/accepted/04368_Dont_Judge_by_the_Look_Towards_Motion_Coherent_Video_Representation/paper.md",
+  "text_source": "markdown"
+}

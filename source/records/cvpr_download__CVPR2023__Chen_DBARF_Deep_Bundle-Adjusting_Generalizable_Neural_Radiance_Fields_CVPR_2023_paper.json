@@ -1,0 +1,58 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_DBARF_Deep_Bundle-Adjusting_Generalizable_Neural_Radiance_Fields_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "LLFF",
+   "role": "benchmark",
+   "anchor": "our method on the LLFF dataset [27] and the ScanNet"
+  },
+  {
+   "name": "LLFF",
+   "role": "pretrain",
+   "anchor": "phonefromLLFF[27]withthegroundtruthcameraposes"
+  },
+  {
+   "name": "ScanNet",
+   "role": "benchmark",
+   "anchor": "resultsofIBRNetandourmethodontheScanNetdatasetin"
+  },
+  {
+   "name": "ScanNet",
+   "role": "pretrain",
+   "anchor": "ScanNet  | dataset | [6] with | ground | truth     | camera | poses"
+  },
+  {
+   "name": "self-collected datasets from IBRNet",
+   "role": "pretrain",
+   "anchor": "on the 63 | scenes | of the      | self-collected |          | datasets | from     | IBR-"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "PSNR",
+   "anchor": "We use PSNR, SSIM [48] and"
+  },
+  {
+   "name": "SSIM",
+   "anchor": "PSNR↑ SSIM↑ LPIPS↓"
+  },
+  {
+   "name": "LPIPS",
+   "anchor": "LPIPS | [56] | as the metrics | for novel | view | synthesis"
+  },
+  {
+   "name": "Rotation error",
+   "anchor": "Forposeaccuracy,therotationerrorofourmethod"
+  },
+  {
+   "name": "translation error",
+   "anchor": "translation((cid:37)) 2.00 1.56 1.06 2.45"
+  }
+ ],
+ "notes": "LLFF 与 ScanNet 既用于预训练（LLFF 33 手持场景、ScanNet 20 室内场景）也用于评测，故各拆 benchmark 与 pretrain 两条；IBRNet 自采集 63 场景仅作预训练数据。COLMAP 与 BundleFusion 仅提供相机位姿标注，属工具不计入 datasets。PSNR/LPIPS 为原文未展开的缩写；SSIM 引自文献[48]。Rotation/translation error 为 Table 2 的位姿精度度量（rotation 单位 degree，translation 按 10^2 缩放且无绝对尺度，各含无/有 per-scene fine-tuning 两个变体，此处各记一条）。文中提到 supplementary materials 含更多评测场景，但未包含在本全文文件中。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_DBARF_Deep_Bundle-Adjusting_Generalizable_Neural_Radiance_Fields_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

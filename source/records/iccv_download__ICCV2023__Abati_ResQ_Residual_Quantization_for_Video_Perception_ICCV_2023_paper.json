@@ -1,0 +1,74 @@
+{
+  "paper": "iccv_download/ICCV2023/Abati_ResQ_Residual_Quantization_for_Video_Perception_ICCV_2023_paper",
+  "venue": "ICCV2023",
+  "title": "ResQ: Residual Quantization for Video Perception",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "JHMDB",
+      "role": "benchmark",
+      "anchor": "Dataset and accuracy metric. We use JHMDB [27],",
+      "line": 396
+    },
+    {
+      "name": "MPII Human Pose",
+      "role": "pretrain",
+      "anchor": "model, we rely on HRNet-w32 [54], pretrained on MPII\nmodelaccountingforbit-widthsofweightsandactivations.\nHuman Pose [1], that we fine-tune on every split for 100",
+      "line": 416
+    },
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "Dataset and metric. We use the Cityscapes dataset [7]",
+      "line": 468
+    },
+    {
+      "name": "DAVIS-2016",
+      "role": "benchmark",
+      "anchor": "DAVIS-2016[47],composedof20clipseachwithasingle",
+      "line": 647
+    },
+    {
+      "name": "DAVIS-2017",
+      "role": "benchmark",
+      "anchor": "target object, as well as DAVIS-2017 [48], where multiple",
+      "line": 648
+    },
+    {
+      "name": "Youtube-VOS",
+      "role": "pretrain",
+      "anchor": "weights, obtained by the authors by training on Youtube- to ResQ is that it requires the propagation of representa-\nVOS [61], and we quantize the encoder and decoder mod-",
+      "line": 643
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PCK",
+      "anchor": "mance metric, we rely on the standard PCK metric, with",
+      "line": 408
+    },
+    {
+      "name": "BOPs",
+      "anchor": "quantization [3, 57] and rely on Bit Operations (BOPs) to",
+      "line": 412
+    },
+    {
+      "name": "mIoU",
+      "anchor": "Intersection-over-Union | (mIoU) | and perform in-",
+      "line": 548
+    },
+    {
+      "name": "J-Mean",
+      "anchor": "drops in J-Mean of 1 point and 0.6 points for the single",
+      "line": 616
+    },
+    {
+      "name": "F-Mean",
+      "anchor": "J-Mean↑ F-Mean↑ BOPs(T)↓ J-Mean↑ F-Mean↑ BOPs(T)↓",
+      "line": 585
+    }
+  ],
+  "notes": "主实验基准:JHMDB(姿态估计,Sec.5.1)、Cityscapes(语义分割,Sec.5.2,训练/验证 split 并用离线网络生成伪标注)、DAVIS-2016 与 DAVIS-2017(VOS 验证集,Sec.5.3)。MPII Human Pose 仅作 HRNet-w32 预训练来源;Youtube-VOS 仅是 STM 发布权重的训练集(原作者训练),故均记 pretrain。指标:PCK(阈值 α=0.2,Tab.1 按 Hea./Sho./Elb./Wri./Hip/Kne./Ank./Avg 分关节列出,不单列);BOPs(效率指标,表格中另以 GBOPs、BOPs(T) 变体出现,合并为一条);mIoU(分割);J-Mean/F-Mean(VOS 区域 J 与边界 F 精度)。mIoU 锚点取自双栏 OCR 交错的 markdown 表格行,含竖线分隔符;MPII 与 Youtube-VOS 的名称因双栏逐行交错被拆断(MPII…Human Pose、Youtube-…VOS),锚点按原文逐字保留交错行。全文止于参考文献,未见附录实验;相关工作中的数据集仅用于排除。",
+  "text_path": "conference_paper/iccv_download/ICCV2023/Abati_ResQ_Residual_Quantization_for_Video_Perception_ICCV_2023_paper/paper.md",
+  "text_source": "markdown"
+}

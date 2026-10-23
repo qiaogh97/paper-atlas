@@ -1,0 +1,98 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bafghi_A_New_Dataset_Based_on_Images_Taken_by_Blind_People_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A New Dataset Based on Images Taken by Blind People for Testing the Robustness of Image Classification Models Trained for ImageNet Categories",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "VizWiz-Classification",
+      "role": "benchmark",
+      "anchor": "present.WecalltheresultingdatasetVizWiz-Classification.",
+      "line": 24
+    },
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "INshowstheaccuracyofmodelsonImageNet.",
+      "line": 515
+    },
+    {
+      "name": "ImageNet",
+      "role": "construction",
+      "anchor": "mark models trained on ImageNet, we need to identify",
+      "line": 146
+    },
+    {
+      "name": "ImageNet-C",
+      "role": "benchmark",
+      "anchor": "ImageNet-Cconsistsof15varietiesofsyntheticallygen-",
+      "line": 461
+    },
+    {
+      "name": "ImageNetV2",
+      "role": "other",
+      "anchor": "ImageNetV2 tried to reproduce the ImageNet dataset with",
+      "line": 387
+    },
+    {
+      "name": "ObjectNet",
+      "role": "other",
+      "anchor": "mantic information. Based on our results, ObjectNet has",
+      "line": 381
+    },
+    {
+      "name": "VizWiz-Captions",
+      "role": "construction",
+      "anchor": "two publicly-shared datasets: VizWiz-Captions [13] and",
+      "line": 132
+    },
+    {
+      "name": "VizWiz-ImageQualityIssues",
+      "role": "construction",
+      "anchor": "VizWiz-ImageQualityIssues [3]. In total, there are 39,189",
+      "line": 133
+    },
+    {
+      "name": "ImageNet-21k",
+      "role": "pretrain",
+      "anchor": "largersetoftrainingdatasetssuchasImageNet-21k[25]or",
+      "line": 328
+    },
+    {
+      "name": "IG-1B-Targeted",
+      "role": "pretrain",
+      "anchor": "IG-1B-Targeted[38])(10models),andmodelsthatleverage",
+      "line": 329
+    }
+  ],
+  "metrics": [
+    {
+      "name": "top-1 accuracy",
+      "anchor": "Based | on          | top-1  | accu-",
+      "line": 346
+    },
+    {
+      "name": "accuracy",
+      "anchor": "world corruptions of our dataset. We calculate accuracy",
+      "line": 394
+    },
+    {
+      "name": "performance gap (PG)",
+      "anchor": "tualaccuracy(thelineartrend)theperformancegap.Robust",
+      "line": 383
+    },
+    {
+      "name": "effective robustness (ER)",
+      "anchor": "Effective Robustness. As described in [31], directly",
+      "line": 361
+    },
+    {
+      "name": "cosine distance",
+      "anchor": "cosinedistancebetweenthefeaturevectorsofimages",
+      "line": 291
+    }
+  ],
+  "notes": "数据集发布论文,新基准 VizWiz-Classification(简称 VW-C)为主测试基准(100 个模型在其上评测)。构建来源:图像与元数据取自 VizWiz-Captions 与 VizWiz-ImageQualityIssues(construction);标签空间由 1000 个 ImageNet 类别筛出 200 类,故 ImageNet 拆为 benchmark(报告并对比模型在 ImageNet 上的准确率,Table 4 IN 列、Figure 6)与 construction 两条;ImageNet 另参与 Figure 3 多样性分析,不单列第三条。ImageNet-C 为对比基准(4.2/4.3 节、Table 3 行 IN-C→VW-Ccorr.)。ImageNetV2 与 ObjectNet 仅用于 3.2 节数据多样性分析(Figure 3),非模型测试基准,记 other。ImageNet-21k 与 IG-1B-Targeted 为部分被评测模型(models trained w/ more data)的预训练数据集,记 pretrain。ImageNet-A、ImageNet-O、ImageNet-R 仅出现在 Table 1 特征对比与相关工作,且正文明确将其排除出多样性实验,未收录。指标:ImageNet/ImageNet-C 用标准 accuracy top-1(原文语序为 standard accuracy top-1 metric);在自有数据集上采用预测落入该图标签集合即算正确的 accuracy;top-5 accuracy 仅作为被否定选项提及,未使用,未收录;accuracy drop 与线性拟合斜率为叙述性派生量,未单列;performance gap (PG) 与 effective robustness (ER) 为 Table 3 及 Figure 4-7 的分析指标,cosine distance 用于 Figure 3 多样性分析。转录中空格缺失为 OCR 痕迹,锚点按原样保留。正文多次提及 Supplementary Materials,但本转录文件不含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bafghi_A_New_Dataset_Based_on_Images_Taken_by_Blind_People_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

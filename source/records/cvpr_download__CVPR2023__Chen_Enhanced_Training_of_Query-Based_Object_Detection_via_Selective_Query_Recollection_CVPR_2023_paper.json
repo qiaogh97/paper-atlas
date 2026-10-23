@@ -1,0 +1,58 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Enhanced_Training_of_Query-Based_Object_Detection_via_Selective_Query_Recollection_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Enhanced Training of Query-Based Object Detection via Selective Query Recollection",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MS-COCO",
+      "role": "benchmark",
+      "anchor": "WeconductourexperimentsontheMS-COCO[19]de- S"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AP",
+      "anchor": "SQRconsistentlyimprovesthesemodelsby1.4∼2."
+    },
+    {
+      "name": "AP50",
+      "anchor": " AP   | AP 50 | AP   | 75 AP | S AP | M AP L |\n|"
+    },
+    {
+      "name": "AP75",
+      "anchor": " AP   | AP 50 | AP   | 75 AP | S AP | M AP L |\n|"
+    },
+    {
+      "name": "APs",
+      "anchor": " AP   | AP 50 | AP   | 75 AP | S AP | M AP L |\n|"
+    },
+    {
+      "name": "APm",
+      "anchor": " AP   | AP 50 | AP   | 75 AP | S AP | M AP L |\n|"
+    },
+    {
+      "name": "APl",
+      "anchor": " AP   | AP 50 | AP   | 75 AP | S AP | M AP L |\n|"
+    },
+    {
+      "name": "TP fading rate",
+      "anchor": "apply TP Fading Rate And FP Exacerbation Rate. We\np"
+    },
+    {
+      "name": "FP exacerbation rate",
+      "anchor": "apply TP Fading Rate And FP Exacerbation Rate. We\np"
+    },
+    {
+      "name": "training time",
+      "anchor": "differentstartingstageintermsoftrainingtimeandAP.\n"
+    },
+    {
+      "name": "inference time",
+      "anchor": "inference time (ms)"
+    }
+  ],
+  "notes": "数据集仅 MS-COCO detection track：train2017 训练、MS-COCOvalset/COCO2017validationsplit 评测（同一数据集，不拆条）。指标为 COCO AP 系列；主结果表(Table.4/Table.8)表头 OCR 错位，单元格呈 \"AP 50/75 AP/S AP/M AP L\"，按论文原意记为 AP50/AP75/APs/APm/APl。正文另有 mAP 写法（指同一 AP 指标，未单列）。TP fading rate 与 FP exacerbation rate 为第3节定义、5.1节报告的分析性度量（表中缩写 TPFRate/FPERate），已计入。training time 与 inference time(ms) 在 Table.5 与 Fig.1 作为效率指标报告，已计入。IoU 仅作 TP 判定阈值（IoU>0.50/0.75）而非报告指标、#Supv 为方法设计量，均未收。参考文献中出现的其他数据集（如 Dair-V2x）仅为引文，未使用。无附录实验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Enhanced_Training_of_Query-Based_Object_Detection_via_Selective_Query_Recollection_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

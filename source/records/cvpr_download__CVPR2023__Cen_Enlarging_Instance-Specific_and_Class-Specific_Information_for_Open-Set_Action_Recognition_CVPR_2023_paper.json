@@ -1,0 +1,77 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cen_Enlarging_Instance-Specific_and_Class-Specific_Information_for_Open-Set_Action_Recognition_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Enlarging Instance-specific and Class-specific Information for Open-set Action Recognition",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "UCF101",
+      "role": "benchmark",
+      "anchor": "Datasets. Following [5], we use UCF101 [40] as the",
+      "line": 449
+    },
+    {
+      "name": "HMDB51",
+      "role": "benchmark",
+      "anchor": "on HMDB51 (OoD) and MiT-v2 (OoD) in Table 1 using",
+      "line": 573
+    },
+    {
+      "name": "MiT-v2",
+      "role": "benchmark",
+      "anchor": "ofInDandOoDsamplesaredepictedinFig.4forMiT-v2",
+      "line": 545
+    },
+    {
+      "name": "Kinetics400",
+      "role": "pretrain",
+      "anchor": "Implementation details. For Kinetics400 (K400) [3] pre-",
+      "line": 478
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AUROC",
+      "anchor": "Datasets Methods AUROC↑ AUPR↑ FPR95↓ Acc.↑",
+      "line": 502
+    },
+    {
+      "name": "AUPR",
+      "anchor": "AUROC,AUPRandFPR95areopen-setmetrics",
+      "line": 526
+    },
+    {
+      "name": "FPR95",
+      "anchor": "Datasets Methods AUROC↑ AUPR↑ FPR95↓ Acc.↑ AUROC↑ AUPR↑ FPR95↓ Acc.↑",
+      "line": 502
+    },
+    {
+      "name": "Acc.",
+      "anchor": "using TSM backbone. Acc. refers to closed-set",
+      "line": 525
+    },
+    {
+      "name": "Acc-Test.",
+      "anchor": "Epoch | Mean | Variance | AUROC↑ | Acc-Test.↑ |     | Acc-Train.↑ |     |",
+      "line": 716
+    },
+    {
+      "name": "Acc-Train.",
+      "anchor": "Epoch | Mean | Variance | AUROC↑ | Acc-Test.↑ |     | Acc-Train.↑ |     |",
+      "line": 716
+    },
+    {
+      "name": "Mean similarity",
+      "anchor": "Figure6.MeansimilarityandvarianceanalysisforCTterms.",
+      "line": 623
+    },
+    {
+      "name": "Feature variance",
+      "anchor": "Feature variance and open-set performance analysis.",
+      "line": 737
+    }
+  ],
+  "notes": "UCF101 为 InD 数据集，兼作训练集与闭集评测基准；HMDB51 与 MiT-v2 为 OoD 开集评测基准（HMDB51 另用于 Fig.7 不确定性定性分析，仍归 benchmark）。Kinetics400 仅作骨干预训练（K400 pretrain），故 role=pretrain。MiT-v2（即 Multi-Moments in Time）文中亦有 MiTv2 拼法，按首次引入处写法取 MiT-v2。ImageNet 仅在 Implementation details 的否定语境出现（from scratch、no ImageNet pretrained），论文未实际使用，故未收录。Acc. 为闭集 top-1 accuracy 的原文缩写（论文写 top-1 accuracy Acc. (%)）；Acc-Test. 与 Acc-Train. 仅见于 Table 5 训练过程分析表，为 Acc. 的训练/测试变体，按原文保留；Mean similarity 与 Feature variance 为 5.2 节分析性度量（Fig.6/Table 2/Table 5），按分析度量规则计入。正文引用的 Appendix A–D（含 I3D/SlowFast 结果、OoD 清洗细节）未包含在本 markdown 全文内，无法提取附录条目；所用数据集与指标以正文为准。全文 markdown 存在 OCR 缺空格痕迹，所有锚点按文件原文逐字复制（已程序核验为连续子串）。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cen_Enlarging_Instance-Specific_and_Class-Specific_Information_for_Open-Set_Action_Recognition_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,98 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bhunia_Sketch2Saliency_Learning_To_Detect_Salient_Objects_From_Human_Drawings_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Sketch2Saliency: Learning to Detect Salient Objects from Human Drawings",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Sketchy",
+      "role": "pretrain",
+      "anchor": "dataset(Sketchy)containsphoto-sketchpairsmainlywitha",
+      "line": 962
+    },
+    {
+      "name": "ECSSD",
+      "role": "benchmark",
+      "anchor": "sixbenchmarkdatasets: ECSSD[75],DUT-OMRON[76],",
+      "line": 728
+    },
+    {
+      "name": "DUT-OMRON",
+      "role": "benchmark",
+      "anchor": "fromtheweb,DUT-OMRON[76]containsatotalof5168",
+      "line": 639
+    },
+    {
+      "name": "PASCAL-S",
+      "role": "benchmark",
+      "anchor": "in complex backgrounds. PASCAL-S [37] incorporates a",
+      "line": 641
+    },
+    {
+      "name": "PASCAL VOC2010",
+      "role": "benchmark",
+      "anchor": "set) of PASCAL VOC2010 [17] segmentation challenge.",
+      "line": 643
+    },
+    {
+      "name": "MSRA5K",
+      "role": "benchmark",
+      "anchor": "MSRA5K[40]holdsacollectionof5,000naturalimages.",
+      "line": 644
+    },
+    {
+      "name": "SOD",
+      "role": "benchmark",
+      "anchor": "SOD [43] contains 300 images, mainly created for image",
+      "line": 645
+    },
+    {
+      "name": "SOC",
+      "role": "benchmark",
+      "anchor": "recentlyintroducedmorechallengingSOC[18]dataset.",
+      "line": 900
+    },
+    {
+      "name": "DUTS",
+      "role": "pretrain",
+      "anchor": "using DUTS dataset [66] containing 10,533 training im-",
+      "line": 814
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "WhileanImageNetpre-trained",
+      "line": 672
+    }
+  ],
+  "metrics": [
+    {
+      "name": "MAE",
+      "anchor": "Mean Absolute Error (MAE) – smaller is better, and (b)",
+      "line": 706
+    },
+    {
+      "name": "maxFβ",
+      "anchor": "maximumF-measure(maxF )–largerisbetter,whereβ2",
+      "line": 707
+    },
+    {
+      "name": "weighted F-measure (Fw)",
+      "anchor": "introducedmetrics[70]likeweightedF-measure(Fw)and",
+      "line": 895
+    },
+    {
+      "name": "Sα",
+      "anchor": "structural similaritymeasure (S ; α = 0.5). Furthermore,",
+      "line": 897
+    },
+    {
+      "name": "Precision-Recall curve",
+      "anchor": "Precision-Recallcurvesofmodelstrainedfrom",
+      "line": 949
+    }
+  ],
+  "notes": "弱监督显著性检测论文。Sketchy 为主框架训练用的弱标签照片-素描对数据集（非测试基准），DUTS 仅用于线性评估/半监督微调（1%、10% 标注），ImageNet 仅作 VGG-16 backbone 预训练，三者均记 pretrain；论文明确给出六个测试基准 ECSSD、DUT-OMRON、PASCAL-S、PASCAL VOC2010、MSRA5K、SOD，另有较新挑战基准 SOC（Table 3）。指标：MAE、maxFβ（β²=0.3，正文 OCR 丢失下标 β）、weighted F-measure（Fw，即表格中的 Fwβ，OCR 丢失 β 下标）、Sα（结构相似性度量，α=0.5）、Precision-Recall curve（图 6 结果曲线）。无附录。全文 OCR 存在空格缺失痕迹，锚点均按文件原文逐字复制并已逐一脚本核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bhunia_Sketch2Saliency_Learning_To_Detect_Salient_Objects_From_Human_Drawings_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

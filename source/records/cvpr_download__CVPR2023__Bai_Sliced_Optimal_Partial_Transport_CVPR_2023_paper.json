@@ -1,0 +1,57 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_Sliced_Optimal_Partial_Transport_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Sliced Optimal Partial Transport",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Stanford Bunny",
+      "role": "benchmark",
+      "anchor": "point clouds, including Stanford Bunny, Stanford dragon,",
+      "line": 682
+    },
+    {
+      "name": "Stanford dragon",
+      "role": "benchmark",
+      "anchor": "point clouds, including Stanford Bunny, Stanford dragon,",
+      "line": 682
+    },
+    {
+      "name": "Witch-castle",
+      "role": "benchmark",
+      "anchor": "Witch-castle and Mumble Sitting. For each dataset, we",
+      "line": 683
+    },
+    {
+      "name": "Mumble Sitting",
+      "role": "benchmark",
+      "anchor": "Witch-castle and Mumble Sitting. For each dataset, we",
+      "line": 683
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Frobenius norm",
+      "anchor": "standard deviation of error defined by the Frobenius norm",
+      "line": 713
+    },
+    {
+      "name": "wall-clock time",
+      "anchor": "Wetestthewall-clocktimeofourAlgorithm1,thepar-",
+      "line": 553
+    },
+    {
+      "name": "Time/iter.",
+      "anchor": "Source Target Time/iter. #Iter. Time/iter. #Iter.",
+      "line": 701
+    },
+    {
+      "name": "#Iter.",
+      "anchor": "Source Target Time/iter. #Iter. Time/iter. #Iter.",
+      "line": 701
+    }
+  ],
+  "notes": "4 个 3D 点云数据集（Stanford Bunny、Stanford dragon、Witch-castle、Mumble Sitting）用于第 6 节点云配准应用实验，属主实验测试基准，均记 benchmark；Table 2 中缩写为 Bunny/Dragon/Mumble/Castle，取正文全名。第 4.2 节运行时实验仅用合成 uniform 分布与 Gaussian mixture 采样，非命名数据集，未收录。指标：Frobenius norm 为配准误差度量（Table 1 报其 mean/variance）；wall-clock time 为运行时实验度量（图 2，正文亦写作 wall clock time）；Time/iter. 与 #Iter. 为 Table 2 结果表列名（每迭代耗时与收敛迭代数），照抄保留缩写。color adaptation 实验仅在 supplementary material，本全文文件不含附录，故未提取。markdown 有 OCR 空格缺失痕迹，锚点均按原样逐字复制并已核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_Sliced_Optimal_Partial_Transport_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

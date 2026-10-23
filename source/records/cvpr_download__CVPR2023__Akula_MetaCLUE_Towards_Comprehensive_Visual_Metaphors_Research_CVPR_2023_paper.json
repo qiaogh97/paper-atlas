@@ -1,0 +1,85 @@
+{
+  "paper": "cvpr_download/CVPR2023/Akula_MetaCLUE_Towards_Comprehensive_Visual_Metaphors_Research_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "MetaCLUE: Towards Comprehensive Visual Metaphors Research",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MetaCLUE",
+      "role": "benchmark",
+      "anchor": "using300samplesfromMetaCLUEtestset",
+      "line": 560
+    },
+    {
+      "name": "Pitt's Ads dataset",
+      "role": "construction",
+      "anchor": "outof8480images. Pitt’sAdsdataset[20]alsocomeswith",
+      "line": 265
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "anchor": "Table1.AccuracyofMetaphorClassification(binaryclassifica-",
+      "line": 346
+    },
+    {
+      "name": "p@1",
+      "anchor": "p@1↑ rank↓ p@1↑ rank↓ p@1↑ rank↓ p@1↑ rank↓",
+      "line": 431
+    },
+    {
+      "name": "rank",
+      "anchor": "Rank measures the averaged ranking value of the highest-ranked",
+      "line": 425
+    },
+    {
+      "name": "Acc",
+      "anchor": "using both the exact match accuracy (Acc) and standard text generation metrics.",
+      "line": 449
+    },
+    {
+      "name": "BLEU4",
+      "anchor": "captioning BLEU4 [36], ROUGE-L [28], METEOR [3],",
+      "line": 459
+    },
+    {
+      "name": "ROUGE-L",
+      "anchor": "favorrecall(e.g.,ROUGE-L)andwithpredictingthetarget",
+      "line": 479
+    },
+    {
+      "name": "METEOR",
+      "anchor": "Captioning Acc BLEU4 ROUGE-L METEOR SPICE CIDEr VQA Acc",
+      "line": 443
+    },
+    {
+      "name": "SPICE",
+      "anchor": "SPICE [2], and CIDEr [51]. Since the target captions",
+      "line": 460
+    },
+    {
+      "name": "CIDEr",
+      "anchor": "CIDEr VQA Acc BLEU4 ROUGE-L METEOR SPICE CIDEr",
+      "line": 443
+    },
+    {
+      "name": "mAP",
+      "anchor": "|     | mAP   | mAP   |     ",
+      "line": 504
+    },
+    {
+      "name": "FID",
+      "anchor": "ricsofFID[42]andCLIPsimilarity[39]scores.",
+      "line": 580
+    },
+    {
+      "name": "CLIPSimilarity",
+      "anchor": "| FID↓  | CLIPSimilarity↑ |      |",
+      "line": 574
+    }
+  ],
+  "notes": "MetaCLUE为本文提出的任务集及配套自建标注数据集，分类/定位/理解/生成四类实验均在其自建train/test划分上评测，故计为benchmark；Pitt's Ads dataset（匹兹堡大学广告图库）仅作为图像来源用于筛选与人工标注（8.5K symbolic子集、5061张隐喻图及负样本），计为construction。相关工作中的ArtEmis、Multi-MET、MET-Meme仅用于排除；VQAv2与COCO-Captions仅作外部对比数字引用；Table 2中ALBEF(MSCOCO)/ALBEF(Flickr30k)为预训练checkpoint变体标签，均未计入datasets。指标说明：p@1在正文展开写作precision@1；rank于脚注定义为ground-truth语句的平均排名（越低越好）；Acc为exact match accuracy缩写（Table 3），Table 2的accuracy列与Table 1的Accuracy同义，归并为一条Accuracy；mAP在Table 4含50/70两个阈值列；CLIPSimilarity正文亦写作CLIPsimilarity/CLIP-Similarity，归并为一条；BLEU4即BLEU-4。图8用户研究仅报告偏好百分比且未命名为指标，未计入。全文无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Akula_MetaCLUE_Towards_Comprehensive_Visual_Metaphors_Research_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

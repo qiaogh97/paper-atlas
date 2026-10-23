@@ -1,0 +1,74 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chao_Equivalent_Transformation_and_Dual_Stream_Network_Construction_for_Mobile_Image_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Equivalent Transformation and Dual Stream Network Construction for Mobile Image Super-Resolution",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "DIV2K",
+      "role": "other",
+      "anchor": "OurmodelETDSistrainedonDIV2Kdataset[25]with",
+      "line": 437
+    },
+    {
+      "name": "Set5",
+      "role": "benchmark",
+      "anchor": "Latency(ms) Set5 Set14 B100 Urban100 DIV2K100",
+      "line": 583
+    },
+    {
+      "name": "Set14",
+      "role": "benchmark",
+      "anchor": "Set5 Set14 B100 Urban100 DIV2K100",
+      "line": 583
+    },
+    {
+      "name": "BSDS100",
+      "role": "benchmark",
+      "anchor": "Set14 [32],  | BSDS100",
+      "line": 444
+    },
+    {
+      "name": "Urban100",
+      "role": "benchmark",
+      "anchor": "[21],Urban100[9]andDIV2K100[25]).",
+      "line": 446
+    },
+    {
+      "name": "DIV2K100",
+      "role": "benchmark",
+      "anchor": "Urban100[9]andDIV2K100[25]).",
+      "line": 446
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "casesbutalsohigherPSNR/SSIMindexes.",
+      "line": 515
+    },
+    {
+      "name": "SSIM",
+      "anchor": "casesbutalsohigherPSNR/SSIMindexes.",
+      "line": 515
+    },
+    {
+      "name": "Params(K)",
+      "anchor": "Scale Model Params(K) MACs(G) Latency(ms)",
+      "line": 583
+    },
+    {
+      "name": "MACs(G)",
+      "anchor": "Scale Model Params(K) MACs(G) Latency(ms)",
+      "line": 583
+    },
+    {
+      "name": "Latency(ms)",
+      "anchor": "Scale Model Params(K) MACs(G) Latency(ms) Set5 Set14 B100 Urban100 DIV2K100",
+      "line": 583
+    }
+  ],
+  "notes": "DIV2K 仅作训练集(800 张训练图像),非评测基准,故 role=other;其 100 张验证图以 DIV2K100 名称与 Set5/Set14/BSDS100/Urban100 并列为 5 个测试基准(4.1 节)。BSDS100 在 Tab.2 表头缩写为 B100,取 4.1 节全称。PSNR/SSIM 为原文未展开的缩写(于 Y 通道计算);Params(K)/MACs(G)/Latency(ms) 照抄 Tab.2 结果表表头,分别指参数量、乘加运算量与多 SoC/驱动下推理延迟,Tab.1 亦报告平均推理延迟。正文提及 Appendix 但本全文文件未含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chao_Equivalent_Transformation_and_Dual_Stream_Network_Construction_for_Mobile_Image_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

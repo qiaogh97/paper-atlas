@@ -1,0 +1,49 @@
+{
+  "paper": "cvpr_download/CVPR2023/An_ZBS_Zero-Shot_Background_Subtraction_via_Instance-Level_Background_Modeling_and_Foreground_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "ZBS: Zero-shot Background Subtraction via Instance-level Background Modeling and Foreground Selection",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CDnet 2014 dataset",
+      "role": "benchmark",
+      "anchor": "the CDnet 2014 dataset [39]. The CDnet 2014 dataset is",
+      "line": 425
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Recall",
+      "anchor": "WeselectRecall(Re),Precision(Pr)and",
+      "line": 450
+    },
+    {
+      "name": "Precision",
+      "anchor": "(Precision,Recall,F-Measure)oftheBGSalgorithms",
+      "line": 543
+    },
+    {
+      "name": "F-Measure",
+      "anchor": "F-Measure(F−M)toevaluatetheperformanceontheCD-",
+      "line": 453
+    },
+    {
+      "name": "nbShadowError",
+      "anchor": "ios, we compare the nbShadowError and FPR-S of differ-",
+      "line": 599
+    },
+    {
+      "name": "FPR-S",
+      "anchor": "Table3. TheFPR-SandnbShadowErrorofdifferentBGSmeth-",
+      "line": 643
+    },
+    {
+      "name": "FPS",
+      "anchor": "Ultimately, | we achieve |     | approximately | 44 FPS | on an A100",
+      "line": 579
+    }
+  ],
+  "notes": "全文为去空格式 OCR 转录，锚点按原样逐字复制（F−M 中的减号为 U+2212）。数据集仅 CDnet 2014（53 段视频、11 类）：既是 Table 1/2/3 定量评测基准，也是 Figure 5 可视化对比来源，按 benchmark 记一条。指标：Recall/Precision/F-Measure 为 4.1 节正式评测指标（Table 2 中缩写作 Re/Pr/F-M，同一指标不重复记）；nbShadowError 与 FPR-S 为 4.5 节阴影误检分析指标（FPR-S 由式(5)定义，随 Table 3 报告）；FPS 为 4.5 节运行效率分析度量（约 44 FPS on A100）。方法内部前景实例筛选判据 IoU/IoF 虽被论文原称作 two metrics，但属算法组件而非评测指标，未计入。正文第 5 节前提及附录含 night light、camouflaged foreground 等补充实验，但本转录文件止于参考文献、未含附录内容。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/An_ZBS_Zero-Shot_Background_Subtraction_via_Instance-Level_Background_Modeling_and_Foreground_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

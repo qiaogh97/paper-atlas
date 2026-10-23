@@ -1,0 +1,77 @@
+{
+  "paper": "cvpr_download/CVPR2023/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Bayesian posterior approximation with stochastic ensembles",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "into10(CIFAR-10)or100(CIFAR-100)classes.Complex-",
+      "line": 612
+    },
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "wellonCIFAR-10butSE1ismoreaccurateonCIFAR-100.",
+      "line": 699
+    },
+    {
+      "name": "CIFAR-10-C",
+      "role": "benchmark",
+      "anchor": "different | methods | on the | CIFAR-10-C | and | CIFAR-100-C",
+      "line": 713
+    },
+    {
+      "name": "CIFAR-100-C",
+      "role": "benchmark",
+      "anchor": "CIFAR-100-C(meanovercorruptions)",
+      "line": 734
+    }
+  ],
+  "metrics": [
+    {
+      "name": "accuracy",
+      "anchor": "Table2. Predictionaccuracy(acc),testlog-likelihoodloss(loss),",
+      "line": 670
+    },
+    {
+      "name": "test log-likelihood loss",
+      "anchor": "testlog-likelihoodloss(loss),",
+      "line": 670
+    },
+    {
+      "name": "expected calibration error",
+      "anchor": "expectedcalibrationerror(ECE),agreement(agr),variance(var)",
+      "line": 671
+    },
+    {
+      "name": "agreement",
+      "anchor": "agreement(agr),variance(var)",
+      "line": 671
+    },
+    {
+      "name": "variance",
+      "anchor": "lookingattheagreementandvariancebetweentheensem-",
+      "line": 623
+    },
+    {
+      "name": "out-of-domain detection",
+      "anchor": "andout-of-domaindetection(ODD)fordifferentinferencemeth-",
+      "line": 673
+    },
+    {
+      "name": "entropy",
+      "anchor": "bycomputingthepredictiveposteriorentropythatformally",
+      "line": 505
+    },
+    {
+      "name": "mutual information",
+      "anchor": "The mutual information describes only the epistemic part",
+      "line": 516
+    }
+  ],
+  "notes": "toy 实验用自建 2D 两类合成数据（Fig.1 a-c 三套，未命名），故不入 datasets。CIFAR-10/100 为主实验基准（Table 2）；CIFAR-10-C/100-C 用于分布偏移鲁棒性评测（Table 3），均按 benchmark 角色。指标取自 Table 1/2/3 及正文总结句：entropy 与 mutual information 在 toy 实验中以对 HMC 估计的平均绝对差报告，Fig.2 另示 predictive entropy 直方图（同一量，不重复计）。ODD 在 Table 2 表注展开为 out-of-domain detection，正文另一处展开为 out-of-distribution detection，此处按表注记录并在 notes 说明双重展开。全文 markdown 为 OCR 式转录、大量空格缺失，锚点逐字保留原样（无空格形式）。补充材料（SM，引文 [48]）未包含在本文件中，故无附录可提取。HMC/MultiSWA/deep ensembles 等为对比方法，非数据集。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,56 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_Learning_the_Distribution_of_Errors_in_Stereo_Matching_for_Joint_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "SceneFlow",
+   "role": "benchmark",
+   "anchor": "Experiments on the SceneFlow dataset were performed"
+  },
+  {
+   "name": "Virtual KITTI 2",
+   "role": "benchmark",
+   "anchor": "Virtual KITTI 2 (VK2) [6] is a synthetic clone of"
+  },
+  {
+   "name": "DrivingStereo",
+   "role": "benchmark",
+   "anchor": "DrivingStereo[37]isalargereal-worldautonomousdriv-"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "EPE",
+   "anchor": "endpoint | error | (EPE) | and the | percentage | of outliers | (D1)"
+  },
+  {
+   "name": "D1",
+   "anchor": "endpoint | error | (EPE) | and the | percentage | of outliers | (D1)"
+  },
+  {
+   "name": "APE",
+   "anchor": "ducetheabsolutepredictionerror(APE),whichistheaver-"
+  },
+  {
+   "name": "ROC curves",
+   "anchor": "ROCcurvesandtheareaunderthecurve(AUC)"
+  },
+  {
+   "name": "AUC",
+   "anchor": "ROCcurvesandtheareaunderthecurve(AUC)"
+  },
+  {
+   "name": "Params",
+   "anchor": "Table2showsthenumberofparametersandcom-"
+  },
+  {
+   "name": "MACs",
+   "anchor": "MAC stands for multiply–accumulate opera-"
+  }
+ ],
+ "notes": "三个数据集均为主实验测试基准(Table 1/3 的 within-domain 与 cross-domain 评测)。VK2 按作者指定的 Scene006 测试集(VK2-S6)及其运动子集 VK2-S6-Moving 报告结果,DrivingStereo 用其挑战子集 DS-Weather 做跨域评测,二者为父数据集的评测划分,未单列条目;SceneFlow 由 FlyingThings3D、Driving、Monkaa 三个子数据集构成,按论文自身口径合并为一条;KITTI 仅作为 VK2 的克隆原型被提及,实验未使用,不予收录。指标均为缩写,原文有展开:endpoint error (EPE)、percentage of outliers (D1)、absolute prediction error (APE)、area under the curve (AUC);ROC 曲线为 density-EPE ROC curves(按 EPE 在不同密度下的曲线);APE 报告 Avg./Median、AUC 报告 Opt./Est. 变体,均不拆分;Params 与 MACs 为 Table 2 中的模型复杂度度量(multiply-accumulate operations,含 en-dash)。正文引用的 Supplement(Table S.2 等)未包含在本全文文件中。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Learning_the_Distribution_of_Errors_in_Stereo_Matching_for_Joint_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

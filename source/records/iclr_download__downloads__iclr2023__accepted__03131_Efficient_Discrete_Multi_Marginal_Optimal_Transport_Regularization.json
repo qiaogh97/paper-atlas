@@ -1,0 +1,93 @@
+{
+  "paper": "iclr_download/downloads/iclr2023/accepted/03131_Efficient_Discrete_Multi_Marginal_Optimal_Transport_Regularization",
+  "venue": "ICLR2023",
+  "title": "Efficient Discrete Multi-Marginal Optimal Transport Regularization",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "German Credit Dataset",
+      "role": "benchmark",
+      "anchor": "theGermanCreditDataset(Hofmann,1994)",
+      "line": 429
+    },
+    {
+      "name": "Adult Income Dataset",
+      "role": "benchmark",
+      "anchor": "theAdultIncomeDataset(Dua&",
+      "line": 429
+    },
+    {
+      "name": "Communities and Crime Dataset",
+      "role": "benchmark",
+      "anchor": "theCommunitiesandCrimeDataset(Redmond,2009)",
+      "line": 430
+    },
+    {
+      "name": "ACSIncome",
+      "role": "benchmark",
+      "anchor": "and(4)TheACSIncome",
+      "line": 430
+    },
+    {
+      "name": "CelebA",
+      "role": "benchmark",
+      "anchor": "TrainFIDScoresforCelebAMulti-DomainImageTranslation.1",
+      "line": 1068
+    }
+  ],
+  "metrics": [
+    {
+      "name": "maximum Demographic Parity Gap (DP)",
+      "anchor": "Measuresevaluatedusingstandardmetrics:maximumDemographicParity",
+      "line": 435
+    },
+    {
+      "name": "maximum Equalized Odds Gap (EO)",
+      "anchor": "maximumEqualizedOddsGap(EO),and(DEMD)",
+      "line": 436
+    },
+    {
+      "name": "DEMD",
+      "anchor": "Gap(DP),maximumEqualizedOddsGap(EO),and(DEMD)",
+      "line": 436
+    },
+    {
+      "name": "Accuracy (ACC)",
+      "anchor": "Evaluationsconductedalongthreemetrics,Accuracy(ACC),Adver-",
+      "line": 491
+    },
+    {
+      "name": "Adversarial Measure (ADV)",
+      "anchor": "EvaluationMetric: AdversarialMeasure(ADV)TheADVmeasurecorrespondstotheaccuracy",
+      "line": 923
+    },
+    {
+      "name": "Maximum Mean Discrepancy (MMD)",
+      "anchor": "EvaluationMetric: MaximumMeanDiscrepancy(MMD)WesimplyusethefollowingMMD",
+      "line": 931
+    },
+    {
+      "name": "Fréchet Inception Distance (FID)",
+      "anchor": "UsingtheFrechetInceptionDistancewequantitativelymeasuretheresulting",
+      "line": 1069
+    },
+    {
+      "name": "Time Per Epoch (seconds)",
+      "anchor": "Time Per Epoch (seconds)",
+      "line": 380
+    },
+    {
+      "name": "Forward Time (s)",
+      "anchor": "Forward Time (s) Backward Time (s)",
+      "line": 400
+    },
+    {
+      "name": "Backward Time (s)",
+      "anchor": "Backward Time (s) Forward Time (s)",
+      "line": 400
+    }
+  ],
+  "notes": "4 个 fairness 数据集（German Credit / Adult Income / Communities and Crime / ACSIncome）在主文 5.2 公平性实验（Table 1）与 5.3 调和实验（Table 2）中均作为测试基准使用，附录 7.3.1-7.3.3 及 Table 3/4 重复使用，故均记 benchmark，单一角色不拆条。CelebA 用于 5.4 多域图像翻译（MWGAN 对比），Table 5 报告 FID 定量结果（benchmark），Figure 5/8/9 为定性展示，因主体有定量指标故合并为一条 benchmark，锚点取 Table 5 标题。指标：DP/EO 在表中以缩写列名出现，正文与附录 7.3.2 给出展开（maximum Demographic Parity Gap / maximum Equalized Odds Gap），按论文写法保留缩写并附展开；DEMD 既是方法名也是 Table 1/3/4 中报告的距离度量，此处按指标收录；ACC/ADV/MMD 在 Table 2 与附录 7.3.3 定义处出现；FID 展开在转录中为 FrechetInceptionDistance（重音符丢失），指标名按原文 Fréchet Inception Distance 记录。Time Per Epoch / Forward Time / Backward Time 为 5.1 性能基准实验（Figure 3/4）中的效率度量，出自图轴标签而非结果表。转录普遍存在空格缺失（OCR 痕迹），锚点均按文件原文无空格形式逐字复制并经 grep -F 核验。",
+  "text_path": "conference_paper/iclr_download/downloads/iclr2023/accepted/03131_Efficient_Discrete_Multi_Marginal_Optimal_Transport_Regularization/paper.md",
+  "text_source": "markdown"
+}

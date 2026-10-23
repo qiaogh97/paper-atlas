@@ -1,0 +1,60 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_AUNet_Learning_Relations_Between_Action_Units_for_Face_Forgery_Detection_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "AUNet: Learning Relations Between Action Units for Face Forgery Detection",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FaceForensics++ (FF++)",
+      "role": "benchmark",
+      "anchor": "Forensics++(FF++)[42]fortraining.",
+      "line": 497
+    },
+    {
+      "name": "Celeb-DF (CDF)",
+      "role": "benchmark",
+      "anchor": "taset, | i.e.,    | Celeb-DF | (CDF)     | [36], |             |    ",
+      "line": 516
+    },
+    {
+      "name": "DeepfakeDetection (DFD)",
+      "role": "benchmark",
+      "anchor": " improves | the |\n| DeepfakeDetection |               | (DFD)    | [1],     | Deep",
+      "line": 518
+    },
+    {
+      "name": "Deepfake Detection Challenge (DFDC)",
+      "role": "benchmark",
+      "anchor": "DFD [1], DFDC [13], DFDCP [14], and FFIW [57]",
+      "line": 166
+    },
+    {
+      "name": "DFDC Preview (DFDCP)",
+      "role": "benchmark",
+      "anchor": "DFD [1], DFDC [13], DFDCP [14], and FFIW [57]",
+      "line": 166
+    },
+    {
+      "name": "Wild-Deepfake (FFIW)",
+      "role": "benchmark",
+      "anchor": "donreal\n| Wild-Deepfake |     | (FFIW) | [57]. | We  | also fol",
+      "line": 522
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "weightspre-trainedonImageNet[11].",
+      "line": 473
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AUC",
+      "anchor": "our approach achieves the AUC of 99.98%, 99.60%,",
+      "line": 79
+    }
+  ],
+  "notes": "FF++为训练与in-dataset/cross-manipulation测试主基准;CDF、DFD、DFDC、DFDCP、FFIW为cross-dataset测试基准。DF/F2F/FS/NT为FF++内四种操纵方法,未单列。ImageNet仅用于Xception backbone初始化(pretrain)。MS-Celeb-1M仅出现在Table 3脚注说明基线ICT的训练数据,属基线方法信息,未收录。指标仅AUC(各表Testing Set AUC(%)),缩写原文未展开。全文OCR空格缺失、表格为竖线分隔,锚点按原文逐字复制;正文提及补充材料含CDF/DFDCP的in-dataset结果,但补充材料未包含在本文件中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_AUNet_Learning_Relations_Between_Action_Units_for_Face_Forgery_Detection_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

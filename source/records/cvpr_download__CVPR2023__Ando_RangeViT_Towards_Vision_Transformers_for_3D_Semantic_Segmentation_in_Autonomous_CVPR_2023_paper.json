@@ -1,0 +1,53 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ando_RangeViT_Towards_Vision_Transformers_for_3D_Semantic_Segmentation_in_Autonomous_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "RangeViT: Towards Vision Transformers for 3D Semantic Segmentation in Autonomous Driving",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "nuScenes",
+      "role": "benchmark",
+      "anchor": "nuScenes[7]andSemanticKITTI[3].",
+      "line": 388
+    },
+    {
+      "name": "SemanticKITTI",
+      "role": "benchmark",
+      "anchor": "SemanticKITTI [3] is created from the KITTI Vision",
+      "line": 405
+    },
+    {
+      "name": "ImageNet21k",
+      "role": "pretrain",
+      "anchor": "onImageNet21k[12]forclassificationandthenfine-tuned",
+      "line": 423
+    },
+    {
+      "name": "Cityscapes",
+      "role": "pretrain",
+      "anchor": "Cityscapes with Segmenter [45] (entry CS), which in its",
+      "line": 511
+    },
+    {
+      "name": "ImageNet1k",
+      "role": "pretrain",
+      "anchor": "self-supervisedapproachonImageNet1k(entryDINO)",
+      "line": 515
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "Asevaluationmetric,weusethemeanInter-",
+      "line": 393
+    },
+    {
+      "name": "IoU",
+      "anchor": "Class-wise IoU result analysis. In Tab. 7 and 8, we can",
+      "line": 657
+    }
+  ],
+  "notes": "主实验基准为 nuScenes 与 SemanticKITTI（消融 Tab.1-6 在两数据集 validation 集，SOTA 对比 Tab.7/8 分别在 nuScenes validation 与 SemanticKITTI test 集）。ImageNet21k（ViT-S 有监督分类预训练，entry IN21k）、Cityscapes（经 Segmenter 的图像分割预训练，entry CS）、ImageNet1k（DINO 自监督预训练，entry DINO）均仅作 ViT 编码器预训练权重来源，故 role=pretrain。SemanticKITTI 源自 KITTI Vision Odometry Benchmark，但该基准非本文实验直接使用，也非本文自建数据集的来源，故未单列。指标 mIoU 原文写作 mean Intersection over Union (mIoU)，因 OCR 双栏交错换行，锚点止于 meanInter-；IoU 指 Tab.7/8 中的 class-wise 逐类 IoU。Tab.1/3 另报 #Params 与相对 train time 等效率量，Fig.3 以训练 epoch 数衡量收敛效率，均非任务评价指标，未计入。4.5 节定性可视化亦基于 nuScenes validation 点云，属同一基准用途，未另拆 qualitative 条目。全文止于参考文献，无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Ando_RangeViT_Towards_Vision_Transformers_for_3D_Semantic_Segmentation_in_Autonomous_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

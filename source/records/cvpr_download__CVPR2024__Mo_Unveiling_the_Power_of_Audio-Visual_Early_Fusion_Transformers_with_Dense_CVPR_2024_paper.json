@@ -1,0 +1,128 @@
+{
+  "paper": "cvpr_download/CVPR2024/Mo_Unveiling_the_Power_of_Audio-Visual_Early_Fusion_Transformers_with_Dense_CVPR_2024_paper",
+  "venue": "CVPR2024",
+  "title": "Unveiling the Power of Audio-Visual Early Fusion Transformers with Dense Interactions through Masked Modeling",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "VGGSound",
+      "role": "pretrain",
+      "anchor": "ThecomparisonsabovewereconductedusingVGGSound",
+      "line": 606
+    },
+    {
+      "name": "VGGSound",
+      "role": "benchmark",
+      "anchor": "namelylinearprobingandfine-tuningonVGGSound,sound",
+      "line": 576
+    },
+    {
+      "name": "VGGSound-Music",
+      "role": "benchmark",
+      "anchor": "defined“VGGSound-Music”subsetwhichincludes40,908",
+      "line": 466
+    },
+    {
+      "name": "VGGSound-Instruments",
+      "role": "benchmark",
+      "anchor": "subsets of VGG-Sounds [7]: the VGGSound-Instruments",
+      "line": 462
+    },
+    {
+      "name": "MUSIC",
+      "role": "benchmark",
+      "anchor": "entdatasets: theMUSIC[65]datasetandtwosubsetsfrom",
+      "line": 451
+    },
+    {
+      "name": "AudioSet",
+      "role": "pretrain",
+      "anchor": "largerAudioSetdataset[18](with1.73Mtrainingsamples).",
+      "line": 609
+    },
+    {
+      "name": "AudioSet",
+      "role": "benchmark",
+      "anchor": "All, and the balanced AudioSet dataset. In all cases, we use",
+      "line": 493
+    },
+    {
+      "name": "AVSBench",
+      "role": "benchmark",
+      "anchor": "AVSBench[67]forthetasksofSingleSourceSourceSeg-",
+      "line": 476
+    },
+    {
+      "name": "Flickr-SoundNet",
+      "role": "benchmark",
+      "anchor": "izationonFlickr-SoundNet,andaudio-visualsegmentation",
+      "line": 580
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "pre-trained on ImageNet [10], and the Spec-MAE model",
+      "line": 377
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Signal-to-Distortion Ratio (SDR)",
+      "anchor": "DistortionRatio(SDR),Signal-to-ArtifactRatio(SAR),and",
+      "line": 472
+    },
+    {
+      "name": "Signal-to-Artifact Ratio (SAR)",
+      "anchor": "DistortionRatio(SDR),Signal-to-ArtifactRatio(SAR),and",
+      "line": 472
+    },
+    {
+      "name": "Signal-to-Interference Ratio (SIR)",
+      "anchor": "Signal-to-InterferenceRatio(SIR).",
+      "line": 474
+    },
+    {
+      "name": "mIoU",
+      "anchor": "mIoU F1 mIoU F1",
+      "line": 467
+    },
+    {
+      "name": "F1",
+      "anchor": "mIoU F1 mIoU F1",
+      "line": 467
+    },
+    {
+      "name": "classification accuracy",
+      "anchor": "protocols.Performanceismeasuredintermsofclassificationaccuracy[%].",
+      "line": 525
+    },
+    {
+      "name": "average precision (AP)",
+      "anchor": "labeldataset)weusetheaverageprecision(AP)andArea",
+      "line": 499
+    },
+    {
+      "name": "Area under the ROC curve (AUC)",
+      "anchor": "undertheROCcurve(AUC)scoresaveragedacrossclasses.",
+      "line": 500
+    },
+    {
+      "name": "Nearest neighbor accuracy (NNAcc)",
+      "anchor": "Figure3. Nearestneighboraccuracy(NNAcc)vstrainingsteps(Step)",
+      "line": 645
+    },
+    {
+      "name": "Speed (video/sec)",
+      "anchor": "(video/sec) | (GB) | Acc | SDR | mIoU",
+      "line": 618
+    },
+    {
+      "name": "Memory (GB)",
+      "anchor": "Early Factorized Speed Memory Linear Sep Segm",
+      "line": 617
+    }
+  ],
+  "notes": "全文为双栏 OCR 转录，空格大量缺失，锚点逐字保留 OCR 痕迹未加空格。角色拆分：VGGSound 与 AudioSet 既作预训练集又作下游评测基准，各拆 pretrain/benchmark 两条；VGGSound-Music、VGGSound-Instruments 为论文自 VGGSound 划分子集并作为分离/分类评测基准；MUSIC 用于声源分离评测（358 训练/90 测试 solo 视频）；AVSBench 用于 S4 与 AVSS 分割评测；Flickr-SoundNet 用于声源定位（五项下游任务之一，正文未给出单独指标表）；ImageNet 仅用于视觉单模态编码器初始化（ImageNet 预训练 ViT-Base 权重），另 Spec-MAE 音频编码器权重来自 AudioSet 预训练，已并入 AudioSet-pretrain 条。指标：SDR/SIR/SAR 为声源分离指标且原文已展开缩写；VGGSound 分类用 class accuracy（表 4 记作 classification accuracy[%]，LP/FT 两种协议）；AudioSet 多标签用 AP 与 AUC；mIoU/F1 为 AVSBench 分割指标；NNAcc 为图 3 融合 token 涌现语义的最近邻检索精度；Speed(video/sec) 与 Memory(GB) 为表 6 效率对比指标。文末仅参考文献、无附录；文中 VGGS-Music、VGGSS-Musion、VGGSounds、VGG-Sounds 及结论处 Flick-SoundNet、VGG-Music、VGG-Instruments 均为同一数据集的排版变体或笔误，未另立条目。",
+  "text_path": "conference_paper/cvpr_download/CVPR2024/Mo_Unveiling_the_Power_of_Audio-Visual_Early_Fusion_Transformers_with_Dense_CVPR_2024_paper/paper.md",
+  "text_source": "markdown"
+}

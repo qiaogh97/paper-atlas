@@ -1,0 +1,66 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Cascade_Evidential_Learning_for_Open-World_Weakly-Supervised_Temporal_Action_Localization_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Cascade Evidential Learning for Open-world Weakly-supervised Temporal Action Localization",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "THUMOS-14",
+      "role": "benchmark",
+      "anchor": "THUMOS-14 contains 200 validation videos and 213 test",
+      "line": 606
+    },
+    {
+      "name": "ActivityNet-v1.3",
+      "role": "benchmark",
+      "anchor": "marks for OWTAL, THUMOS-14 and ActivityNet-v1.3.",
+      "line": 605
+    },
+    {
+      "name": "Kinetics",
+      "role": "pretrain",
+      "anchor": "weuseI3D[5]modelpretrainedontheKi- curve of Correct Detection Rate (CDR) and False Positive\nnetics[23]datasettoextractboththeRGBandopticalflow",
+      "line": 710
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAP",
+      "anchor": "age Precision (mAP) under different temporal Intersection",
+      "line": 608
+    },
+    {
+      "name": "top-K mAP",
+      "anchor": "ofreal-worldapplications,termedastop-KmAP,whichre-",
+      "line": 672
+    },
+    {
+      "name": "FAR@95",
+      "anchor": "byFAR@95,AUROC,AUPRandOSDR.Inthisexperimentwe",
+      "line": 736
+    },
+    {
+      "name": "AUROC",
+      "anchor": "AUROC,AUPRandOSDR.Inthisexperimentwe",
+      "line": 736
+    },
+    {
+      "name": "AUPR",
+      "anchor": "theAreaUnderthePrecision-Recall(AUPR),",
+      "line": 694
+    },
+    {
+      "name": "OSDR",
+      "anchor": "comparedwithouremployedmAP-relatedmetrics,OSDR",
+      "line": 727
+    },
+    {
+      "name": "v-Acc",
+      "anchor": "fication accuracy (v-Acc(%)) metric for evaluation.",
+      "line": 702
+    }
+  ],
+  "notes": "THUMOS-14 与 ActivityNet-v1.3 为 OWTAL 主实验基准;论文另在 THUMOS-14 已知类划分上训练、在 ActivityNet-v1.3 测试集上做跨数据集开放世界测试,仍归 benchmark,不拆条。Kinetics 仅作 I3D 特征提取器的预训练数据集(role=pretrain);因双栏 OCR 交错,名称被拆为 Ki- 与 netics[23] 两段,锚点覆盖两段碎片及夹在其间的右栏文字。指标方面:表格以 mAP@Avg(多 t-IoU 阈值平均)报告 mAP,Table 2 另按 Known/Unknown 拆分 mAP(K)与 AP(U),均并入 mAP 一条;t-IoU 为阈值参数、OSDR 定义中的 CDR 与 FPR 仅作定义说明,均未单列。缩写 FAR@95/AUROC/AUPR/OSDR/v-Acc 在正文均有展开(False Alarm Rate at True Positive Rate of 95%、Area Under the Receiver Operating Characteristic、Area Under the Precision-Recall、Open Set Detection Rate、video-level known-unknown classification accuracy),按原缩写保留。全文为去空格 OCR 转录,锚点逐字照抄;文末仅参考文献,无附录。任务给定的论文目录名为截断别名(Temporal_Ac),实际文件位于 .../Temporal_Action_Localization_.../paper.md,记录中 text_path 按任务给定值原样保留。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Cascade_Evidential_Learning_for_Open-World_Weakly-Supervised_Temporal_Action_Localization_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

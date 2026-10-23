@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-23T10:02:56.606Z",
+  "checks": [
+    {
+      "name": "205 papers load; first page has 12",
+      "passed": true
+    },
+    {
+      "name": "multi-word input keeps spaces",
+      "passed": true
+    },
+    {
+      "name": "search count matches source data",
+      "passed": true
+    },
+    {
+      "name": "conference filter returns eight ICLR papers",
+      "passed": true
+    },
+    {
+      "name": "conference AND year filter",
+      "passed": true
+    },
+    {
+      "name": "filter URL persists across reload",
+      "passed": true
+    },
+    {
+      "name": "dataset selector and dataset role agree",
+      "passed": true
+    },
+    {
+      "name": "details show source anchors and roles",
+      "passed": true
+    },
+    {
+      "name": "Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "CSV exports all 205 matches, not only current page",
+      "passed": true
+    },
+    {
+      "name": "pagination changes papers and URL",
+      "passed": true
+    },
+    {
+      "name": "empty state and clear filters",
+      "passed": true
+    },
+    {
+      "name": "data scope and dataset-metric relationship explained",
+      "passed": true
+    },
+    {
+      "name": "mobile layout has no horizontal overflow; mobile filters work",
+      "passed": true
+    },
+    {
+      "name": "special-character metric J&F survives URL",
+      "passed": true
+    },
+    {
+      "name": "no browser JavaScript errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

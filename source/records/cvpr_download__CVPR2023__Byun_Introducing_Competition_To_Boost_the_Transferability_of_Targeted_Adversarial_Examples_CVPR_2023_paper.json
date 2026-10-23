@@ -1,0 +1,35 @@
+{
+  "paper": "cvpr_download/CVPR2023/Byun_Introducing_Competition_To_Boost_the_Transferability_of_Targeted_Adversarial_Examples_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Introducing Competition to Boost the Transferability of Targeted Adversarial Examples through Clean Feature Mixup",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ImageNet-Compatible dataset",
+      "role": "benchmark",
+      "anchor": "thewidelyusedImageNet-Compatibledataset2,whichwas",
+      "line": 330
+    },
+    {
+      "name": "CIFAR-10 dataset",
+      "role": "benchmark",
+      "anchor": "the CIFAR-10 dataset, we used various ensemble models",
+      "line": 421
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Targeted attack success rate",
+      "anchor": "Table1.Targetedattacksuccessrates(%)againsttentargetmodelsontheImageNet-Compatibledataset.",
+      "line": 410
+    },
+    {
+      "name": "Computation time per image (sec)",
+      "anchor": "dataset.Wealsoreporttheaveragecomputationtimetoconstructanadversarialexample.",
+      "line": 483
+    }
+  ],
+  "notes": "数据集两个均为实验测试基准：ImageNet-Compatible（NIPS 2017 对抗攻击挑战数据集，1000 张 299x299 图像，用于对 10 个 normally-trained 及 robust/Transformer 目标模型的 targeted 攻击）与 CIFAR-10（从测试集每类采 100 张共 1000 张，用于攻击四种 ensemble 防御模型），不拆角色。指标方面，正文中的 transfer success rates / transfer-attack success rates / average attack success rate 与表 1-4 的 Targeted attack success rates 为同一指标的不同表述，合并为一条；另有 Computation time per image (sec) 作为效率指标在 Table 2/3 报告（正文称 average computation time）。消融（mixing probability p、mixing ratio alpha、batch size）与 Figure 3 的迭代曲线均沿用攻击成功率，未引入新指标。全文 markdown 不含论文正文提及的 Appendix 内容（不同 source model 结果、可视化等），记录仅覆盖正文与表格。OCR 转录存在空格缺失，锚点按文件原样复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Byun_Introducing_Competition_To_Boost_the_Transferability_of_Targeted_Adversarial_Examples_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

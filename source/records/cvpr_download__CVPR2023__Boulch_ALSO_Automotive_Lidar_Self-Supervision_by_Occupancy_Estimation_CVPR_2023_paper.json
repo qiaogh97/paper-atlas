@@ -1,0 +1,100 @@
+{
+  "paper": "cvpr_download/CVPR2023/Boulch_ALSO_Automotive_Lidar_Self-Supervision_by_Occupancy_Estimation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "ALSO: Automotive Lidar Self-supervision by Occupancy estimation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "nuScenes",
+      "role": "benchmark",
+      "anchor": "rankingfirstonnuScenes1%by0.4mIoUpointoverPoint-",
+      "line": 516
+    },
+    {
+      "name": "nuScenes",
+      "role": "pretrain",
+      "anchor": "nuScenes [8] (Pre-Seg, Seg, Pre-Det) is composed of",
+      "line": 380
+    },
+    {
+      "name": "SemanticKITTI",
+      "role": "benchmark",
+      "anchor": "ContrastandfirstonSemanticKITTI0.1%by2.5pointsover",
+      "line": 518
+    },
+    {
+      "name": "SemanticKITTI",
+      "role": "pretrain",
+      "anchor": "SemanticKITTI [5] (Pre-Seg, Seg) contains 22 lidar",
+      "line": 389
+    },
+    {
+      "name": "SemanticPOSS",
+      "role": "benchmark",
+      "anchor": "SemanticPOSS[65](Seg)iscomposedof6sequences",
+      "line": 397
+    },
+    {
+      "name": "LivoxSimu",
+      "role": "benchmark",
+      "anchor": "approachontheLivoxSimudataset,wheresensorshavea",
+      "line": 504
+    },
+    {
+      "name": "LivoxSimu",
+      "role": "pretrain",
+      "anchor": "LivoxSimu [51] (Pre-Seg, Seg) is a synthetic dataset",
+      "line": 401
+    },
+    {
+      "name": "ONCE",
+      "role": "benchmark",
+      "anchor": "(b)ONCE[54],validationset,SECONDdetector,ONCEmetric.",
+      "line": 605
+    },
+    {
+      "name": "ONCE",
+      "role": "pretrain",
+      "anchor": "ONCE(Pre-Det,Det)contains1Mlidarscenes,mostof",
+      "line": 407
+    },
+    {
+      "name": "KITTI3D",
+      "role": "benchmark",
+      "anchor": "(a)KITTI3D[27],validationset,moderatedifficulty.",
+      "line": 540
+    },
+    {
+      "name": "KITTI3D",
+      "role": "pretrain",
+      "anchor": "KITTI3D[27](Pre-Det,Det)isadatasetdedicatedto",
+      "line": 411
+    },
+    {
+      "name": "KITTI-360",
+      "role": "pretrain",
+      "anchor": "KITTI-360(Pre-Det)isamultiplesensordataset,includ-",
+      "line": 422
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "Table1.Semanticsegmentationresults.WereportthemIoU(%)offine-tunedmodelsonfourdifferentdatasets",
+      "line": 497
+    },
+    {
+      "name": "AP",
+      "anchor": "reportAP(%)andthedatasetusedforpre-trainingeachmethod.",
+      "line": 626
+    },
+    {
+      "name": "mAP",
+      "anchor": "Data. Cars | Ped. Cycl.  | mAP Diff.",
+      "line": 541
+    }
+  ],
+  "notes": "角色拆分依据 4.1 节各数据集后的括号标注:Pre-Seg/Pre-Det=预训练(pretrain),Seg/Det=下游评测基准(benchmark),共 7 个数据集,与引言 \"experiments across seven datasets\" 一致;KITTI-360 仅用于检测预训练故只留 pretrain 一条。Waymo 仅作为对比方法(PointContrast/GCC-3D/ProposalContrast)的预训练数据出现,未在本实验使用,不收录;ModelNet/ShapeNet/ABC 仅见于相关工作,排除。指标:mIoU 为分割指标(Table 1),AP(%) 与 mAP 为检测指标(Table 2 逐类列与均值列),均保留原文缩写未展开;KITTI 的 R40/R11 召回点设置因 OCR 下标分离无法逐字锚定,未单列;Table 2 的 Diff. 为差值列不计为指标。正文第 496 行提到的 supplementary material 不在本文件内,本文件参考文献之后无附录内容。全文有 OCR 空格缺失痕迹,锚点均按原样逐字复制并已核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Boulch_ALSO_Automotive_Lidar_Self-Supervision_by_Occupancy_Estimation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

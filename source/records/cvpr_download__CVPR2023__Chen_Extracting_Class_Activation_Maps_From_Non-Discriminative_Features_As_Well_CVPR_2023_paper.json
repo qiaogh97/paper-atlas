@@ -1,0 +1,11 @@
+{"paper": "cvpr_download/CVPR2023/Chen_Extracting_Class_Activation_Maps_From_Non-Discriminative_Features_As_Well_CVPR_2023_paper", "venue": "CVPR2023", "title": "Extracting Class Activation Maps from Non-Discriminative Features as well", "status": "ok",
+ "datasets": [{"name": "PASCAL VOC 2012", "role": "benchmark", "anchor": "VOC 2012 contains 20 foreground object categories and"},
+  {"name": "MS COCO 2014", "role": "benchmark", "anchor": "on the large-scale dataset MS COCO are also obvious and"},
+  {"name": "SBD", "role": "construction", "anchor": "provided |     | by SBD | [13]."},
+  {"name": "ImageNet", "role": "pretrain", "anchor": "ResNet-50 [14] pre-trained on ImageNet [9] as the back-"}],
+ "metrics": [{"name": "mIoU", "anchor": "pute mIoU. For semantic segmentation, we train the seg-"},
+  {"name": "FP", "anchor": "truthmasks. (FP), false negative (FN), precision, and recall."},
+  {"name": "FN", "anchor": "truthmasks. (FP), false negative (FN), precision, and recall."},
+  {"name": "precision", "anchor": "truthmasks. (FP), false negative (FN), precision, and recall."},
+  {"name": "recall", "anchor": "truthmasks. (FP), false negative (FN), precision, and recall."}],
+ "notes": "PASCAL VOC 2012 与 MS COCO 2014 为 WSSS 主实验基准（benchmark）；SBD 仅作为 VOC 扩充训练集（10,582 图）来源，归 construction；ImageNet 仅用于 ResNet-50/ResNet-101 backbone 预训练，归 pretrain。全文 OCR 空格缺失，4.1 节数据集名连写为 PASCALVOC2012/MSCOCO2014，锚点选自空格完整的行文处。指标：mIoU 贯穿全部结果表；FP/FN 为缩写，正文展开为 false positive/false negative（表 1 表头另写作 Prec./Recall，正文已展开为 precision/recall）。Figure 4 在 MS COCO 上的定性结果未单列 qualitative 条目（该数据集主角色为 benchmark）。论文多处提及 supplementary materials，但本 markdown 文件不含附录正文。", "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Extracting_Class_Activation_Maps_From_Non-Discriminative_Features_As_Well_CVPR_2023_paper/paper.md", "text_source": "markdown"}

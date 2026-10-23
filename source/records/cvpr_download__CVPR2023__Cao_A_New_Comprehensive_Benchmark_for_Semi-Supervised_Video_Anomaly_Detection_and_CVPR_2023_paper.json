@@ -1,0 +1,59 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "A New Comprehensive Benchmark for Semi-supervised Video Anomaly Detection and Anticipation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "ShanghaiTech",
+      "role": "benchmark",
+      "anchor": "Table3. ComparisonofdifferentmethodsontheShanghaiTech,",
+      "line": 468
+    },
+    {
+      "name": "ShanghaiTech",
+      "role": "construction",
+      "anchor": "ofthevideosfromtheShanghaiTechdatasettospecifically",
+      "line": 600
+    },
+    {
+      "name": "CUHK Avenue",
+      "role": "benchmark",
+      "anchor": "CUHK Avenue, IITB Corridor and NWPU Campus datasets in",
+      "line": 470
+    },
+    {
+      "name": "IITB Corridor",
+      "role": "benchmark",
+      "anchor": "CUHK Avenue [27], IITB Corridor [29] and our proposed",
+      "line": 509
+    },
+    {
+      "name": "NWPU Campus",
+      "role": "benchmark",
+      "anchor": "Corridor and NWPU Campus datasets is shown in Tab. 3.",
+      "line": 522
+    },
+    {
+      "name": "ShanghaiTech-sd",
+      "role": "benchmark",
+      "anchor": "TheShanghaiTech-sddatasetusedinthista-",
+      "line": 548
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AUC",
+      "anchor": "Evaluation Metric. We use the area under the curve",
+      "line": 518
+    },
+    {
+      "name": "Score gap",
+      "anchor": "Scoregapsofdifferentmethods.",
+      "line": 584
+    }
+  ],
+  "notes": "数据集发布型论文，自建 NWPU Campus。实验(Sec.5.1/Tab.3)在 ShanghaiTech、CUHK Avenue、IITB Corridor、NWPU Campus 四个基准上评测，均记 benchmark。ShanghaiTech 拆两条：主实验基准外，另作为重组 ShanghaiTech-sd 的视频来源记 construction。ShanghaiTech-sd 为作者从 ShanghaiTech 部分视频重组的场景依赖异常子集(Tab.4 评测用)，记 benchmark。Tab.1 的数据集构成对比表(Subway Entrance/Exit、UMN、UCSD Ped1/Ped2、StreetScene、UBnormal 等)及相关工作中的 UCF-Crime、XD-Violence 仅供对比，未计入。指标 AUC 原文为 area under the curve (AUC) of receiver operating characteristic (ROC)，表格写作 AUC(%)，并说明拼接全部帧后计算 overall frame-level AUC；缩写按原文保留。Score gap 为分析小节(Sec.5.3/Fig.5)明确命名的分析性度量(正常/异常异常分数间隔，A higher value means better)，按规则计入；MSE/L1/KL divergence 为训练损失、anomaly score 为模型输出，未计入。文末为参考文献，本文件不含附录/补充材料内容。OCR 转录存在空格缺失(如 TheShanghaiTech-sddataset)，锚点均按文件原文逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

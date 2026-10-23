@@ -1,0 +1,57 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bansal_Neural_Pixel_Composition_for_3D-4D_View_Synthesis_From_Multi-Views_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Neural Pixel Composition for 3D-4D View Synthesis from Multi-Views",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Open4D dataset",
+      "role": "benchmark",
+      "anchor": "worldsamplesfromtheOpen4Ddataset[3]. Open4Dcon-",
+      "line": 332
+    },
+    {
+      "name": "Shiny dataset",
+      "role": "benchmark",
+      "anchor": "Table 2. Shiny dataset: We study our approach on the 8 real sequences from LLFF",
+      "line": 382
+    },
+    {
+      "name": "LLFF dataset",
+      "role": "benchmark",
+      "anchor": "quencesfromtheLLFFdataset[26]thatcontainchalleng-",
+      "line": 444
+    },
+    {
+      "name": "MVS-Synth dataset",
+      "role": "benchmark",
+      "anchor": "MVS-Synthdataset[13]thatconsistofdifferentunbounded",
+      "line": 442
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "held-out views from these sequences using PSNR, SSIM,",
+      "line": 354
+    },
+    {
+      "name": "SSIM",
+      "anchor": "modelsatdifferentintervalsoftrainingusingPSNR,SSIM,",
+      "line": 459
+    },
+    {
+      "name": "LPIPS",
+      "anchor": "and LPIPS (AlexNet) [50]. In this work, we observe that",
+      "line": 356
+    },
+    {
+      "name": "MCSSIM",
+      "anchor": "      | MCSSIM |     |       |     | 12sequences",
+      "line": 364
+    }
+  ],
+  "notes": "四个数据集均为主实验测试基准(benchmark):Open4D 用于 Sec.4.1 稀疏无约束 3D 视角合成(Table 1,24 序列)及 Sec.5 4D 视角合成(Table 5/6);Shiny dataset 为取自 LLFF 的 8 条含镜面反射真实序列(Sec.4.2,Table 2);LLFF dataset 另用于 12 条 12MP(4032×3024)高分辨率序列(Sec.4.2,Table 3),与 Shiny 来源重叠但论文分别点名,故各记一条;MVS-Synth dataset 为 13 条无界合成序列,用于无界场景与视角数量分析(Sec.4.3,Table 4)。Table 1 中的 LLFF[26] 行是 off-the-shelf 预训练模型基线(方法名),不计为数据集用途。指标方面:全部结果表使用 PSNR/SSIM/LPIPS,均未展开缩写;LPIPS 原文写作 LPIPS (AlexNet) [50];MCSSIM 仅见于 Table 2 表头(8 sequences 列),未展开,疑为 MS-SSIM 的 OCR 形式,按原文照抄单独收录。附录 A.1-A.5 与 B 被正文引用但未包含在本转录文件(文件止于参考文献),故未从附录提取。全文为 OCR 风格 markdown,空格缺失较多,锚点均按原文逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bansal_Neural_Pixel_Composition_for_3D-4D_View_Synthesis_From_Multi-Views_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

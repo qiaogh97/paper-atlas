@@ -1,0 +1,39 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bolkart_Instant_Multi-View_Head_Capture_Through_Learnable_Registration_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Instant Multi-View Head Capture through Learnable Registration",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FaMoS",
+      "role": "benchmark",
+      "anchor": "referredtoasFaMoS(FacialMotionacrossSubjects),from",
+      "line": 507
+    }
+  ],
+  "metrics": [
+    {
+      "name": "point-to-surface distance",
+      "anchor": "andthecolorcodedpoint-to-surfacedistance",
+      "line": 618
+    },
+    {
+      "name": "Median",
+      "anchor": "Method Median Mean Std Median Mean Std",
+      "line": 622
+    },
+    {
+      "name": "Mean",
+      "anchor": "Method Median Mean Std Median Mean Std",
+      "line": 622
+    },
+    {
+      "name": "Std",
+      "anchor": "Method Median Mean Std Median Mean Std",
+      "line": 622
+    }
+  ],
+  "notes": "FaMoS 为论文自建多视角 3D 头部数据集（93 名受试者各 28 段动作、约 60 万帧），既是训练/验证数据（78 人）也是定性定量评测的测试基准（留出的 15 人，8350 帧），故按主实验测试基准计一条 benchmark；摘要另称 95 名受试者，与正文 93 名不一致，照抄正文。Table 1/2 的 reconstruction error 以参考扫描到预测网格的 point-to-surface distance（单位 mm）计算，报 Median/Mean/Std 三个统计量，摘要中 median reconstruction error 与 Table 1/2 的 Reconstruction error 视为同一指标未重复收录；消融实验（Table 2）沿用同一指标。相关工作与参考文献中出现的 FaceWarehouse、FaceScape、DECA、FLAME、ToFu 等仅为方法/模型或排除项，未写入。Sup. Mat. 不在本文本文件中。全文为 OCR 转录、空格有缺失，所有锚点均按原文字符逐字复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bolkart_Instant_Multi-View_Head_Capture_Through_Learnable_Registration_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

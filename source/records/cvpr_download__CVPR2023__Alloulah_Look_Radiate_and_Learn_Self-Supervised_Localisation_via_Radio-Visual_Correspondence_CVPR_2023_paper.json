@@ -1,0 +1,50 @@
+{
+  "paper": "cvpr_download/CVPR2023/Alloulah_Look_Radiate_and_Learn_Self-Supervised_Localisation_via_Radio-Visual_Correspondence_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Look, Radiate, and Learn: Self-Supervised Localisation via Radio-Visual Correspondence",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MaxRay",
+      "role": "benchmark",
+      "anchor": "Ourradio-visualdatasetiscreatedusingMaxRay[14]—a",
+      "line": 212
+    },
+    {
+      "name": "CRUW",
+      "role": "benchmark",
+      "anchor": "RadaroftheUniversityofWashington(CRUW)dataset[77].",
+      "line": 475
+    }
+  ],
+  "metrics": [
+    {
+      "name": "50th%ile",
+      "anchor": "Tab.4summarisestheperformanceintermsof50th%ileand",
+      "line": 544
+    },
+    {
+      "name": "90th%ile",
+      "anchor": "90th%ilelocalisationerrorsonthevalidationsets.",
+      "line": 545
+    },
+    {
+      "name": "Wasserstein distance",
+      "anchor": "similartotheWassersteindistance.",
+      "line": 617
+    },
+    {
+      "name": "Kullback-Leibler (KL) divergence",
+      "anchor": "theKullback-Leibler(KL)divergence",
+      "line": 611
+    },
+    {
+      "name": "mutual information (MI)",
+      "anchor": "and mutual | information |     | (MI) I(y;yˆ) | =",
+      "line": 613
+    }
+  ],
+  "notes": "MaxRay 为论文自建的合成射频-视觉数据集兼基准,主实验(Tab.4-7)均在其验证集上评测,故记 benchmark;CRUW(Camera-Radar of the University of Washington)的停车场景用于实证验证并进入 Tab.4,亦记 benchmark。Table 1 相关工作中的其他车载雷达数据集(Oxford Radar RobotCar、RADD 等)仅用于对比,按规则排除。指标:50th%ile/90th%ile 为定位误差百分位统计(原文缩写 %ile 未展开);Wasserstein 距离、KL 散度、互信息 MI 为 6.2 节自标签偏差分析(Tab.7)中明确命名的分析性度量,计入。MSE 仅为定位网络的训练损失,不计入指标。全文为 OCR 转录、空格普遍缺失,名称按正常英文拼写记录,锚点保留 OCR 原样;论文提到的附录 A-K 未包含在该 markdown 全文内。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Alloulah_Look_Radiate_and_Learn_Self-Supervised_Localisation_via_Radio-Visual_Correspondence_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,39 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bahl_Affordances_From_Human_Videos_as_a_Versatile_Representation_for_Robotics_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Affordances from Human Videos as a Versatile Representation for Robotics",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Franka-Kitchen",
+      "role": "benchmark",
+      "anchor": "supportforasimulationenvironmentontheFranka-Kitchen",
+      "line": 438
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Success rate",
+      "anchor": "with an average success rate of 57 %, with the runner-up",
+      "line": 547
+    },
+    {
+      "name": "Coincidental success",
+      "anchor": "Figure5. Exploration:CoincidentalsuccessofVRBincompari-",
+      "line": 515
+    },
+    {
+      "name": "environment change",
+      "anchor": "nal rewards. We utilize environment change, i.e., change",
+      "line": 562
+    },
+    {
+      "name": "Feature space distance",
+      "anchor": "Figure 8. Feature space distance: Distance to goal in feature",
+      "line": 581
+    }
+  ],
+  "notes": "本文件仅含正文与参考文献，未含附录。主文未点名训练所用人类视频数据集（仅称 large-scale egocentric videos of human interaction）；机器人实验均为自建真实环境（play kitchen 及垃圾桶/门/抽屉/洗碗机等 in-the-wild 任务），未命名为数据集。Franka-Kitchen 为论文提供仿真支持的基准，Sec 4.5 表2 在三个仿真 Franka 环境（microwave/slide-door/door-open）上做 Behavior Cloning 评测，故记为 benchmark。指标：Success rate 覆盖 Table 1（k-NN 与 BC）、Fig.6（goal-conditioned）与 Fig.7（DQN action space），多处出现只记一条；environment change 原文缩写为 EC，兼作探索与 goal-conditioned 的度量；Feature space distance 即到目标图像的特征空间距离（Fig.8 纵轴 Distance to Goal）；Fig.9 失败模式按 Failure/Partial Success/Success 分类计数，属分析未单列。基线 Hotspots/HAP/HOI/Random/R3M 为方法名，不计入数据集。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bahl_Affordances_From_Human_Videos_as_a_Versatile_Representation_for_Robotics_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,95 @@
+{
+  "paper": "cvpr_download/CVPR2026/Abdal_Visual_Personalization_Turing_Test_CVPR_2026_paper",
+  "venue": "CVPR2026",
+  "title": "Visual Personalization Turing Test",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "VPTT-Bench",
+      "role": "benchmark",
+      "anchor": "we construct VPTT-Bench, the first large-scale benchmark",
+      "line": 97
+    },
+    {
+      "name": "PersonaHub",
+      "role": "construction",
+      "anchor": "Personas are sampled from PersonaHub [21] with demographics.",
+      "line": 156
+    }
+  ],
+  "metrics": [
+    {
+      "name": "VPTTscore",
+      "anchor": "We report the novelty-adjusted VPTTscore (V), plus",
+      "line": 762
+    },
+    {
+      "name": "VPTTscore-c",
+      "anchor": "Our text-only VPTTscore-c metric achieves comparable",
+      "line": 635
+    },
+    {
+      "name": "Persona Alignment (PA)",
+      "anchor": "(1) Persona Alignment (PA). This term measures se-",
+      "line": 442
+    },
+    {
+      "name": "GS Reconstruction (GS)",
+      "anchor": "(2) GS Reconstruction (GS). To measure content fi-",
+      "line": 449
+    },
+    {
+      "name": "Cluster Proximity (CP)",
+      "anchor": "(3) Cluster Proximity (CP). To assess thematic consis-",
+      "line": 467
+    },
+    {
+      "name": "Novelty (NV)",
+      "anchor": "(4) Novelty (NV). Novelty penalizes verbatim reuse of",
+      "line": 483
+    },
+    {
+      "name": "VLM score",
+      "anchor": "report mean VPTTscore-c (V-c) and VLM scores along with win-",
+      "line": 660
+    },
+    {
+      "name": "Human (Perceptual)",
+      "anchor": "Human (Perceptual)",
+      "line": 579
+    },
+    {
+      "name": "Spearman rank correlation (ρ)",
+      "anchor": "Spearman rank correlation (ρ) with humans and VLM Judges",
+      "line": 60
+    },
+    {
+      "name": "Kendall’s W",
+      "anchor": "agreement was substantial (Kendall’s W = 0.651 ± 0.141",
+      "line": 621
+    },
+    {
+      "name": "Cohen’s d",
+      "anchor": "Higher Cohen’s d values (d ≥0.5 indicates medium to large effects)",
+      "line": 769
+    },
+    {
+      "name": "MAE",
+      "anchor": "73.8% overall accuracy (MAE: 0.1259) and 91.6% accuracy",
+      "line": 754
+    },
+    {
+      "name": "Top-2 agreement accuracy",
+      "anchor": "Top-2 agreement accuracy of 99%, confirming its reliabil-",
+      "line": 637
+    },
+    {
+      "name": "Acc.",
+      "anchor": "accuracy (Acc.)",
+      "line": 572
+    }
+  ],
+  "notes": "VPTT-Bench 为论文自建主实验基准(生成/编辑任务,10,000 personas),记为 benchmark;PersonaHub 仅作为 persona 种子的构建来源(文中大小写不一:PersonaHub/PersonaHUB),记为 construction。指标:VPTTscore 与其归一化变体 VPTTscore-c(表头缩写 V-c)分列;Persona Alignment/GS Reconstruction/Cluster Proximity/Novelty 为 VPTTscore 的四个组成成分;VLM score 与 Human (Perceptual) 为 Table 1/2 的视觉与人工评分列;Spearman rank correlation 按 Figure 1 图注的无撇号写法照抄(正文另有 Spearman’s 写法);Kendall’s W 为标注者一致性、Cohen’s d 为 Table 3 效应量、Top-2 agreement accuracy 为 VPTTscore-c 与人工的一致率;Acc. 为各表中 winning/accuracy 列;MAE 原文未展开缩写;Avg.(各评分均值)未单列。相关工作中的 Pick-a-Pic、ImageGem、OmniStyle 等数据集仅用于排除,未写入。正文多处提及 Supplementary,但该 pdftxt 止于参考文献,无附录内容。",
+  "text_path": "extraction/texts/cvpr_download__CVPR2026__Abdal_Visual_Personalization_Turing_Test_CVPR_2026_paper.txt",
+  "text_source": "pdftxt"
+}

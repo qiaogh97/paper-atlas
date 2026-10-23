@@ -1,0 +1,50 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bandara_AdaMAE_Adaptive_Masking_for_Efficient_Spatiotemporal_Learning_With_Masked_Autoencoders_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "AdaMAE: Adaptive Masking for Efficient Spatiotemporal Learning with Masked Autoencoders",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Something-Something-v2 (SSv2)",
+      "role": "benchmark",
+      "anchor": "Something-Something-v2 (SSv2) [15] and Kinetics-",
+      "line": 394
+    },
+    {
+      "name": "Kinetics-400",
+      "role": "benchmark",
+      "anchor": "Kinetics-400isalsoalarge-scaledatasetwhichcon-",
+      "line": 400
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Top-1 accuracy",
+      "anchor": "accuracywerefertotop-1accuracyunlessstatedotherwise.",
+      "line": 386
+    },
+    {
+      "name": "Top-5 accuracy",
+      "anchor": "and 92.7% (top-5 accuracy) on SSv2",
+      "line": 570
+    },
+    {
+      "name": "GFLOPs",
+      "anchor": "Pre.Epochs Frames GFLOPs Param Top-1 Top-5",
+      "line": 612
+    },
+    {
+      "name": "Param",
+      "anchor": "GFLOPs Param Top-1 Top-5",
+      "line": 612
+    },
+    {
+      "name": "memory",
+      "anchor": "case ratio top-1 top-5 memory",
+      "line": 471
+    }
+  ],
+  "notes": "两个数据集（SSv2、Kinetics-400）既作 SSL 预训练语料又作微调后动作分类评测基准，论文声明 AdaMAE 使用 no external data，且二者互为跨数据集迁移评测（K400 预训练→SSv2 评测、SSv2 预训练→K400 评测），故均只记 benchmark，不拆 pretrain 角色。Table 2/3 中 IN1K/IN21K/Kinetics-600/HowTo100M/DALLE/JFT-300M 等仅出现在基线方法行的 Extradata 列，按规则排除。指标保留原文缩写：top-1/top-5 即 top-1/top-5 accuracy（正文 OCR 连写为 top-1accuracy）；GFLOPs、Param 为主结果表 Table 2/3 的比较列；memory 为 Table 1 消融表的 GPU 显存列（表注写作 GPU memory consumption）。补充材料（额外迁移学习与 linear probing 结果）不在本全文文件中，未提取。全文为双栏 OCR 交错转写、空格缺失，锚点均按文件原样逐字复制并经核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bandara_AdaMAE_Adaptive_Masking_for_Efficient_Spatiotemporal_Learning_With_Masked_Autoencoders_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

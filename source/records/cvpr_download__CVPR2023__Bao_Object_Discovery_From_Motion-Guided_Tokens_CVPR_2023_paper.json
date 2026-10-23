@@ -1,0 +1,52 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bao_Object_Discovery_From_Motion-Guided_Tokens_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Object Discovery from Motion-Guided Tokens",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MOVi-E",
+      "role": "benchmark",
+      "anchor": "WeuseMOVi-Edatasettoablateourmodelwithdifferent",
+      "line": 551
+    },
+    {
+      "name": "TRI-PD",
+      "role": "benchmark",
+      "anchor": "TRI-PD[4,25]isasyntheticdatasetbasedonstreetdriving",
+      "line": 463
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "KITTIbenchmark,wefirstpre-trainallthemodelsonPD",
+      "line": 727
+    },
+    {
+      "name": "Flying Things3D",
+      "role": "pretrain",
+      "anchor": "onthetoyFlyingThings3Ddataset[40],takingtheground-",
+      "line": 498
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FG.ARI",
+      "anchor": "ForegroundAdjustedRandIndex(FG.ARI)toevaluatethe",
+      "line": 446
+    },
+    {
+      "name": "cluster purity",
+      "anchor": "semantic labels using cluster purity [50].",
+      "line": 644
+    },
+    {
+      "name": "GPU Mem. (GB)",
+      "anchor": "GPUmemoryusageperbatchinTable3.",
+      "line": 654
+    }
+  ],
+  "notes": "主实验基准:MOVi 系列(只用最复杂子集 MOVi-E 做消融与 SOTA 对比,故条目名记 MOVi-E)、TRI-PD(分 GT/EST 两种信号评测)、KITTI(先在 PD 预训练再用估计标注微调)。Flying Things3D 仅为文中实验所用的运动分割模块 [11] 的预训练数据,故 role=pretrain。ImageNet 仅出现在对比方法 [51] 的预训练描述中,未计入。FG.ARI 在文中已展开为 Foreground Adjusted Rand Index(整段视频度量);cluster purity 为 token 可解释性分析度量;GPU Mem. (GB) 为 Table 3 报告的每 batch 显存开销列。全文为 OCR 转录且空格缺失(如 FlyingThings3D),名称字段按原论文常规写法恢复空格,锚点保持 OCR 原样。markdown 文件仅含正文与参考文献,无补充材料正文。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bao_Object_Discovery_From_Motion-Guided_Tokens_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Event-Guided_Person_Re-Identification_via_Sparse-Dense_Complementary_Learning_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Event-guided Person Re-Identification via Sparse-Dense Complementary Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "PRID-2011",
+      "role": "benchmark",
+      "anchor": "datasetsforRe-ID,includingPRID-2011[18],iLIDS-VID",
+      "line": 480
+    },
+    {
+      "name": "iLIDS-VID",
+      "role": "benchmark",
+      "anchor": "clusioninPRID-2011andiLIDS-VIDdataset,andpresent",
+      "line": 481
+    },
+    {
+      "name": "MARS",
+      "role": "benchmark",
+      "anchor": "otherSOTAmethodsonMARS[57],PRID-2011[18]and",
+      "line": 429
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "initialization of our CNN encoder is ImageNet-pretrained",
+      "line": 499
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mAP",
+      "anchor": "value of 30.9% mAP on MARS.",
+      "line": 451
+    },
+    {
+      "name": "Rank-1",
+      "anchor": "up to 3.4%, 4.7%, and 0.3% in terms of Rank-1 accuracy",
+      "line": 464
+    },
+    {
+      "name": "Parameters",
+      "anchor": "Figure5.ParametersandFLOPscomparisons.",
+      "line": 543
+    },
+    {
+      "name": "FLOPs",
+      "anchor": "WelisttheparametersandFLOPsofallcomparedmeth-",
+      "line": 554
+    }
+  ],
+  "notes": "PRID-2011、iLIDS-VID、MARS为三个视频Re-ID主基准,退化条件(blurry/occluded)实验与消融也在PRID-2011/iLIDS-VID上进行;因无现成事件Re-ID数据集,事件流由display-camera系统与模拟器V2E从这三个数据集的帧生成,V2E为模拟器未计入数据集。ImageNet仅用于ResNet-50编码器的预训练初始化。mAP与Rank-1为原文缩写,文中未展开;另按4.4节计入模型复杂度度量Parameters与FLOPs。正文多处提及supplementary material,但本全文文件不含附录内容;相关工作里出现的数据集仅用于排除。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Event-Guided_Person_Re-Identification_via_Sparse-Dense_Complementary_Learning_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

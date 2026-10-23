@@ -1,0 +1,46 @@
+{
+  "paper": "cvpr_download/CVPR2024/Abbasi_BrainWash_A_Poisoning_Attack_to_Forget_in_Continual_Learning_CVPR_2024_paper",
+  "venue": "CVPR2024",
+  "title": "BrainWash: A Poisoning Attack to Forget in Continual Learning",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "10-Split CIFAR-100",
+      "role": "benchmark",
+      "anchor": "10-Split | CIFAR-100:",
+      "line": 463
+    },
+    {
+      "name": "10-Split miniImagenet",
+      "role": "benchmark",
+      "anchor": "10-Split miniImagenet: we also evaluated our noise on",
+      "line": 473
+    },
+    {
+      "name": "20-Split tinyImagenet",
+      "role": "benchmark",
+      "anchor": "20-Split tinyImagenet: As our large-scale benchmark",
+      "line": 485
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Backward Transfer (BWT)",
+      "anchor": "Thebackwardtransfer(BWT)andaccuracy(Acc)fortraining",
+      "line": 538
+    },
+    {
+      "name": "Acc",
+      "anchor": "Dataset Method BWT(Acc) BWT(Acc) BWT(Acc)",
+      "line": 517
+    },
+    {
+      "name": "Forgetting",
+      "anchor": "Forgetting(i.e., | negativebackwardtransfer)andaccu-",
+      "line": 584
+    }
+  ],
+  "notes": "三个数据集（10-Split CIFAR-100 / 10-Split miniImagenet / 20-Split tinyImagenet）均为第 5 节主实验 CL 基准，角色 benchmark；CIFAR-100 在第 6 节消融中还以 5 任务、20 任务切分复用，未单列条目。CIFAR-100 锚点取自 5.1 节项目符号行，因 OCR 将该行表格化，名称中 10-Split 与 CIFAR-100 之间被竖线分隔。指标：BWT 即 Backward Transfer（表 1/2/6 以 BWT(Acc) 形式报告）；Acc 为（中毒后）模型在最后一个任务上的 accuracy(Acc)；Forgetting 在第 6 节明确定义为 BWT 的负值并用于图 3/5 与表 4/5，故单列一条。全文为 OCR 转录、空格缺失较多，锚点均自文件逐字复制并已用 grep -F 核验通过；无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2024/Abbasi_BrainWash_A_Poisoning_Attack_to_Forget_in_Continual_Learning_CVPR_2024_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,60 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chen_Boundary_Unlearning_Rapid_Forgetting_of_Deep_Networks_via_Shifting_the_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Boundary Unlearning: Rapid Forgetting of Deep Networks via Shifting the Decision Boundary",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "WeconductexperimentsonCIFAR-10[19]and",
+      "line": 352
+    },
+    {
+      "name": "Vggface2",
+      "role": "benchmark",
+      "anchor": "Vggface2[3]datasets,asin[8,9,34],totestunlearningper-",
+      "line": 355
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Acc on D_r",
+      "anchor": "curacyontheremainingtrainingdataD",
+      "line": 333
+    },
+    {
+      "name": "Acc on D_f",
+      "anchor": "ingdataD f ,remainingtestingdataD rt ,forgettingtesting",
+      "line": 336
+    },
+    {
+      "name": "Acc on D_rt",
+      "anchor": "remainingtestingdataD rt ,forgettingtesting",
+      "line": 336
+    },
+    {
+      "name": "Acc on D_ft",
+      "anchor": "AcconD | r AcconD | f AcconD   | rt AcconD | ft",
+      "line": 428
+    },
+    {
+      "name": "ASR",
+      "anchor": "anditsASRiswidelyusedasanevaluationmetrictoverify",
+      "line": 349
+    },
+    {
+      "name": "time consumption",
+      "anchor": "Figure4.Thetimeconsumptionofeachunlearningmethod.",
+      "line": 496
+    },
+    {
+      "name": "entropy",
+      "anchor": "Distributionoftheentropyofmodel’soutputontheremainingdataD",
+      "line": 564
+    }
+  ],
+  "notes": "两数据集均为主实验测试基准:CIFAR-10 用于图像分类任务,Vggface2 用于人脸识别任务(随机选取 10 位名人图像)。Vggface2 原始模型由在 Vggface2 上预训练的 ResNet50 微调而得,预训练源即数据集自身,故未单列 pretrain 条目。四个效用指标为 Acc on D_r/D_f/D_rt/D_ft(原文为下标形式,OCR 转录空格缺失,表 1/表 2 中显示为 AcconD r 等,D_ft 锚点取自表 2 指标表头)。ASR 为成员推断攻击(MIA)成功率,原文已展开为 attack success rate。time consumption(5.4 节计算复杂度,图 4)与 entropy(5.7 节模型输出熵分布,图 7)按分析性度量计入;attention map(5.5 节)与决策空间可视化(5.6 节)为定性展示,未计入。Related Work 中提及的数据集仅用于排除。无附录。任务给定全文路径目录名与实际目录存在一处别名差异(实际为 Shifting_the_CVPR_2023_paper),已读取正式目录下 paper.md;text_path 按任务给定原样填写。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Boundary_Unlearning_Rapid_Forgetting_of_Deep_Networks_via_Shifting_the_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

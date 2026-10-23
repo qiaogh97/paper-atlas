@@ -1,0 +1,59 @@
+{
+  "paper": "cvpr_download/CVPR2023/Avrahami_SpaText_Spatio-Textual_Representation_for_Controllable_Image_Generation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "SpaText: Spatio-Textual Representation for Controllable Image Generation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "COCO",
+      "role": "benchmark",
+      "anchor": "mensions:\nfromCOCO[41]validationsetthatcontainglobaltextcap- (1) overall im",
+      "line": 516
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "|     | (1)FIDscore[29]toassess |     |",
+      "line": 427
+    },
+    {
+      "name": "Global distance",
+      "anchor": "qualityoftheresults,(2)Globaldistancetoas-\n|      ",
+      "line": 429
+    },
+    {
+      "name": "Local distance",
+      "anchor": "stancebetweenCLIP (t )andCLIP (I),(3)Local\n|        ",
+      "line": 434
+    },
+    {
+      "name": "Local IOU",
+      "anchor": "    |     | (t  | ),(4)LocalIOU |    ",
+      "line": 446
+    },
+    {
+      "name": "Visual quality",
+      "anchor": "cap- (1) overall image quality, (2) text-matching to the glo",
+      "line": 517
+    },
+    {
+      "name": "Global text-match",
+      "anchor": "lity, (2) text-matching to the global\ntionsaswe",
+      "line": 517
+    },
+    {
+      "name": "Local text-match",
+      "anchor": "ptt and(3)text-matchingtothelocalpromptsof\nglobal\n",
+      "line": 518
+    },
+    {
+      "name": "Inference time",
+      "anchor": "htmostcolumninTable1reportstheinference\n| on a ",
+      "line": 479
+    }
+  ],
+  "notes": "评测基准：从 COCO validation set 取 30,000 张带全局文本描述与稠密分割图的样本，派生出评测输入（全局 prompt+稀疏 RST），故 COCO 记为 benchmark。训练数据为 35M 图文对（following Make-A-Scene，过滤含人图片）、prior 模型训练所用图文对数据集（following DALL·E 2）均未命名，不写入 datasets。指标：4 个自动指标 FID/Global distance/Local distance/Local IOU（Global、Local distance 为 CLIP 余弦距离），用户研究三维（Visual quality、Global/Local text-match，Table 1 中写作 Global/Local match），以及 Table 1 的 Inference time（秒）。FID 缩写原文未展开。全文 md 不含补充材料（正文多处引用 supplementary，但文件止于参考文献）。OCR 转录普遍缺失空格（如 Globaldistancetoas-），锚点按文件字节逐字截取。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Avrahami_SpaText_Spatio-Textual_Representation_for_Controllable_Image_Generation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

@@ -1,0 +1,41 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Physics-Guided ISO-Dependent Sensor Noise Modeling for Extreme Low-Light Photography",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "SID",
+      "role": "benchmark",
+      "anchor": "Figure2.DenoisingresultsofdifferentmethodsonrealnoisyimagesfromSID[6].",
+      "line": 548
+    },
+    {
+      "name": "ELD",
+      "role": "benchmark",
+      "anchor": "Table3.Quantitativeresults(PSNR/SSIM)ofdifferentnoisemodelingmethodsonNikonD850Camera(ELD).Redandblueareutilized",
+      "line": 572
+    },
+    {
+      "name": "LLD",
+      "role": "other",
+      "anchor": "the LLD dataset for training asdescribedintheirpaper.",
+      "line": 588
+    }
+  ],
+  "metrics": [
+    {
+      "name": "PSNR",
+      "anchor": "PSNR 39.03 40.09 41.95 38.89 38.66 40.47 42.10 42.06 42.31 43.16 43.36",
+      "line": 555
+    },
+    {
+      "name": "SSIM",
+      "anchor": "SSIM 0.926 0.931 0.953 0.929 0.921 0.926 0.955 0.955 0.955 0.960 0.961",
+      "line": 557
+    }
+  ],
+  "notes": "SID 与 ELD 为主实验测试基准(Tab.2 于 Sony A7S2、Tab.3 于 Nikon D850,消融 Tab.4-6 亦在 SID/ELD 的 Sony A7S2 上进行);SID 的干净图像另用于训练去噪网络,主角色仍为 benchmark。LLD 为作者自建的低照度去噪数据集,实验中仅用作训练数据(训练全部噪声模型、PairedData(LLD) 基线)及为 SFRN/ELLE 校准提供 bias/flat-field 帧,主表未作测试集,故 role=other。SIDD、DND 仅在引言/相关工作讨论其缺陷,实验未使用,已排除。指标仅 PSNR 与 SSIM(表中写作 PSNR/SSIM,缩写原文未展开)。全文为 OCR 转录、空格缺失,锚点按原样复制。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

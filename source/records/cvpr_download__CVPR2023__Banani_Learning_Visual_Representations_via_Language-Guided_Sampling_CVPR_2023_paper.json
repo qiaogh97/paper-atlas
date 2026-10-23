@@ -1,0 +1,95 @@
+{
+  "paper": "cvpr_download/CVPR2023/Banani_Learning_Visual_Representations_via_Language-Guided_Sampling_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Learning Visual Representations via Language-Guided Sampling",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "RedCaps",
+      "role": "pretrain",
+      "anchor": "correspondsto10.5epochsonRedCaps.",
+      "line": 306
+    },
+    {
+      "name": "RedCaps-2020",
+      "role": "pretrain",
+      "anchor": "datasets: | CC3M        | [85],    | CC12M  | [11],    | RedCaps-2020, | and",
+      "line": 542
+    },
+    {
+      "name": "CC3M",
+      "role": "pretrain",
+      "anchor": "CC3M and CC12M can be short and contain image meta-",
+      "line": 557
+    },
+    {
+      "name": "CC12M",
+      "role": "pretrain",
+      "anchor": "CC3M and CC12M can be short and contain image meta-",
+      "line": 557
+    },
+    {
+      "name": "ImageNet",
+      "role": "pretrain",
+      "anchor": "visual models: ImageNet-supervised ResNet-50 [104] and",
+      "line": 610
+    },
+    {
+      "name": "CIFAR10",
+      "role": "benchmark",
+      "anchor": "CIFAR10,                 | CIFAR100,",
+      "line": 545
+    },
+    {
+      "name": "CIFAR100",
+      "role": "benchmark",
+      "anchor": "CIFAR100,           | and                              | Pets.",
+      "line": 545
+    },
+    {
+      "name": "Pets",
+      "role": "benchmark",
+      "anchor": "and                              | Pets. We | posit",
+      "line": 545
+    },
+    {
+      "name": "Cars",
+      "role": "benchmark",
+      "anchor": "datasets: Cars,CUB,andFood101.",
+      "line": 369
+    },
+    {
+      "name": "CUB",
+      "role": "benchmark",
+      "anchor": "datasets: Cars,CUB,andFood101.",
+      "line": 369
+    },
+    {
+      "name": "Food101",
+      "role": "benchmark",
+      "anchor": "datasets: Cars,CUB,andFood101.",
+      "line": 369
+    },
+    {
+      "name": "DTD",
+      "role": "benchmark",
+      "anchor": "BUC sraC | DTD |",
+      "line": 408
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Linear Probe",
+      "anchor": "outperforms all baselines on linear probe and few-",
+      "line": 109
+    },
+    {
+      "name": "Fewshot",
+      "anchor": "Batch #ImgUpdates Dataset Linear Fewshot",
+      "line": 502
+    }
+  ],
+  "notes": "训练集均为自监督预训练用途:RedCaps 为主实验预训练集,CC3M/CC12M/RedCaps-2020 为 Tab.5b 分析实验中的预训练集,故全记 pretrain;ImageNet 仅作为 Tab.4 系统级对比中基线 checkpoint(Supervised/SimSiam/SimCLR/MoCo/SwAV)的训练数据及 Tab.5c 采样空间分析所用 ImageNet-supervised ResNet-50、ImageNet-trained SimCLR 的预训练数据,亦记 pretrain。评测为 15 个下游分类数据集上的 linear probe(冻结特征+logistic regression)与 fewshot(5-way,5-shot 加权 kNN)。正文中可正常辨认的评测集:CIFAR10、CIFAR100、Pets、Cars、CUB、Food101(原文无连字符,照抄正文形式)及 DTD(表头回文,字面一致)。Table 1/3 其余列头为旋转排版、被 OCR 逐字符反转,仅以反转形式存在(101-hcetlaC=Caltech-101、001-RAFIC/01-RAFIC=CIFAR-100/CIFAR-10、01-dooF=Food-101、793NUS=SUN397、tfarcriA=Aircraft、01-LTS=STL-10、srewolF=Flowers、TASoruE=EuroSAT、54CSISER=RESISC45、steP=Pets、MACP=PCAM),为保证锚点逐字可核验未单列条目;可辨认的另 8 个评测集为 Caltech-101、SUN397、Aircraft、STL-10、Flowers、EuroSAT、RESISC45、PCAM,与 15 个评测集总数相符。ConceptualCaptions 为 CC3M/CC12M 合称,未单列;Tab.4 中 CLIP 行的训练集仅写 'CLIP'(即其网页规模训练数据,论文未给出数据集名),未单列。方法节提及的 BLEU、CIDER、SPICE、BERTScore、CLIPScore 为讨论句子相似度度量时的相关举例,实验未报告,不计入 metrics;表格中 Mean 为 15 集平均,未单列。转录仅含正文与参考文献,附录 A-F(含附录 B 评测数据集细目)未包含。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Banani_Learning_Visual_Representations_via_Language-Guided_Sampling_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

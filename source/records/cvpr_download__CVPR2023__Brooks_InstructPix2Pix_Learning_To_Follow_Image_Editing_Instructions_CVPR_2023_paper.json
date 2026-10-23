@@ -1,0 +1,29 @@
+{
+  "paper": "cvpr_download/CVPR2023/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "LAION-Aesthetics V2 6.5+",
+      "role": "construction",
+      "anchor": "fromtheLAION-AestheticsV26.5+[56]datasetandman-",
+      "line": 151
+    }
+  ],
+  "metrics": [
+    {
+      "name": "CLIP Text-Image Direction Similarity",
+      "anchor": "CLIP Text-Image Direction Similarity",
+      "line": 422
+    },
+    {
+      "name": "cosine similarity of CLIP image embeddings",
+      "anchor": "cosine | similarity   | of CLIP     | image embeddings",
+      "line": 447
+    }
+  ],
+  "notes": "全文为 OCR 式 markdown 转录,词间空格大量缺失,name 字段按论文原写法恢复空格,anchor 一律逐字保留 OCR 痕迹。LAION-Aesthetics V2 6.5+ 仅作 construction:从中采样 700 条 input caption 人工撰写指令微调 GPT-3,并以其中 caption 作为生成 454,445 条合成训练三元组的来源;文中泛称 LAION 处指同一来源,不另立条目。论文自建合成数据集(>45 万条)及 2000 edits 评测集均未命名,故无 benchmark 角色条目。指标为两条 CLIP 分析性度量:图 8/10 横轴 CLIP Text-Image Direction Similarity(正文亦称 directional CLIP similarity [14]),纵轴在 OCR 中被反转为 'ytirasimiS egamI PILC'(即 CLIP Image Similarity),与正文 'cosine similarity of CLIP image embeddings' 为同一指标,只记一条。无 FID/PSNR/user study 等其他指标。补充材料(附录 A-D、Fig 23 的另一 CLIP 模型验证)未包含在本全文文件中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

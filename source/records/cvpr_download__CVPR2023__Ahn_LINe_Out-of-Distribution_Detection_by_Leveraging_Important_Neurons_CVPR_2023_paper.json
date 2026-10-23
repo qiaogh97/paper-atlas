@@ -1,0 +1,48 @@
+{
+  "paper": "cvpr_download/CVPR2023/Ahn_LINe_Out-of-Distribution_Detection_by_Leveraging_Important_Neurons_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "LINe: Out-of-Distribution Detection by Leveraging Important Neurons",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "methods on CIFAR-10, CIFAR-100, and ImageNet datasets.",
+      "line": 40
+    },
+    {
+      "name": "CIFAR-100",
+      "role": "benchmark",
+      "anchor": "methods on CIFAR-10, CIFAR-100, and ImageNet datasets.",
+      "line": 40
+    },
+    {
+      "name": "ImageNet",
+      "role": "benchmark",
+      "anchor": "CIFAR-10, CIFAR-100, and ImageNet-1K. Compared",
+      "line": 321
+    },
+    {
+      "name": "textures",
+      "role": "benchmark",
+      "anchor": "(textures [10] and iNaturalist [51]) are presented.",
+      "line": 77
+    },
+    {
+      "name": "iNaturalist",
+      "role": "benchmark",
+      "anchor": "(textures [10] and iNaturalist [51]) are presented.",
+      "line": 77
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FPR95",
+      "anchor": "reduces the FPR95 by up to 14.05%.",
+      "line": 323
+    }
+  ],
+  "notes": "仅缓存，低置信：全文为约2万字符截断缓存，缺失第4节实验主体与结果表格。CIFAR-10/CIFAR-100/ImageNet 为 ID 评测基准（摘要与贡献段均提及；ImageNet 亦写作 ImageNet-1K，按同一数据集记一条）。textures 与 iNaturalist 仅在图1作为 ImageNet 的 OOD 测试数据出现（激活神经元数量分布分析），缓存中未见主实验表格，benchmark 角色基于该处用法判定。指标仅见 FPR95（缩写在缓存中未展开），未出现在缓存内的其他常见指标不予补录。Table 8 提及与其他数据集比较但名称在缓存中不可见。",
+  "text_path": "extraction/texts/cvpr_download__CVPR2023__Ahn_LINe_Out-of-Distribution_Detection_by_Leveraging_Important_Neurons_CVPR_2023_paper.txt",
+  "text_source": "cache"
+}

@@ -1,0 +1,60 @@
+{
+ "paper": "cvpr_download/CVPR2023/Chen_Improved_Test-Time_Adaptation_for_Domain_Generalization_CVPR_2023_paper",
+ "venue": "CVPR2023",
+ "title": "Improved Test-Time Adaptation for Domain Generalization",
+ "status": "ok",
+ "datasets": [
+  {
+   "name": "PACS",
+   "role": "benchmark",
+   "anchor": "PACS [37] benchmark for evaluation, and the models are"
+  },
+  {
+   "name": "VLCS",
+   "role": "benchmark",
+   "anchor": "VLCS [18] contains 10,729 images of 5 classes from 4"
+  },
+  {
+   "name": "OfficeHome",
+   "role": "benchmark",
+   "anchor": "eachdatasetisconsideredadomaininDG;OfficeHome[61]"
+  },
+  {
+   "name": "TerraInc",
+   "role": "benchmark",
+   "anchor": "TerraInc | [4] has 24,788 | images from 10 | classes. Those"
+  },
+  {
+   "name": "DomainNet",
+   "role": "benchmark",
+   "anchor": "TerraInc | DomainNet | Avg. | Top5↑ Score↑ |"
+  },
+  {
+   "name": "DomainBed",
+   "role": "benchmark",
+   "anchor": "ExperimentsareconductedontheDomainBedbenchmark[27].Allmethodsareexamined"
+  },
+  {
+   "name": "ImageNet",
+   "role": "pretrain",
+   "anchor": "ImageNet[15]pretrainedResNet18[30]backbonethatwith"
+  }
+ ],
+ "metrics": [
+  {
+   "name": "average accuracy",
+   "anchor": "present results of average accuracy in each domain from"
+  },
+  {
+   "name": "Top5",
+   "anchor": "Top5accumulatesthenumberofdatasetswhereamethodachievesthetop5performances."
+  },
+  {
+   "name": "Score",
+   "anchor": "DomainNet | Avg. | Top5↑ Score↑ |"
+  }
+ ],
+ "notes": "主实验（多源/单源 DG）在 DomainBed 评测协议的五个基准数据集 PACS、VLCS、OfficeHome、TerraInc、DomainNet 上进行，DomainBed 作为 benchmark 套件（Table 1 明确点名）单独列为一条；ImageNet 仅用于 ResNet18 预训练骨干，role=pretrain。VLCS 的四个构成域（PASCAL VOC 2007、LabelMe、Caltech、SUN）只是该数据集的域说明，不单列。指标以 accuracy (%) 上报、60 trials 取平均，表内多处写作 average accuracy，取该名为一条；Table 1 的两个聚合统计列 Top5 与 Score 按结果表中实际命名计入。分析小节（Sec.5）仅用 PACS，Grad-CAM 为可视化手段非指标。补充材料（supplementary）不在本 markdown 全文中，无附录可覆盖。全文为 OCR 转录、存在缺空格痕迹，锚点均按文件原样逐字复制。",
+ "text_path": "conference_paper/cvpr_download/CVPR2023/Chen_Improved_Test-Time_Adaptation_for_Domain_Generalization_CVPR_2023_paper/paper.md",
+ "text_source": "markdown"
+}

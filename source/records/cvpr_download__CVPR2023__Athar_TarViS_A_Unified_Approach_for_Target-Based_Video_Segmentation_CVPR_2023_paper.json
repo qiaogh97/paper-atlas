@@ -1,0 +1,154 @@
+{
+  "paper": "cvpr_download/CVPR2023/Athar_TarViS_A_Unified_Approach_for_Target-Based_Video_Segmentation_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "TarViS: A Unified Approach for Target-based Video Segmentation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "YouTube-VIS 2021",
+      "role": "benchmark",
+      "anchor": "ResultsforVideoInstanceSegmentation(VIS)ontheYouTube-VIS2021[72]andOVIS[54]validationsets.",
+      "line": 458
+    },
+    {
+      "name": "OVIS",
+      "role": "benchmark",
+      "anchor": "(2) OVIS [54] which covers 25 object classes. It contains",
+      "line": 509
+    },
+    {
+      "name": "KITTI-STEP",
+      "role": "benchmark",
+      "anchor": "on three datasets: (1) KITTI-STEP [66], which contains",
+      "line": 494
+    },
+    {
+      "name": "Cityscapes VPS",
+      "role": "benchmark",
+      "anchor": "CityscapesVPS[35],whichcontains50shortdrivingscene",
+      "line": 498
+    },
+    {
+      "name": "VIPSeg",
+      "role": "benchmark",
+      "anchor": "each with 6 annotated frames, and (3) VIPSeg [44],",
+      "line": 499
+    },
+    {
+      "name": "DAVIS 2017",
+      "role": "benchmark",
+      "anchor": "ResultsforVOSonDAVIS[53]andPETonBURST[3].",
+      "line": 524
+    },
+    {
+      "name": "BURST",
+      "role": "benchmark",
+      "anchor": "BURST [3]. We train on 32 Nvidia A100 GPUs with",
+      "line": 487
+    },
+    {
+      "name": "COCO",
+      "role": "pretrain",
+      "anchor": "mentations to images from COCO [43], ADE20k [77],",
+      "line": 451
+    },
+    {
+      "name": "ADE20k",
+      "role": "pretrain",
+      "anchor": "images from COCO [43], ADE20k [77],",
+      "line": 451
+    },
+    {
+      "name": "Mapillary",
+      "role": "pretrain",
+      "anchor": "Mapillary [48] and Cityscapes [18]. The samples are",
+      "line": 452
+    },
+    {
+      "name": "Cityscapes",
+      "role": "pretrain",
+      "anchor": "and Cityscapes [18]. The samples are",
+      "line": 452
+    }
+  ],
+  "metrics": [
+    {
+      "name": "AP",
+      "anchor": "tively longer and more occluded. The AP scores for both",
+      "line": 513
+    },
+    {
+      "name": "AP50",
+      "anchor": "AP AP50 AP75 AR1 AR10 AP AP50 AP75 AR1 AR10",
+      "line": 462
+    },
+    {
+      "name": "AP75",
+      "anchor": "AP AP50 AP75 AR1 AR10 AP AP50 AP75 AR1 AR10",
+      "line": 462
+    },
+    {
+      "name": "AR1",
+      "anchor": "AP AP50 AP75 AR1 AR10 AP AP50 AP75 AR1 AR10",
+      "line": 462
+    },
+    {
+      "name": "AR10",
+      "anchor": "AP AP50 AP75 AR1 AR10 AP AP50 AP75 AR1 AR10",
+      "line": 462
+    },
+    {
+      "name": "STQ",
+      "anchor": "Model STQ AQ SQ VPQ VPQTh VPQSt VPQ VPQTh VPQSt STQ",
+      "line": 476
+    },
+    {
+      "name": "AQ",
+      "anchor": "Model STQ AQ SQ VPQ VPQTh VPQSt VPQ VPQTh VPQSt STQ",
+      "line": 476
+    },
+    {
+      "name": "SQ",
+      "anchor": "Model STQ AQ SQ VPQ VPQTh VPQSt VPQ VPQTh VPQSt STQ",
+      "line": 476
+    },
+    {
+      "name": "VPQ",
+      "anchor": "Model STQ AQ SQ VPQ VPQTh VPQSt VPQ VPQTh VPQSt STQ",
+      "line": 476
+    },
+    {
+      "name": "VPQTh",
+      "anchor": "Model STQ AQ SQ VPQ VPQTh VPQSt VPQ VPQTh VPQSt STQ",
+      "line": 476
+    },
+    {
+      "name": "VPQSt",
+      "anchor": "Model STQ AQ SQ VPQ VPQTh VPQSt VPQ VPQTh VPQSt STQ",
+      "line": 476
+    },
+    {
+      "name": "J&F",
+      "anchor": "Tab. 3 show that TarViS achieves 85.3 J&F which is",
+      "line": 571
+    },
+    {
+      "name": "J",
+      "anchor": "J&F  | J    | F    | Hval | Htest",
+      "line": 530
+    },
+    {
+      "name": "F",
+      "anchor": "J&F  | J    | F    | Hval | Htest",
+      "line": 530
+    },
+    {
+      "name": "HOTA_all",
+      "anchor": "TarViSachievesaHOTA all scoreof37.5and36.4onthe",
+      "line": 553
+    }
+  ],
+  "notes": "7 个 benchmark(YouTube-VIS 2021、OVIS、KITTI-STEP、Cityscapes VPS、VIPSeg、DAVIS 2017、BURST)同时是联合微调的训练数据,以主实验测试基准记为 benchmark。COCO、ADE20k、Mapillary、Cityscapes 仅用于 500k 迭代伪视频预训练,记为 pretrain;预训练图像来源 Cityscapes[18] 与评测基准 Cityscapes VPS[35] 论文中引用不同,拆成两条。Table 4 消融的训练数据列(YTVIS/KITTI/C-VPS 等缩写)与上述同一批数据集,不重复计。Table 4 将 VIS 指标写作 mAP,与 Table 1 的 AP 为同一指标,不另立条目;PET 指标正文写法为 HOTA 下标 all(转录为 \"HOTA all\"),Table 3 列头作 Hval/Htest、Table 4 作 HOTAval,并入 HOTA_all 一条;HOTA 全称未在正文展开。AP50/AP75/AR1/AR10、STQ/AQ/SQ/VPQ/VPQTh/VPQSt 均为原缩写保留。J、F 为 Table 3 中 DAVIS(VOS) 的列指标。补充材料(detailed PET metrics)不在本文件内,未提取。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Athar_TarViS_A_Unified_Approach_for_Target-Based_Video_Segmentation_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

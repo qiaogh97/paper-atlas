@@ -1,0 +1,98 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cao_Observation-Centric_SORT_Rethinking_SORT_for_Robust_Multi-Object_Tracking_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "MOT17",
+      "role": "benchmark",
+      "anchor": "tracking datasets including MOT17 [41], MOT20 [14],",
+      "line": 488
+    },
+    {
+      "name": "MOT20",
+      "role": "benchmark",
+      "anchor": "wheretargetsmostlymovelinearly,whilescenesinMOT20",
+      "line": 491
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "are more crowded. KITTI [20] is for pedestrian and car",
+      "line": 492
+    },
+    {
+      "name": "DanceTrack",
+      "role": "benchmark",
+      "anchor": "on it are included in the appendix. DanceTrack [54] is a",
+      "line": 495
+    },
+    {
+      "name": "CroHD",
+      "role": "benchmark",
+      "anchor": "KITTI [20], DanceTrack [54] and CroHD [56].",
+      "line": 489
+    }
+  ],
+  "metrics": [
+    {
+      "name": "HOTA",
+      "anchor": "Metrics. We adopt HOTA [37] as the main metric as it",
+      "line": 454
+    },
+    {
+      "name": "AssA",
+      "anchor": "detectionandassociation[37]. WealsoemphasizeAssAto",
+      "line": 458
+    },
+    {
+      "name": "IDF1",
+      "anchor": "evaluatetheassociationperformance. IDF1isalsousedfor",
+      "line": 460
+    },
+    {
+      "name": "MOTA",
+      "anchor": "port,suchasMOTA,arehighlyrelatedtodetectionperfor-",
+      "line": 464
+    },
+    {
+      "name": "DetA",
+      "anchor": "HOTA↑ | DetA↑ | AssA↑ | MOTA↑ | IDF1↑",
+      "line": 537
+    },
+    {
+      "name": "AssR",
+      "anchor": "Tracker HOTA↑ MOTA↑ IDF1↑ FP(104)↓ FN(104)↓ IDs↓ Frag↓ AssA↑ AssR↑",
+      "line": 503
+    },
+    {
+      "name": "FP",
+      "anchor": "Tracker HOTA↑ MOTA↑ IDF1↑ FP(104)↓ FN(104)↓ IDs↓ Frag↓ AssA↑ AssR↑",
+      "line": 503
+    },
+    {
+      "name": "FN",
+      "anchor": "Tracker HOTA↑ MOTA↑ IDF1↑ FP(104)↓ FN(104)↓ IDs↓ Frag↓ AssA↑ AssR↑",
+      "line": 503
+    },
+    {
+      "name": "IDs",
+      "anchor": "Tracker HOTA↑ MOTA↑ IDF1↑ FP(104)↓ FN(104)↓ IDs↓ Frag↓ AssA↑ AssR↑",
+      "line": 503
+    },
+    {
+      "name": "Frag",
+      "anchor": "Tracker HOTA↑ MOTA↑ IDF1↑ FP(104)↓ FN(104)↓ IDs↓ Frag↓ AssA↑ AssR↑",
+      "line": 503
+    },
+    {
+      "name": "FPS",
+      "anchor": "off-the-shelf detections, OC-SORT runs at 793 FPS on an",
+      "line": 587
+    }
+  ],
+  "notes": "5 个数据集均为论文实验的实际评测基准,取自 5.1 Datasets 段与各结果表(MOT17/MOT20 私有检测 Table 1-2、DanceTrack Table 3、KITTI Table 4);消融(Table 5-7)用 MOT17-val 与 DanceTrack-val,属同一数据集不另计条目。CroHD(头跟踪)结果在附录,本转录止于参考文献未含附录正文,但正文 5.1 明确点名其为评测数据集,故仍收录。指标:指标段明确 HOTA 为主指标、AssA、IDF1、MOTA;DetA、AssR 仅见于结果表表头;FP/FN 表头写作 FP(104)/FN(104)(即 ×10^4 缩放的 OCR 写法),IDs、Frag 亦来自表头;FPS 为正文报告的推理速度(793 FPS)。AssA/AssR/DetA/IDs/Frag/FPS 等缩写原文均未展开全称。OCR 转录普遍缺失空格,锚点逐字照抄原文。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cao_Observation-Centric_SORT_Rethinking_SORT_for_Robust_Multi-Object_Tracking_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

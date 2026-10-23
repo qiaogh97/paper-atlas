@@ -1,0 +1,102 @@
+{
+  "paper": "cvpr_download/CVPR2023/Cazenavette_Generalizing_Dataset_Distillation_via_Deep_Generative_Prior_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Generalizing Dataset Distillation via Deep Generative Prior",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "role": "benchmark",
+      "anchor": "Weevaluateourmethod(GLaD)fordistillingCIFAR-10",
+      "line": 396
+    },
+    {
+      "name": "ImageNet-1k",
+      "role": "benchmark",
+      "anchor": "[40] and 10-class subsets of ImageNet 1k [20], utilizing",
+      "line": 397
+    },
+    {
+      "name": "ImageNette",
+      "role": "benchmark",
+      "anchor": "conventionalsubsetsareImageNetteandImageWoof[25].",
+      "line": 422
+    },
+    {
+      "name": "ImageWoof",
+      "role": "benchmark",
+      "anchor": "conventionalsubsetsareImageNetteandImageWoof[25].",
+      "line": 422
+    },
+    {
+      "name": "ImageNet-A",
+      "role": "benchmark",
+      "anchor": "beenpre-trainedonImageNet.Inthiswork,“ImageNet-A”",
+      "line": 425
+    },
+    {
+      "name": "ImageNet-B",
+      "role": "benchmark",
+      "anchor": "consistsofthetop-10classeswith“ImageNet-B”consisting",
+      "line": 426
+    },
+    {
+      "name": "ImageNet-C",
+      "role": "benchmark",
+      "anchor": "ofthenext10andsoonfor“ImageNet-C,”“ImageNet-D,”",
+      "line": 427
+    },
+    {
+      "name": "ImageNet-D",
+      "role": "benchmark",
+      "anchor": "ofthenext10andsoonfor“ImageNet-C,”“ImageNet-D,”",
+      "line": 427
+    },
+    {
+      "name": "ImageNet-E",
+      "role": "benchmark",
+      "anchor": "and“ImageNet-E.”Theclassescomposingallthesubsets",
+      "line": 428
+    },
+    {
+      "name": "ImNet-Birds",
+      "role": "benchmark",
+      "anchor": "ImNette ImWoof ImNet-Birds ImNet-Fruits ImNet-Cats",
+      "line": 267
+    },
+    {
+      "name": "ImNet-Fruits",
+      "role": "benchmark",
+      "anchor": "ImNette ImWoof ImNet-Birds ImNet-Fruits ImNet-Cats",
+      "line": 267
+    },
+    {
+      "name": "ImNet-Cats",
+      "role": "benchmark",
+      "anchor": "ImNette ImWoof ImNet-Birds ImNet-Fruits ImNet-Cats",
+      "line": 267
+    },
+    {
+      "name": "FFHQ",
+      "role": "pretrain",
+      "anchor": "lationsusinggeneratorstrainedontheFFHQandPoke´mon",
+      "line": 507
+    },
+    {
+      "name": "Pokémon",
+      "role": "pretrain",
+      "anchor": "lationsusinggeneratorstrainedontheFFHQandPoke´mon",
+      "line": 507
+    }
+  ],
+  "metrics": [
+    {
+      "name": "validation accuracy",
+      "anchor": "from scratch and record the validation accuracy. We",
+      "line": 478
+    }
+  ],
+  "notes": "OCR 转录存在空格缺失，锚点均按全文文件原样复制并逐字核验通过。ImageNet-1k 仅通过其 10-class 子集使用（主实验蒸馏并评测这些子集）；ImageNet-A~E 为作者按 ImageNet 预训练 ResNet-50 的评估表现新构建的子集，既是构建产物也是实验基准，统一记 benchmark。ImNet-Birds/ImNet-Fruits/ImNet-Cats 为先前工作[13]引入的子集，名称照抄 Table 1 列名。FFHQ 与 Pokémon 仅用于预训练生成先验的 StyleGAN-XL 生成器（Table 4 消融，含随机初始化生成器对比），记 pretrain；OCR 中 FFHQ 两处误作 FFQH、Pokémon 转写为 Poke´mon（重音拆分），name 字段用正确原名，锚点取拼写正确处。指标唯一为 validation accuracy（5 次重复报 mean±1std；Table 1 为 AlexNet/VGG11/ResNet18/ViT 四个 unseen 架构平均，即 cross-architecture accuracy，Figure 5 标作 Cross Arch Acc.，同义不单列）。supplemental material 仅被引用未包含在本全文文件中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Cazenavette_Generalizing_Dataset_Distillation_via_Deep_Generative_Prior_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

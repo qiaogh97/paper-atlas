@@ -1,0 +1,93 @@
+{
+  "paper": "cvpr_download/CVPR2023/Borse_DejaVu_Conditional_Regenerative_Learning_To_Enhance_Dense_Prediction_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "DejaVu: Conditional Regenerative Learning to Enhance Dense Prediction",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "Cityscapes",
+      "role": "benchmark",
+      "anchor": "Cityscapes [18], and ADE20K [97] datasets. Cityscapes",
+      "line": 419
+    },
+    {
+      "name": "ADE20K",
+      "role": "benchmark",
+      "anchor": "ADE20K contains 20,210 training, 2,000 validation, and",
+      "line": 434
+    },
+    {
+      "name": "COCO",
+      "role": "benchmark",
+      "anchor": "for panoptic segmentation on the COCO val dataset. We",
+      "line": 524
+    },
+    {
+      "name": "KITTI",
+      "role": "benchmark",
+      "anchor": "Monocular Depth Estimation we consider KITTI [26] and",
+      "line": 438
+    },
+    {
+      "name": "NYU-Depth-v2",
+      "role": "benchmark",
+      "anchor": "We also | consider | NYU-Depth-v2",
+      "line": 442
+    }
+  ],
+  "metrics": [
+    {
+      "name": "mIoU",
+      "anchor": "weevaluateusingmeanintersection-over-unionmIoU.For",
+      "line": 489
+    },
+    {
+      "name": "PQ",
+      "anchor": "provementsinPQontwodifferentSwinbackbones.",
+      "line": 527
+    },
+    {
+      "name": "PQst",
+      "anchor": "Method Backbone PQ↑ PQst↑ PQth↑",
+      "line": 530
+    },
+    {
+      "name": "PQth",
+      "anchor": "PQ↑ PQst↑ PQth↑ Labels Method Seg.(mIoU)↑",
+      "line": 530
+    },
+    {
+      "name": "aErr",
+      "anchor": "ated using absolute relative error aErr, and surface normal",
+      "line": 499
+    },
+    {
+      "name": "mErr",
+      "anchor": "estimationperformanceisevaluatedusingmeanerrormErr",
+      "line": 502
+    },
+    {
+      "name": "AbsRel",
+      "anchor": "weuseabsoluterelativeerrorAbsRelandsquaredrelative",
+      "line": 504
+    },
+    {
+      "name": "SqRel",
+      "anchor": "Method AbsRel↓ SqRel↓",
+      "line": 600
+    },
+    {
+      "name": "δ1",
+      "anchor": "termsoflowerAbsRelandSqRelerrorandhigherδ com-",
+      "line": 589
+    },
+    {
+      "name": "GMacs",
+      "anchor": "reportGMacstomeasureefficiency.",
+      "line": 512
+    }
+  ],
+  "notes": "全部数据集均为主实验测试基准(benchmark):Cityscapes、ADE20K 用于语义分割,COCO 用于全景分割,KITTI(eigen split,split 来自文献[22])用于自监督单目深度估计,NYU-Depth-v2 用于多任务学习(正文亦缩写为 NYUD-v2)。指标方面:mIoU 用于语义分割;PQ/PQst/PQth 用于全景分割(原文为 PQ 加上标 st/th);aErr、mErr 分别为多任务设定下深度与法线的评价指标;AbsRel、SqRel、δ1 用于单目深度(δ1 原文为 δ 带下标 1,OCR 转录中下标分离);GMacs 为效率度量,见于评价设置与结果表。MSE 与 LPIPS 仅作为条件再生成的训练损失,cross-entropy/L1/cosine similarity 等为任务训练损失,均非评价指标,未计入 metrics。本 markdown 为 CVPR Open Access 版正文,参考文献后无附录。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Borse_DejaVu_Conditional_Regenerative_Learning_To_Enhance_Dense_Prediction_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

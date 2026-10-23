@@ -1,0 +1,57 @@
+{
+  "paper": "cvpr_download/CVPR2023/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "GLeaD: Improving GANs with A Generator-Leading Task",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "FFHQ",
+      "role": "benchmark",
+      "anchor": "Datasets. We conduct experiments on FFHQ [36] con-",
+      "line": 305
+    },
+    {
+      "name": "LSUN Bedroom",
+      "role": "benchmark",
+      "anchor": "We also adopt the training set of LSUN Bedroom and",
+      "line": 309
+    },
+    {
+      "name": "LSUN Church",
+      "role": "benchmark",
+      "anchor": "LSUN Church and Bedroom are trained until 50M images",
+      "line": 341
+    },
+    {
+      "name": "CelebA-HQ",
+      "role": "qualitative",
+      "anchor": "real images |          | from | CelebA-HQ",
+      "line": 532
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FID",
+      "anchor": "tionDistance(FID)[23]forevaluation.",
+      "line": 320
+    },
+    {
+      "name": "Precision",
+      "anchor": "P and R denote precision and recall [39]",
+      "line": 347
+    },
+    {
+      "name": "Recall",
+      "anchor": "toimproveRecall[39]largely(56%)from0.25to0.39on",
+      "line": 111
+    },
+    {
+      "name": "realness score",
+      "anchor": "Curvesofrealnessscoresthatarepredictedbyvarious",
+      "line": 447
+    }
+  ],
+  "notes": "FFHQ(70K人脸)/LSUN Bedroom(约126K)/LSUN Church(约3M)为主实验测试基准(Table 1及消融Tab.2/3均在其上)；LSUN Church验证集另用于4.5定性重建、LSUN Bedroom另用于4.4 realness曲线与消融，均属同一基准用途，不拆条。CelebA-HQ仅在4.5作为域外人脸真实图像来源用于定性重建展示，role=qualitative，其锚点位于OCR表格行内含管道符与多空格，系逐字复制。FID在文中展开为Frechet Inception Distance(OCR无重音符)，表格列头为FID↓，条目名保留缩写FID。Precision与Recall合称P&R[39]，表列头为P↑/R↑，拆成两条。realness score为4.4分析小节明确命名的分析性度量(Fig.4训练过程判别器realness分数曲线)，计入metrics。正文提及parameter amount与inference time的开销结果在Supplementary Material，本文件无附录，未计入。全文为OCR式markdown转录、空格缺失普遍(如LSUNBedroom、FrechetInceptionDistance)，所有锚点均按原文逐字复制并经脚本核验。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}

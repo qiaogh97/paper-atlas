@@ -1,0 +1,79 @@
+{
+  "paper": "cvpr_download/CVPR2023/Chai_Recognizability_Embedding_Enhancement_for_Very_Low-Resolution_Face_Recognition_and_Quality_CVPR_2023_paper",
+  "venue": "CVPR2023",
+  "title": "Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation",
+  "status": "ok",
+  "datasets": [
+    {
+      "name": "TinyFace",
+      "role": "benchmark",
+      "anchor": "the best quality) in TinyFace [6] dataset",
+      "line": 611
+    },
+    {
+      "name": "SurvFace",
+      "role": "benchmark",
+      "anchor": "SurvFace.BeingthemostchallengingVLRfacedataset",
+      "line": 494
+    },
+    {
+      "name": "SCFace",
+      "role": "benchmark",
+      "anchor": "SCFace. For the HR-VLR evaluation, our model re-",
+      "line": 478
+    },
+    {
+      "name": "VGGFace2",
+      "role": "pretrain",
+      "anchor": "FaceNet[5]andResNet-50[8]pretrainedontheVGGFace2",
+      "line": 315
+    },
+    {
+      "name": "LPW",
+      "role": "construction",
+      "anchor": "tector[57],includingLPW[42]andMARS[59]",
+      "line": 426
+    },
+    {
+      "name": "MARS",
+      "role": "construction",
+      "anchor": "tector[57],includingLPW[42]andMARS[59]",
+      "line": 426
+    }
+  ],
+  "metrics": [
+    {
+      "name": "rank-1 identification rate (IR)",
+      "anchor": "Table1.IRComparisononTinyFaceusingResNet-50",
+      "line": 460
+    },
+    {
+      "name": "TPR(%)@FAR",
+      "anchor": "Table3.TPR(%)@FARandTPIR20(%)@FPIRComparisononSurvFace",
+      "line": 476
+    },
+    {
+      "name": "TPIR20(%)@FPIR",
+      "anchor": "TPIR20(%)@FPIRComparisononSurvFaceusingResNet-50",
+      "line": 476
+    },
+    {
+      "name": "Error versus Rejection Curve (ERC)",
+      "anchor": "Error versus Rejection Curve (ERC)",
+      "line": 604
+    },
+    {
+      "name": "False Non-Match Rate (FNMR)",
+      "anchor": "isareliablerecognizabilitymetricbymeansofanalyzingfalsenon-matchrate(FNMR)",
+      "line": 616
+    },
+    {
+      "name": "recognizability index (RI)",
+      "anchor": "RIcharacterizesthefacequalitybetter,closelysimulatingthehumancognitivelevel",
+      "line": 612
+    }
+  ],
+  "notes": "三个 VLR 人脸数据集 TinyFace/SurvFace/SCFace 同时用于各自训练集微调与 open-set 测试,主角色记 benchmark。VGGFace2 仅作为 MobileFaceNet/ResNet-50 表征编码器的预训练数据(pretrain)。LPW 与 MARS 仅作为两个公开行人重识别库、经 MTCNN 抽脸构建无标注 UI(unrecognizable identities)人脸数据集的来源(construction),论文并未把该 UI 集当作测试基准。指标方面:TPIR20 的下标 20 原文未展开,保留缩写;FNMR 在固定 FMR(false match rate)阈值下评估,FMR 仅作为操作点不单列;论文自身提出的分析性度量 RI(recognizability index)在 4.3 FIQA 分析小节中明确命名并用于排序/FNMR 评估,故计入 metrics;正文另出现 Error versus Reject Curve 的粘连写法,均指 ERC。附录 Sec.A/B(datasets 细节与实验设置)在 supplemental material 中,本 markdown 全文文件不含附录,数据集与指标以正文为准;OCR 存在空格缺失,锚点均按文件原样逐字复制并已核验唯一命中。",
+  "text_path": "conference_paper/cvpr_download/CVPR2023/Chai_Recognizability_Embedding_Enhancement_for_Very_Low-Resolution_Face_Recognition_and_Quality_CVPR_2023_paper/paper.md",
+  "text_source": "markdown"
+}
