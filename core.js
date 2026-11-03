@@ -1,8 +1,10 @@
 export const ROLES = { benchmark: '主实验基准', pretrain: '预训练来源', construction: '构建来源', qualitative: '定性测试', other: '其他用途' };
 export const normalize = value => String(value).normalize('NFKC').toLocaleLowerCase().trim();
-export const emptyState = () => ({ q: '', conferences: [], years: [], datasets: [], metrics: [], role: '', sort: 'newest', page: 1 });
+export const QUALITIES = { validated: '检查通过', needs_review: '待核结果', legacy: '历史样本' };
+export const emptyState = () => ({ q: '', conferences: [], years: [], datasets: [], metrics: [], role: '', quality: '', sort: 'newest', page: 1 });
 export function matches(paper, state, omit = '') {
-  if (state.q && !normalize([paper.title, paper.conference, paper.year, ...paper.datasets.map(d => d.name), ...paper.metrics.map(m => m.name)].join(' ')).includes(normalize(state.q))) return false;
+  if (state.q && !(paper.searchText || normalize([paper.title, paper.conference, paper.year, ...paper.datasets.map(d => d.name), ...paper.metrics.map(m => m.name)].join(' '))).includes(normalize(state.q))) return false;
+  if (state.quality && paper.quality !== state.quality) return false;
   if (omit !== 'conferences' && state.conferences.length && !state.conferences.includes(paper.conference)) return false;
   if (omit !== 'years' && state.years.length && !state.years.includes(String(paper.year))) return false;
   const datasets = paper.datasets.filter(d => !state.role || d.role === state.role);
@@ -31,6 +33,7 @@ export function readState(search, papers) {
   const allowed = {conferences: new Set(papers.map(p => p.conference)), years: new Set(papers.map(p => String(p.year))), datasets: new Set(papers.flatMap(p => p.datasets.map(d => d.name))), metrics: new Set(papers.flatMap(p => p.metrics.map(m => m.name)))};
   for (const group of Object.keys(allowed)) state[group] = [...new Set(params.getAll(group))].filter(v => allowed[group].has(v));
   if (Object.hasOwn(ROLES, params.get('role'))) state.role = params.get('role');
+  if (Object.hasOwn(QUALITIES, params.get('quality'))) state.quality = params.get('quality');
   if (['newest', 'oldest', 'title'].includes(params.get('sort'))) state.sort = params.get('sort');
   const page = Number(params.get('page'));
   state.page = Number.isSafeInteger(page) && page > 0 ? page : 1;
@@ -41,12 +44,13 @@ export function stateSearch(state) {
   if (state.q) params.set('q', state.q);
   for (const group of ['conferences','years','datasets','metrics']) for (const value of state[group]) params.append(group, value);
   if (state.role) params.set('role', state.role);
+  if (state.quality) params.set('quality', state.quality);
   if (state.sort !== 'newest') params.set('sort', state.sort);
   if (state.page > 1) params.set('page', state.page);
   return params.toString();
 }
 export function csvText(papers) {
   const cell = value => '"' + String(value).replace(/^[=+@\-\t\r]/, "'$&").replaceAll('"', '""') + '"';
-  const rows = [['论文名称','会议','年份','数据集','实验指标','论文页面','PDF下载链接'], ...papers.map(p => [p.title,p.conference,p.year,p.datasets.map(d => `${d.name} (${ROLES[d.role]})`).join('; '),p.metrics.map(m => m.name).join('; '),p.paperUrl,p.pdfUrl])];
+  const rows = [['论文名称','会议','年份','数据集','实验指标','论文页面','PDF下载链接','提取状态'], ...papers.map(p => [p.title,p.conference,p.year,p.datasets.map(d => `${d.name} (${ROLES[d.role]})`).join('; '),p.metrics.map(m => m.name).join('; '),p.paperUrl,p.pdfUrl,QUALITIES[p.quality] || '历史样本'])];
   return '\uFEFF' + rows.map(row => row.map(cell).join(',')).join('\r\n');
 }

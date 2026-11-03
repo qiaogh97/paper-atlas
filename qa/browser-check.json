@@ -1,8 +1,20 @@
 {
-  "date": "2026-10-23T10:02:56.606Z",
+  "date": "2026-11-03T11:06:04.553Z",
   "checks": [
     {
-      "name": "205 papers load; first page has 12",
+      "name": "published snapshot loads; first page has 12",
+      "passed": true
+    },
+    {
+      "name": "ECCV 2022 is searchable",
+      "passed": true
+    },
+    {
+      "name": "NeurIPS filter works",
+      "passed": true
+    },
+    {
+      "name": "pending extraction is clearly labeled and filterable",
       "passed": true
     },
     {
@@ -14,7 +26,7 @@
       "passed": true
     },
     {
-      "name": "conference filter returns eight ICLR papers",
+      "name": "conference filter matches snapshot",
       "passed": true
     },
     {
@@ -38,7 +50,7 @@
       "passed": true
     },
     {
-      "name": "CSV exports all 205 matches, not only current page",
+      "name": "CSV exports every matching paper, not only current page",
       "passed": true
     },
     {

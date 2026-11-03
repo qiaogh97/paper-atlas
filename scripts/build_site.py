@@ -8,5 +8,5 @@ DIST.mkdir(exist_ok=True)
 for name in ('index.html', 'styles.css', 'app.js', 'core.js', 'favicon.svg'):
     shutil.copy2(ROOT / name, DIST / name)
 (DIST / 'data').mkdir(exist_ok=True)
-shutil.copy2(ROOT / 'data/papers.json', DIST / 'data/papers.json')
+shutil.copytree(ROOT / 'data', DIST / 'data', dirs_exist_ok=True)
 print(f'Static site ready: {DIST}')
