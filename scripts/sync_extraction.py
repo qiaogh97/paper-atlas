@@ -49,7 +49,8 @@ def main():
             if venue.startswith('ICCV'):stem=re.sub(r'^\d+_','',stem)
             base='https://openaccess.thecvf.com/content/'+venue
             return {'pdf_url':base+'/papers/'+quote(stem)+'.pdf','paper_url':base+'/html/'+quote(stem)+'.html','mode':'direct'}
-        if (venue,title_key(record['title'])) in titles:return titles[(venue,title_key(record['title']))]
+        for candidate in (record['title'],re.sub(r'^\d+_','',stem)):
+            if (venue,title_key(candidate)) in titles:return titles[(venue,title_key(candidate))]
         if venue.startswith('ICLR'):
             url='https://openreview.net/search?term='+quote(record['title'])+'&content=all&group=all&source=all'
             return {'paper_url':url,'pdf_url':url,'mode':'search'}
