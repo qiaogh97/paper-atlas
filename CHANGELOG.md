@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2 - 2026-11-12
+
+- Refresh the frozen catalog to 47,010 papers from 50,415 attempted extractions.
+- Preserve 20,266 source-checked, 26,729 pending-review and 15 historical labels.
+
 ## 1.1.1 - 2026-11-10
 
 - Refresh the portable snapshot to 43,139 processed papers, including newly extracted ECCV and NeurIPS papers.
